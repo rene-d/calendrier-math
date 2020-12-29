@@ -11,7 +11,7 @@ Certaines questions parmi les 261 proposées peuvent se résoudre (ou se vérifi
 | Lundi | Mardi | Mercredi | Jeudi | Vendredi | Samedi | Dimanche |
 | ----- | ----- | -------- | ----- | -------- | ------ | -------- |
 | | | | | [01](janvier/01.py) | *02* | *03* |
-| [04](janvier/04.md) | [05](janvier/05.py) | 06 | 07 | [08](janvier/08.py) | *09 *| *10 *|
-| 11 | [12](janvier/12.md) | 13 | [14](janvier/14.py) | [15](janvier/15.py) | *16* | *17 *|
+| [04](janvier/04.md) | [05](janvier/05.py) | 06 | 07 | [08](janvier/08.py) | *09* | *10* |
+| 11 | [12](janvier/12.md) | 13 | [14](janvier/14.py) | [15](janvier/15.py) | *16* | *17* |
 | 18 | [19](janvier/19.md) | 20 | 21 | 22 | *23* | *24* |
 | 25 | 26 | 27 | 28 | 29 | *30* | *31* |
