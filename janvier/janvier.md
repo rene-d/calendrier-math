@@ -3,7 +3,7 @@
 ## 4 Janvier
 
 _Mise en équation_
-- martina = 2 * roger
+- martina = 2 × roger
 - martina = raphaël + 5
 - martina + roger + raphaël = 70
 
@@ -48,7 +48,7 @@ Le grand-père peut donner un des cinq fruits ou rien, puisqu'il manque un fruit
 - deuxième enfant: une possibilité en moins, soit 5
 - etc.
 
-nombre de permutations: 6! = 6*5*4*3*2*1 = 720
+nombre de permutations: 6! = 6×5×4×3×2×1 = 720
 
 > réponse: 720
 
@@ -59,7 +59,7 @@ Pour maximiser, on considère des diviseurs premiers tous différents.
 
 Le nombre de diviseurs de ∏ p est 2^n.
 
-Pour avoir 2^n=32, il faut n=5. Donc 2*3*5*7*11=2310 a exactement 32 diviseurs, avec 5 diviseurs premiers.
+Pour avoir 2^n=32, il faut n=5. Donc 2×3×5×7×11=2310 a exactement 32 diviseurs, avec 5 diviseurs premiers.
 
 > réponse: 5
 
@@ -68,11 +68,11 @@ Pour avoir 2^n=32, il faut n=5. Donc 2*3*5*7*11=2310 a exactement 32 diviseurs, 
 
 3^x - 3^(x-1) = 162
 
-⇒ 3 * 3^(x-1) - 3^(x-1) = 162
+⇒ 3 × 3^(x-1) - 3^(x-1) = 162
 
-⇒ (3 - 1) * 3^(x-1) = 162
+⇒ (3 - 1) × 3^(x-1) = 162
 
-⇒ 2 * 3^(x-1) = 162
+⇒ 2 × 3^(x-1) = 162
 
 ⇒ 3^(x-1) = 81
 
@@ -109,9 +109,9 @@ De manière exhaustive:
 ## 18 Janvier
 
 - nombre avec 11 diviseurs: p^10  (p premier)
-- nombre avec 15 diviseurs: q^2 * r^4  (q,r premiers distincts)
+- nombre avec 15 diviseurs: q^2 × r^4  (q,r premiers distincts)
 
-m*n a 45, 65 ou 165 diviseurs (si p=r, p=q ou p≠q≠r)
+m×n a 45, 65 ou 165 diviseurs (si p=r, p=q ou p≠q≠r)
 
 > résultat: 45
 
@@ -122,7 +122,7 @@ La figure est composée de:
 - 4 triangles équilatéraux de 1 cm de côté:
     - hauteur = √3/2
     - base = 1
-    - S = (√3/2 * 1 / 2) * 4 = √3 cm²
+    - S = (√3/2 × 1 / 2) × 4 = √3 cm²
 
 - 1 carré central de 1 cm de côté:
     - S = 1 cm²
@@ -131,7 +131,7 @@ La figure est composée de:
 
 ## 20 Janvier
 
-quantité d'eau perdue lors de la déshydratation: H * 0.9 - H * 0.6 = 15 kg
+quantité d'eau perdue lors de la déshydratation: H × 0.9 - H × 0.6 = 15 kg
 
 donc H = 15 / 0.3 = 50
 
@@ -148,22 +148,22 @@ Donc p est forcément pair, et donc vaut 2 (seul premier pair).
 
 Regardons ce qu'il se passe:
 - q=2  : 2^q+1=5 ✅
-- q=3  : 2^3+1=9 = 3*3 ❌
-- q=5  : 2^5+1=3 = 3*11 ❌
-- q=7  : 2^7+1=129 = 3*43 ❌
-- q=11 : 2^11+1=2049 = 3*683 ❌
+- q=3  : 2^3+1=9 = 3×3 ❌
+- q=5  : 2^5+1=3 = 3×11 ❌
+- q=7  : 2^7+1=129 = 3×43 ❌
+- q=11 : 2^11+1=2049 = 3×683 ❌
 
 Apparemment p^q+1 est toujours divisible par 3 si q premier, et même impair.
 
 _Démonstration_
 
-Supposons qu'il existe X tel que 2^(2k+1) + 1 = 3*X
+Supposons qu'il existe X tel que 2^(2k+1) + 1 = 3×X
 
 C'est vrai pour k = 1 (X = 3)
 
-2^(2k+2+1) + 1 = 2^(2k+1) * 2^2 + 1 = 4 * 2^(2k+1) + 4 - 3 =  4 * (2^(2k+1) + 1) - 3 = 4 * (3 * X) - 3 = 3 * (4 * X - 1)
+2^(2k+2+1) + 1 = 2^(2k+1) × 2^2 + 1 = 4 × 2^(2k+1) + 4 - 3 =  4 × (2^(2k+1) + 1) - 3 = 4 × (3 × X) - 3 = 3 × (4 × X - 1)
 
-On montre donc qu'il existe X' tel que 2^(2(k+1)+1) + 1 = 3*X'
+On montre donc qu'il existe X' tel que 2^(2(k+1)+1) + 1 = 3×X'
 
 Par récurrence, on conclut que 2^q+1 est multiple de 3 si q est impair.
 
@@ -177,7 +177,7 @@ rayon du cercle circonscrit = 2 cm,
 surface = πr² = 4π
 
 rayon du cercle inscrit = hauteur du triangle équilatéral de côté 2 cm,
-h = √3/2 * r = √3,
+h = √3/2 × r = √3,
 surface = √3² π = 3π
 
 surface anneau = 4π - 3π = π
@@ -206,9 +206,9 @@ On résout ce système:
 
 D'où:
 - a = 10
-- b = 32 - 2*10 = 12
+- b = 32 - 2×10 = 12
 
-L'aire du triangle est h * b/2 = 8 * 6 = 48
+L'aire du triangle est h × b/2 = 8 × 6 = 48
 
 > réponse: 48 cm²
 
@@ -216,6 +216,6 @@ L'aire du triangle est h * b/2 = 8 * 6 = 48
 
 ∑x / n = 4850
 
-∑(x - 10) / n = (∑x - 10 * n) / n = (∑x / n) - (10 * n / n) = 4850 - 10 = 4840
+∑(x - 10) / n = (∑x - 10 × n) / n = (∑x / n) - (10 × n / n) = 4850 - 10 = 4840
 
 > réponse: 4840
