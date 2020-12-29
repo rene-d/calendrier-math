@@ -83,13 +83,17 @@ Pour avoir 2^n=32, il faut n=5. Donc 2*3*5*7*11=2310 a exactement 32 diviseurs, 
 
 ## 13 Janvier
 
+Propositions:
 | personne | proposition |
 | -------- | ----------- |
-| Alfred   | Bernard est le plus jeune                  |
-| Louis    | Louis est le plus jeune                    |
-| Hector   | Bernard le plus vieux Hector le plus jeune |
-| Bernard  | ni le plus jeune ni le plus vieux          |
+| Alfred   | *Bernard est le plus jeune*                   |
+| Louis    | *Louis est le plus jeune*                     |
+| Hector   | Bernard le plus vieux, *Hector le plus jeune* |
+| Bernard  | Bernard ni le plus jeune ni le plus vieux     |
 
+Alfred, Louis, Hector ont chacun un plus jeune différent. Il y a en donc deux parmi ces trois qui mentent. Donc Bernard dit la vérité. Louis et Hector mentent puisqu'ils contredisent Bernard. Et donc Louis dit la vérité.
+
+De manière exhaustive:
 | Alfred    | Louis     | Hector    | Bernard   | ok  | raison |
 | --------- | --------- | --------- | --------- | --- | ------ |
 | mensonge  | mensonge  | vérité    | vérité    | non | Hector et Bernard se contredisent |
