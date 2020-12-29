@@ -70,12 +70,12 @@ Nota: tous les empilements ne sont pas possibles: B1 ne peut pas valoir 5 ou 6, 
 
 La figure est composée de:
 
-- 4 triangles équilatéraux de 1cm de côté:
+- 4 triangles équilatéraux de 1 cm de côté:
     - hauteur = √3/2
     - base = 1
     - S = (√3/2 * 1 / 2) * 4 = √3 cm²
 
-- 1 carré central de 1cm de côté:
+- 1 carré central de 1 cm de côté:
     - S = 1 cm²
 
 > réponse: 1+√3 cm²
