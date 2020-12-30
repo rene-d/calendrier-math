@@ -66,6 +66,40 @@ aire = `4 x √3/4 + 1`
 
 > réponse: 1 + √3 cm²
 
+## 8 Juin
+
+![heptagone](08.png)
+
+Toutes les autres façons sont similaires à une rotation ou une symétrique près.
+
+> réponse: 4
+
+
+
+## 14 Juin
+
+- 26200 / 72 = 363.89
+- 26290 / 72 = 365.13
+
+le premier facteur peut être 364 ou 365. Comme son chiffre des unités est forcément 5 (5*2=10), c'est 365.
+
+> réponse: 26280 / 365 = 72
+
+
+## 16 Juin
+
+La "petite" diagonale fait 4m.
+
+Pour un carré de côté a, la formule de cette "petite" diagonale est:
+`√(a² + (a/2)²) = a × √(1+1/4) = a × √5 / 2`
+
+Ici `a = 4 / (2 / √5) = 2 √5 m²`.
+
+La surface de la piscine est donc: `5 a² = 5 × (2 √5)² = 5 × 4 × 5 = 100 m²`
+
+> réponse: 100 m²
+
+
 ## 18 Juin
 
 On peut utiliser la fonction log(x)/x pour déterminer le signe de `√2 - 5^(1/5)`. Sa dérivée étant (1-log(x))/x² , on constate que la fonction est croissante jusqu'à x=𝒆 puis décroit.
@@ -80,6 +114,11 @@ D'où: `5^(1/5) < 2^(1/2)`.
 
 > réponse: √2
 
+## 21 Juin
+
+Antoine peut mentir et Xavier dire la vérité. Aucun des deux engagements n'est rompu.
+
+> réponse: oui
 
 ## 22 Juin
 
@@ -107,6 +146,34 @@ solve avec WolframAlpha de l'équation: x^4-2x^3-7x^2-2x+1=0
 - 2/(1 - √10 - √(7 - 2√10)) + 2/(1 - √10 + √(7 - 2√10)) + 2/(1 + √10 - √(7 + 2√10)) + 2/(1 + √10 + √(7 + 2√10))
 
 > réponse: 2
+
+## 28 Juin
+
+La somme des anglets des sommets est 180°
+
+> réponse: `180°`
+
+## 29 Juin
+
+```
+∑(x) = 5 × a
+∑(y) = 8 × b
+∑(x,y) = k × (a + b)  k ∈ 𝐍⋆
+
+k × (a + b) = 5 × a + 8 × b
+
+k × (1 + b / a) = 5 + 8 × b / a
+
+k + k × b / a = 5 + 8 × b / a
+k - 5 = (8 - k) * b / a
+b / a = (k - 5) / (8 - k)
+
+k = 6 ou 7  (c'est un entier, 5 et 8 sont exclus, <5 ou >8 donne un ratio négatif, ce qui est aussi exclu)
+
+d'où b / a = 1/2 ou 2
+```
+
+> réponse: 1/2 ou 2
 
 ## 30 Juin
 
