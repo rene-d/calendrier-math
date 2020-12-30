@@ -33,7 +33,7 @@ b = (a + a+1 + a+2 + a+3 + a+4) / 5
 
 De la même façon, la moyenne des cinq entiers consécutifs commençant par b vaut `b + 2`.
 
-> réponse: a+4
+> réponse: a + 4
 
 
 ## 3 Juin
@@ -41,7 +41,7 @@ De la même façon, la moyenne des cinq entiers consécutifs commençant par b v
 Avec les cubes de la face, on peut créer ces différents pavés:
 - 1×1 1×2 1×3 1×4 : pavés de largeur un cube
 - 2×1 2×2 2×3 2×4 : pavés de largeur deux cubes
-- 3×1 3×2 3×3 3×4 : etc.)
+- 3×1 3×2 3×3 3×4 : etc.
 
 Avec les trois tranches, on peut faire autant de pavés ci-dessus mais d'épaisseur 1, 2 ou 3 cubes.
 
@@ -52,8 +52,20 @@ On peut donc faire `4 × 3 × 3 = 36` pavés différents.
 
 ## 4 Juin
 
-Entre les carrés il y a des triangles équilatéraux de côté 1 cm.
+![hexagone](04.png)
 
-L'hexagone est donc constitué de 5 triangles et 4 carrés. L'aire d'un carré est 1 cm², l'aire d'un triangle √3/4 cm².
+Entre les carrés il y a trois triangles isocèles de côté 1 cm et d'angle 120°.
 
-réponse: 4 + 5 × √3/4 cm²
+Calculons l'aire de ces triangles avec la trigonométrie:
+- hauteur (depuis A): `h = 1 × cos(120°/2) = 1/2`
+- base (opposée à A) = `b = 2 × (1 × sin(120°/2)) = 2×√3/2 = √3`
+- aire = `b × h / 2 = √3/4`
+
+L'aire d'un carré est 1 cm², l'aire d'un triangle √3/4 cm².
+
+
+L'hexagone est donc constitué quatre triangles et trois carrés.
+
+aire = `4 x √3/4 + 1`
+
+> réponse: 1 + √3 cm²
