@@ -24,7 +24,7 @@ Chaque semaine, le CNRS propose un de ces défis: [Défis du calendrier mathéma
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [1](juin/juin.md#1-juin) | [2](juin/juin.md#2-juin) | [3](juin/juin.md#3-juin) | [4](juin/juin.md#4-juin) | *5* | *6* |
-|  7 |  8 |  9 | 10 | 11 | *12* | *13* |
-| 14 | 15 | 16 | 17 | 18 | *19* | *20* |
-| 21 | 22 | 23 | 24 | 25 | *26* | *27* |
-| 28 | 29 | 30 |    |    |    |    |
+| [7](juin/07.py) ⚙️ |  8 | [9](juin/09.py) ⚙️ | 10 | 11 | *12* | *13* |
+| 14 | 15 | 16 | [17](juin/17.py) ⚙️ | 18 | *19* | *20* |
+| 21 | 22 | [23](juin/23.py) ⚙️ | 24 | 25 | *26* | *27* |
+| 28 | 29 | [30](juin/juin.md#30-juin) |    |    |    |    |

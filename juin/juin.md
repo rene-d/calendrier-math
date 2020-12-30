@@ -21,7 +21,6 @@ _Vérification en Python_
 
 > réponse: 2023
 
-
 ## 2 Juin
 
 On a:
@@ -34,7 +33,6 @@ b = (a + a+1 + a+2 + a+3 + a+4) / 5
 De la même façon, la moyenne des cinq entiers consécutifs commençant par b vaut `b + 2`.
 
 > réponse: a + 4
-
 
 ## 3 Juin
 
@@ -49,7 +47,6 @@ On peut donc faire `4 × 3 × 3 = 36` pavés différents.
 
 > réponse: 36
 
-
 ## 4 Juin
 
 ![hexagone](04.png)
@@ -63,9 +60,62 @@ Calculons l'aire de ces triangles avec la trigonométrie:
 
 L'aire d'un carré est 1 cm², l'aire d'un triangle √3/4 cm².
 
-
 L'hexagone est donc constitué quatre triangles et trois carrés.
 
 aire = `4 x √3/4 + 1`
 
 > réponse: 1 + √3 cm²
+
+## 18 Juin
+
+On peut utiliser la fonction log(x)/x pour déterminer le signe de `√2 - 5^(1/5)`. Sa dérivée étant (1-log(x))/x² , on constate que la fonction est croissante jusqu'à x=𝒆 puis décroit.
+
+![courbe](18.png)
+
+Le signe de `f(x) = log(x)/x - log(2)/2` est positif entre 2 et 4 puis négatif > 4 (racines 2 et 4)
+
+Donc `log(5)/5 - log(2)/2 < 0`.
+
+D'où: `5^(1/5) < 2^(1/2)`.
+
+> réponse: √2
+
+
+## 22 Juin
+
+![schéma](22.png)
+
+- coordonnées point M: (15/2, (6+9/2)) = (7.5, 7.5)
+- coefficient directeur (CD): (9-6)/15 = 3/15 = 1/5
+- coefficient directeur (MP): -5
+- équation médiatrice (doit passer par M): `y = -5*(x-7.5)+7.5 = -5x + 5 * 7.5 + 7.5 = -5x+45`
+
+D'où les coordonnées du point P: (9, 0)  (solution de l'équation `-5x+45=0`)
+
+> réponse: 6 m
+
+## 24 Juin
+
+![graphe](24.png)
+
+solve avec WolframAlpha de l'équation: x^4-2x^3-7x^2-2x+1=0
+- x1 = 1/2 (1 - √10 - √(7 - 2√10))
+- x2 = 1/2 (1 - √10 + √(7 - 2√10))
+- x3 = 1/2 (1 + √10 - √(7 + 2√10))
+- x4 = 1/2 (1 + √10 + √(7 + 2√10))
+
+- 2/(1 - √10 - √(7 - 2√10)) + 2/(1 - √10 + √(7 - 2√10)) + 2/(1 + √10 - √(7 + 2√10)) + 2/(1 + √10 + √(7 + 2√10))
+
+> réponse: 2
+
+## 30 Juin
+
+- 2 vis + 3 clou + 1 écrou = 5  (eq1)
+- 1 vis + 2 clou + 2 écrou = 7  (eq2)
+- 5 vis + 9 clou + 7 écrou = ?  (eq3)
+
+Il manque une équation pour déterminer les valeurs de vis,clou,écrou. Il faut donc trouver une relation linéaire entre les deux premières équations.
+
+On fait (eq1)+3*(eq2) et on tombe sur (eq3).
+
+> réponse: 26
