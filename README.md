@@ -10,7 +10,7 @@ Chaque semaine, le CNRS propose un de ces défis: [Défis du calendrier mathéma
 
 ## Solutions 2021
 
-### Janvier
+### Janvier (21/21)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -19,12 +19,17 @@ Chaque semaine, le CNRS propose un de ces défis: [Défis du calendrier mathéma
 | [11](janvier/janvier.md#11-janvier) | [12](janvier/janvier.md#12-janvier) | [13](janvier/janvier.md#13-janvier) | [14](janvier/14.py) ⚙️ | [15](janvier/15.py) ⚙️ | *16* | *17* |
 | [18](janvier/janvier.md#18-janvier) | [19](janvier/janvier.md#19-janvier) | [20](janvier/janvier.md#20-janvier) | [21](janvier/21.py) ⚙️ | [22](janvier/22.py) ⚙️ | *23* | *24* |
 | [25](janvier/janvier.md#25-janvier) | [26](janvier/janvier.md#26-janvier) | [27](janvier/27.py) ⚙️ | [28](janvier/janvier.md#28-janvier) | [29](janvier/janvier.md#29-janvier) | *30* | *31* |
-### Juin
+### Juin (12/22)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [1](juin/juin.md#1-juin) | [2](juin/juin.md#2-juin) | [3](juin/juin.md#3-juin) | [4](juin/juin.md#4-juin) | *5* | *6* |
 | [7](juin/07.py) ⚙️ |  8 | [9](juin/09.py) ⚙️ | 10 | 11 | *12* | *13* |
-| 14 | 15 | 16 | [17](juin/17.py) ⚙️ | 18 | *19* | *20* |
-| 21 | 22 | [23](juin/23.py) ⚙️ | 24 | 25 | *26* | *27* |
+| 14 | 15 | 16 | [17](juin/17.py) ⚙️ | [18](juin/juin.md#18-juin) | *19* | *20* |
+| 21 | [22](juin/juin.md#22-juin) | [23](juin/23.py) ⚙️ | [24](juin/juin.md#24-juin) | 25 | *26* | *27* |
 | 28 | 29 | [30](juin/juin.md#30-juin) |    |    |    |    |
+
+### Avancement
+
+Nombre de solutions: 33 / 261
+

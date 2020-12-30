@@ -5,6 +5,7 @@ from pathlib import Path
 import unicodedata
 import re
 
+
 MONTHS = (
     "Janvier",
     "Février",
@@ -66,7 +67,8 @@ def create_month(month, year=2021):
     # petit retour en arrière pour bien placer le 1er dans le semainier
     d -= timedelta(days=d.weekday())
 
-    has_solution = False
+    done_month = 0
+    total_month = 0
 
     while d < fin:
 
@@ -83,13 +85,15 @@ def create_month(month, year=2021):
                 cols.append(f"*{d.day}*")
 
             else:
+                total_month += 1
+
                 p = Path(month_norm) / f"{d.day:02d}.py"
                 if p.exists():
                     cols.append(f"[{d.day}]({p}) ⚙️")
-                    has_solution = True
+                    done_month += 1
                 elif d.day in solutions:
                     cols.append(f"[{d.day}]({solutions_md}#{d.day}-{month_lower})")
-                    has_solution = True
+                    done_month += 1
                 else:
                     cols.append(f"{d.day:2d}")
 
@@ -97,7 +101,9 @@ def create_month(month, year=2021):
 
         md.append("| " + " | ".join(cols) + " |")
 
-    return has_solution, "\n".join(md)
+    md[0] += f" ({done_month}/{total_month})"
+
+    return (done_month, total_month), "\n".join(md)
 
 
 def main():
@@ -107,12 +113,23 @@ def main():
     titre = f"## Solutions {year}\n\n"
     readme = readme[: readme.index(titre) + len(titre)]
 
+    total = 0
+    done_total = 0
     for month in range(1, 13):
-        ok, md = create_month(month, year)
-        if ok:
-
+        (done_month, total_month), md = create_month(month, year)
+        total += total_month
+        if done_month != 0:
+            done_total += done_month
             readme += md
             readme += "\n"
+            if done_month == total_month:
+                print(f"{MONTHS[month-1]:<10}: {done_month:3} / {total_month:3} fini")
+            else:
+                print(f"{MONTHS[month-1]:<10}: {done_month:3} / {total_month:3}")
+
+    print(f"{'total':<10}: {done_total:3} / {total:3}")
+
+    readme += f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
 
     Path("README.md").write_text(readme)
 
