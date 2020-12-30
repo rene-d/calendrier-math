@@ -109,11 +109,12 @@ De manière exhaustive:
 ## 18 Janvier
 
 - nombre avec 11 diviseurs: p^10  (p premier)
-- nombre avec 15 diviseurs: q^2 × r^4  (q,r premiers distincts)
+- nombre avec 15 diviseurs: p^2 × q^4  (p et q premiers distincts)
+- nombre avec 15 diviseurs: p^14  (q premier)
 
-m×n a 45, 65 ou 165 diviseurs (si p=r, p=q ou p≠q≠r)
+Selon les cas, m×n a 25, 45, 65 ou 165 diviseurs.
 
-> résultat: 45
+> résultat: 25
 
 ## 19 Janvier
 
