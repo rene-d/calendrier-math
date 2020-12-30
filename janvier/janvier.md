@@ -91,7 +91,7 @@ Propositions:
 | Hector   | Bernard le plus vieux, *Hector le plus jeune* |
 | Bernard  | Bernard ni le plus jeune ni le plus vieux     |
 
-Alfred, Louis, Hector ont chacun un plus jeune différent. Il y a en donc deux parmi ces trois qui mentent. Donc Bernard dit la vérité. Louis et Hector mentent puisqu'ils contredisent Bernard. Et donc Louis dit la vérité.
+Alfred, Louis, Hector ont chacun un plus jeune différent. Il y a en donc deux parmi ces trois qui mentent. Donc Bernard dit la vérité. Alfred et Hector mentent puisqu'ils contredisent Bernard. Et donc Louis dit la vérité.
 
 De manière exhaustive:
 | Alfred    | Louis     | Hector    | Bernard   | ok  | raison |
