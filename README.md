@@ -15,19 +15,19 @@ Chaque semaine, le CNRS propose un de ces défis: [Défis du calendrier mathéma
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [1](janvier/01.py) ⚙️ | *2* | *3* |
-| [4](janvier/janvier.md#4-janvier) | [5](janvier/05.py) ⚙️ | [6](janvier/janvier.md#6-janvier) | [7](janvier/janvier.md#7-janvier) | [8](janvier/08.py) ⚙️ | *9* | *10* |
-| [11](janvier/janvier.md#11-janvier) | [12](janvier/janvier.md#12-janvier) | [13](janvier/janvier.md#13-janvier) | [14](janvier/14.py) ⚙️ | [15](janvier/15.py) ⚙️ | *16* | *17* |
-| [18](janvier/janvier.md#18-janvier) | [19](janvier/janvier.md#19-janvier) | [20](janvier/janvier.md#20-janvier) | [21](janvier/21.py) ⚙️ | [22](janvier/22.py) ⚙️ | *23* | *24* |
-| [25](janvier/janvier.md#25-janvier) | [26](janvier/janvier.md#26-janvier) | [27](janvier/27.py) ⚙️ | [28](janvier/janvier.md#28-janvier) | [29](janvier/janvier.md#29-janvier) | *30* | *31* |
+| [4](janvier/README.md#4-janvier) | [5](janvier/05.py) ⚙️ | [6](janvier/README.md#6-janvier) | [7](janvier/README.md#7-janvier) | [8](janvier/08.py) ⚙️ | *9* | *10* |
+| [11](janvier/README.md#11-janvier) | [12](janvier/README.md#12-janvier) | [13](janvier/README.md#13-janvier) | [14](janvier/14.py) ⚙️ | [15](janvier/15.py) ⚙️ | *16* | *17* |
+| [18](janvier/README.md#18-janvier) | [19](janvier/README.md#19-janvier) | [20](janvier/README.md#20-janvier) | [21](janvier/21.py) ⚙️ | [22](janvier/22.py) ⚙️ | *23* | *24* |
+| [25](janvier/README.md#25-janvier) | [26](janvier/README.md#26-janvier) | [27](janvier/27.py) ⚙️ | [28](janvier/README.md#28-janvier) | [29](janvier/README.md#29-janvier) | *30* | *31* |
 ### Juin (12/22)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-|    | [1](juin/juin.md#1-juin) | [2](juin/juin.md#2-juin) | [3](juin/juin.md#3-juin) | [4](juin/juin.md#4-juin) | *5* | *6* |
+|    | [1](juin/README.md#1-juin) | [2](juin/README.md#2-juin) | [3](juin/README.md#3-juin) | [4](juin/README.md#4-juin) | *5* | *6* |
 | [7](juin/07.py) ⚙️ |  8 | [9](juin/09.py) ⚙️ | 10 | 11 | *12* | *13* |
-| 14 | 15 | 16 | [17](juin/17.py) ⚙️ | [18](juin/juin.md#18-juin) | *19* | *20* |
-| 21 | [22](juin/juin.md#22-juin) | [23](juin/23.py) ⚙️ | [24](juin/juin.md#24-juin) | 25 | *26* | *27* |
-| 28 | 29 | [30](juin/juin.md#30-juin) |    |    |    |    |
+| 14 | 15 | 16 | [17](juin/17.py) ⚙️ | [18](juin/README.md#18-juin) | *19* | *20* |
+| 21 | [22](juin/README.md#22-juin) | [23](juin/23.py) ⚙️ | [24](juin/README.md#24-juin) | 25 | *26* | *27* |
+| 28 | 29 | [30](juin/README.md#30-juin) |    |    |    |    |
 
 ### Avancement
 

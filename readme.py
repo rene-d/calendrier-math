@@ -45,7 +45,7 @@ def create_month(month, year=2021):
     month_norm = remove_accents(month_lower)
 
     solutions = set()
-    solutions_md = Path(month_norm) / f"{month_norm}.md"
+    solutions_md = Path(month_norm) / f"README.md"
     if solutions_md.exists():
         for line in solutions_md.open():
             m = re.match(fr"^## (\d+) {month_name}$", line.strip())
