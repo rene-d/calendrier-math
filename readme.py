@@ -110,7 +110,7 @@ def create_month(month, year=2021):
 
         md.append("| " + " | ".join(cols) + " |")
 
-    md[0] += f" ({done_month}/{total_month})"
+    md[0] += f" ({done_month} {'réalisés' if done_month > 1 else 'réalisé'} parmi {total_month} défis)"
 
     return (done_month, total_month), "\n".join(md)
 

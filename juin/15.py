@@ -8,7 +8,7 @@ for n in range(10000, 100000):
     while n != 0:
         n, u = divmod(n, 10)
         s += u
-    if u % 10 == 7:
+    if s % 10 == 7:
         nb += 1
 
 print("réponse:", nb)

@@ -1,7 +1,6 @@
 # Calendrier Mathématique Avril 2021
 
-
-## 1 Avril
+## Jeudi 1 Avril
 
 On va utiliser le [théorème de l'angle au centre](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre).
 
@@ -13,7 +12,7 @@ OXA = 25°
 
 > réponse: 25°
 
-## 2 Avril
+## Vendredi 2 Avril
 
 soit x ∈ [0, 1] et y ∈ [0, 1]
 
@@ -24,7 +23,7 @@ la fonction a deux minimas: x=0 et x=1, et un maximum en x=√2/2
 > réponse: 1
 
 
-## 15 Avril
+## Jeudi 15 Avril
 
 ![schéma](15.png)
 
@@ -33,7 +32,7 @@ la fonction a deux minimas: x=0 et x=1, et un maximum en x=√2/2
 > réponse: 2 √3 - 2
 
 
-## 28 Avril
+## Mercredi 28 Avril
 
 2021 = 43 × 47
 
@@ -41,7 +40,7 @@ A moins de travailler en base 48, on ne peut trouver de chiffres décimaux de 1 
 
 > réponse: non
 
-## 30 Avril
+## Vendredi 30 Avril
 
 Le polynome se factorise de la façon suivante :
 
@@ -63,4 +62,4 @@ Le polynome est le produit de 5 nombres consécutifs, 120 = 5! est le produit de
 
 Si -2 ≤ n ≤ 2, alors le polynome est nul, il est aussi divisible par 120.
 
-> réponse : ∀ n
+> réponse : ∀ n ∈ 𝐙

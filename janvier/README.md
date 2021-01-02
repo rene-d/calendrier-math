@@ -24,7 +24,7 @@ Cf. [programme](05.py) Python.
 
 > réponse: p-n = -1
 
-## 6 Janvier
+## Mercredi 6 Janvier
 
 Soit H1, B1 = nombre de points des surfaces haute et basse du premier dé
 
@@ -54,7 +54,7 @@ D'où: H1 + B2 = 9
 
 Nota: tous les empilements ne sont pas possibles: B1 ne peut pas valoir 5 ou 6, donc H1 ne peut pas valoir 1 ou 2.
 
-## 7 Janvier
+## Jeudi 7 Janvier
 
 Le grand-père peut donner un des cinq fruits ou rien, puisqu'il manque un fruit.
 - premier enfant: un des cinq fruits ou rien = 6 possibilités
@@ -66,7 +66,13 @@ nombre de permutations: 6! = 6×5×4×3×2×1 = 720
 > réponse: 720
 
 
-## 11 Janvier
+## Vendredi 8 Janvier
+
+Cf. [programme](08.py) Python.
+
+> réponse: 12 cm
+
+## Lundi 11 Janvier
 
 Pour maximiser, on considère des diviseurs premiers tous différents.
 
@@ -77,7 +83,7 @@ Pour avoir 2^n=32, il faut n=5. Donc 2×3×5×7×11=2310 a exactement 32 diviseu
 > réponse: 5
 
 
-## 12 Janvier
+## Mardi 12 Janvier
 
 3^x - 3^(x-1) = 162
 
@@ -94,7 +100,7 @@ Pour avoir 2^n=32, il faut n=5. Donc 2×3×5×7×11=2310 a exactement 32 diviseu
 > réponse: 5
 
 
-## 13 Janvier
+## Mercredi 13 Janvier
 
 Propositions:
 | personne | proposition |
@@ -118,21 +124,19 @@ De manière exhaustive:
 
 > réponse: Louis et Bernard
 
-
-## 14 Janvier
+## Jeud 14 Janvier
 
 Cf. [programme](14.py) en Python.
 
 > réponse: (6,6,8) (7,7,6) (8,8,4) (9,9,2)
 
-
-## 15 Janvier
+## Vendredi 15 Janvier
 
 Cf. [programme](15.py) en Python.
 
 > réponse: 1/1 + 1/2021
 
-## 18 Janvier
+## Lundi 18 Janvier
 
 - nombre avec 11 diviseurs: p^10  (p premier)
 - nombre avec 15 diviseurs: p^2 × q^4  (p et q premiers distincts)
@@ -142,7 +146,7 @@ Selon les cas, m×n a 25, 45, 65 ou 165 diviseurs.
 
 > résultat: 25
 
-## 19 Janvier
+## Mardi 19 Janvier
 
 La figure est composée de:
 
@@ -156,7 +160,7 @@ La figure est composée de:
 
 > réponse: 1+√3 cm²
 
-## 20 Janvier
+## Mercredi 20 Janvier
 
 ```
 soit M la masse totale des haricots
@@ -181,7 +185,6 @@ on trouve M = 20
 
 > résultat: 20 kg
 
-
 ## Jeudi 21 Janvier
 
 Cf. [programme](21.py) en Python.
@@ -194,7 +197,7 @@ Cf. [programme](22.py) en Python.
 
 > réponse: 2/9
 
-## 25 Janvier
+## Lundi 25 Janvier
 
 Quand p^q+1 est-il premier avec p,q premiers ?
 
@@ -225,7 +228,7 @@ Par récurrence, on conclut que 2^q+1 est multiple de 3 si q est impair.
 
 > réponse: 1 seul couple (2, 2)
 
-## 26 Janvier
+## Mardi 26 Janvier
 
 hexagone de 2 cm de côté
 
@@ -240,16 +243,13 @@ surface anneau = 4π - 3π = π
 
 > réponse: π cm²
 
-
-## Vendredi 91 Janvier
+## Mercredi 27 Janvier
 
 Cf. [programme](91.py) en Python.
 
 > réponse: 91
 
-
-## 28 Janvier
-
+## Jeudi 28 Janvier
 
 ```
     /|\
@@ -276,10 +276,15 @@ L'aire du triangle est h × b/2 = 8 × 6 = 48
 
 > réponse: 48 cm²
 
-## 29 Janvier
+## Vendredi 29 Janvier
 
-∑x / n = 4850
+La moyenne des xᵢ est:
 
-∑(x - 10) / n = (∑x - 10 × n) / n = (∑x / n) - (10 × n / n) = 4850 - 10 = 4840
+∑xᵢ / n = 4850
+
+
+Calculons la moyenne des xᵢ - 10:
+
+∑(xᵢ - 10) / n = (∑xᵢ - 10 × n) / n = (∑xᵢ / n) - (10 × n / n) = 4850 - 10 = 4840
 
 > réponse: 4840

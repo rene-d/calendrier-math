@@ -1,6 +1,6 @@
 # Calendrier Mathématique Juin 2021
 
-## 1 Juin
+## Mardi 1 Juin
 
 ```
 10^2021 - 2 × 4^1010
@@ -21,7 +21,7 @@ _Vérification en Python_
 
 > réponse: 2023
 
-## 2 Juin
+## Mercredi 2 Juin
 
 On a:
 ```
@@ -34,7 +34,7 @@ De la même façon, la moyenne des cinq entiers consécutifs commençant par b v
 
 > réponse: a + 4
 
-## 3 Juin
+## Jeudi 3 Juin
 
 Avec les cubes de la face, on peut créer ces différents pavés:
 - 1×1 1×2 1×3 1×4 : pavés de largeur un cube
@@ -47,7 +47,7 @@ On peut donc faire `4 × 3 × 3 = 36` pavés différents.
 
 > réponse: 36
 
-## 4 Juin
+## Vendredi 4 Juin
 
 ![hexagone](04.png)
 
@@ -66,7 +66,15 @@ aire = `4 x √3/4 + 3 × 1`
 
 > réponse: 3 + √3 cm²
 
-## 8 Juin
+## Lundi 7 Juin
+
+Cf. [programme](07.py) en Python.
+
+Nota: la réponse du livret permet d'additionner le nombre à lui-même. Ce qui n'est pas clair dans l'énoncé. Si on prend que des additions de nombres différents le résultat est 7.
+
+> réponse: 9
+
+## Mardi 8 Juin
 
 ![heptagone](08.png)
 
@@ -74,9 +82,23 @@ Toutes les autres façons sont similaires à une rotation ou une symétrique pr�
 
 > réponse: 4 (ou 4×7=28 en tenant compte des symétries)
 
+## Mercredi 9 Juin
+
+Cf. [programme](09.py) en Python.
+
+> réponse: 16
 
 
-## 14 Juin
+## Jeudi 10 Juin TODO
+
+
+## Vendredi 11 Juin
+
+Cf. [programme](11.py) en Python.
+
+> réponse: 13
+
+## Lundi 14 Juin
 
 - 26200 / 72 = 363.89
 - 26290 / 72 = 365.13
@@ -85,8 +107,13 @@ le premier facteur peut être 364 ou 365. Comme son chiffre des unités est forc
 
 > réponse: 26280 / 365 = 72
 
+## Mardi 15 Juin
 
-## 16 Juin
+Cf. [programme](15.py) en Python.
+
+> réponse: 9000
+
+## Mercredi 16 Juin
 
 La "petite" diagonale fait 4m.
 
@@ -99,8 +126,13 @@ La surface de la piscine est donc: `5 a² = 5 × (8 / √5)² = 5 × 8² / 5 = 6
 
 > réponse: 64 m²
 
+## Jeudi 17 Juin
 
-## 18 Juin
+Cf. [programme](17.py) en Python.
+
+> réponse: 2519
+
+## Vendredi 18 Juin
 
 On peut utiliser la fonction log(x)/x pour déterminer le signe de `√2 - 5^(1/5)`. Sa dérivée étant (1-log(x))/x² , on constate que la fonction est croissante jusqu'à x=𝒆 puis décroit.
 
@@ -114,7 +146,7 @@ D'où: `5^(1/5) < 2^(1/2)`.
 
 > réponse: √2
 
-## 21 Juin
+## Lundi 21 Juin
 
 Antoine peut mentir et Xavier dire la vérité. Aucune des deux déclarations n'est erronée:
 
@@ -123,9 +155,9 @@ Antoine peut mentir et Xavier dire la vérité. Aucune des deux déclarations n'
 
 > réponse: oui
 
-PS: problème mal formulé... la solution officielle e
+PS: je trouve le problème mal formulé... la solution officielle sous-entend qu'il y a bijection entre les dires d'Antoine et Xavier alors que la formulation est plus proche d'une injection.
 
-## 22 Juin
+## Mardi 22 Juin
 
 ![schéma](22.png)
 
@@ -138,7 +170,13 @@ D'où les coordonnées du point P: (9, 0)  (solution de l'équation `-5x+45 = 0`
 
 > réponse: 6 m
 
-## 24 Juin
+## Mercredi 23 Juin
+
+Cf. [programme](23.py) en Python.
+
+> réponse: 991
+
+## Jeudi 24 Juin
 
 ![graphe](24.png)
 
@@ -152,13 +190,16 @@ solve avec WolframAlpha de l'équation: x^4-2x^3-7x^2-2x+1=0
 
 > réponse: 2
 
-## 28 Juin
+## Vendredi 25 Juin
 
-La somme des angles des sommets est 180°
+Cf. [programme](25.py) en Python.
 
-> réponse: `180°`
+> réponse: (1, 2, 3, 4, 5)   (parmi plein d'autres)
 
-## 29 Juin
+## Lundi 28 Juin TODO
+
+
+## Mardi 29 Juin
 
 ```
 ∑(x) = 5 × a
@@ -180,7 +221,7 @@ d'où b / a = 1/2 ou 2
 
 > réponse: 1/2 ou 2
 
-## 30 Juin
+## Mercredi 30 Juin
 
 - 2 vis + 3 clou + 1 écrou = 5  (eq1)
 - 1 vis + 2 clou + 2 écrou = 7  (eq2)
@@ -188,6 +229,6 @@ d'où b / a = 1/2 ou 2
 
 Il manque une équation pour déterminer les valeurs de vis,clou,écrou. Il faut donc trouver une relation linéaire entre les deux premières équations.
 
-On fait (eq1)+3*(eq2) et on tombe sur (eq3).
+On fait (eq1)+3*(eq2) et on tombe sur (eq3). La valeur cherchée est dans 5+3×7.
 
 > réponse: 26
