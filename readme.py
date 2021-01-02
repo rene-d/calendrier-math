@@ -49,6 +49,8 @@ def create_month(month, year=2021):
     if solutions_md.exists():
         for line in solutions_md.open():
             m = re.match(fr"^## (\d+) {month_name}$", line.strip())
+            if not m:
+                m = re.match(fr"^## (?:\w+) (\d+) {month_name}$", line.strip())
             if m:
                 solutions.add(int(m[1]))
 

@@ -1,13 +1,13 @@
 # Calendrier Mathématique Janvier 2021
 
 
-## 1 Janvier
+## Vendredi 1 Janvier
 
-cf. [programme](01.py) Python
+Cf. [programme](01.py) Python.
 
 > réponse: 9 nombres: {97, 37, 71, 73, 11, 13, 79, 17, 31}
 
-## 4 Janvier
+## Lundi 4 Janvier
 
 _Mise en équation_
 - martina = 2 × roger
@@ -18,7 +18,7 @@ Calcul de la solution avec un [notebook](https://www.wolframalpha.com/input/?i=a
 
 > réponse: martina = 30, roger = 15, raphaël = 25
 
-## 5 Janvier
+## Mardi 5 Janvier
 
 Cf. [programme](05.py) Python.
 
@@ -119,9 +119,16 @@ De manière exhaustive:
 > réponse: Louis et Bernard
 
 
+## 14 Janvier
+
+Cf. [programme](14.py) en Python.
+
+> réponse: (6,6,8) (7,7,6) (8,8,4) (9,9,2)
+
+
 ## 15 Janvier
 
-cf. [programme](15.py) en Python
+Cf. [programme](15.py) en Python.
 
 > réponse: 1/1 + 1/2021
 
@@ -175,6 +182,18 @@ on trouve M = 20
 > résultat: 20 kg
 
 
+## Jeudi 21 Janvier
+
+Cf. [programme](21.py) en Python.
+
+> réponse: 90
+
+## Vendredi 22 Janvier
+
+Cf. [programme](22.py) en Python.
+
+> réponse: 2/9
+
 ## 25 Janvier
 
 Quand p^q+1 est-il premier avec p,q premiers ?
@@ -220,6 +239,14 @@ surface = √3² π = 3π
 surface anneau = 4π - 3π = π
 
 > réponse: π cm²
+
+
+## Vendredi 91 Janvier
+
+Cf. [programme](91.py) en Python.
+
+> réponse: 91
+
 
 ## 28 Janvier
 
