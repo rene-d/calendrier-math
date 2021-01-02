@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# à installer en hook de pre-commit
+# ln -sf ../../readme.py .git/hooks/pre-commit
+
 from datetime import datetime, timedelta
 from pathlib import Path
 import unicodedata

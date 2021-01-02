@@ -19,12 +19,12 @@ Par ailleurs, haque semaine, le CNRS propose un de ces défis: [Défis du calend
 | [11](janvier/README.md#lundi-11-janvier-janvier) | [12](janvier/README.md#mardi-12-janvier-janvier) | [13](janvier/README.md#mercredi-13-janvier-janvier) | [14](janvier/README.md#jeud-14-janvier) [🖥](janvier/14.py) | [15](janvier/README.md#vendredi-15-janvier) [🖥](janvier/15.py) | *16* | *17* |
 | [18](janvier/README.md#lundi-18-janvier-janvier) | [19](janvier/README.md#mardi-19-janvier-janvier) | [20](janvier/README.md#mercredi-20-janvier-janvier) | [21](janvier/README.md#jeudi-21-janvier) [🖥](janvier/21.py) | [22](janvier/README.md#vendredi-22-janvier) [🖥](janvier/22.py) | *23* | *24* |
 | [25](janvier/README.md#lundi-25-janvier-janvier) | [26](janvier/README.md#mardi-26-janvier-janvier) | [27](janvier/README.md#mercredi-27-janvier) [🖥](janvier/27.py) | [28](janvier/README.md#jeudi-28-janvier-janvier) | [29](janvier/README.md#vendredi-29-janvier-janvier) | *30* | *31* |
-### Février (1 réalisé parmi 20 défis)
+### Février (4 réalisés parmi 20 défis)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-| [ 1](fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) |  2 |  3 |  4 |  5 | *6* | *7* |
-|  8 |  9 | 10 | 11 | 12 | *13* | *14* |
+| [ 1](fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) | [ 2](fevrier/README.md#mardi-2-février) [🖥](fevrier/02.py) | [ 3](fevrier/README.md#mercredi-3-février-février) |  4 |  5 | *6* | *7* |
+| [ 8](fevrier/README.md#lundi-8-février) [🖥](fevrier/08.py) |  9 | 10 | 11 | 12 | *13* | *14* |
 | 15 | 16 | 17 | 18 | 19 | *20* | *21* |
 | 22 | 23 | 24 | 25 | 26 | *27* | *28* |
 ### Avril (6 réalisés parmi 22 défis)
@@ -57,5 +57,5 @@ Par ailleurs, haque semaine, le CNRS propose un de ces défis: [Défis du calend
 
 ### Avancement
 
-Nombre de solutions: 49 / 261
+Nombre de solutions: 52 / 261
 
