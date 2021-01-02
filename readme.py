@@ -105,7 +105,7 @@ def create_month(month, year=2021):
                     done_month += 1
 
                 elif d.day in solutions:
-                    cols.append(f"[{d.day:2d}]({solutions[d.day]}-{month_lower})")
+                    cols.append(f"[{d.day:2d}]({solutions[d.day]})")
                     done_month += 1
 
                 else:
