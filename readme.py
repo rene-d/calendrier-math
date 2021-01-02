@@ -44,15 +44,17 @@ def create_month(month, year=2021):
     month_lower = month_name.lower()
     month_norm = remove_accents(month_lower)
 
-    solutions = set()
+    solutions = dict()
     solutions_md = Path(month_norm) / f"README.md"
     if solutions_md.exists():
         for line in solutions_md.open():
             m = re.match(fr"^## (\d+) {month_name}$", line.strip())
-            if not m:
-                m = re.match(fr"^## (?:\w+) (\d+) {month_name}$", line.strip())
             if m:
-                solutions.add(int(m[1]))
+                solutions[int(m[1])] = f"{solutions_md}#{m[1]}-{month_lower}"
+            else:
+                m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
+                if m:
+                    solutions[int(m[2])] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
 
     md = []
     md.append(f"### {month_name}")
@@ -92,7 +94,7 @@ def create_month(month, year=2021):
                 p = Path(month_norm) / f"{d.day:02d}.py"
 
                 if p.exists() and d.day in solutions:
-                    cols.append(f"[{d.day:2d}]({solutions_md}#{d.day}-{month_lower}) [🖥]({p})")
+                    cols.append(f"[{d.day:2d}]({solutions[d.day]}) [🖥]({p})")
                     done_month += 1
 
                 elif p.exists():
@@ -100,7 +102,7 @@ def create_month(month, year=2021):
                     done_month += 1
 
                 elif d.day in solutions:
-                    cols.append(f"[{d.day:2d}]({solutions_md}#{d.day}-{month_lower})")
+                    cols.append(f"[{d.day:2d}]({solutions[d.day]}-{month_lower})")
                     done_month += 1
 
                 else:
