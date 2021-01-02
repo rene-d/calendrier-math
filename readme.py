@@ -92,11 +92,11 @@ def create_month(month, year=2021):
                 p = Path(month_norm) / f"{d.day:02d}.py"
 
                 if p.exists() and d.day in solutions:
-                    cols.append(f"[{d.day:2d}]({solutions_md}#{d.day}-{month_lower}) [🎮]({p})")
+                    cols.append(f"[{d.day:2d}]({solutions_md}#{d.day}-{month_lower}) [🖥]({p})")
                     done_month += 1
 
                 elif p.exists():
-                    cols.append(f"{d.day:2d} [🎮]({p})")
+                    cols.append(f"{d.day:2d} [🖥]({p})")
                     done_month += 1
 
                 elif d.day in solutions:

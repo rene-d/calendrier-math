@@ -2,10 +2,6 @@
 
 # 25 Juin
 
-# sans programme, il faut éliminer de la liste les carrés et leurs mutiples:
-# 4 8 9 12 16 18 20
-# il reste 13 nombres
-
 import itertools
 
 # pour toutes les permutations des nombres de 1 à 5 (i.e. dispositions sur le cercle)
