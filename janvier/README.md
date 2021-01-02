@@ -1,5 +1,12 @@
 # Calendrier Mathématique Janvier 2021
 
+
+## 1 Janvier
+
+cf. [programme](01.py) Python
+
+> réponse: 9 nombres: {97, 37, 71, 73, 11, 13, 79, 17, 31}
+
 ## 4 Janvier
 
 _Mise en équation_
@@ -10,6 +17,12 @@ _Mise en équation_
 Calcul de la solution avec un [notebook](https://www.wolframalpha.com/input/?i=a%3D2+b%2Ca%3Dc%2B5%2Ca%2Bb%2Bc%3D70) WolframAlpha.
 
 > réponse: martina = 30, roger = 15, raphaël = 25
+
+## 5 Janvier
+
+Cf. [programme](05.py) Python.
+
+> réponse: p-n = -1
 
 ## 6 Janvier
 
@@ -106,6 +119,12 @@ De manière exhaustive:
 > réponse: Louis et Bernard
 
 
+## 15 Janvier
+
+cf. [programme](15.py) en Python
+
+> réponse: 1/1 + 1/2021
+
 ## 18 Janvier
 
 - nombre avec 11 diviseurs: p^10  (p premier)
@@ -132,11 +151,28 @@ La figure est composée de:
 
 ## 20 Janvier
 
-quantité d'eau perdue lors de la déshydratation: H × 0.9 - H × 0.6 = 15 kg
+```
+soit M la masse totale des haricots
+soit m la masse sèche des haricots
+soit e la masse d'eau des haricots
 
-donc H = 15 / 0.3 = 50
+initial:    e = 0.9 M           90% d'eau dans les haricots
+            m = 0.1 M           et donc 10% qui n'est pas de l'eau
 
-> résultat: 50 kg
+après:      e' = e1 - 15        deshydratation de 15 l
+            e' = 0.6 (M-15)     60% d'eau dans les haricots
+            m = 0.4 (M - 15)    et donc 40% quiu n'est pas de l'eau
+
+on a :
+    0.9 × M - 15 = 0.6 (M - 15)
+
+ou bien:
+    0.1 M = 0.4 (M - 15)
+
+on trouve M = 20
+```
+
+> résultat: 20 kg
 
 
 ## 25 Janvier

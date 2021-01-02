@@ -19,9 +19,19 @@ soit x ∈ [0, 1] et y ∈ [0, 1]
 
 min(x+2y) = min(x+√(1-x²))
 
-la fonction a deux minimas: x=0 et x=1, et un maximum x=√2/2
+la fonction a deux minimas: x=0 et x=1, et un maximum en x=√2/2
 
 > réponse: 1
+
+
+## 15 Avril
+
+![schéma](15.png)
+
+[Notebook GeoGebra](15.ggb)
+
+> réponse: 2 √3 - 2
+
 
 ## 28 Avril
 
@@ -30,14 +40,6 @@ la fonction a deux minimas: x=0 et x=1, et un maximum x=√2/2
 A moins de travailler en base 48, on ne peut trouver de chiffres décimaux de 1 à 9 qui décomposent 2021.
 
 > réponse: non
-
-## 15 Avril
-
-![schéma](15.png)
-
-[Notebook GeoGebra](15.ggb)
-
-> réponse: 2 √3 - 3
 
 ## 30 Avril
 
@@ -59,4 +61,6 @@ Le polynome est le produit de 5 nombres consécutifs, 120 = 5! est le produit de
 - n+1 sera divisible par 3 ou 4 ou 5 ou 2
 - etc.
 
-> réponse : |n| ≥ 3
+Si -2 ≤ n ≤ 2, alors le polynome est nul, il est aussi divisible par 120.
+
+> réponse : ∀ n

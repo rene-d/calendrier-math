@@ -62,9 +62,9 @@ L'aire d'un carré est 1 cm², l'aire d'un triangle √3/4 cm².
 
 L'hexagone est donc constitué quatre triangles et trois carrés.
 
-aire = `4 x √3/4 + 1`
+aire = `4 x √3/4 + 3 × 1`
 
-> réponse: 1 + √3 cm²
+> réponse: 3 + √3 cm²
 
 ## 8 Juin
 
@@ -72,7 +72,7 @@ aire = `4 x √3/4 + 1`
 
 Toutes les autres façons sont similaires à une rotation ou une symétrique près.
 
-> réponse: 4
+> réponse: 4 (ou 4×7=28 en tenant compte des symétries)
 
 
 
@@ -93,11 +93,11 @@ La "petite" diagonale fait 4m.
 Pour un carré de côté a, la formule de cette "petite" diagonale est:
 `√(a² + (a/2)²) = a × √(1+1/4) = a × √5 / 2`
 
-Ici `a = 4 / (2 / √5) = 2 √5 m²`.
+Ici `a = 4 / (√5 / 2) = 8 / √5 m`.
 
-La surface de la piscine est donc: `5 a² = 5 × (2 √5)² = 5 × 4 × 5 = 100 m²`
+La surface de la piscine est donc: `5 a² = 5 × (8 / √5)² = 5 × 8² / 5 = 64 m²`
 
-> réponse: 100 m²
+> réponse: 64 m²
 
 
 ## 18 Juin
@@ -116,9 +116,14 @@ D'où: `5^(1/5) < 2^(1/2)`.
 
 ## 21 Juin
 
-Antoine peut mentir et Xavier dire la vérité. Aucun des deux engagements n'est rompu.
+Antoine peut mentir et Xavier dire la vérité. Aucune des deux déclarations n'est erronée:
+
+-  Antoine: « Quand je dis la vérité, toi aussi ». Si Antoine ment, Xavier peut faire ce qu'il veut.
+-  Xavier: « Quand je ments, toi aussi ». Si Xavier dit la vérité, Antoine peut mentir.
 
 > réponse: oui
+
+PS: problème mal formulé... la solution officielle e
 
 ## 22 Juin
 
@@ -129,7 +134,7 @@ Antoine peut mentir et Xavier dire la vérité. Aucun des deux engagements n'est
 - coefficient directeur (MP): -5
 - équation médiatrice (doit passer par M): `y = -5*(x-7.5)+7.5 = -5x + 5 * 7.5 + 7.5 = -5x+45`
 
-D'où les coordonnées du point P: (9, 0)  (solution de l'équation `-5x+45=0`)
+D'où les coordonnées du point P: (9, 0)  (solution de l'équation `-5x+45 = 0`)
 
 > réponse: 6 m
 
@@ -149,7 +154,7 @@ solve avec WolframAlpha de l'équation: x^4-2x^3-7x^2-2x+1=0
 
 ## 28 Juin
 
-La somme des anglets des sommets est 180°
+La somme des angles des sommets est 180°
 
 > réponse: `180°`
 
