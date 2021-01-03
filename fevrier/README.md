@@ -55,8 +55,8 @@ Calcul avec [script](04.py) Python.
 
 | proposition | interprétation | équation |
 | -- | -- | -- |
-| Pierre a trois plus de soeurs que de frères      | 3 freres = soeurs |  3 (garçons - 1) = filles |
-| Pauline a deux fois plus de soeurs que de frères | 2 freres = soeurs |  2 garçons = filles - 1   |
+| Pierre a trois plus de sœurs que de frères      | 3 frères = sœurs |  3 (garçons - 1) = filles |
+| Pauline a deux fois plus de sœurs que de frères | 2 frères = sœurs |  2 garçons = filles - 1   |
 
 - 2 garçons + 1 = 3 ( garçons - 1)  ⇒ garçons = 4
 - filles = 1 + 2 garçons ⇒ filles = 9
@@ -82,3 +82,105 @@ demi-cercle + 1 carré
 - aire grand carré: 1 - 1 / 5 = 4 / 5
 
 > réponse: 4 / 5
+
+## Mercredi 10 Février
+
+```
++---+---o  +---+---+
+| I | K |  | U | P |
++---+---+  +---o---+
+    | M |      | K |
+    +---+      +---+
+```
+
+Les faces U et P sont à côté de K (donc derrière et à droite sur le dessin 3D de IKM).
+Le sens de rotation horaire U→P→K doit être respecté, la disposition est donc la suivante (le o désigne le même sommet du cube):
+```
+    +---+
+    | U |
++---+---o---+---+
+| I | K | P |   |
++---+---+---+---+
+    | M |
+    +---+
+```
+
+> réponse: M
+
+## Jeudi 11 Février
+
+(a + d) + (b + d) + (c + d) = 7 + 10 + 12 = 29 = (a + b + c) + 3 × d
+
+max(d) = 6  car x + d = 7 et x ≥ 1
+
+donc max(a + b + c) = 29 - 3 × 6 = 11
+
+> réponse: 11
+
+[script](11.py) Python de recherche de toutes les valeurs
+
+## Lundi 15 Février
+
+![schéma](15.png)
+
+Appliquons le théorème de Thalès:
+- DF / AB = HD / HB = HF / HA
+- EB / DA = GE / GA = GB / GD
+
+On a:
+- DF / AB = 1 / 2 car F est le milieu de [DG] et DG=AB
+- HD = 1 cm par énoncé
+- idem EB / DA et GB
+
+On en déduit que HB = GD = 2 cm
+
+Or HB = HG + GB donc HG = 1 cm
+
+> réponse: 1 cm
+
+## Mardi 16 Février
+
+- en dessous du A, on peut mettre B, C, D ⇒ 3 possibilités
+- en dessous de la lettre en dessous du A, on peut mettre A ou les 2 autres lettres ⇒ 3 possibilités
+- en dessous des 2 autres, on n'a plus le choix puisqu'il reste 1 des 2 autres avec le A, ou les 2 autres
+
+Confirmation avec [script](16.py) Python.
+
+> réponse: 3 × 3 = 9
+
+## Mercredi 17 Février
+
+273 = a + ar + ar² = a (1 + r + r²)
+
+273 = 3 × 7 × 13
+
+1 + r + r² = r (r² - 1) / (r - 1)
+
+- 1 + 1 + 1 = 3 ok
+- 1 + 2 + 4 = 7 ok
+- 1 + 3 + 9 = 13 ok
+- 1 + 4 + 16 = 21 ok
+- 1 + 5 + 25 = 31 ko
+- 1 + 6 + 36 = 43 ko
+- 1 + 7 + 49 = 57 ko
+- 1 + 8 + 64 = 73 ko
+- 1 + 9 + 81 = 91 ok
+- 1 + 16 + 256 = 273 ok
+
+donc les possibilités de (a, r) sont :
+- (91, 1)
+- (39, 2)
+- (21, 3)
+- (13, 4)
+- (3, 9)
+- (1, 16)
+
+> réponse: 6
+
+## Jeudi 18 Février
+
+Il fait (2 + 2) km en (12 + 4) min, soit 4 km / 16 min.
+
+V = 1 / 4 km⋅min⁻¹ = 60 / 4 km⋅h⁻¹
+
+> réponse: 15 km⋅h⁻¹
