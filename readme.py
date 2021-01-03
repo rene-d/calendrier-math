@@ -10,6 +10,7 @@ import re
 import os
 import hashlib
 
+USE_BADGES = True
 
 MONTHS = (
     "Janvier",
@@ -59,7 +60,9 @@ def create_month(month, year=2021):
             else:
                 m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
                 if m:
-                    solutions[int(m[2])] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
+                    solutions[
+                        int(m[2])
+                    ] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
 
     md = []
     md.append(f"### {month_name}")
@@ -117,7 +120,17 @@ def create_month(month, year=2021):
 
         md.append("| " + " | ".join(cols) + " |")
 
-    md[0] += f" ({done_month} {'réalisés' if done_month > 1 else 'réalisé'} parmi {total_month} défis)"
+    if USE_BADGES:
+        if done_month == total_month:
+            url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success"
+        else:
+            url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational"
+        md.insert(1, f"![{done_month}/{total_month}]({url})\n")
+
+    else:
+        md[
+            0
+        ] += f" ({done_month} {'réalisés' if done_month > 1 else 'réalisé'} parmi {total_month} défis)"
 
     return (done_month, total_month), "\n".join(md)
 
@@ -128,8 +141,9 @@ def main():
     readme = Path("README.md").read_text()
     titre = f"## Solutions {year}\n\n"
     hash = hashlib.md5(readme.encode()).hexdigest()
-    readme = readme[: readme.index(titre) + len(titre)]
+    readme_begin = readme[: readme.index(titre) + len(titre)]
 
+    readme = ""
     total = 0
     done_total = 0
     for month in range(1, 13):
@@ -146,7 +160,15 @@ def main():
 
     print(f"{'total':<10}: {done_total:3} / {total:3}")
 
-    readme += f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
+    if USE_BADGES:
+        progress = f"{done_total}/{total}%20%28{done_total/total*100:.0f}%25%29"
+        readme_begin += f"![{done_total}/{total}](https://img.shields.io/static/v1?label=solutions&message={progress}&color=blueviolet)\n\n"
+    else:
+        readme_begin += (
+            f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
+        )
+
+    readme = readme_begin + readme
 
     if hash != hashlib.md5(readme.encode()).hexdigest():
 
