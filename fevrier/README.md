@@ -119,6 +119,22 @@ donc max(a + b + c) = 29 - 3 × 6 = 11
 
 [script](11.py) Python de recherche de toutes les valeurs
 
+## Vendredi 12 Février
+
+http://factordb.com/index.php?query=101010101010101010101
+
+https://www.wolframalpha.com/input/?i=factor+101010101010101010101.0
+
+SageMath: factor(101010101010101010101)
+
+SymPy: sympy.factorint(101010101010101010101)
+
+etc.
+
+Mais ce n'est certainement la méthode attendue 😇
+
+> réponse: 11
+
 ## Lundi 15 Février
 
 ![schéma](15.png)
