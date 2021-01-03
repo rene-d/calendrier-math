@@ -179,8 +179,71 @@ donc les possibilités de (a, r) sont :
 
 ## Jeudi 18 Février
 
-Il fait (2 + 2) km en (12 + 4) min, soit 4 km / 16 min.
+Il fait (2 + 2) km en (12 + 4) min, soit 4 km en 16 min.
 
 V = 1 / 4 km⋅min⁻¹ = 60 / 4 km⋅h⁻¹
 
 > réponse: 15 km⋅h⁻¹
+
+## Lundi 22 Février
+
+
+```bash
+python3 -c "print(sum(1 for n in range(1000) if 7 == sum(map(int, str(n)))))"
+```
+
+Pour dénombrer à la main, il faut considérer ces choix:
+- 7 0 0
+- 3 4 0
+- 2 5 0
+- 1 6 0
+- 1 2 3
+- 1 3 3
+
+avec 3! = 6 possibilités chaque, soit 36 en tout.
+
+> réponse: 36
+
+## Mardi 23 Février
+
+Il faut que le nombre se termine par un chiffre pair, donc tous les chiffres doivent être pairs.
+
+De plus les deux derniers chiffres doivent constituer un nombre divisible par 4: pas 02, 10, 06. Il ne reste que le 4 et le 8, soit 2^3=8 solutions.
+
+> réponse: 8
+
+## Mercredi 24 Février
+
+si l'essence est vendue 100:
+- 65 taxes
+- 35 production
+
+si l'essence coûte 35
+- 35 * 0.76 = 26.6 production
+- 35 * 0.24 = 8.4 pétrole
+
+le pétrole passe à 8.4 + 10% = 9.24
+
+le prix de l'essence devient 65 + 26.6 + 9.24 = 100.84
+
+soit une augmenation de 0.84%
+
+> réponse: 0.84%
+
+## Jeudi 25 Février
+
+L'aire des carrés avec intersection est 117 + 2 + 5 + 8 = 132 cm². L'aire des trois carrés est donc 132 + 2 + 5 + 8 = 147 cm².
+
+Le côté est √(147/3) = √49 = 7 cm
+
+> réponse: 7 cm
+
+## Vendredi 26 Février
+
+27000 = 27 × 8 × 125 = 2³ × 3³ × 5³
+
+a × ar × ar² = a³ r³
+
+On peut choisir (1, 30) (2, 15) (3, 10) (5, 6) et vice-versa pour (a, r).
+
+> réponse: 8
