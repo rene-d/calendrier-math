@@ -8,6 +8,7 @@ from pathlib import Path
 import unicodedata
 import re
 import os
+import hashlib
 
 
 MONTHS = (
@@ -126,6 +127,7 @@ def main():
 
     readme = Path("README.md").read_text()
     titre = f"## Solutions {year}\n\n"
+    hash = hashlib.md5(readme.encode()).hexdigest()
     readme = readme[: readme.index(titre) + len(titre)]
 
     total = 0
@@ -146,11 +148,14 @@ def main():
 
     readme += f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
 
-    Path("README.md").write_text(readme)
+    if hash != hashlib.md5(readme.encode()).hexdigest():
 
-    if "GIT_INDEX_FILE" is os.environ:
-        if Path(os.environ["GIT_INDEX_FILE"]).is_file():
-            os.system("git add README.md")
+        Path("README.md").write_text(readme)
+
+        if "GIT_INDEX_FILE" in os.environ:
+            if Path(os.environ["GIT_INDEX_FILE"]).is_file():
+                os.system("git add README.md")
+                print("staged README.md")
 
 
 if __name__ == "__main__":
