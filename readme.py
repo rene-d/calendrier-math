@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import unicodedata
 import re
+import os
 
 
 MONTHS = (
@@ -146,6 +147,10 @@ def main():
     readme += f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
 
     Path("README.md").write_text(readme)
+
+    if "GIT_INDEX_FILE" is os.environ:
+        if Path(os.environ["GIT_INDEX_FILE"]).is_file():
+            os.system("git add README.md")
 
 
 if __name__ == "__main__":
