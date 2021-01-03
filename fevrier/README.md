@@ -185,11 +185,17 @@ V = 1 / 4 km⋅min⁻¹ = 60 / 4 km⋅h⁻¹
 
 > réponse: 15 km⋅h⁻¹
 
+## Vendredi 19 Février
+
+à dessiner sur une feuille quadrillée...
+
+> réponse: 6 cm²
+
 ## Lundi 22 Février
 
-
+en une ligne de Python:
 ```bash
-python3 -c "print(sum(1 for n in range(1000) if 7 == sum(map(int, str(n)))))"
+python3 -c "print(sum(1 for n in range(1000) if 7==sum(map(int,str(n)))))"
 ```
 
 Pour dénombrer à la main, il faut considérer ces choix:
