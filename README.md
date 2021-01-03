@@ -4,18 +4,18 @@ Solutions personnelles aux questions du Calendrier Mathématique 2021
 
 https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021
 
-Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme ou d'un notebook [WolframAlpha](https://www.wolframalpha.com). Ils sont identifiés par l'icône 🖥.
+Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme. Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également utilisés.
 
-Même si ce n'est pas l'objectif du calendrier, cela a deux utilités:
+Même si le recours à l'informatique n'est pas l'objectif du calendrier, ceci a deux intérêts:
 - savoir passer d'un problème mathématique à un code informatique, notamment apprendre à utiliser des bibliothèques de programmation et scientifiques
-- aider à la résolution d'un problème mathématique à l'aide d'outils, de tests, de vérification
+- aider à la résolution d'un problème mathématique à l'aide d'outils, de tests, de vérifications
 
 
-Par ailleurs, chaque semaine, le CNRS propose un de ces défis: [Défis du calendrier mathématique](https://images.math.cnrs.fr/-Defis-du-Calendrier-mathematique-.html), et la solution de la semaine précédente.
+Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un de ces défis: [Défis du calendrier mathématique](https://images.math.cnrs.fr/-Defis-du-Calendrier-mathematique-.html), et la solution de la semaine précédente.
 
 ## Solutions 2021
 
-![73/261](https://img.shields.io/static/v1?label=solutions&message=73/261%20%2828%25%29&color=blueviolet)
+![79/261](https://img.shields.io/static/v1?label=solutions&message=79/261%20%2830%25%29&color=blueviolet)
 
 ### Janvier
 ![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)
@@ -39,14 +39,14 @@ Par ailleurs, chaque semaine, le CNRS propose un de ces défis: [Défis du calen
 | [15](fevrier/README.md#lundi-15-février) | [16](fevrier/README.md#mardi-16-février) [🖥](fevrier/16.py) | [17](fevrier/README.md#mercredi-17-février) | [18](fevrier/README.md#jeudi-18-février) | [19](fevrier/README.md#vendredi-19-février) | *20* | *21* |
 | [22](fevrier/README.md#lundi-22-février) | [23](fevrier/README.md#mardi-23-février) | [24](fevrier/README.md#mercredi-24-février) | [25](fevrier/README.md#jeudi-25-février) | [26](fevrier/README.md#vendredi-26-février) | *27* | *28* |
 ### Mars
-![5/23](https://img.shields.io/static/v1?label=en%20cours&message=5/23&color=informational)
+![11/23](https://img.shields.io/static/v1?label=en%20cours&message=11/23&color=informational)
 
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 | [ 1](mars/README.md#lundi-1-mars) [🖥](mars/01.py) | [ 2](mars/README.md#mardi-2-mars) | [ 3](mars/README.md#mercredi-3-mars) | [ 4](mars/README.md#jeudi-4-mars) | [ 5](mars/README.md#vendredi-5-mars) | *6* | *7* |
-|  8 |  9 | 10 | 11 | 12 | *13* | *14* |
-| 15 | 16 | 17 | 18 | 19 | *20* | *21* |
+| [ 8](mars/README.md#lundi-8-mars) | [ 9](mars/README.md#mardi-9-mars) | 10 | [11](mars/README.md#jeudi-11-mars) | 12 | *13* | *14* |
+| [15](mars/README.md#lundi-15-mars) | [16](mars/README.md#mardi-16-mars) | [17](mars/README.md#mercredi-17-mars) | 18 | 19 | *20* | *21* |
 | 22 | 23 | 24 | 25 | 26 | *27* | *28* |
 | 29 | 30 | 31 |    |    |    |    |
 ### Avril
