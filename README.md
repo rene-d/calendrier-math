@@ -19,14 +19,14 @@ Par ailleurs, haque semaine, le CNRS propose un de ces défis: [Défis du calend
 | [11](janvier/README.md#lundi-11-janvier) | [12](janvier/README.md#mardi-12-janvier) | [13](janvier/README.md#mercredi-13-janvier) | [14](janvier/README.md#jeud-14-janvier) [🖥](janvier/14.py) | [15](janvier/README.md#vendredi-15-janvier) [🖥](janvier/15.py) | *16* | *17* |
 | [18](janvier/README.md#lundi-18-janvier) | [19](janvier/README.md#mardi-19-janvier) | [20](janvier/README.md#mercredi-20-janvier) | [21](janvier/README.md#jeudi-21-janvier) [🖥](janvier/21.py) | [22](janvier/README.md#vendredi-22-janvier) [🖥](janvier/22.py) | *23* | *24* |
 | [25](janvier/README.md#lundi-25-janvier) | [26](janvier/README.md#mardi-26-janvier) | [27](janvier/README.md#mercredi-27-janvier) [🖥](janvier/27.py) | [28](janvier/README.md#jeudi-28-janvier) | [29](janvier/README.md#vendredi-29-janvier) | *30* | *31* |
-### Février (13 réalisés parmi 20 défis)
+### Février (18 réalisés parmi 20 défis)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 | [ 1](fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) | [ 2](fevrier/README.md#mardi-2-février) [🖥](fevrier/02.py) | [ 3](fevrier/README.md#mercredi-3-février) | [ 4](fevrier/README.md#jeudi-4-février) [🖥](fevrier/04.py) | [ 5](fevrier/README.md#vendredi-5-février) | *6* | *7* |
 | [ 8](fevrier/README.md#lundi-8-février) [🖥](fevrier/08.py) | [ 9](fevrier/README.md#mardi-9-février) | [10](fevrier/README.md#mercredi-10-février) | [11](fevrier/README.md#jeudi-11-février) [🖥](fevrier/11.py) | 12 | *13* | *14* |
 | [15](fevrier/README.md#lundi-15-février) | [16](fevrier/README.md#mardi-16-février) [🖥](fevrier/16.py) | [17](fevrier/README.md#mercredi-17-février) | [18](fevrier/README.md#jeudi-18-février) | 19 | *20* | *21* |
-| 22 | 23 | 24 | 25 | 26 | *27* | *28* |
+| [22](fevrier/README.md#lundi-22-février) | [23](fevrier/README.md#mardi-23-février) | [24](fevrier/README.md#mercredi-24-février) | [25](fevrier/README.md#jeudi-25-février) | [26](fevrier/README.md#vendredi-26-février) | *27* | *28* |
 ### Avril (6 réalisés parmi 22 défis)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
@@ -57,5 +57,5 @@ Par ailleurs, haque semaine, le CNRS propose un de ces défis: [Défis du calend
 
 ### Avancement
 
-Nombre de solutions: 61 / 261
+Nombre de solutions: 66 / 261
 
