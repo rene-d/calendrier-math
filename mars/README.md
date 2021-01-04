@@ -169,8 +169,8 @@ C'est donc 23 et 23³ = 12167.
 
 ## Mardi 23 Mars
 
-La probabilité de n'avoir que des mauvaises réponses pour une ligne est 1 - 1 / n. La probabité de n'avoir que des mauvaises réponses est ∏ (1 - 1 / n).
-
+La probabilité de n'avoir que des mauvaises réponses pour une ligne est 1 - 1 / n. <br>
+La probabité de n'avoir que des mauvaises réponses est ∏ (1 - 1 / n). <br>
 La probabilité d'avoir au moins une bonne réponse est 1 - ∏ (1 - 1 / n).
 
 p = 1 - (1 - 1 / 2) × (1 - 1 / 3) × ... × (1 - 1 / 12) <br>

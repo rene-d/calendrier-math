@@ -125,12 +125,14 @@ def create_month(month, year=2021):
             url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success"
         else:
             url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational"
-        md.insert(1, f"![{done_month}/{total_month}]({url})\n")
+        md.insert(1, f"![{done_month}/{total_month}]({url})")
 
     else:
         md[
             0
         ] += f" ({done_month} {'réalisés' if done_month > 1 else 'réalisé'} parmi {total_month} défis)"
+
+    md.append("")
 
     return (done_month, total_month), "\n".join(md)
 

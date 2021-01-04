@@ -5,7 +5,7 @@
 import itertools
 
 # pour toutes les permutations des nombres de 1 à 5 (i.e. dispositions sur le cercle)
-for nb in itertools.permutations(range(1,6)):
+for nb in itertools.permutations(range(1, 6)):
     m = set()
 
     # commence par chacun des nombres
@@ -17,7 +17,7 @@ for nb in itertools.permutations(range(1,6)):
             # ajoute dans la somme dans la liste de vérification
             m.add(s)
 
-    if len(m)==15 and m == set(range(1, 16)):
+    if len(m) == 15 and m == set(range(1, 16)):
         print("ok", nb, m)
         break
     else:
