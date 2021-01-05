@@ -10,10 +10,10 @@ Voir [script](01.py) Python.
 
 (a+b)³ = a³ + 3ab² + 3a²b + b³
 
-- (10²⁰²¹)³ = 100...000 ⇒ Σ chiffres = 1
-- 3 × 10²⁰²¹×1² = 3 × 100...000 ⇒ Σ chiffres = 3
-- 3 × (10²⁰²¹)² × 1 = 3 × 100...000 ⇒ Σ chiffres = 3
-- 1³ = 1 ⇒ Σ chiffres = 1
+(10²⁰²¹)³ = 100…000 ⇒ Σ chiffres = 1 <br>
+3 × 10²⁰²¹×1² = 3 × 100…000 ⇒ Σ chiffres = 3 <br>
+3 × (10²⁰²¹)² × 1 = 3 × 100…000 ⇒ Σ chiffres = 3 <br>
+1³ = 1 ⇒ Σ chiffres = 1
 
 > réponse: 8
 
@@ -23,7 +23,7 @@ Il faut que x¹⁰ - 4 soit divisible par x². Donc x² doit diviser 4.
 
 Donc x = ±1 ou x = ±2
 
-Si x = ±1, 1 + k + 4 = 0  ⇒ k = -5
+Si x = ±1, 1 + k + 4 = 0  ⇒ k = -5 <br>
 Si x = ±2, 1024 + 4k + 4 = 0  ⇒ k = -1028 / 4 = - 257
 
 > réponse: -5 et -257
@@ -56,21 +56,25 @@ Il reste 10 l après la première couche. 3/4 * 10 = 7.5 l. On a utilisé 10 + 7
 ## Mardi 9 Mars
 
 Analyse:
+
 - Wookies = vérité ⇒ ils répondent 1 oui 2 non
 - Jawas = mensonge ⇒ ils répondent 2 oui 1 non
 
 Mise en équation:
+
 - le nombre de oui ⇒ 3000 = Jawas × 2 + Wookies  _(1)_
 - le nombre d'habitants ⇒ 2021 = Jawas + Wookies  _(2)_
 
 Résolution:
+
 - 2 × _(2)_ - _(1)_ : 2021 × 2 - 3000 = Wookies = 1042
 
 > réponse: 1042
 
 ## Jeudi 11 Mars
 
-on a le facteur 2^15: on considère les nombres pairs
+On a le facteur 2^15: on considère les nombres pairs:
+
 ```
 pairs:   2 - 4 - 6 - 8 - 10 - 12 - 14 - 16
 nb de 2: 1   2   1   3    1    2    1    4
@@ -88,7 +92,7 @@ Si a= 0, pas de solution car on aurait b=c<br>
 Si a= 1, b  2-98 et c doit valoir  3-99<br>
 Si a= 2, b  3-97 et c doit valoir  5-99<br>
 Si a= 3, b  4-96 et c doit valoir  7-99<br>
-...<br>
+… <br>
 Si a=48, b 49-50 et c doit valoir 98-99<br>
 Si a=49, b 50-50 et c doit valoir 99-99<br>
 Si a=50, b≥51 et pas de valeur possible pour c
@@ -99,6 +103,7 @@ Nombre de valeurs de b = (98 - 2 + 1) - (a - 1) × 2 pour a ∈ [1, 49]
 i ∈ [0, 48]
 
 Vérification en Python:
+
 ```bash
 python3 -c 'print(sum(1 for a in range(0, 98) for b in range(a + 1, 99) for c in range(b + 1, 100) if a + b == c))'
 ```
@@ -157,7 +162,7 @@ La partie droite est donc: 4 × 2 × (√3 - 1) = 8 √3 - 8
 
 8000 = 20³<br>
 27000 = 30³<br>
-donc le nombre est strictement compris entre 20 et 30.
+Donc le nombre est strictement compris entre 20 et 30.
 
 Or, pour se terminer par 7, il faut que le nombre se termine par 3 (3³ = 27). En effet, le chiffre des unités d'un cube est celui du cube du chiffre de l'unité:
 

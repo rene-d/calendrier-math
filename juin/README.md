@@ -14,16 +14,19 @@ Or, à partir de la puissance 3, toutes les puissances impaires de 5 se « termi
 Ainsi `5^2021 - 1` se termine par 124 et on peut donc encore diviser deux fois par 2. Le chiffre de l'unité sera 1.
 
 _Vérification en Python_
+
 ```python
 >>> ((10 ** 2021 - 2 * 4 ** 1010) // 2 ** 2023) % 10
 1
 ```
+
 
 > réponse: 2023
 
 ## Mercredi 2 Juin
 
 On a:
+
 ```
 b = (a + a+1 + a+2 + a+3 + a+4) / 5
   = (5a + 10) / 5

@@ -9,6 +9,7 @@ Cf. [programme](01.py) en Python.
 ## Mardi 2 Février
 
 Mise en équation sous forme d'équations linéaires:
+
 | filles | garçons | cheveux_clairs | cheveux_foncés | filles_cheveux_clairs | filles_cheveux_foncés | garçons_cheveux_clairs | garçons_cheveux_foncés | valeurs |
 | ------ | ------- | -------------- | -------------- | --------------------- | --------------------- | ---------------------- | ---------------------- | ------- |
 | filles=garçons | 1 | -1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -41,6 +42,7 @@ résolution avec numpy avec un [script](02.py) Python.
 Calcul avec [script](04.py) Python.
 
 > réponse:
+> 
 ```
               [10]
      [14]  [ 6]  [12]  [ 2]
@@ -54,9 +56,9 @@ Calcul avec [script](04.py) Python.
 ## Vendredi 5 Février
 
 | proposition | interprétation | équation |
-| -- | -- | -- |
-| Pierre a trois plus de sœurs que de frères      | 3 frères = sœurs |  3 (garçons - 1) = filles |
-| Pauline a deux fois plus de sœurs que de frères | 2 frères = sœurs |  2 garçons = filles - 1   |
+| ----------- | -------------- | -------- |
+| Pierre a trois plus de sœurs que de frères      | 3 frères = sœurs | 3 (garçons - 1) = filles |
+| Pauline a deux fois plus de sœurs que de frères | 2 frères = sœurs | 2 garçons = filles - 1   |
 
 - 2 garçons + 1 = 3 ( garçons - 1)  ⇒ garçons = 4
 - filles = 1 + 2 garçons ⇒ filles = 9
@@ -72,10 +74,12 @@ Cf. [programme](08.py) en Python.
 ## Mardi 9 Février
 
 demi-cercle + 2 carrés
+
 - l'angle Θ centre/sommet est 45° (figure symétrique), donc a = √2 / 2
 - aire des 2 petits carrés: (√2 / 2)² × 2 = 1
 
 demi-cercle + 1 carré
+
 - il faut que sin Θ = 2 cos Θ
 - aire 1 carré: sin Θ × 2 cos Θ = sin² Θ
 - or sin² Θ  = 1 - cos² Θ = 4 cos² Θ. donc on a cos² Θ = 1 / 5
@@ -95,6 +99,7 @@ demi-cercle + 1 carré
 
 Les faces U et P sont à côté de K (donc derrière et à droite sur le dessin 3D de IKM).
 Le sens de rotation horaire U→P→K doit être respecté, la disposition est donc la suivante (le o désigne le même sommet du cube):
+
 ```
     +---+
     | U |
@@ -121,17 +126,17 @@ donc max(a + b + c) = 29 - 3 × 6 = 11
 
 ## Vendredi 12 Février
 
-http://factordb.com/index.php?query=101010101010101010101
+Voir [factordb](http://factordb.com/index.php?query=101010101010101010101), ou [wolframalpha](https://www.wolframalpha.com/input/?i=factor+101010101010101010101.0).
 
-https://www.wolframalpha.com/input/?i=factor+101010101010101010101.0
+Ou avec [SageMath](https://sagecell.sagemath.org): `factor(101010101010101010101)`
 
-SageMath: factor(101010101010101010101)
-
-SymPy: sympy.factorint(101010101010101010101)
+Ou encore [SymPy](https://www.sympy.org/): `sympy.factorint(101010101010101010101)`
 
 etc.
 
 Mais ce n'est certainement la méthode attendue 😇
+
+Il y a onze chiffres 1 aux positions impaires, et que des 0 aux positions paires. Le critère de divisibilité par 11 est rempli.
 
 > réponse: 11
 
@@ -140,10 +145,12 @@ Mais ce n'est certainement la méthode attendue 😇
 ![schéma](15.png)
 
 Appliquons le théorème de Thalès:
+
 - DF / AB = HD / HB = HF / HA
 - EB / DA = GE / GA = GB / GD
 
 On a:
+
 - DF / AB = 1 / 2 car F est le milieu de [DG] et DG=AB
 - HD = 1 cm par énoncé
 - idem EB / DA et GB
@@ -183,13 +190,14 @@ Confirmation avec [script](16.py) Python.
 - 1 + 9 + 81 = 91 ok
 - 1 + 16 + 256 = 273 ok
 
-donc les possibilités de (a, r) sont :
-- (91, 1)
-- (39, 2)
-- (21, 3)
-- (13, 4)
-- (3, 9)
-- (1, 16)
+Donc, les possibilités de couple (a, r) sont:
+
+1. (91, 1)
+2. (39, 2)
+3. (21, 3)
+4. (13, 4)
+5. (3, 9)
+6. (1, 16)
 
 > réponse: 6
 
@@ -203,18 +211,20 @@ V = 1 / 4 km⋅min⁻¹ = 60 / 4 km⋅h⁻¹
 
 ## Vendredi 19 Février
 
-à dessiner sur une feuille quadrillée...
+À dessiner sur une feuille quadrillée…
 
 > réponse: 6 cm²
 
 ## Lundi 22 Février
 
-en une ligne de Python:
+En une ligne de Python:
+
 ```bash
 python3 -c "print(sum(1 for n in range(1000) if 7==sum(map(int,str(n)))))"
 ```
 
 Pour dénombrer à la main, il faut considérer ces choix:
+
 - 7 0 0
 - 3 4 0
 - 2 5 0
@@ -222,7 +232,7 @@ Pour dénombrer à la main, il faut considérer ces choix:
 - 1 2 3
 - 1 3 3
 
-avec 3! = 6 possibilités chaque, soit 36 en tout.
+Avec 3! = 6 possibilités chaque, soit 36 en tout.
 
 > réponse: 36
 
@@ -236,19 +246,21 @@ De plus les deux derniers chiffres doivent constituer un nombre divisible par 4:
 
 ## Mercredi 24 Février
 
-si l'essence est vendue 100:
+Si l'essence est vendue 100:
+
 - 65 taxes
 - 35 production
 
-si l'essence coûte 35
+Si l'essence coûte 35:
+
 - 35 * 0.76 = 26.6 production
 - 35 * 0.24 = 8.4 pétrole
 
-le pétrole passe à 8.4 + 10% = 9.24
+Le pétrole passe à 8.4 + 10% = 9.24
 
-le prix de l'essence devient 65 + 26.6 + 9.24 = 100.84
+Le prix de l'essence devient 65 + 26.6 + 9.24 = 100.84
 
-soit une augmenation de 0.84%
+Soit une augmenation de 0.84%
 
 > réponse: 0.84%
 

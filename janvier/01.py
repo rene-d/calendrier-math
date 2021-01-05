@@ -19,5 +19,5 @@ pp = set()
 for n in range(11, 101):
     if isprime(n) and isprime(rev(n)):
         pp.add(n)
-print("premiers réversibles:", pp)
+print("premiers réversibles:", sorted(pp))
 print("réponse:", len(pp))
