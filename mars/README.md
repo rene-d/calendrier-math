@@ -185,3 +185,91 @@ p = 1 - (1 - 1 / 2) × (1 - 1 / 3) × ... × (1 - 1 / 12) <br>
   = 11 / 12
 
 > réponse: 11 / 12
+
+## Mercredi 24 Mars
+
+Soit v la longueur de la grande diagonale.
+
+Formule de Héron: <br>
+  S = √(p(p - a)(p - b)(p - c))
+
+avec p = (a + b + c) / 2
+
+p = (v + 1 + 2) / 2 <br>
+p - a = (v + 3) / 2 - v = (3 - v) / 2 <br>
+p - b = (v + 3) / 2 - 1 = (v + 1) / 2 <br>
+p - c = (v + 3) / 2 - 2 = (v - 1) / 2
+
+S² = 1 = ¹/₁₆ × (3² - v²) * (v² - 1)
+
+On pose V = v²
+
+(9 - V) (V - 1) = 16
+
+9 * V - 9 - V² + V = 16
+V² - 10 * V + 25 = 0
+(V - 5)² = 0
+
+Donc v = √5
+
+> réponse: √5
+
+## Jeudi 25 Mars
+
+Multiples de 6 de 1 à 400: 6, 12, ... 396 ⇒ 66 valeurs
+
+Multiples de 1 à 40: 6, 12, 18, 24, 30, 36 ⇒ 6 valeurs
+
+Les habitants vont perdre: 66 - 6 × 10 = 6
+
+> réponse: 6
+
+## Vendredi 26 Mars
+
+8 triangles isocèles:
+
+![triangles1](26a.png)
+
+8 triangles quelconques:
+
+![triangles1](26b.png)
+
+16 triangles rectangles:
+
+![triangles1](26c.png)
+
+> réponse: 32
+
+## Lundi 29 Mars
+
+C'est la pièce qui a le plus de côtés puis de côtés obliques. Ce genre de côté sera plus qu'un côté droit.
+
+> réponse: E
+
+
+## Mardi 30 Mars
+
+Soit a ≤ b ≤ c ≤ d ≤ e les cinq nombres positifs.
+
+Pour qu'un nombre divise toujours un autre il faut avoir:
+* b = k⋅a
+* c = k'⋅b = k'⋅k⋅a
+* etc.
+
+n = a + b + c + d + e = a + k⋅a + k'⋅k⋅a + … = a × (1 + k + k'⋅k + …)
+
+Donc a divise toujours n. Pour que n soit premier il est nécessaire que a = 1.
+
+> réponse: a = 1
+
+## Mercredi 31 Mars
+
+Le triangle n'a pas de diagonale.
+
+Un polygone régulier à n côtés a n-3 diagonales par sommet.
+
+Soit en tout, en ne comptant pas 2 fois les mêmes diagonales : n (n - 3) / 2
+
+n (n - 3) / 2 = n ⇒ n - 3 = 2 ⇒ n = 5
+
+> réponse: le pentagone
