@@ -14,7 +14,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![89/261](https://img.shields.io/static/v1?label=solutions&message=89/261%20%2834%25%29&color=blueviolet)
+![91/261](https://img.shields.io/static/v1?label=solutions&message=91/261%20%2835%25%29&color=blueviolet)
 
 ### Janvier
 ![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)
@@ -38,13 +38,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [22](fevrier/README.md#lundi-22-février) | [23](fevrier/README.md#mardi-23-février) | [24](fevrier/README.md#mercredi-24-février) | [25](fevrier/README.md#jeudi-25-février) | [26](fevrier/README.md#vendredi-26-février) | *27* | *28* |
 
 ### Mars
-![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational)
+![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 | [ 1](mars/README.md#lundi-1-mars) [🖥](mars/01.py) | [ 2](mars/README.md#mardi-2-mars) | [ 3](mars/README.md#mercredi-3-mars) | [ 4](mars/README.md#jeudi-4-mars) | [ 5](mars/README.md#vendredi-5-mars) | *6* | *7* |
-| [ 8](mars/README.md#lundi-8-mars) | [ 9](mars/README.md#mardi-9-mars) | 10 | [11](mars/README.md#jeudi-11-mars) | [12](mars/README.md#vendredi-12-mars) | *13* | *14* |
-| [15](mars/README.md#lundi-15-mars) | [16](mars/README.md#mardi-16-mars) | [17](mars/README.md#mercredi-17-mars) | [18](mars/README.md#jeudi-18-mars) | 19 | *20* | *21* |
+| [ 8](mars/README.md#lundi-8-mars) | [ 9](mars/README.md#mardi-9-mars) | [10](mars/README.md#mercredi-10-mars) | [11](mars/README.md#jeudi-11-mars) | [12](mars/README.md#vendredi-12-mars) | *13* | *14* |
+| [15](mars/README.md#lundi-15-mars) | [16](mars/README.md#mardi-16-mars) | [17](mars/README.md#mercredi-17-mars) | [18](mars/README.md#jeudi-18-mars) | [19](mars/README.md#vendredi-19-mars) [🖥](mars/19.py) | *20* | *21* |
 | [22](mars/README.md#lundi-22-mars) | [23](mars/README.md#mardi-23-mars) | [24](mars/README.md#mercredi-24-mars) | [25](mars/README.md#jeudi-25-mars) | [26](mars/README.md#vendredi-26-mars) | *27* | *28* |
 | [29](mars/README.md#lundi-29-mars) | [30](mars/README.md#mardi-30-mars) | [31](mars/README.md#mercredi-31-mars) |    |    |    |    |
 

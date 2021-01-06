@@ -71,6 +71,24 @@ Résolution:
 
 > réponse: 1042
 
+## Mercredi 10 Mars
+
+![schéma](10.png)
+
+Traçons le parallèlogramme ABCG.
+
+On a CG=AB=DC. Donc le triangle GCD est isocèle en C.
+
+L'angle (GCD) vaut 90° - angle (BCD) = 90° - 30° = 60°. Ainsi, le triangle GCD est équilatéral et GD=AB=CG=DC.
+
+Soit H le milieu de GD. Thalès permet d'affirmer que EH // AG et EH = 1/2 AG puisque E défini comme le milieu de AD.
+
+Ainsi EH et FC sont // et de même longueur, le quadrilatère EHCF est un parallèlogramme.
+
+L'angle (GCH) vaut 30° (bissectrice), et par conséquence, l'angle (BCH) est égal à 60°.
+
+> réponse: 60°
+
 ## Jeudi 11 Mars
 
 On a le facteur 2^15: on considère les nombres pairs:
@@ -157,6 +175,22 @@ CE = CB - EB = √12 / 2 - 2 × sin 30° = √3 - 2 / 2
 La partie droite est donc: 4 × 2 × (√3 - 1) = 8 √3 - 8
 
 > réponse: 8 / 3 π + 8 √3 - 8 cm
+
+## Vendredi 19 Mars
+
+xy = 4(y² + x) ⇒ (y - 4) x = 4 y²
+Donc y - 4 divise 4 y²
+
+Or 4 y² = 4 (y - 4) (y + 4) + 64
+Donc y - 4 divise aussi 4 (y - 4) (y + 4) + 64 et par conséquent doit aussi diviser 64.
+
+Les diviseurs entiers signés de 64 sont: ±1 ±2 ±4 ±8 ±16 ±32 ±64
+
+Ce qui donne une valeur pour y. Celle de x s'en déduit et est unique. Il y a donc 14 couples possibles.
+
+[Script](19.py) Python de vérification (mais pas de résolution).
+
+> réponse: 14
 
 ## Lundi 22 Mars
 
@@ -245,7 +279,6 @@ Les habitants vont perdre: 66 - 6 × 10 = 6
 C'est la pièce qui a le plus de côtés puis de côtés obliques. Ce genre de côté sera plus qu'un côté droit.
 
 > réponse: E
-
 
 ## Mardi 30 Mars
 
