@@ -14,7 +14,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![91/261](https://img.shields.io/static/v1?label=solutions&message=91/261%20%2835%25%29&color=blueviolet)
+![94/261](https://img.shields.io/static/v1?label=solutions&message=94/261%20%2836%25%29&color=blueviolet)
 
 ### Janvier
 ![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)
@@ -49,13 +49,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [29](mars/README.md#lundi-29-mars) | [30](mars/README.md#mardi-30-mars) | [31](mars/README.md#mercredi-31-mars) |    |    |    |    |
 
 ### Avril
-![6/22](https://img.shields.io/static/v1?label=en%20cours&message=6/22&color=informational)
+![9/22](https://img.shields.io/static/v1?label=en%20cours&message=9/22&color=informational)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    | [ 1](avril/README.md#jeudi-1-avril) | [ 2](avril/README.md#vendredi-2-avril) | *3* | *4* |
-|  5 |  6 |  7 |  8 |  9 | *10* | *11* |
-| 12 | 13 | 14 | [15](avril/README.md#jeudi-15-avril) | 16 | *17* | *18* |
+|  5 |  6 |  7 | [ 8](avril/README.md#jeudi-8-avril) | [ 9](avril/README.md#vendredi-9-avril) [🖥](avril/09.py) | *10* | *11* |
+| [12](avril/README.md#lundi-12-avril) [🖥](avril/12.py) | 13 | 14 | [15](avril/README.md#jeudi-15-avril) | 16 | *17* | *18* |
 | 19 | 20 | 21 | 22 | 23 | *24* | *25* |
 | 26 | 27 | [28](avril/README.md#mercredi-28-avril) | 29 [🖥](avril/29.py) | [30](avril/README.md#vendredi-30-avril) |    |    |
 
