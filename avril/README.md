@@ -24,22 +24,25 @@ la fonction a deux minimas: x=0 et x=1, et un maximum en x=√2/2
 
 ## Lundi 5 Avril
 
-_coin supérieur gauche diagonale_ <br>
-coin supérieur gauche sur (1,1): 5 <br>
-coin supérieur gauche sur (2,2): 4 <br>
-... <br>
-coin supérieur gauche sur (5,5): 1 <br>
-⇒ 1 + 2 + 3 + 4 + 5 = 15
+_coin supérieur gauche diagonale_
 
-_coin supérieur sur matrice triangulaire supérieure_  <br>
-coin supérieur gauche sur (2,1): 4 ... (5,1): 1  ⇒ 1 + 2 + 3 + 4 = 10 <br>
-coin supérieur gauche sur (3,2): 3 ... (5,2): 1  ⇒ 1 + 2 + 3 = 6 <br>
-coin supérieur gauche sur (4,3): 2 ... (4,1): 1  ⇒ 1 + 2 = 3 <br>
-coin supérieur gauche sur (5,4):  1  ⇒ 1 <br>
-⇒ 10 + 6 + 3 + 1 = 20
+- coin supérieur gauche sur (1,1): 5
+- coin supérieur gauche sur (2,2): 4
+- …
+- coin supérieur gauche sur (5,5): 1
+- ⇒ 1 + 2 + 3 + 4 + 5 = 15
 
-_coin supérieur sur matrice triangulaire inférieure_  <br>
-idem supérieure: 20
+_coin supérieur sur matrice triangulaire supérieure_
+
+- coin supérieur gauche sur (2,1): 4 … (5,1): 1  ⇒ 1 + 2 + 3 + 4 = 10
+- coin supérieur gauche sur (3,2): 3 … (5,2): 1  ⇒ 1 + 2 + 3 = 6
+- coin supérieur gauche sur (4,3): 2 … (4,1): 1  ⇒ 1 + 2 = 3
+- coin supérieur gauche sur (5,4): 1             ⇒ 1
+- ⇒ 10 + 6 + 3 + 1 = 20
+
+_coin supérieur sur matrice triangulaire inférieure_
+
+- idem supérieure: 20
 
 total: 15 + 20 + 20 = 55
 
@@ -62,7 +65,7 @@ total: 15 + 20 + 20 = 55
 - par conséquent XY = AX = XC = AC / 3
 - OAB équilatéral
 - (AC) bissectrice, médiatrice, hauteur, médiane ⇒ OB ⊥ AC
-- donc X intersection des bissectrices etc. de OAB ⇒ XO = XB = XY = ...
+- donc X intersection des bissectrices etc. de OAB ⇒ XO = XB = XY = …
 - OG = √3/2 XY = OB / 2 = 1 / 2
 - d'où: XY = 1 / √3
 
@@ -114,7 +117,7 @@ Si x + y = -1:
 
 Donc les nombres qui conviennent sont les nombres non multiples de 3 et de 7, et non premiers, et pas 1.
 
-Il suffit de compter... le [programme](13.py) Python le fait pour nous.
+Il suffit de compter… le [programme](13.py) Python le fait pour nous.
 
 > réponse: 33
 
@@ -139,7 +142,7 @@ si tous les nombres sont pairs, ça fonctionne et donc réponse paire (puisque i
 pour réussir à placer des nombres il faut:
 
 ```
-... - impair - pair - impair - impair - pair - impair _ ...
+… - impair - pair - impair - impair - pair - impair _ …
 ```
 
 donc multiple de 3
@@ -217,28 +220,46 @@ D'où ab ≤ 2 et les deux solutions:
 
 _Si a + b = 2c_
 
-a ≤ c et b ≤ c, la seule solution est a = b = c
+Comme a ≤ c et b ≤ c, la seule solution est a = b = c
 
-La condition pas de diviseur premier en commun implique la seule solution possible dans ce cas est: a=b=c=1
-
+La condition pas de diviseur premier en commun implique le seul triplet possible dans ce cas: a=b=c=1
 
 > réponse: 3 triplets (1,1,1) (1,1,2) (1,2,3)
 
 
+## Vendredi 23 Avril
+
+Il faut choisir 3 points parmi X pour construire un triangle.
+
+_Violet_
+
+C(6,3) = 6! / ((6-3)! 3!) = 20
+
+Il faut en éliminer deux à cause des 3 points alignés
+
+_Orange_
+
+C(10,3) = 10! / (7! 3!) = 120
+
+Il faut éliminer les 3 points alignés et l'ensemble des 3 points de la colonne de droite: 5 + C(4,3) = 9
+
+Au total, on peut dessiner 20 - 2 + 120 - 9 = 129
+
+> réponse: 129
 
 ## Lundi 26 Avril
 
 _Mise en équation_
 
-bassine = 3 * grand_vase + petit_vase <br>
-bassine = 2 * grand_vase + 4 * petit_vase
+- bassine = 3 × grand_vase + petit_vase
+- bassine = 2 × grand_vase + 4 × petit_vase
 
 _Résolution_
 
 On cherche à exprimer grand_vase en fonction de petit_vase.
 
-3 × grand_vase + petit_vase = 2 × grand_vase + 4 × petit_vase <br>
-grand_vase  = 3 × petit_vase
+- 3 × grand_vase + petit_vase = 2 × grand_vase + 4 × petit_vase
+- grand_vase  = 3 × petit_vase
 
 On calcule bassine uniquement avec petit_vase.
 

@@ -14,7 +14,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![106/261](https://img.shields.io/static/v1?label=solutions&message=106/261%20%2841%25%29&color=blueviolet)
+![107/261](https://img.shields.io/static/v1?label=solutions&message=107/261%20%2841%25%29&color=blueviolet)
 
 ### Janvier
 [![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/README.md)
@@ -49,14 +49,14 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [29](mars/README.md#lundi-29-mars) | [30](mars/README.md#mardi-30-mars) | [31](mars/README.md#mercredi-31-mars) |    |    |    |    |
 
 ### Avril
-[![21/22](https://img.shields.io/static/v1?label=en%20cours&message=21/22&color=informational)](avril/README.md)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](avril/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    | [ 1](avril/README.md#jeudi-1-avril) | [ 2](avril/README.md#vendredi-2-avril) | *3* | *4* |
 | [ 5](avril/README.md#lundi-5-avril) | [ 6](avril/README.md#mardi-6-avril) | [ 7](avril/README.md#mercredi-7-avril) | [ 8](avril/README.md#jeudi-8-avril) | [ 9](avril/README.md#vendredi-9-avril) [🖥](avril/09.py) | *10* | *11* |
 | [12](avril/README.md#lundi-12-avril) [🖥](avril/12.py) | [13](avril/README.md#mardi-13-avril) [🖥](avril/13.py) | [14](avril/README.md#mercredi-14-avril) | [15](avril/README.md#jeudi-15-avril) | [16](avril/README.md#vendredi-16-avril) | *17* | *18* |
-| [19](avril/README.md#lundi-19-avril) | [20](avril/README.md#mardi-20-avril) | [21](avril/README.md#mercredi-21-avril) | [22](avril/README.md#jeudi-22-avril) | 23 | *24* | *25* |
+| [19](avril/README.md#lundi-19-avril) | [20](avril/README.md#mardi-20-avril) | [21](avril/README.md#mercredi-21-avril) | [22](avril/README.md#jeudi-22-avril) | [23](avril/README.md#vendredi-23-avril) | *24* | *25* |
 | [26](avril/README.md#lundi-26-avril) | [27](avril/README.md#mercredi-27-avril) | [28](avril/README.md#mercredi-28-avril) | [29](avril/README.md#jeudi-29-avril) [🖥](avril/29.py) | [30](avril/README.md#vendredi-30-avril) |    |    |
 
 ### Juin
