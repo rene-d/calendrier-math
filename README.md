@@ -2,7 +2,7 @@
 
 Solutions personnelles aux questions du Calendrier Mathématique 2021
 
-https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021
+[https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
 
 Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme. Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également utilisés.
 
