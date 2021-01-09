@@ -22,6 +22,52 @@ la fonction a deux minimas: x=0 et x=1, et un maximum en x=√2/2
 
 > réponse: 1
 
+## Lundi 5 Avril
+
+_coin supérieur gauche diagonale_ <br>
+coin supérieur gauche sur (1,1): 5 <br>
+coin supérieur gauche sur (2,2): 4 <br>
+... <br>
+coin supérieur gauche sur (5,5): 1 <br>
+⇒ 1 + 2 + 3 + 4 + 5 = 15
+
+_coin supérieur sur matrice triangulaire supérieure_  <br>
+coin supérieur gauche sur (2,1): 4 ... (5,1): 1  ⇒ 1 + 2 + 3 + 4 = 10 <br>
+coin supérieur gauche sur (3,2): 3 ... (5,2): 1  ⇒ 1 + 2 + 3 = 6 <br>
+coin supérieur gauche sur (4,3): 2 ... (4,1): 1  ⇒ 1 + 2 = 3 <br>
+coin supérieur gauche sur (5,4):  1  ⇒ 1 <br>
+⇒ 10 + 6 + 3 + 1 = 20
+
+_coin supérieur sur matrice triangulaire inférieure_  <br>
+idem supérieure: 20
+
+total: 15 + 20 + 20 = 55
+
+> réponse: 55
+
+## Mardi 6 Avril
+
+- petite cartouche -> 600 pages
+- 1 moyenne = 3 * petite cartouche = 1800
+- 2 grande = 3 moyenne = 5400
+
+> réponse: 2700
+
+## Mercredi 7 Avril
+
+- angle ABC = 120  (hexagone)
+- angle BAC = 30°  (triangle isocèle en A)
+- angle ABF = angle CBY = 30%, donc angle BXY = 60°, BXY isocèle équilatéral
+- BX = BY car BXY équilatéral
+- par conséquent XY = AX = XC = AC / 3
+- OAB équilatéral
+- (AC) bissectrice, médiatrice, hauteur, médiane ⇒ OB ⊥ AC
+- donc X intersection des bissectrices etc. de OAB ⇒ XO = XB = XY = ...
+- OG = √3/2 XY = OB / 2 = 1 / 2
+- d'où: XY = 1 / √3
+
+> réponse: 1 / √3 cm
+
 ## Jeudi 8 Avril
 
 On a une chance sur 40 de trouver une carte désignée.
@@ -62,6 +108,22 @@ Si x + y = -1:
 
 > réponse: 4
 
+## Mardi 13 Avril
+
+21 = 3 × 7
+
+Donc les nombres qui conviennent sont les nombres non multiples de 3 et de 7, et non premiers, et pas 1.
+
+Il suffit de compter... le [programme](13.py) Python le fait pour nous.
+
+> réponse: 33
+
+## Mercredi 14 Avril
+
+> réponse:
+
+![réponse](14.png)
+
 ## Jeudi 15 Avril
 
 ![schéma](15.png)
@@ -70,6 +132,136 @@ Si x + y = -1:
 
 > réponse: 2 √3 - 2
 
+## Vendredi 16 Avril
+
+si tous les nombres sont pairs, ça fonctionne et donc réponse paire (puisque impairs = 0).
+
+pour réussir à placer des nombres il faut:
+
+```
+... - impair - pair - impair - impair - pair - impair _ ...
+```
+
+donc multiple de 3
+
+> réponse: paire
+
+## Lundi 19 Avril
+
+1 + 2021³ = 1 + (2020 + 1)³ = 1 + 2020³ + 3 × 2020² + 3 × 2020 + 1 = 2020³ + 12247262 > 2020³ + 2³
+
+(a + 1)³ + (2021 - a)³ = (a³ + 3a² + 3a + 1) + (2021³ - 3 × 2021² × a + 3 × 2021 × a² - a³) = 1 + 2021³ + 3 × ∆
+
+avec ∆ = 2022 a²  - (2021² - 1) × a = 2022 a²  - 2020 × 2022 × a = 2022 a (a - 2020)
+
+Donc tant que  1 ≤ a < 2020, ∆ < 0 et 1 + 2021³ > (a + 1)³ + (2021 - a)³
+
+> réponse: 1 + 2021³
+
+
+## Mardi 20 Avril
+
+puissances de 2 qui sont ≥ 1+1 et ≤ 9+9: 2 4 8 16
+
+pour 2: 1+1 2+0 ⇒ 1+1=2 possibilités
+pour 4: 1+3 2+2 et 0+4 ⇒ 2+1+1=4 possibilités
+pour 8: 1+7 2+6 3+5 4+4 0+8 ⇒ 2+2+2+1+1=8 possibilités
+pour 16: 7+9 8+8 ⇒ 2+1=3 possibilités
+
+Ce qui donne 2 + 4 + 8 + 3 = 17 possibilités
+
+> réponse: 17
+
+Vérification avec Python:
+
+```python
+# comptage
+print(sum(1 for i in range(11, 100) if (i // 10 + i % 10) in [2, 4, 8, 16]))
+
+# affichage
+print(list(i for i in range(11, 100) if (i // 10 + i % 10) in [2, 4, 8, 16]))
+```
+
+## Mercredi 21 Avril
+
+![dessin](21.png)
+
+> réponse: 2
+
+## Jeudi 22 Avril
+
+0 < a ≤ b ≤ c (†)
+
+NB: les nombres doivent être non nuls pour être diviseurs.
+
+- a | b + c
+- b | c + a
+- c | a + b ⇒ c ≤ a + b = k × c , k∈𝐍 (‡)
+
+(†) ⇒ a ≤ b et b ≤ c ⇒ a + b ≤ 2c
+
+(‡) ⇒ k = 1 ou k = 2, donc a + b = c ou a + b = 2c
+
+_Si a + b = c_
+
+- a | a + b + c   (car ∃k ka=b+c ⇒ (k+1)a=a+b+c)
+- b | a + b + c
+- c | a + b + c
+
+Puisque a,b,c doivent être premiers entre eux: abc | a + b + c = 2c  <br>
+
+D'où ab ≤ 2 et les deux solutions:
+
+- a=1 b=1 c=2
+- a=1 b=2 c=3
+
+_Si a + b = 2c_
+
+a ≤ c et b ≤ c, la seule solution est a = b = c
+
+La condition pas de diviseur premier en commun implique la seule solution possible dans ce cas est: a=b=c=1
+
+
+> réponse: 3 triplets (1,1,1) (1,1,2) (1,2,3)
+
+
+
+## Lundi 26 Avril
+
+_Mise en équation_
+
+bassine = 3 * grand_vase + petit_vase <br>
+bassine = 2 * grand_vase + 4 * petit_vase
+
+_Résolution_
+
+On cherche à exprimer grand_vase en fonction de petit_vase.
+
+3 × grand_vase + petit_vase = 2 × grand_vase + 4 × petit_vase <br>
+grand_vase  = 3 × petit_vase
+
+On calcule bassine uniquement avec petit_vase.
+
+bassine = 2 × (3 × petit_vase) + 4 × petit_vase = 10 × petit_vase
+
+> réponse: 10
+
+## Mercredi 27 Avril
+
+![schema](27.png)
+
+aire AHC = CH * AH / 2 <br>
+aire ABC = CH * AB / 2
+
+r = AH / AB (calcul) <br>
+r = AC / 2AB (énoncé)
+
+d'où: AH = AC / 2
+
+ce qui signifie que le triangle AHC est rectangle et cos 𝜶 = AH / AC = 1 / 2, on conclut que 𝜶  = 60°
+
+> réponse: 60°
+
 ## Mercredi 28 Avril
 
 2021 = 43 × 47
@@ -77,6 +269,22 @@ Si x + y = -1:
 A moins de travailler en base 48, on ne peut trouver de chiffres décimaux de 1 à 9 qui décomposent 2021.
 
 > réponse: non
+
+## Jeudi 29 Avril
+
+
+a × (b + c) - b × (a + c) = a × c - b × c = c × (a - b)
+
+Les plus grands facteurs possibles sont 10 et 9, mais pas en même temps. 10 et 9-1=8 ou 9 et 10-1=9. Le reste donnera des nombres inférieurs.
+
+La valeur max  est atteinte pour a = 10 c = 9
+
+> réponse: 81
+
+```python
+>>> max(a*(b+c)-b*(a+c) for a in range(1,11) for b in range(1,11) for c in range(1,11) if a!=b and b!=c and c!=a)
+81
+```
 
 ## Vendredi 30 Avril
 

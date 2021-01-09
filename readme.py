@@ -50,19 +50,27 @@ def create_month(month, year=2021):
     month_lower = month_name.lower()
     month_norm = remove_accents(month_lower)
 
-    solutions = dict()
+    solutions_link = dict()
+    solutions_text = dict()
     solutions_md = Path(month_norm) / f"README.md"
     if solutions_md.exists():
         for line in solutions_md.open():
-            m = re.match(fr"^## (\d+) {month_name}$", line.strip())
+            line = line.strip()
+            m = re.match(fr"^## (\d+) {month_name}$", line)
             if m:
-                solutions[int(m[1])] = f"{solutions_md}#{m[1]}-{month_lower}"
+                current_day = int(m[1])
+                solutions_link[current_day] = f"{solutions_md}#{m[1]}-{month_lower}"
             else:
                 m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
                 if m:
-                    solutions[
-                        int(m[2])
+                    current_day = int(m[2])
+                    solutions_link[
+                        current_day
                     ] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
+
+            m = re.match(f"^> réponse: (.*)$", line)
+            if m:
+                solutions_text[current_day] = m[1]
 
     md = []
     md.append(f"### {month_name}")
@@ -101,20 +109,23 @@ def create_month(month, year=2021):
 
                 p = Path(month_norm) / f"{d.day:02d}.py"
 
-                if p.exists() and d.day in solutions:
-                    cols.append(f"[{d.day:2d}]({solutions[d.day]}) [🖥]({p})")
+                if p.exists() and d.day in solutions_link:
+                    cols.append(f"[{d.day:2d}]({solutions_link[d.day]}) [🖥]({p})")
                     done_month += 1
 
                 elif p.exists():
                     cols.append(f"{d.day:2d} [🖥]({p})")
                     done_month += 1
 
-                elif d.day in solutions:
-                    cols.append(f"[{d.day:2d}]({solutions[d.day]})")
+                elif d.day in solutions_link:
+                    cols.append(f"[{d.day:2d}]({solutions_link[d.day]})")
                     done_month += 1
 
                 else:
                     cols.append(f"{d.day:2d}")
+
+                # if d.day in solutions_text:
+                #     cols[-1] += "<br>" + solutions_text[d.day]
 
             d += timedelta(days=1)
 
@@ -125,7 +136,7 @@ def create_month(month, year=2021):
             url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success"
         else:
             url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational"
-        md.insert(1, f"![{done_month}/{total_month}]({url})")
+        md.insert(1, f"[![{done_month}/{total_month}]({url})]({month_norm}/README.md)")
 
     else:
         md[

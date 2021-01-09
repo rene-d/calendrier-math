@@ -5,7 +5,9 @@
 
 Cf. [programme](01.py) Python.
 
-> réponse: 9 nombres: [11, 13, 17, 31, 37, 71, 73, 79, 97]
+On trouve 9 nombres en tout: [11, 13, 17, 31, 37, 71, 73, 79, 97]
+
+> réponse: 9
 
 ## Lundi 4 Janvier
 
@@ -17,11 +19,13 @@ _Mise en équation_
 
 Calcul de la solution avec un [notebook](https://www.wolframalpha.com/input/?i=a%3D2+b%2Ca%3Dc%2B5%2Ca%2Bb%2Bc%3D70) WolframAlpha.
 
-Ou poser:
+Ou, à la main:
 
 martina + (martina / 2) + (martina - 5) = 70
 
-> réponse: martina = 30, roger = 15, raphaël = 25
+D'où: martina = 30, roger = 15, raphaël = 25
+
+> réponse: 30
 
 ## Mardi 5 Janvier
 
@@ -70,7 +74,6 @@ Le grand-père peut donner un des cinq fruits ou rien, puisqu'il manque un fruit
 Nombre de permutations: 6! = 6×5×4×3×2×1 = 720
 
 > réponse: 720
-
 
 ## Vendredi 8 Janvier
 
