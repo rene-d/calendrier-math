@@ -109,9 +109,9 @@ Donc 2 valeurs conviennent: n = 1 et n = 6
 
 BFE = BCE = 90° (par construction)
 
-BCEF est un quadrilatère cyclique: il existe un point G centre du cercle inscrit
+BCEF est un [quadrilatère cyclique](https://fr.wikipedia.org/wiki/Quadrilatère_inscriptible): il existe un point G centre du cercle inscrit
 
-théorème des angles aux centres: deux angles qui interceptent le même arc sont égaux. <br>
+[théorème des angles aux centres](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre): deux angles qui interceptent le même arc sont égaux. <br>
 D'où: BEC = BFC
 
 angle FBC = 90° - FBA = BAF car BAF triangle rectangle <br>
@@ -211,7 +211,7 @@ AC = √(3² + 4²) = 5
 
 aire ABC = 3 × 4 / 2 = 6 cm²
 
-formule de Héron: aire ACD : √(p(p-a)(p-b)(p-c)) avec p = (a+b+c)/2
+[Formule de Héron](https://fr.wikipedia.org/wiki/Formule_de_Héron): aire ACD : √(p(p-a)(p-b)(p-c)) avec p = (a+b+c)/2
 
 p = (5 + 5 + 6) / 2 = 8
 

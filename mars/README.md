@@ -224,7 +224,7 @@ p = 1 - (1 - 1 / 2) × (1 - 1 / 3) × ... × (1 - 1 / 12) <br>
 
 Soit v la longueur de la grande diagonale.
 
-Formule de Héron: <br>
+[Formule de Héron](https://fr.wikipedia.org/wiki/Formule_de_Héron): <br>
   S = √(p(p - a)(p - b)(p - c))
 
 avec p = (a + b + c) / 2

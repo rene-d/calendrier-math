@@ -50,8 +50,8 @@ total: 15 + 20 + 20 = 55
 
 ## Mardi 6 Avril
 
-- petite cartouche -> 600 pages
-- 1 moyenne = 3 * petite cartouche = 1800
+- petite cartouche → 600 pages
+- 1 moyenne = 3 × petite cartouche = 1800
 - 2 grande = 3 moyenne = 5400
 
 > réponse: 2700
@@ -142,7 +142,7 @@ si tous les nombres sont pairs, ça fonctionne et donc réponse paire (puisque i
 pour réussir à placer des nombres il faut:
 
 ```
-… - impair - pair - impair - impair - pair - impair _ …
+… - impair - pair - impair - impair - pair - impair - …
 ```
 
 donc multiple de 3
@@ -160,7 +160,6 @@ avec ∆ = 2022 a²  - (2021² - 1) × a = 2022 a²  - 2020 × 2022 × a = 2022 
 Donc tant que  1 ≤ a < 2020, ∆ < 0 et 1 + 2021³ > (a + 1)³ + (2021 - a)³
 
 > réponse: 1 + 2021³
-
 
 ## Mardi 20 Avril
 
@@ -298,14 +297,14 @@ a × (b + c) - b × (a + c) = a × c - b × c = c × (a - b)
 
 Les plus grands facteurs possibles sont 10 et 9, mais pas en même temps. 10 et 9-1=8 ou 9 et 10-1=9. Le reste donnera des nombres inférieurs.
 
-La valeur max  est atteinte pour a = 10 c = 9
-
-> réponse: 81
+La valeur max est atteinte pour a = 10 c = 9
 
 ```python
 >>> max(a*(b+c)-b*(a+c) for a in range(1,11) for b in range(1,11) for c in range(1,11) if a!=b and b!=c and c!=a)
 81
 ```
+
+> réponse: 81
 
 ## Vendredi 30 Avril
 
