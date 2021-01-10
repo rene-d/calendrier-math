@@ -195,11 +195,11 @@ print(list(i for i in range(11, 100) if (i // 10 + i % 10) in [2, 4, 8, 16]))
 
 0 < a ≤ b ≤ c (†)
 
-NB: les nombres doivent être non nuls pour être diviseurs.
+NB: les nombres doivent être non nuls pour être ∣urs.
 
-- a | b + c
-- b | c + a
-- c | a + b ⇒ c ≤ a + b = k × c , k∈𝐍 (‡)
+- a ∣ b + c
+- b ∣ c + a
+- c ∣ a + b ⇒ c ≤ a + b = k × c , k∈𝐍 (‡)
 
 (†) ⇒ a ≤ b et b ≤ c ⇒ a + b ≤ 2c
 
@@ -207,11 +207,11 @@ NB: les nombres doivent être non nuls pour être diviseurs.
 
 _Si a + b = c_
 
-- a | a + b + c   (car ∃k ka=b+c ⇒ (k+1)a=a+b+c)
-- b | a + b + c
-- c | a + b + c
+- a ∣ a + b + c   (car ∃k ka=b+c ⇒ (k+1)a=a+b+c)
+- b ∣ a + b + c
+- c ∣ a + b + c
 
-Puisque a,b,c doivent être premiers entre eux: abc | a + b + c = 2c  <br>
+Puisque a,b,c doivent être premiers entre eux: abc ∣ a + b + c = 2c  <br>
 
 D'où ab ≤ 2 et les deux solutions:
 
