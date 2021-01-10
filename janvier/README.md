@@ -150,7 +150,7 @@ Cf. [programme](15.py) en Python.
 
 Selon les cas, m × n a 25, 45, 65 ou 165 diviseurs.
 
-> résultat: 25
+> réponse: 25
 
 ## Mardi 19 Janvier
 
@@ -189,7 +189,7 @@ ou bien:
 on trouve M = 20
 ```
 
-> résultat: 20 kg
+> réponse: 20 kg
 
 ## Jeudi 21 Janvier
 

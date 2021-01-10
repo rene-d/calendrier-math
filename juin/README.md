@@ -169,7 +169,7 @@ Antoine peut mentir et Xavier dire la vérité. Aucune des deux déclarations n'
 -  Antoine: « Quand je dis la vérité, toi aussi ». Si Antoine ment, Xavier peut faire ce qu'il veut.
 -  Xavier: « Quand je ments, toi aussi ». Si Xavier dit la vérité, Antoine peut mentir.
 
-> réponse: oui
+> réponse: oui ⚠️
 
 PS: je trouve le problème mal formulé... la solution officielle sous-entend qu'il y a bijection entre les dires d'Antoine et Xavier alors que la formulation est plus proche d'une injection.
 
@@ -229,9 +229,9 @@ En additionnant les 7 égalités, on obtient:
 
 Le terme de droite est la somme des angles de l'heptagone inscrit, qui vaut 180 × (n - 2) = 900°
 
-Donc, ∑ = 180 × 7 - 900 = 1260 - 900 = 360°
+Donc, 2 × ∑ = 180 × 7 - 900 = 1260 - 900 = 360°
 
-> réponse: 360°
+> réponse: 180°
 
 ## Mardi 29 Juin
 

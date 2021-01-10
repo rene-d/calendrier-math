@@ -82,6 +82,21 @@ Une seule racine: a = 1
 
 > réponse: 1
 
+## Mardi 11 Mai
+
+sommets violets (10 en tout):
+
+- 4+1 de 2x2
+- 4 de 4x2
+- 1 de 4x4
+
+sommets bleus (6 en tout):
+
+- 4 de 2x2
+- 2 de 4x2
+
+> réponse: 16
+
 ## Mercredi 12 Mai
 
 Si (3n + 4) / (2n - 1) est entier, alors (3n + 4) / (2n - 1) - 2 aussi.
@@ -157,6 +172,27 @@ il y a 6³ = 216 jets possibles. La probabilité de faire plus de quinze est 10 
 
 > réponse: 5 / 108
 
+## Mardi 18 Mai
+
+- 23¹ se termine par 3
+- 23² se termine par 9
+- 23³ se termine par 7
+- 23⁴ se termine par 1
+- et ça recommence
+
+3 + 9 + 7 + 1 = 20 donc la somme se termine par 0 toutes les quatre puissances.
+
+Il y a 2021 termes, soit 505 × 4 + 1. La somme va se terminer par le chiffre de 23²⁰²¹, soit 3
+
+```python
+>>> sum(23 ** i for i in range(1, 2022)) % 10
+3
+```
+
+> réponse: 3
+
+
+
 ## Mercredi 19 Mai
 
 aire trapèze : (L + l) × h / 2
@@ -189,7 +225,43 @@ X-X-X
 
 > réponse: 9
 
-## Mecredi 26 Mai
+## Lundi 24 Mai
+
+On ne peut pas atteindre les nombres 1 2 3 4 6 8 9 11 13 16 18 23:
+
+- pour atteindre 18 il faut 0 1 ou 2 pièces de 7, aucun ne convient: on ne peut pas compléter avec un multiple de 5.
+- pour atteindre 23 il faut 0 à 3 pièces de 7, aucun ne convient: on ne peut pas compléter avec un multiple de 5.
+
+On peut faire 5 7 10 12 14 15 17 19 20 21 22 24 ...
+
+Si on peut faire 24 à 30, on pourra tout faire.
+- 24 = 2 × 7 + 2 × 5
+- 25 = 5 × 5
+- 26 = 3 × 7 + 5
+- 27 = 7 + 4 × 5
+- 28 = 4 × 7
+- 29 = 24 + 5
+- 30 = 6 × 5 bingo
+
+Pour faire un nombre supérieur ou égal à 31, il faut retirer 5 ou 7 jusqu'à tomber entre 24 et 30, qu'on peut obtenir.
+
+> réponse: 23
+
+## Mardi 25 Mai
+
+![schéma](25.png)
+
+Les triangles ADB BCD et ABC sont semblables (mêmes angles). Donc:
+
+DA / AB = DB / BC = AB / AC
+
+D'où: DA / AF = DB / BH. En ajoutant que les angles DBH et DAF sont égaux, on peut affirmer que les triangles DBH et DAF sont semblables.
+
+Par conséquent, ADF = BDH, et comme ADB = 90°, on a FDH = 90°
+
+> réponse: 90°
+
+## Mercredi 26 Mai
 
 Edouard effectue 40 km. Pour les faire en 24 min, il doit rouler à:
 
@@ -202,6 +274,16 @@ Edouard effectue 40 km. Pour les faire en 24 min, il doit rouler à:
 Il est possible que les 4 conjoints 1 arrivent en premier. La cinquième personne formera forcément un couple.
 
 > réponse: 5
+
+## Vendredi 28 Mai
+
+810 = 2 × 5 × 3 × 3 × 3 × 3
+
+pour que M soit un cube et soit divisible par M, il faut qu'il ait en facteur (2 × 5 × 3 × 3)³. Ainsi
+
+M = (2 × 5 × 3 × 3)³ / 810 = 900
+
+> réponse: 900
 
 ## Lundi 31 Mai
 

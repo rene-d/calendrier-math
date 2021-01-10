@@ -163,25 +163,26 @@ Donc tant que  1 ≤ a < 2020, ∆ < 0 et 1 + 2021³ > (a + 1)³ + (2021 - a)³
 
 ## Mardi 20 Avril
 
-puissances de 2 qui sont ≥ 1+1 et ≤ 9+9: 2 4 8 16
+puissances de 2 qui sont ≥ 1+0 et ≤ 9+9: 1 2 4 8 16
 
+pour 1: 1+0 ⇒ 1 possibilité
 pour 2: 1+1 2+0 ⇒ 1+1=2 possibilités
 pour 4: 1+3 2+2 et 0+4 ⇒ 2+1+1=4 possibilités
 pour 8: 1+7 2+6 3+5 4+4 0+8 ⇒ 2+2+2+1+1=8 possibilités
 pour 16: 7+9 8+8 ⇒ 2+1=3 possibilités
 
-Ce qui donne 2 + 4 + 8 + 3 = 17 possibilités
+Ce qui donne 1 + 2 + 4 + 8 + 3 = 18 possibilités
 
-> réponse: 17
+> réponse: 18
 
 Vérification avec Python:
 
 ```python
 # comptage
-print(sum(1 for i in range(11, 100) if (i // 10 + i % 10) in [2, 4, 8, 16]))
+print(sum(1 for i in range(10, 100) if (i // 10 + i % 10) in [1, 2, 4, 8, 16]))
 
 # affichage
-print(list(i for i in range(11, 100) if (i // 10 + i % 10) in [2, 4, 8, 16]))
+print(list(i for i in range(10, 100) if (i // 10 + i % 10) in [1, 2, 4, 8, 16]))
 ```
 
 ## Mercredi 21 Avril
@@ -328,4 +329,4 @@ Le polynome est le produit de 5 nombres consécutifs, 120 = 5! est le produit de
 
 Si -2 ≤ n ≤ 2, alors le polynome est nul, il est aussi divisible par 120.
 
-> réponse : ∀ n ∈ 𝐙
+> réponse: ∀ n ∈ 𝐙

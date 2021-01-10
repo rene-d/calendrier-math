@@ -14,7 +14,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![125/261](https://img.shields.io/static/v1?label=solutions&message=125/261%20%2848%25%29&color=blueviolet)
+![130/261](https://img.shields.io/static/v1?label=solutions&message=130/261%20%2850%25%29&color=blueviolet)
 
 ### Janvier
 [![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/)
@@ -60,15 +60,15 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [26](avril/README.md#lundi-26-avril) | [27](avril/README.md#mercredi-27-avril) | [28](avril/README.md#mercredi-28-avril) | [29](avril/README.md#jeudi-29-avril) [🖥](avril/29.py) | [30](avril/README.md#vendredi-30-avril) |    |    |
 
 ### Mai
-[![16/21](https://img.shields.io/static/v1?label=en%20cours&message=16/21&color=informational)](mai/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    |    | *1* | *2* |
 | [ 3](mai/README.md#lundi-3-mai) | [ 4](mai/README.md#mardi-4-mai) | [ 5](mai/README.md#mercredi-5-mai) | [ 6](mai/README.md#jeudi-6-mai) | [ 7](mai/README.md#vendredi-7-mai) | *8* | *9* |
-| [10](mai/README.md#lundi-10-mai) | 11 | [12](mai/README.md#mercredi-12-mai) | [13](mai/README.md#jeudi-13-mai) | [14](mai/README.md#vendredi-14-mai) | *15* | *16* |
-| [17](mai/README.md#lundi-17-mai) | 18 | [19](mai/README.md#mercredi-19-mai) | [20](mai/README.md#jeudi-20-mai) | [21](mai/README.md#vendredi-21-mai) | *22* | *23* |
-| 24 | 25 | [26](mai/README.md#mecredi-26-mai) | [27](mai/README.md#jeudi-27-mai) | 28 | *29* | *30* |
+| [10](mai/README.md#lundi-10-mai) | [11](mai/README.md#mardi-11-mai) | [12](mai/README.md#mercredi-12-mai) | [13](mai/README.md#jeudi-13-mai) | [14](mai/README.md#vendredi-14-mai) | *15* | *16* |
+| [17](mai/README.md#lundi-17-mai) | [18](mai/README.md#mardi-18-mai) | [19](mai/README.md#mercredi-19-mai) | [20](mai/README.md#jeudi-20-mai) | [21](mai/README.md#vendredi-21-mai) | *22* | *23* |
+| [24](mai/README.md#lundi-24-mai) | [25](mai/README.md#mardi-25-mai) | [26](mai/README.md#mercredi-26-mai) | [27](mai/README.md#jeudi-27-mai) | [28](mai/README.md#vendredi-28-mai) | *29* | *30* |
 | [31](mai/README.md#lundi-31-mai) |    |    |    |    |    |    |
 
 ### Juin
