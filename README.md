@@ -17,7 +17,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 ![125/261](https://img.shields.io/static/v1?label=solutions&message=125/261%20%2848%25%29&color=blueviolet)
 
 ### Janvier
-[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/README.md)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/README.md#)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
