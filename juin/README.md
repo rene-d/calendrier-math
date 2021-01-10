@@ -20,7 +20,6 @@ _Vérification en Python_
 1
 ```
 
-
 > réponse: 2023
 
 ## Mercredi 2 Juin
@@ -91,9 +90,23 @@ Cf. [programme](09.py) en Python.
 
 > réponse: 16
 
+## Jeudi 10 Juin
 
-## Jeudi 10 Juin TODO
+Notons 𝜶, 𝜷, 𝜸, 𝜹 les angles en A, B, C, D. L'énoncé se traduit par les inéquations suivantes:
 
+- 𝜶 + 𝜷 + 𝜸 < 270
+- 𝜷 + 𝜸 + 𝜹 < 270
+- 𝜸 + 𝜹 + 𝜶 < 270
+- 𝜹 + 𝜶 + 𝜷 < 270
+
+Soit:
+
+- 3 × (𝜶 + 𝜷 + 𝜸 + 𝜹) < 4 × 270
+- 𝜶 + 𝜷 + 𝜸 + 𝜹 < 360
+
+Or, on doit avoir 𝜶 + 𝜷 + 𝜸 + 𝜹 = 360° dans un quadrilatère.
+
+> réponse: non
 
 ## Vendredi 11 Juin
 
@@ -183,7 +196,8 @@ Cf. [programme](23.py) en Python.
 
 ![graphe](24.png)
 
-solve avec WolframAlpha de l'équation: x^4-2x^3-7x^2-2x+1=0
+Résolution avec [WolframAlpha](http://wolframalpha.com) de l'équation: x^4-2x^3-7x^2-2x+1=0
+
 - x1 = 1/2 (1 - √10 - √(7 - 2√10))
 - x2 = 1/2 (1 - √10 + √(7 - 2√10))
 - x3 = 1/2 (1 + √10 - √(7 + 2√10))
@@ -199,8 +213,25 @@ Cf. [programme](25.py) en Python.
 
 > réponse: (1, 2, 3, 4, 5)   (parmi plein d'autres)
 
-## Lundi 28 Juin TODO
+## Lundi 28 Juin
 
+![schéma](28.png)
+
+On considère les triangles formés par deux branches "opposées":
+
+- D + E + H = 180  (somme angles triangle = 180°)
+- D + C + J = 180
+- etc.
+
+En additionnant les 7 égalités, on obtient:
+
+- 2 × (A + B + C + D + E + F + G) = 180 × 7 -  (H + J + K + L + M + N + O)
+
+Le terme de droite est la somme des angles de l'heptagone inscrit, qui vaut 180 × (n - 2) = 900°
+
+Donc, ∑ = 180 × 7 - 900 = 1260 - 900 = 360°
+
+> réponse: 360°
 
 ## Mardi 29 Juin
 
@@ -219,7 +250,7 @@ b / a = (k - 5) / (8 - k)
 
 k = 6 ou 7  (c'est un entier, 5 et 8 sont exclus, <5 ou >8 donne un ratio négatif, ce qui est aussi exclu)
 
-d'où b / a = 1/2 ou 2
+D'où: b / a = 1/2 ou 2
 ```
 
 > réponse: 1/2 ou 2

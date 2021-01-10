@@ -1,8 +1,6 @@
 # Calendrier Mathématique 2021
 
-Solutions personnelles aux questions du Calendrier Mathématique 2021
-
-[https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
+Solutions personnelles aux questions du [Calendrier Mathématique 2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
 
 Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme. Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également utilisés.
 
@@ -14,7 +12,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![107/261](https://img.shields.io/static/v1?label=solutions&message=107/261%20%2841%25%29&color=blueviolet)
+![109/261](https://img.shields.io/static/v1?label=solutions&message=109/261%20%2842%25%29&color=blueviolet)
 
 ### Janvier
 [![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/README.md)
@@ -60,15 +58,15 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [26](avril/README.md#lundi-26-avril) | [27](avril/README.md#mercredi-27-avril) | [28](avril/README.md#mercredi-28-avril) | [29](avril/README.md#jeudi-29-avril) [🖥](avril/29.py) | [30](avril/README.md#vendredi-30-avril) |    |    |
 
 ### Juin
-[![20/22](https://img.shields.io/static/v1?label=en%20cours&message=20/22&color=informational)](juin/README.md)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](juin/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [ 1](juin/README.md#mardi-1-juin) | [ 2](juin/README.md#mercredi-2-juin) | [ 3](juin/README.md#jeudi-3-juin) | [ 4](juin/README.md#vendredi-4-juin) | *5* | *6* |
-| [ 7](juin/README.md#lundi-7-juin) [🖥](juin/07.py) | [ 8](juin/README.md#mardi-8-juin) | [ 9](juin/README.md#mercredi-9-juin) [🖥](juin/09.py) | 10 | [11](juin/README.md#vendredi-11-juin) [🖥](juin/11.py) | *12* | *13* |
+| [ 7](juin/README.md#lundi-7-juin) [🖥](juin/07.py) | [ 8](juin/README.md#mardi-8-juin) | [ 9](juin/README.md#mercredi-9-juin) [🖥](juin/09.py) | [10](juin/README.md#jeudi-10-juin) | [11](juin/README.md#vendredi-11-juin) [🖥](juin/11.py) | *12* | *13* |
 | [14](juin/README.md#lundi-14-juin) | [15](juin/README.md#mardi-15-juin) [🖥](juin/15.py) | [16](juin/README.md#mercredi-16-juin) | [17](juin/README.md#jeudi-17-juin) [🖥](juin/17.py) | [18](juin/README.md#vendredi-18-juin) | *19* | *20* |
 | [21](juin/README.md#lundi-21-juin) | [22](juin/README.md#mardi-22-juin) | [23](juin/README.md#mercredi-23-juin) [🖥](juin/23.py) | [24](juin/README.md#jeudi-24-juin) | [25](juin/README.md#vendredi-25-juin) [🖥](juin/25.py) | *26* | *27* |
-| 28 | [29](juin/README.md#mardi-29-juin) | [30](juin/README.md#mercredi-30-juin) |    |    |    |    |
+| [28](juin/README.md#lundi-28-juin) | [29](juin/README.md#mardi-29-juin) | [30](juin/README.md#mercredi-30-juin) |    |    |    |    |
 
 ### Octobre
 [![1/21](https://img.shields.io/static/v1?label=en%20cours&message=1/21&color=informational)](octobre/README.md)

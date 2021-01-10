@@ -4,25 +4,37 @@
 
 import itertools
 
+solution = None
+nb_ok = 0
+nb_ko = 0
+
 # pour toutes les permutations des nombres de 1 à 5 (i.e. dispositions sur le cercle)
-for nb in itertools.permutations(range(1, 6)):
+for perm in itertools.permutations(range(1, 6)):
+
+    # ensemble des nombres qu'on peut obtenir
     m = set()
 
     # commence par chacun des nombres
-    for i in range(5):
+    for start in range(5):
         # fait la somme de 1 à 5 nombres consécutifs
-        for k in range(5):
-            s = sum(nb[(j + i) % 5] for j in range(k + 1))
+        for count in range(1, 6):
+            # le modulo permet de boucler sur le cercle
+            s = sum(perm[i % 5] for i in range(start, start + count))
 
             # ajoute dans la somme dans la liste de vérification
             m.add(s)
 
     if len(m) == 15 and m == set(range(1, 16)):
-        print("ok", nb, m)
-        break
+        nb_ok += 1
+        # print("ok", perm, m)
+        if not solution:
+            solution = perm
     else:
-        print("ko", nb, m)
+        nb_ko += 1
+        # print("ko", nb, m)
 
-print("réponse:", nb)
+print("ok/ko:", nb_ok, nb_ko)
+
+print("réponse:", perm)
 
 # il y a en fait 100 réponses ok sur les 5!=120 dispositions possibles
