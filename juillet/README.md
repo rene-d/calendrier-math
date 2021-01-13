@@ -255,13 +255,13 @@ Donc f(12) = 2¹³ - 1 = 8192 - 1 = 8191
 
 ## Vendredi 30 Juillet
 
-On place les moutons:  ⃞ M  ⃞ M  ⃞ M  ⃞ M  ⃞ M  ⃞
+On place les moutons: ▢ M ▢ M ▢ M ▢ M ▢ M ▢
 
-Il y a 6 places libres  ⃞ pour placer les 4 chiens.
+Il y a 6 places libres ▢ pour placer les 4 chiens.
 
 - Nombre de permutations des moutons: 5! = 120
 - Nombre de permutations des chiens: 4! = 24
-- Nombre de placements des chiens dans  ⃞: C(6, 4) = (6! / (4! × (6 - 4!)) = 15
+- Nombre de placements des chiens dans ▢: C(6, 4) = (6! / (4! × (6 - 4!)) = 15
 - Donc: N = 120 × 24 × 15 = 43200
 
 Vérification en Python:
