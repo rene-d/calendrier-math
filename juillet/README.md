@@ -90,7 +90,7 @@ En minutes: 60 * 24 / 5 = 288, soit 240 + 48 ou encore 4h48
 
 > réponse: 4h48
 
-## Mardi 13 juillet
+## Mardi 13 Juillet
 
 11^x se termine toujours par 1 et 5^y toujours par 5. Donc la différence minimale est au moins 4.
 
@@ -196,3 +196,79 @@ C'est la deuxième multiplication qui correspond aux étoiles.
 On doit avoir n × 31 + r = 500. r est donc le reste de la division entière de 500 par 31, soit 4.
 
 > réponse: 4
+
+## Lundi 26 Juillet
+
+![schéma](26.png)
+
+On considère les hexagones ayant un côté supérieur sur la ligne du haut, le côté inférieur sur la ligne de bas, et les autres côtés sur les lignes brisées reliant le haut du bas.
+
+Hexagones ayant le sommet haut gauche sur le point:
+
+- A: 5
+- B: 2 × 3
+- C: 2 × 1
+
+> réponse: 12 hexagones
+
+## Mardi 27 Juillet
+
+![schéma](27.png)
+
+AD / EA = tan 30°
+AD / FA = tan 60°
+
+EA - FA = AD / tan 30° - AD / tan 60° = AD × (√3 - 1 / 3) = AD × 2 V3 / 3
+
+aire DEF = AD × EF / 2 = AD² × √3 / 3
+
+aire ABCD = DC × BC = 2 × BC × BC = 2 × AD²
+
+rapport aire DEF / aire ABCD : √3 / 6
+
+> réponse: √3 / 6
+
+## Mercredi 28 Juillet
+
+C'est 2021 répété 2020 / 4 = 505 fois.
+
+La somme des chiffres est donc 5 × 505 = 2525
+
+Il faut enlever 504, soit au mieux 252 chiffres 2 (puisqu'il n'y a que des 0, 1, 2).
+
+> réponse: 252
+
+## Jeudi 29 Juillet
+
+- x₀ = 1
+- xₙ₊₁ = xₙ × 2 + 1
+
+On obtient successivement les nombres 1, 3, 7, 15, etc.
+
+Montron que f(n) = 2ⁿ⁺¹ - 1.
+
+f(n + 1) = 2 × f(n) + 1 = 2 × (2ⁿ⁺¹ - 1) + 1 = 2ⁿ⁺² - 1.
+
+Donc f(12) = 2¹³ - 1 = 8192 - 1 = 8191
+
+> réponse: 8191
+
+## Vendredi 30 Juillet
+
+On place les moutons:  ⃞ M  ⃞ M  ⃞ M  ⃞ M  ⃞ M  ⃞
+
+Il y a 6 places libres  ⃞ pour placer les 4 chiens.
+
+- Nombre de permutations des moutons: 5! = 120
+- Nombre de permutations des chiens: 4! = 24
+- Nombre de placements des chiens dans  ⃞: C(6, 4) = (6! / (4! × (6 - 4!)) = 15
+- Donc: N = 120 × 24 × 15 = 43200
+
+Vérification en Python:
+
+```python
+import itertools
+print(sum(1 for i in itertools.permutations("CCCCMMMMM") if "".join(i).find("CC") == -1))
+```
+
+> réponse: 43200
