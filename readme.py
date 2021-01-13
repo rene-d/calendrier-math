@@ -104,7 +104,7 @@ def create_month(month, year=2021):
 
             elif d.weekday() >= 5:
                 # samedi dimanche
-                cols.append(f"*{d.day}*")
+                cols.append(f"*{d.day:02d}*")
 
             else:
                 total_month += 1
