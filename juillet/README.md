@@ -268,7 +268,7 @@ Vérification en Python:
 
 ```python
 import itertools
-print(sum(1 for i in itertools.permutations("CCCCMMMMM") if "".join(i).find("CC") == -1))
+sum(1 for i in itertools.permutations("CCCCMMMMM") if "".join(i).find("CC") == -1)
 ```
 
 > réponse: 43200
