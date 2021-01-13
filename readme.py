@@ -112,20 +112,19 @@ def create_month(month, year=2021):
                 p = Path(month_norm) / f"{d.day:02d}.py"
 
                 if p.exists() and d.day in solutions_link and SHOW_SCREEN:
-                    cols.append(f"[{d.day:2d}]({solutions_link[d.day]}) [🖥]({p})")
+                    cols.append(f"[{d.day:02d}]({solutions_link[d.day]}) [🖥]({p})")
                     done_month += 1
 
                 elif d.day in solutions_link:
-                    cols.append(f"[{d.day:2d}]({solutions_link[d.day]})")
+                    cols.append(f"[{d.day:02d}]({solutions_link[d.day]})")
                     done_month += 1
 
                 elif p.exists():
-                    cols.append(f"{d.day:2d} [🖥]({p})")
+                    cols.append(f"{d.day:02d} [🖥]({p})")
                     done_month += 1
 
-
                 else:
-                    cols.append(f"{d.day:2d}")
+                    cols.append(f"{d.day:02d}")
 
                 if SHOW_SOLUTION:
                     if d.day in solutions_text:
@@ -141,6 +140,7 @@ def create_month(month, year=2021):
         else:
             url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational"
         md.insert(1, f"[![{done_month}/{total_month}]({url})]({month_norm}/)")
+        md.insert(1, "")
 
     else:
         md[

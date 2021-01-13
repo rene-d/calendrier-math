@@ -24,7 +24,7 @@ la fonction a deux minimas: x=0 et x=1, et un maximum en x=√2/2
 
 ## Lundi 5 Avril
 
-_coin supérieur gauche diagonale_
+### coin supérieur gauche diagonale
 
 - coin supérieur gauche sur (1,1): 5
 - coin supérieur gauche sur (2,2): 4
@@ -32,7 +32,7 @@ _coin supérieur gauche diagonale_
 - coin supérieur gauche sur (5,5): 1
 - ⇒ 1 + 2 + 3 + 4 + 5 = 15
 
-_coin supérieur sur matrice triangulaire supérieure_
+### coin supérieur sur matrice triangulaire supérieure
 
 - coin supérieur gauche sur (2,1): 4 … (5,1): 1  ⇒ 1 + 2 + 3 + 4 = 10
 - coin supérieur gauche sur (3,2): 3 … (5,2): 1  ⇒ 1 + 2 + 3 = 6
@@ -40,7 +40,7 @@ _coin supérieur sur matrice triangulaire supérieure_
 - coin supérieur gauche sur (5,4): 1             ⇒ 1
 - ⇒ 10 + 6 + 3 + 1 = 20
 
-_coin supérieur sur matrice triangulaire inférieure_
+### coin supérieur sur matrice triangulaire inférieure
 
 - idem supérieure: 20
 
@@ -205,20 +205,20 @@ NB: les nombres doivent être non nuls pour être ∣urs.
 
 (‡) ⇒ k = 1 ou k = 2, donc a + b = c ou a + b = 2c
 
-_Si a + b = c_
+### Si a + b = c
 
 - a ∣ a + b + c   (car ∃k ka=b+c ⇒ (k+1)a=a+b+c)
 - b ∣ a + b + c
 - c ∣ a + b + c
 
-Puisque a,b,c doivent être premiers entre eux: abc ∣ a + b + c = 2c  <br>
+Puisque a,b,c doivent être premiers entre eux: abc ∣ a + b + c = 2c
 
 D'où ab ≤ 2 et les deux solutions:
 
 - a=1 b=1 c=2
 - a=1 b=2 c=3
 
-_Si a + b = 2c_
+### Si a + b = 2c_
 
 Comme a ≤ c et b ≤ c, la seule solution est a = b = c
 
@@ -226,18 +226,17 @@ La condition pas de diviseur premier en commun implique le seul triplet possible
 
 > réponse: 3 triplets (1,1,1) (1,1,2) (1,2,3)
 
-
 ## Vendredi 23 Avril
 
 Il faut choisir 3 points parmi X pour construire un triangle.
 
-_Violet_
+### Violet
 
 C(6,3) = 6! / ((6-3)! 3!) = 20
 
 Il faut en éliminer deux à cause des 3 points alignés
 
-_Orange_
+### Orange
 
 C(10,3) = 10! / (7! 3!) = 120
 
@@ -249,12 +248,12 @@ Au total, on peut dessiner 20 - 2 + 120 - 9 = 129
 
 ## Lundi 26 Avril
 
-_Mise en équation_
+### Mise en équation
 
 - bassine = 3 × grand_vase + petit_vase
 - bassine = 2 × grand_vase + 4 × petit_vase
 
-_Résolution_
+### Résolution
 
 On cherche à exprimer grand_vase en fonction de petit_vase.
 
@@ -271,8 +270,8 @@ bassine = 2 × (3 × petit_vase) + 4 × petit_vase = 10 × petit_vase
 
 ![schema](27.png)
 
-aire AHC = CH * AH / 2 <br>
-aire ABC = CH * AB / 2
+aire AHC = CH × AH / 2 <br>
+aire ABC = CH × AB / 2
 
 r = AH / AB (calcul) <br>
 r = AC / 2AB (énoncé)
@@ -293,7 +292,6 @@ A moins de travailler en base 48, on ne peut trouver de chiffres décimaux de 1 
 
 ## Jeudi 29 Avril
 
-
 a × (b + c) - b × (a + c) = a × c - b × c = c × (a - b)
 
 Les plus grands facteurs possibles sont 10 et 9, mais pas en même temps. 10 et 9-1=8 ou 9 et 10-1=9. Le reste donnera des nombres inférieurs.
@@ -301,8 +299,7 @@ Les plus grands facteurs possibles sont 10 et 9, mais pas en même temps. 10 et 
 La valeur max est atteinte pour a = 10 c = 9
 
 ```python
->>> max(a*(b+c)-b*(a+c) for a in range(1,11) for b in range(1,11) for c in range(1,11) if a!=b and b!=c and c!=a)
-81
+max(a*(b+c)-b*(a+c) for a in range(1,11) for b in range(1,11) for c in range(1,11) if a!=b and b!=c and c!=a)
 ```
 
 > réponse: 81

@@ -45,8 +45,7 @@ Et une fois celles-ci posées, les maisons orange et rouge ont leur place.
 Vérification Python:
 
 ```python
->>> sum(1 for i in range(1,2022) if i % 10 == 1 and i % 7 == 0)
-29
+sum(1 for i in range(1,2022) if i % 10 == 1 and i % 7 == 0)
 ```
 
 > réponse: 29
@@ -151,24 +150,23 @@ le triangle BCF est donc isocèle en C et BC = FC
 
 ## Lundi 17 Mai
 
-il faut faire 16 17 ou 18
+Il faut faire 16 17 ou 18
 
-soit (selon le premier dé):
+Soit (selon le premier dé):
 
 - 6-6-6 6-6-5 6-5-5 6-5-6 6-6-4 6-4-6
 - 5-6-6 5-5-6 5-6-5
 - 4-6-6
 
-soit 10 jets possibles
+Soit 10 jets possibles.
 
-vérification en Python:
+Vérification en Python:
 
 ```python
->>> sum(1 for a in range(1,7) for b in range(1,7) for c in range(1,7) if a+b+c>15)
-10
+sum(1 for a in range(1,7) for b in range(1,7) for c in range(1,7) if a+b+c>15)
 ```
 
-il y a 6³ = 216 jets possibles. La probabilité de faire plus de quinze est 10 / 216 = 5 / 108
+Il y a 6³ = 216 jets possibles. La probabilité de faire plus de quinze est 10 / 216 = 5 / 108
 
 > réponse: 5 / 108
 
@@ -185,8 +183,7 @@ il y a 6³ = 216 jets possibles. La probabilité de faire plus de quinze est 10 
 Il y a 2021 termes, soit 505 × 4 + 1. La somme va se terminer par le chiffre de 23²⁰²¹, soit 3
 
 ```python
->>> sum(23 ** i for i in range(1, 2022)) % 10
-3
+sum(23 ** i for i in range(1, 2022)) % 10
 ```
 
 > réponse: 3

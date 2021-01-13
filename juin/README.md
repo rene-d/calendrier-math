@@ -2,7 +2,7 @@
 
 ## Mardi 1 Juin
 
-```
+```text
 10^2021 - 2 × 4^1010
  = 10^2021 - 2 × 2^2020
  = 10^2021 - 2^2021
@@ -13,11 +13,10 @@ Or, à partir de la puissance 3, toutes les puissances impaires de 5 se « termi
 
 Ainsi `5^2021 - 1` se termine par 124 et on peut donc encore diviser deux fois par 2. Le chiffre de l'unité sera 1.
 
-_Vérification en Python_
+### Vérification en Python
 
 ```python
->>> ((10 ** 2021 - 2 * 4 ** 1010) // 2 ** 2023) % 10
-1
+((10 ** 2021 - 2 * 4 ** 1010) // 2 ** 2023) % 10
 ```
 
 > réponse: 2023
@@ -26,7 +25,7 @@ _Vérification en Python_
 
 On a:
 
-```
+```text
 b = (a + a+1 + a+2 + a+3 + a+4) / 5
   = (5a + 10) / 5
   = a + 2
@@ -39,6 +38,7 @@ De la même façon, la moyenne des cinq entiers consécutifs commençant par b v
 ## Jeudi 3 Juin
 
 Avec les cubes de la face, on peut créer ces différents pavés:
+
 - 1×1 1×2 1×3 1×4 : pavés de largeur un cube
 - 2×1 2×2 2×3 2×4 : pavés de largeur deux cubes
 - 3×1 3×2 3×3 3×4 : etc.
@@ -56,6 +56,7 @@ On peut donc faire `4 × 3 × 3 = 36` pavés différents.
 Entre les carrés il y a trois triangles isocèles de côté 1 cm et d'angle 120°.
 
 Calculons l'aire de ces triangles avec la trigonométrie:
+
 - hauteur (depuis A): `h = 1 × cos(120°/2) = 1/2`
 - base (opposée à A) = `b = 2 × (1 × sin(120°/2)) = 2×√3/2 = √3`
 - aire = `b × h / 2 = √3/4`
@@ -166,8 +167,8 @@ D'où: `5^(1/5) < 2^(1/2)`.
 
 Antoine peut mentir et Xavier dire la vérité. Aucune des deux déclarations n'est erronée:
 
--  Antoine: « Quand je dis la vérité, toi aussi ». Si Antoine ment, Xavier peut faire ce qu'il veut.
--  Xavier: « Quand je ments, toi aussi ». Si Xavier dit la vérité, Antoine peut mentir.
+- Antoine: « Quand je dis la vérité, toi aussi ». Si Antoine ment, Xavier peut faire ce qu'il veut.
+- Xavier: « Quand je ments, toi aussi ». Si Xavier dit la vérité, Antoine peut mentir.
 
 > réponse: oui ⚠️
 
@@ -235,7 +236,7 @@ Donc, 2 × ∑ = 180 × 7 - 900 = 1260 - 900 = 360°
 
 ## Mardi 29 Juin
 
-```
+```text
 ∑(x) = 5 × a
 ∑(y) = 8 × b
 ∑(x,y) = k × (a + b)  k ∈ 𝐍⋆

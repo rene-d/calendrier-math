@@ -1,4 +1,6 @@
 {
     "python.pythonPath": "/opt/homebrew/bin/python3",
-    "C_Cpp.errorSquiggles": "Enabled"
+    "markdownlint.config": {
+        "MD033": false
+    }
 }

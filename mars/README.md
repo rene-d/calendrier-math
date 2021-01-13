@@ -23,8 +23,8 @@ Il faut que x¹⁰ - 4 soit divisible par x². Donc x² doit diviser 4.
 
 Donc x = ±1 ou x = ±2
 
-Si x = ±1, 1 + k + 4 = 0  ⇒ k = -5 <br>
-Si x = ±2, 1024 + 4k + 4 = 0  ⇒ k = -1028 / 4 = - 257
+- Si x = ±1, 1 + k + 4 = 0  ⇒ k = -5
+- Si x = ±2, 1024 + 4k + 4 = 0  ⇒ k = -1028 / 4 = - 257
 
 > réponse: -5 et -257
 
@@ -156,19 +156,18 @@ en tirant un chiffre en 1 et 9, on a une chance sur 9 de tomber sur le bon
 
 ![schéma](18.png)
 
-_Calcul partie courbe_
+### Calcul partie courbe
 
-AB = √12 / 2 = √3<br>
-AE = 2
-
-cos 𝜶 = √12 / 2 / 2 = √3 / 2  donc 𝜶 = 30° <br>
-sin 𝜷 = √3 / 2 donc 𝜷 = 60°
+- AB = √12 / 2 = √3
+- AE = 2
+- cos 𝜶 = √12 / 2 / 2 = √3 / 2  donc 𝜶 = 30°
+- sin 𝜷 = √3 / 2 donc 𝜷 = 60°
 
 Chaque quart de la figure est constitué de 2 arcs de 30° du cercle de rayon 2 cm.
 
 La partie courbe est donc: (8 × 30 / 360) × 2 × 2 π = 8 / 3 π
 
-_Calcul partie droite_
+### Calcul partie droite
 
 CE = CB - EB = √12 / 2 - 2 × sin 30° = √3 - 2 / 2
 
