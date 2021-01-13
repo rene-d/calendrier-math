@@ -85,16 +85,16 @@ Cf. [script](09.py) Python.
 
 ## Lundi 12 Avril
 
-1 + x = y² <br>
-1 + y = x²
+- 1 + x = y²
+- 1 + y = x²
 
-(1 + x) - (1 + y) = y² - x² <br>
-⇒ -(y - x) = (y - x)(y + x)
+- (1 + x) - (1 + y) = y² - x²
+- ⇒ -(y - x) = (y - x)(y + x)
 
 2 possibilités:
 
-* x = y
-* x + y = -1
+- x = y
+- x + y = -1
 
 Si x = y:
 
@@ -141,7 +141,7 @@ si tous les nombres sont pairs, ça fonctionne et donc réponse paire (puisque i
 
 pour réussir à placer des nombres il faut:
 
-```
+```text
 … - impair - pair - impair - impair - pair - impair - …
 ```
 
@@ -311,7 +311,7 @@ La valeur max est atteinte pour a = 10 c = 9
 
 Le polynome se factorise de la façon suivante :
 
-```
+```text
 n⁵ - 5n³ + 4 n
  = n ⋅ (n⁴ - 5n² + 4)
  = n ⋅ (n² - 4) ⋅ (n² - 1)
@@ -323,6 +323,7 @@ n⁵ - 5n³ + 4 n
 ```
 
 Le polynome est le produit de 5 nombres consécutifs, 120 = 5! est le produit de 5 nombres consécutifs. Donc quelquesoit n:
+
 - n sera divisible par 2 ou 3 ou 4 ou 5
 - n+1 sera divisible par 3 ou 4 ou 5 ou 2
 - etc.

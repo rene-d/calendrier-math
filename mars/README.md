@@ -93,7 +93,7 @@ L'angle (GCH) vaut 30° (bissectrice), et par conséquence, l'angle (BCH) est é
 
 On a le facteur 2^15: on considère les nombres pairs:
 
-```
+```text
 pairs:   2 - 4 - 6 - 8 - 10 - 12 - 14 - 16
 nb de 2: 1   2   1   3    1    2    1    4
 ```
@@ -240,7 +240,7 @@ On pose V = v²
 
 (9 - V) (V - 1) = 16
 
-9 * V - 9 - V² + V = 16
+9 × V - 9 - V² + V = 16
 V² - 10 * V + 25 = 0
 (V - 5)² = 0
 
@@ -285,9 +285,10 @@ C'est la pièce qui a le plus de côtés puis de côtés obliques. Ce genre de c
 Soit a ≤ b ≤ c ≤ d ≤ e les cinq nombres positifs.
 
 Pour qu'un nombre divise toujours un autre il faut avoir:
-* b = k⋅a
-* c = k'⋅b = k'⋅k⋅a
-* etc.
+
+- b = k⋅a
+- c = k'⋅b = k'⋅k⋅a
+- etc.
 
 n = a + b + c + d + e = a + k⋅a + k'⋅k⋅a + … = a × (1 + k + k'⋅k + …)
 

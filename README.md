@@ -14,7 +14,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![137/261](https://img.shields.io/static/v1?label=solutions&message=137/261%20%2852%25%29&color=blueviolet)
+![146/261](https://img.shields.io/static/v1?label=solutions&message=146/261%20%2856%25%29&color=blueviolet)
 
 ### Janvier
 [![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/)
@@ -83,14 +83,14 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [28](juin/README.md#lundi-28-juin) | [29](juin/README.md#mardi-29-juin) | [30](juin/README.md#mercredi-30-juin) |    |    |    |    |
 
 ### Juillet
-[![7/22](https://img.shields.io/static/v1?label=en%20cours&message=7/22&color=informational)](juillet/)
+[![16/22](https://img.shields.io/static/v1?label=en%20cours&message=16/22&color=informational)](juillet/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    | [ 1](juillet/README.md#jeudi-1-juillet) [🖥](juillet/01.py) | [ 2](juillet/README.md#vendredi-2-juillet) [🖥](juillet/02.py) | *3* | *4* |
 | [ 5](juillet/README.md#lundi-5-juillet) | [ 6](juillet/README.md#mardi-6-juillet) | [ 7](juillet/README.md#mercredi-7-juillet) | [ 8](juillet/README.md#jeudi-8-juillet) | [ 9](juillet/README.md#vendredi-9-juillet) | *10* | *11* |
-| 12 | 13 | 14 | 15 | 16 | *17* | *18* |
-| 19 | 20 | 21 | 22 | 23 | *24* | *25* |
+| [12](juillet/README.md#lundi-12-juillet) | 13 | [14](juillet/README.md#mercredi-14-juillet) | [15](juillet/README.md#jeudi-15-juillet) | [16](juillet/README.md#vendredi-16-juillet) | *17* | *18* |
+| [19](juillet/README.md#lundi-19-juillet) | [20](juillet/README.md#mardi-20-juillet) | [21](juillet/README.md#mercredi-21-juillet) | [22](juillet/README.md#jeudi-22-juillet) | [23](juillet/README.md#vendredi-23-juillet) | *24* | *25* |
 | 26 | 27 | 28 | 29 | 30 | *31* |    |
 
 ### Octobre

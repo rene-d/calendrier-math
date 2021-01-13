@@ -42,8 +42,8 @@ résolution avec numpy avec un [script](02.py) Python.
 Calcul avec [script](04.py) Python.
 
 > réponse:
-> 
-```
+
+```text
               [10]
      [14]  [ 6]  [12]  [ 2]
      [ 3]              [11]
@@ -89,7 +89,7 @@ demi-cercle + 1 carré
 
 ## Mercredi 10 Février
 
-```
+```text
 +---+---o  +---+---+
 | I | K |  | U | P |
 +---+---+  +---o---+
@@ -100,7 +100,7 @@ demi-cercle + 1 carré
 Les faces U et P sont à côté de K (donc derrière et à droite sur le dessin 3D de IKM).
 Le sens de rotation horaire U→P→K doit être respecté, la disposition est donc la suivante (le o désigne le même sommet du cube):
 
-```
+```text
     +---+
     | U |
 +---+---o---+---+

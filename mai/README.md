@@ -117,7 +117,6 @@ Donc 2 valeurs conviennent: n = 1 et n = 6
 
 > réponse: 2 valeurs
 
-
 ## Jeudi 13 Mai
 
 ![schéma](13.png)
@@ -126,12 +125,14 @@ BFE = BCE = 90° (par construction)
 
 BCEF est un [quadrilatère cyclique](https://fr.wikipedia.org/wiki/Quadrilatère_inscriptible): il existe un point G centre du cercle inscrit
 
-[théorème des angles aux centres](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre): deux angles qui interceptent le même arc sont égaux. <br>
+[théorème des angles aux centres](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre): deux angles qui interceptent le même arc sont égaux.
+
 D'où: BEC = BFC
 
-angle FBC = 90° - FBA = BAF car BAF triangle rectangle <br>
-= AED  car AB et DE sont // <br>
-= BEC car E milieu de DC <br>
+- angle FBC = 90° - FBA = BAF car BAF triangle rectangle
+- = AED  car AB et DE sont //
+- = BEC car E milieu de DC
+
 D'où: FBC = BEC
 
 en définitive, on a BEC = FBC = BFC
@@ -147,7 +148,6 @@ le triangle BCF est donc isocèle en C et BC = FC
 10 × (4/5)⁻¹ = 10 × 5 / 4 = 25 / 2
 
 > réponse: 25 / 2
-
 
 ## Lundi 17 Mai
 
@@ -191,8 +191,6 @@ Il y a 2021 termes, soit 505 × 4 + 1. La somme va se terminer par le chiffre de
 
 > réponse: 3
 
-
-
 ## Mercredi 19 Mai
 
 aire trapèze : (L + l) × h / 2
@@ -215,7 +213,7 @@ Le chat a à manger pendant un peu plus de 10 jours, il finira le 11ème jour.
 
 ## Vendredi 21 Mai
 
-```
+```text
 X-X-X
 -----
 X-X-X
@@ -235,6 +233,7 @@ On ne peut pas atteindre les nombres 1 2 3 4 6 8 9 11 13 16 18 23:
 On peut faire 5 7 10 12 14 15 17 19 20 21 22 24 ...
 
 Si on peut faire 24 à 30, on pourra tout faire.
+
 - 24 = 2 × 7 + 2 × 5
 - 25 = 5 × 5
 - 26 = 3 × 7 + 5

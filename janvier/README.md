@@ -1,6 +1,5 @@
 # Calendrier Mathématique Janvier 2021
 
-
 ## Vendredi 1 Janvier
 
 Cf. [programme](01.py) Python.
@@ -39,7 +38,7 @@ Soit H1, B1 = nombre de points des surfaces haute et basse du premier dé
 
 Soit H2, B2 = nombre de points des surfaces haute et basse du deuxième dé
 
-```
+```text
     +-----+ ← H1
     |     |
     |     |
@@ -52,6 +51,7 @@ Soit H2, B2 = nombre de points des surfaces haute et basse du deuxième dé
 ```
 
 On a:
+
 - H1 (3 à 6)
 - B1 = 7 - H1
 - H2 = 5 - (7 - H1) = H1 - 2
@@ -91,7 +91,6 @@ Pour avoir 2^n=32, il faut n=5. Donc 2×3×5×7×11=2310 a exactement 32 diviseu
 
 > réponse: 5
 
-
 ## Mardi 12 Janvier
 
 3^x - 3^(x-1) = 162 <br>
@@ -102,7 +101,6 @@ Pour avoir 2^n=32, il faut n=5. Donc 2×3×5×7×11=2310 a exactement 32 diviseu
 ⇒ x = 5
 
 > réponse: 5
-
 
 ## Mercredi 13 Janvier
 
@@ -157,18 +155,18 @@ Selon les cas, m × n a 25, 45, 65 ou 165 diviseurs.
 La figure est composée de:
 
 - 4 triangles équilatéraux de 1 cm de côté:
-    - hauteur = √3/2
-    - base = 1
-    - S = (√3/2 × 1 / 2) × 4 = √3 cm²
+  - hauteur = √3/2
+  - base = 1
+  - S = (√3/2 × 1 / 2) × 4 = √3 cm²
 
 - 1 carré central de 1 cm de côté:
-    - S = 1 cm²
+  - S = 1 cm²
 
 > réponse: 1+√3 cm²
 
 ## Mercredi 20 Janvier
 
-```
+```text
 soit M la masse totale des haricots
 soit m la masse sèche des haricots
 soit e la masse d'eau des haricots
@@ -259,7 +257,7 @@ Cf. [programme](91.py) en Python.
 
 ## Jeudi 28 Janvier
 
-```
+```text
     /|\
  a / | \ a
   /  |h \
@@ -292,7 +290,6 @@ L'aire du triangle est h × b/2 = 8 × 6 = 48
 La moyenne des xᵢ est:
 
 ∑xᵢ / n = 4850
-
 
 Calculons la moyenne des xᵢ - 10:
 
