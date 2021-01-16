@@ -185,7 +185,7 @@ def inline_python(month):
     if "GIT_INDEX_FILE" in os.environ:
         if Path(os.environ["GIT_INDEX_FILE"]).is_file():
             os.system(f"git add {solutions_md}")
-            print("staged {solutions_md}")
+            print(f"staged {solutions_md}")
 
 
 def main():
