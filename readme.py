@@ -159,19 +159,33 @@ def inline_python(month):
     month_norm = remove_accents(month_lower)
 
     solutions_md = Path(month_norm) / f"README.md"
-    if not solutions_md.exists(): return
+    if not solutions_md.exists():
+        return
 
-    md = solutions_md.read_text()
+    readme = solutions_md.read_text()
+    hash = hashlib.md5(readme.encode()).hexdigest()
 
     def repl(a):
-        zz,py,old=a.groups()
-        print(Path(month_norm),py,old)
-
+        line, py, old = a.groups()
         script = (Path(month_norm) / py).read_text().strip()
+        return f"{line}\n```python\n{script}\n```\n"
 
-        return zz + f"\n```python\n{script}\n```\n"
+    new_readme = re.sub(
+        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n.+?\n```\n)?",
+        repl,
+        readme,
+        re.DOTALL,
+    )
 
-    a=re.sub(r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n.+?\n```\n)?", repl, md, re.DOTALL)
+    if hash == hashlib.md5(new_readme.encode()).hexdigest():
+        return
+
+    solutions_md.write_text(new_readme)
+
+    if "GIT_INDEX_FILE" in os.environ:
+        if Path(os.environ["GIT_INDEX_FILE"]).is_file():
+            os.system(f"git add {solutions_md}")
+            print("staged {solutions_md}")
 
 
 def main():
@@ -218,9 +232,9 @@ def main():
                 os.system("git add README.md")
                 print("staged README.md")
 
-
     for month in range(1, 13):
         inline_python(month)
+
 
 if __name__ == "__main__":
     main()

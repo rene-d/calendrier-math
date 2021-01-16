@@ -4,6 +4,58 @@
 
 Cf. [programme](01.py) Python.
 
+```python
+#!/usr/bin/env python3
+
+# 1er Janvier 2021
+# Combien de nombres à deux chiffres sont premiers qu'ils soient lus de la gauche vers la droite ou de la droite vers
+
+from sympy.ntheory.primetest import isprime
+
+
+def rev(n):
+    """ Retourne le nombre n écrit à l'envers dans sa représentaiton décimale. """
+    u = 0
+    while n != 0:
+        n, r = divmod(n, 10)
+        u = u * 10 + r
+    return u
+
+
+pp = set()
+for n in range(11, 101):
+    if isprime(n) and isprime(rev(n)):
+        pp.add(n)
+print("premiers réversibles:", sorted(pp))
+print("réponse:", len(pp))
+```
+
+```python
+#!/usr/bin/env python3
+
+# 1er Janvier 2021
+# Combien de nombres à deux chiffres sont premiers qu'ils soient lus de la gauche vers la droite ou de la droite vers
+
+from sympy.ntheory.primetest import isprime
+
+
+def rev(n):
+    """ Retourne le nombre n écrit à l'envers dans sa représentaiton décimale. """
+    u = 0
+    while n != 0:
+        n, r = divmod(n, 10)
+        u = u * 10 + r
+    return u
+
+
+pp = set()
+for n in range(11, 101):
+    if isprime(n) and isprime(rev(n)):
+        pp.add(n)
+print("premiers réversibles:", sorted(pp))
+print("réponse:", len(pp))
+```
+
 On trouve 9 nombres en tout: [11, 13, 17, 31, 37, 71, 73, 79, 97]
 
 > réponse: 9
@@ -29,6 +81,42 @@ D'où: martina = 30, roger = 15, raphaël = 25
 ## Mardi 5 Janvier
 
 Cf. [programme](05.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+# 5 Janvier 2021
+
+import itertools
+
+expr = "100 {} 45 {} 67 {} 62 == 50"
+
+for signs in itertools.product("+-", repeat=3):
+    e = expr.format(*signs)
+    v = eval(e)
+    if v == True:
+        n = signs.count("-")
+        p = signs.count("+")
+        print(f"{e} p={p} n={n} p-n={p-n}")
+```
+
+```python
+#!/usr/bin/env python3
+
+# 5 Janvier 2021
+
+import itertools
+
+expr = "100 {} 45 {} 67 {} 62 == 50"
+
+for signs in itertools.product("+-", repeat=3):
+    e = expr.format(*signs)
+    v = eval(e)
+    if v == True:
+        n = signs.count("-")
+        p = signs.count("+")
+        print(f"{e} p={p} n={n} p-n={p-n}")
+```
 
 > réponse: p-n = -1
 
@@ -78,6 +166,52 @@ Nombre de permutations: 6! = 6×5×4×3×2×1 = 720
 ## Vendredi 8 Janvier
 
 Cf. [programme](08.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+# 8 Janvier 2021
+# triangle de côté 15 cm, 20 cm, 25 cm. calculez les hauteurs
+# Nota: le triangle est rectangle, deux hauteurs ont pour longueur 15 et 20 cm
+
+
+from math import sqrt
+
+
+def hauteur(a, b, c):
+    """ Calcule la hauteur d'un triangle à partir des longueurs de ses côtés. """
+    # http://villemin.gerard.free.fr/GeomLAV/Triangle/Calcul/RelQuelh.htm
+    h = sqrt(c ** 2 - ((a ** 2 - b ** 2 + c ** 2) / (2 * a)) ** 2)
+    return h
+
+
+print(hauteur(15, 20, 25))
+print(hauteur(20, 25, 15))
+print(hauteur(25, 15, 20))  # <== donne la troisème hauteur
+```
+
+```python
+#!/usr/bin/env python3
+
+# 8 Janvier 2021
+# triangle de côté 15 cm, 20 cm, 25 cm. calculez les hauteurs
+# Nota: le triangle est rectangle, deux hauteurs ont pour longueur 15 et 20 cm
+
+
+from math import sqrt
+
+
+def hauteur(a, b, c):
+    """ Calcule la hauteur d'un triangle à partir des longueurs de ses côtés. """
+    # http://villemin.gerard.free.fr/GeomLAV/Triangle/Calcul/RelQuelh.htm
+    h = sqrt(c ** 2 - ((a ** 2 - b ** 2 + c ** 2) / (2 * a)) ** 2)
+    return h
+
+
+print(hauteur(15, 20, 25))
+print(hauteur(20, 25, 15))
+print(hauteur(25, 15, 20))  # <== donne la troisème hauteur
+```
 
 > réponse: 12 cm
 
@@ -132,11 +266,73 @@ De manière exhaustive:
 
 Cf. [programme](14.py) en Python.
 
+```python
+#!/usr/bin/env python3
+
+# 14 Janvier 2021
+
+
+for a in range(1, 20):
+    for b in range(1, 20):
+        # condition 1: le triangle doit exister
+        if b < 2 * a:
+            # condition 2: périmètre = 20
+            if 2 * a + b == 20:
+                print(f"triangle {a} {a} {b}")
+```
+
+```python
+#!/usr/bin/env python3
+
+# 14 Janvier 2021
+
+
+for a in range(1, 20):
+    for b in range(1, 20):
+        # condition 1: le triangle doit exister
+        if b < 2 * a:
+            # condition 2: périmètre = 20
+            if 2 * a + b == 20:
+                print(f"triangle {a} {a} {b}")
+```
+
 > réponse: (6,6,8) (7,7,6) (8,8,4) (9,9,2)
 
 ## Vendredi 15 Janvier
 
 Cf. [programme](15.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+# 15 Janvier 2021
+# max(1/(1+i) + 1/(2021-i))
+
+from fractions import Fraction
+
+print(
+    max(
+        (Fraction(1, 1 + i) + Fraction(1, 2021 - i), f"1/{1+i} + 1/{2021-i}")
+        for i in range(0, 1011)
+    )[1]
+)
+```
+
+```python
+#!/usr/bin/env python3
+
+# 15 Janvier 2021
+# max(1/(1+i) + 1/(2021-i))
+
+from fractions import Fraction
+
+print(
+    max(
+        (Fraction(1, 1 + i) + Fraction(1, 2021 - i), f"1/{1+i} + 1/{2021-i}")
+        for i in range(0, 1011)
+    )[1]
+)
+```
 
 > réponse: 1/1 + 1/2021
 
@@ -193,11 +389,113 @@ on trouve M = 20
 
 Cf. [programme](21.py) en Python.
 
+```python
+#!/usr/bin/env python3
+
+# 21 Janvier 2021
+
+# les palindromes à 3 chiffres sont forcément du genre 'aba' avec a ∈ [1,9] et b quelconque.
+# il y a donc 9 * 10 palindromes entre 100 et 1000
+
+
+def rev(n):
+    """ Retourne le nombre n écrit à l'envers dans sa représentaiton décimale. """
+    u = 0
+    while n != 0:
+        n, r = divmod(n, 10)
+        u = u * 10 + r
+    return u
+
+
+palindromes = [n for n in range(100, 1001) if rev(n) == n]
+
+print("palindromes:", palindromes)
+print("réponse:", len(palindromes))
+```
+
+```python
+#!/usr/bin/env python3
+
+# 21 Janvier 2021
+
+# les palindromes à 3 chiffres sont forcément du genre 'aba' avec a ∈ [1,9] et b quelconque.
+# il y a donc 9 * 10 palindromes entre 100 et 1000
+
+
+def rev(n):
+    """ Retourne le nombre n écrit à l'envers dans sa représentaiton décimale. """
+    u = 0
+    while n != 0:
+        n, r = divmod(n, 10)
+        u = u * 10 + r
+    return u
+
+
+palindromes = [n for n in range(100, 1001) if rev(n) == n]
+
+print("palindromes:", palindromes)
+print("réponse:", len(palindromes))
+```
+
 > réponse: 90
 
 ## Vendredi 22 Janvier
 
 Cf. [programme](22.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+# 22 Janvier 2021
+
+# il y a 36 jets possibles, soit 36 nombres:
+#   11 12 13 14 15 16 21 22 ... 65 66
+# parmi ces nombres il y a 4 carrés: 16 25 36 64
+# soit 4/36 ou 1/9
+# en inversant les chiffres (6 3 sont les chiffres de 36), on doit multiplier par 2, soit 2/9
+
+from fractions import Fraction
+
+# les carrés de 4 à 64
+squares = [n * n for n in range(2, 9)]
+
+n = p = 0
+for i in range(1, 7):
+    for j in range(1, 7):
+        n += 1
+        if i * 10 + j in squares or i + 10 * j in squares:
+            print("chiffres d'un carré:", i, j)
+            p += 1
+
+print("réponse:", Fraction(p, n))
+```
+
+```python
+#!/usr/bin/env python3
+
+# 22 Janvier 2021
+
+# il y a 36 jets possibles, soit 36 nombres:
+#   11 12 13 14 15 16 21 22 ... 65 66
+# parmi ces nombres il y a 4 carrés: 16 25 36 64
+# soit 4/36 ou 1/9
+# en inversant les chiffres (6 3 sont les chiffres de 36), on doit multiplier par 2, soit 2/9
+
+from fractions import Fraction
+
+# les carrés de 4 à 64
+squares = [n * n for n in range(2, 9)]
+
+n = p = 0
+for i in range(1, 7):
+    for j in range(1, 7):
+        n += 1
+        if i * 10 + j in squares or i + 10 * j in squares:
+            print("chiffres d'un carré:", i, j)
+            p += 1
+
+print("réponse:", Fraction(p, n))
+```
 
 > réponse: 2/9
 
@@ -252,6 +550,64 @@ surface anneau = 4π - 3π = π
 ## Mercredi 27 Janvier
 
 Cf. [programme](27.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+# 22 Janvier 2021
+
+# il y a 36 jets possibles, soit 36 nombres:
+#   11 12 13 14 15 16 21 22 ... 65 66
+# parmi ces nombres il y a 4 carrés: 16 25 36 64
+# soit 4/36 ou 1/9
+
+from datetime import datetime, timedelta
+
+un_jour = timedelta(days=1)
+
+visite = datetime(2020, 12, 31)
+
+# vérifie que c'est bien un jeudi
+assert visite.weekday() == 3  # 0=lundi 1=mardi 2=mercredi 3=jeudi etc.
+
+# vérifie que les 6 visites suivantes n'ont pas lieu un jeudi
+for i in range(1, 7, 13):
+    assert (visite + timedelta(days=i)).weekday() != 3
+
+# vérifie que la 7ème visite a lieu un jeudi
+assert (visite + timedelta(days=7 * 13)).weekday() == 3
+
+print("réponse:", 7 * 13)
+```
+
+```python
+#!/usr/bin/env python3
+
+# 22 Janvier 2021
+
+# il y a 36 jets possibles, soit 36 nombres:
+#   11 12 13 14 15 16 21 22 ... 65 66
+# parmi ces nombres il y a 4 carrés: 16 25 36 64
+# soit 4/36 ou 1/9
+
+from datetime import datetime, timedelta
+
+un_jour = timedelta(days=1)
+
+visite = datetime(2020, 12, 31)
+
+# vérifie que c'est bien un jeudi
+assert visite.weekday() == 3  # 0=lundi 1=mardi 2=mercredi 3=jeudi etc.
+
+# vérifie que les 6 visites suivantes n'ont pas lieu un jeudi
+for i in range(1, 7, 13):
+    assert (visite + timedelta(days=i)).weekday() != 3
+
+# vérifie que la 7ème visite a lieu un jeudi
+assert (visite + timedelta(days=7 * 13)).weekday() == 3
+
+print("réponse:", 7 * 13)
+```
 
 > réponse: 91
 
