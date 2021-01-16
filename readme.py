@@ -168,10 +168,11 @@ def inline_python(month):
     def repl(a):
         line, py, old = a.groups()
         script = (Path(month_norm) / py).read_text().strip()
+        return f"{line}\n"
         return f"{line}\n```python\n{script}\n```\n"
 
     new_readme = re.sub(
-        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n.+?\n```\n)?",
+        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n[^`]*```\n\n)",
         repl,
         readme,
         re.DOTALL,
@@ -181,6 +182,8 @@ def inline_python(month):
         return
 
     solutions_md.write_text(new_readme)
+    print(solutions_md)
+    exit()
 
     if "GIT_INDEX_FILE" in os.environ:
         if Path(os.environ["GIT_INDEX_FILE"]).is_file():

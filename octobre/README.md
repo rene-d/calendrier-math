@@ -88,113 +88,11 @@ Il y a donc au maximum 81 nombres, la moitié étant négative et un nul. Donc a
 
 Le programme [Python](11.py) vérifie qu'il y en a bien 40 différents, soit tous les nombres de 1 à 40.
 
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-results = set()
-for ops in itertools.product("0-+", repeat=4):
-    result = 0
-    for op, nb in zip(ops, [1, 3, 9, 27]):
-        if op == "+":
-            result += nb
-        elif op == "-":
-            result -= nb
-    if result > 0:
-        results.add(result)
-
-print(len(results))
-```
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-results = set()
-for ops in itertools.product("0-+", repeat=4):
-    result = 0
-    for op, nb in zip(ops, [1, 3, 9, 27]):
-        if op == "+":
-            result += nb
-        elif op == "-":
-            result -= nb
-    if result > 0:
-        results.add(result)
-
-print(len(results))
-```
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-results = set()
-for ops in itertools.product("0-+", repeat=4):
-    result = 0
-    for op, nb in zip(ops, [1, 3, 9, 27]):
-        if op == "+":
-            result += nb
-        elif op == "-":
-            result -= nb
-    if result > 0:
-        results.add(result)
-
-print(len(results))
-```
-
 > résultat: 40
 
 # Mardi 12 Octobre
 
 Recherche triviale avec [programme](12.py) Python.
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-for a00, a02, a10, a11, a21 in itertools.permutations([2, 5, 6, 8, 9]):
-    if a00 + 1 + a02 == a10 + a11 + 7 == 4 + a21 + 3 == a00 + a10 + 4 == 1 + a11 + a21 == a02 + 7 + 3:
-        break
-
-print("réponse:")
-print(f"{a00} 1 {a02}")
-print(f"{a10} {a11} 7")
-print(f"4 {a21} 3")
-```
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-for a00, a02, a10, a11, a21 in itertools.permutations([2, 5, 6, 8, 9]):
-    if a00 + 1 + a02 == a10 + a11 + 7 == 4 + a21 + 3 == a00 + a10 + 4 == 1 + a11 + a21 == a02 + 7 + 3:
-        break
-
-print("réponse:")
-print(f"{a00} 1 {a02}")
-print(f"{a10} {a11} 7")
-print(f"4 {a21} 3")
-```
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-for a00, a02, a10, a11, a21 in itertools.permutations([2, 5, 6, 8, 9]):
-    if a00 + 1 + a02 == a10 + a11 + 7 == 4 + a21 + 3 == a00 + a10 + 4 == 1 + a11 + a21 == a02 + 7 + 3:
-        break
-
-print("réponse:")
-print(f"{a00} 1 {a02}")
-print(f"{a10} {a11} 7")
-print(f"4 {a21} 3")
-```
 
 > réponse:
 

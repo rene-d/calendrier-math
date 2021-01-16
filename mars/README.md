@@ -4,60 +4,6 @@
 
 Voir [script](01.py) Python.
 
-```python
-#!/usr/bin/env python3
-
-# 1 Mars
-
-import itertools
-
-n = 0
-for fruits in itertools.product("AP", repeat=6):
-    for i in range(6 - 2):
-        if fruits[i] == "A" and fruits[i + 1] == "P" and fruits[i + 2] == "A":
-            break
-    else:
-        n += 1
-        # print(" ".join(fruits))
-print("réponse:", n)
-```
-
-```python
-#!/usr/bin/env python3
-
-# 1 Mars
-
-import itertools
-
-n = 0
-for fruits in itertools.product("AP", repeat=6):
-    for i in range(6 - 2):
-        if fruits[i] == "A" and fruits[i + 1] == "P" and fruits[i + 2] == "A":
-            break
-    else:
-        n += 1
-        # print(" ".join(fruits))
-print("réponse:", n)
-```
-
-```python
-#!/usr/bin/env python3
-
-# 1 Mars
-
-import itertools
-
-n = 0
-for fruits in itertools.product("AP", repeat=6):
-    for i in range(6 - 2):
-        if fruits[i] == "A" and fruits[i + 1] == "P" and fruits[i + 2] == "A":
-            break
-    else:
-        n += 1
-        # print(" ".join(fruits))
-print("réponse:", n)
-```
-
 > réponse: 37
 
 ## Mardi 2 Mars
@@ -242,36 +188,6 @@ Les diviseurs entiers signés de 64 sont: ±1 ±2 ±4 ±8 ±16 ±32 ±64
 Ce qui donne une valeur pour y. Celle de x s'en déduit et est unique. Il y a donc 14 couples possibles.
 
 [Script](19.py) Python de vérification (mais pas de résolution).
-
-```python
-#!/usr/bin/env python3
-
-for sign in [-1, 1]:
-    for exp in range(0, 7):
-        y = sign * 2 ** exp + 4
-        x = 4 * y ** 2 // (y - 4)
-        print(f"x={x:4}, y={y:4} {x * y == 4 * (y ** 2 + x)}")
-```
-
-```python
-#!/usr/bin/env python3
-
-for sign in [-1, 1]:
-    for exp in range(0, 7):
-        y = sign * 2 ** exp + 4
-        x = 4 * y ** 2 // (y - 4)
-        print(f"x={x:4}, y={y:4} {x * y == 4 * (y ** 2 + x)}")
-```
-
-```python
-#!/usr/bin/env python3
-
-for sign in [-1, 1]:
-    for exp in range(0, 7):
-        y = sign * 2 ** exp + 4
-        x = 4 * y ** 2 // (y - 4)
-        print(f"x={x:4}, y={y:4} {x * y == 4 * (y ** 2 + x)}")
-```
 
 > réponse: 14
 
