@@ -157,6 +157,30 @@ Le tavernier a donc vendu 99 l de vin et il lui reste un baril de 20 l de bière
 
 > réponse: 20
 
+## Lundi 16 Août
+
+La probabilité de tirer 2 boules vertes est:
+
+pv = 4 / 10 × 16 / (16 + N)
+
+La probabilité de tirer 2 boules bleues est:
+
+pb = 6 / 10 × N / (16 + N)
+
+On doit avoir pv + pv = 29 / 50
+
+(4 × 16 + 6 × N) / (10 × (16 + N)) = 29 / 50
+
+⇒ 50 × (64 + 6 × N) = 29 × 10 × (16 + N)
+
+⇒ 3200 + 300 × N = 4640 + 290 × N
+
+⇒ 10 × N = 4640 - 3200 = 1440
+
+⇒ N = 144
+
+> réponse: N = 144
+
 ## Mardi 17 Août
 
 ![schéma](17.png)
@@ -180,3 +204,115 @@ Calcul aire partie droite:
 Ainsi, aire ABCD = aire AEC + aire BED = 8 + 22 = 30
 
 > réponse: 30 cm²
+
+## Mercredi 18 Août
+
+ax² + bx - 8 = 0
+
+x (ax + b) = 8
+
+x et ax + b étant entiers donc supérieurs ou égaux à 1, il faut -8 ≤ x ≤ 8
+
+De plus, x doit être une puissance de 2 (1, 2, 4, 8), et (a, b) tels que ax + b = 8 / x
+
+x = 8 est une solution de l'équation où a = 1 b = 8 par exemple.
+
+> réponse: 8
+
+## Jeudi 19 Août
+
+Calcul avec [programme](19.py) Python
+
+> réponse: 996506
+
+## Vendredi 20 Août
+
+> réponse: 2220
+
+## Lundi 23 Août
+
+Soit h la hauteur du parallèlograme, h1 celle du triangle ABP. h2 = h - h1 est la hauteur du triangle DPC.
+
+AB × h = 12  (aire du parallèlogramme)
+
+AB × h1 / 2 = 4  (aire du triangle ABP)
+
+AB × (h2 + h1) = 12
+
+AB × h2 + AB × h1 = 12
+
+AB × h2 = 12 - 8 = 4
+
+AB × h2 / 2 = 2
+
+Donc l'aire du triangle DPC est 2.
+
+> réponse: 2 cm
+
+## Mardi 24 Août
+
+(3^x - 3^y) (3^x + 3^y) = 9^x - 9^y
+
+4 (3^x + 3^y) = 32
+
+> réponse: 3^x + 3^y = 8
+
+## Mercredi 25 Août
+
+Le produit des entiers impairs jusqu'à 2021 est celui des entiers jusqu'à 2021 divisé par le produit des entiers pairs jusqu'à 2020..
+
+Le produit des entiers pairs jusqu'à 2020 est: 2 × 4 × ... × 2020, soit 2^1010 × (1 × 2 × ... × 1010) = 2^1010 × 1010!
+
+> réponse: 2021! / (2^1010 × 1010!)
+
+## Jeudi 26 Août
+
+Une fourmi pourra faire 2 aller-retours en 1h, soit apporter 4g. Pour ramener 5 kg, il faudra 1250 fourmis
+
+> réponse: 1250
+
+## Vendredi 27 Août
+
+![schéma](27.png)
+
+Il y a un triangle équilatéral (les autres sont semblables).
+
+Il y a sept triangles isocèles (le rapport des longueurs font qu'ils ne sont pas semblables tandis que 4-4-2 est semblable à 2-2-1).
+
+Il y a un triangle quelconque. Il ne peut y en avoir d'autre à cause de la règle des longueurs de côtés a + b > c.
+
+> réponse: 9
+
+## Lundi 30 Août
+
+x - y = y² - x² = (y - x) (y + x)
+
+d'où x + y = -1 puisque x ≠ y
+
+> réponse: -1
+
+## Mardi 31 Août
+
+![schéma](31.png)
+
+Par énoncé, le triangle ABC est équilatéral (isocèle en C et angle 60°).
+
+En considérant le [cercle circonscrit](https://fr.wikipedia.org/wiki/Cercle_circonscrit_à_un_triangle) au triangle ABD, et le [théorème angle au centre](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre), le E du cercle est tel que AEC = 2 × angle ADC = 30°. Donc AEB = 60° et par conséquent ABE est équilatéral car isocèle. Ce qui entraîne AE = AC = AB.
+
+Le rapport Rg/p des [aires](https://fr.wikipedia.org/wiki/Aire_(géométrie)#Disque) du grand et petit cercles vaut AD² / AC², ou encore AD² / AE².
+
+Le triangle ADE est isocèle, ses angles sont 15° (par énoncé) et 150° (somme des angles = 180°).
+
+La [loi des cosinus](https://fr.wikipedia.org/wiki/Loi_des_cosinus) permet d'écrire:
+
+AD² = AE² + DE² - 2 × AE × DE × cos DEA = 2 × AE² × (1 - cos DEA)
+
+D'où Rg/p = 2 × (1 - cos 150°)
+
+On a par [décalage de cosinus](https://fr.wikipedia.org/wiki/Identité_trigonométrique#Périodicité,_décalages): cos (𝜷 + π / 2) = - sin 𝜷
+
+Ainsi cos 150° = - sin (150° - 90°) = - sin 60° = - √3 / 2
+
+Rg/p = 2 × (1 + √3 / 2) = 2 + √3
+
+> réponse: 2 + √3
