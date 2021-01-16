@@ -175,7 +175,7 @@ def inline_python(month):
 
     # ajout du script
     def repl(a):
-        line, py= a.groups()
+        line, py = a.groups()
         script = (Path(month_norm) / py).read_text().strip()
         return f"{line}\n```python\n{script}\n```\n"
 
@@ -196,6 +196,7 @@ def inline_python(month):
         if Path(os.environ["GIT_INDEX_FILE"]).is_file():
             os.system(f"git add {solutions_md}")
             print(f"staged {solutions_md}")
+
 
 def main():
     year = 2021

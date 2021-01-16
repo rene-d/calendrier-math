@@ -19,7 +19,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![182/261](https://img.shields.io/static/v1?label=solutions&message=182/261%20%2870%25%29&color=blueviolet)
+![188/261](https://img.shields.io/static/v1?label=solutions&message=188/261%20%2872%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -120,13 +120,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Octobre
 
-[![9/21](https://img.shields.io/static/v1?label=en%20cours&message=9/21&color=informational)](octobre/)
+[![15/21](https://img.shields.io/static/v1?label=en%20cours&message=15/21&color=informational)](octobre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](octobre/README.md#vendredi-1-octobre) | *02* | *03* |
 | [04](octobre/README.md#lundi-4-octobre) | [05](octobre/README.md#mardi-5-octobre) | [06](octobre/README.md#mercredi-6-octobre) | [07](octobre/README.md#jeudi-7-octobre) | [08](octobre/README.md#vendredi-8-octobre) | *09* | *10* |
-| 11 [🖥](octobre/11.py) | 12 [🖥](octobre/12.py) | 13 | 14 | 15 | *16* | *17* |
-| 18 | [19](octobre/README.md#mardi-19-octobre) | 20 | 21 | 22 | *23* | *24* |
-| 25 | 26 | 27 | 28 | 29 | *30* | *31* |
+| 11 [🖥](octobre/11.py) | [12](octobre/README.md#mardi-12-octobre) [🖥](octobre/12.py) | 13 | [14](octobre/README.md#jeudi-14-octobre) | [15](octobre/README.md#vendredi-15-octobre) [🖥](octobre/15.py) | *16* | *17* |
+| 18 | [19](octobre/README.md#mardi-19-octobre) | [20](octobre/README.md#mercredi-20-octobre) | [21](octobre/README.md#jeudi-21-octobre) | [22](octobre/README.md#vendredi-22-octobre) | *23* | *24* |
+| [25](octobre/README.md#lundi-25-octobre) | 26 | 27 | 28 | 29 | *30* | *31* |
 

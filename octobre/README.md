@@ -109,7 +109,7 @@ print(len(results))
 
 > résultat: 40
 
-# Mardi 12 Octobre
+## Mardi 12 Octobre
 
 Recherche triviale avec [programme](12.py) Python.
 
@@ -143,6 +143,55 @@ print(f"4 {a21} 3")
 4 8 3
 ```
 
+## Jeudi 14 Octobre
+
+Nota: ab ≠ 0
+
+a / b + b / a - ab = (a² + b² - (a - b)²) / ab= (a² + b² - a² + 2 ab - b²) / ab = 2
+
+> réponse: 2
+
+## Vendredi 15 Octobre
+
+Utilisation du [programme](15.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+
+def to_base(n: int, base: int) -> str:
+    """ Convertit un nombre entier dans son écriture dans la base indiquée qui doit être ≤ 36. """
+
+    if base > 36 or base < 2:
+        raise ValueError("to_base() base must be >= 2 and <= 36")
+
+    if n == 0:
+        return "0"
+
+    if n < 0:
+        n = -n
+        sign = "-"
+    else:
+        sign = ""
+
+    digits = ""
+    while n != 0:
+        n, r = divmod(n, base)
+        digits += "0123456789abcdefghijklmnopqrstuvwxyz"[r]
+
+    return sign + digits[::-1]
+
+
+n = 0
+for i in range(2021 + 1):
+    i3 = to_base(i, 3)
+    if i3 == i3[::-1]:
+        n += 1
+print(n)
+```
+
+> réponse: 101
+
 ## Mardi 19 Octobre
 
 ADEF rectangle ⇒ FE = AD et FE // AC
@@ -152,3 +201,52 @@ Théorème de Thalès: FE / AC = BF / BA = BE + BC
 Ici: 𝑥 / 14 = (4 - 2.5) / 4
 
 > réponse: 𝑥 = 5.25
+
+## Mercredi 20 Octobre
+
+a - 1 / a = ±1
+
+b - 1 / b = ±1
+
+Résolvons l'équation: 𝑥² ± 𝑥 - 1 = 0
+
+𝑥 = ± (-1 ± √5) / 2
+
+Il n'y a deux solutions 𝑥 > 0: 𝑥 = (1 + √5) / 2 et 𝑥 = (-1 + √5) / 2
+
+Comme a et b doivent être distincts, a + b est la somme de ces deux solutions.
+
+> réponse: √5
+
+## Jeudi 21 Octobre
+
+Pour minimiser, on va utiliser au maximum le chiffre 9. Il en faut onze pour faire 99. Il manque 1, qu'on place au début.
+
+> réponse: 199 999 999 999
+
+## Vendredi 22 Octobre
+
+La probabilité pour une boule rouge d'occuper la place 𝓃 est 3 / 5 puisqu'il y a 3 boules rouges et 5 boules en tout. La probabilité pour piocher une boule en premier ou en dernier est 3 / 5.
+
+Vérification Python:
+
+```python
+import itertools
+from math import factorial
+from fractions import Fraction
+print(Fraction(sum(1 for p in itertools.permutations("RRRBB") if p[-1]=="R"), factorial(5)))
+```
+
+> réponse: 3 / 5
+
+## Lundi 25 Octobre
+
+30 + x + y + y - x = 180  (somme des angles d'un triangle)
+
+D'où y = (180 - 30) / 2 = 75
+
+y - x + 105 - x = 180  (angle plat)
+
+D'où x = (75 + 105 - 180) / 2 = 0
+
+> réponse: x = 0°
