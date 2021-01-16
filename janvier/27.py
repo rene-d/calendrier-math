@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 
-# 22 Janvier 2021
-
-# il y a 36 jets possibles, soit 36 nombres:
-#   11 12 13 14 15 16 21 22 ... 65 66
-# parmi ces nombres il y a 4 carrés: 16 25 36 64
-# soit 4/36 ou 1/9
-
 from datetime import datetime, timedelta
 
 un_jour = timedelta(days=1)

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 4 Février
-
 CONF = (
     "x1 + x10 + 13 + 2",
     "x1 + x2 + x3 + 2",

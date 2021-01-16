@@ -165,14 +165,22 @@ def inline_python(month):
     readme = solutions_md.read_text()
     hash = hashlib.md5(readme.encode()).hexdigest()
 
+    # suppression du script
+    readme = re.sub(
+        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n[^`]*```\n)",
+        r"\1",
+        readme,
+        re.DOTALL,
+    )
+
+    # ajout du script
     def repl(a):
-        line, py, old = a.groups()
+        line, py= a.groups()
         script = (Path(month_norm) / py).read_text().strip()
-        return f"{line}\n"
         return f"{line}\n```python\n{script}\n```\n"
 
     new_readme = re.sub(
-        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n[^`]*```\n\n)",
+        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)",
         repl,
         readme,
         re.DOTALL,
@@ -182,14 +190,12 @@ def inline_python(month):
         return
 
     solutions_md.write_text(new_readme)
-    print(solutions_md)
-    exit()
+    print(f"écrit {solutions_md}")
 
     if "GIT_INDEX_FILE" in os.environ:
         if Path(os.environ["GIT_INDEX_FILE"]).is_file():
             os.system(f"git add {solutions_md}")
             print(f"staged {solutions_md}")
-
 
 def main():
     year = 2021

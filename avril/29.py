@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 29 Avril
-
 import itertools
 
 r = max(

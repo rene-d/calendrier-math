@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 15 Juin
-
 nb = 0
 for n in range(10000, 100000):
     s = 0

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 21 Janvier 2021
-
 # les palindromes à 3 chiffres sont forcément du genre 'aba' avec a ∈ [1,9] et b quelconque.
 # il y a donc 9 * 10 palindromes entre 100 et 1000
 

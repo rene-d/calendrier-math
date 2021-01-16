@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-# 14 Janvier 2021
-
-
 for a in range(1, 20):
     for b in range(1, 20):
         # condition 1: le triangle doit exister

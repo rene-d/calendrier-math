@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 5 Janvier 2021
-
 import itertools
 
 expr = "100 {} 45 {} 67 {} 62 == 50"

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 9 Juin
-
 import itertools
 
 e = range(1, 6)

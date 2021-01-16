@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 9 Avril
-
 n = 0
 for a in range(740, 2022, 5):
     if a % 400 == 0:

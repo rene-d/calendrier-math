@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
-def is_zero(f : float):
+
+def is_zero(f: float):
     return abs(f) < 1e-10
+
 
 def xy(x, y):
 

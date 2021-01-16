@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# Lundi 8 Février
-
 # il faut les nombres premiers jusqu'à environ 2010^(1/3), soit environ 13. au-delà c'est trop grand (11*13*17 = 2431)
 primes = [2, 3, 5, 7, 11, 13]
 

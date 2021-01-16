@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 25 Juin
-
 import itertools
 
 solution = None

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 2 Juillet 2021
-
 n = 0
 for i in range(11, 100):
     a, b = divmod(i, 10)

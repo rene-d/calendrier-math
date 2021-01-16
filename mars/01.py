@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# 1 Mars
-
 import itertools
 
 n = 0
@@ -12,4 +10,5 @@ for fruits in itertools.product("AP", repeat=6):
     else:
         n += 1
         # print(" ".join(fruits))
+
 print("réponse:", n)
