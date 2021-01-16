@@ -152,6 +152,28 @@ def create_month(month, year=2021):
     return (done_month, total_month), "\n".join(md)
 
 
+def inline_python(month):
+
+    month_name = MONTHS[month - 1]
+    month_lower = month_name.lower()
+    month_norm = remove_accents(month_lower)
+
+    solutions_md = Path(month_norm) / f"README.md"
+    if not solutions_md.exists(): return
+
+    md = solutions_md.read_text()
+
+    def repl(a):
+        zz,py,old=a.groups()
+        print(Path(month_norm),py,old)
+
+        script = (Path(month_norm) / py).read_text().strip()
+
+        return zz + f"\n```python\n{script}\n```\n"
+
+    a=re.sub(r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n.+?\n```\n)?", repl, md, re.DOTALL)
+
+
 def main():
     year = 2021
 
@@ -196,6 +218,9 @@ def main():
                 os.system("git add README.md")
                 print("staged README.md")
 
+
+    for month in range(1, 13):
+        inline_python(month)
 
 if __name__ == "__main__":
     main()

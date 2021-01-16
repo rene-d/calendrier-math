@@ -251,7 +251,7 @@ surface anneau = 4π - 3π = π
 
 ## Mercredi 27 Janvier
 
-Cf. [programme](91.py) en Python.
+Cf. [programme](27.py) en Python.
 
 > réponse: 91
 

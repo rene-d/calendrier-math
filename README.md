@@ -6,6 +6,8 @@ J'essaie de vérifier au maximum l'exactitude et la précision des démonstratio
 
 Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également souvent utilisés.
 
+Elles sont rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters) qui offrent une mise en page suffisante. Cependant, il serait possible d'utiliser LaTeX pour des équations plus complexes (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) par exemple, [codecogs](https://www.codecogs.com/latex/eqneditor.php), [katex](https://katex.org), etc.).
+
 Les programmes Python peuvent être lancés en script, interactivement, ou en ligne: [python](https://www.python.org/shell/), [programiz](https://www.programiz.com/python-programming/online-compiler/), [repl.it](https://repl.it/), etc.
 
 Même si le recours à l'informatique n'est pas l'objectif du calendrier, cela a malgré tout deux intérêts:
@@ -17,7 +19,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![174/261](https://img.shields.io/static/v1?label=solutions&message=174/261%20%2867%25%29&color=blueviolet)
+![182/261](https://img.shields.io/static/v1?label=solutions&message=182/261%20%2870%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -118,13 +120,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Octobre
 
-[![1/21](https://img.shields.io/static/v1?label=en%20cours&message=1/21&color=informational)](octobre/)
+[![9/21](https://img.shields.io/static/v1?label=en%20cours&message=9/21&color=informational)](octobre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-|    |    |    |    | 01 | *02* | *03* |
-| 04 | 05 | 06 | 07 | 08 | *09* | *10* |
-| 11 | 12 | 13 | 14 | 15 | *16* | *17* |
+|    |    |    |    | [01](octobre/README.md#vendredi-1-octobre) | *02* | *03* |
+| [04](octobre/README.md#lundi-4-octobre) | [05](octobre/README.md#mardi-5-octobre) | [06](octobre/README.md#mercredi-6-octobre) | [07](octobre/README.md#jeudi-7-octobre) | [08](octobre/README.md#vendredi-8-octobre) | *09* | *10* |
+| 11 [🖥](octobre/11.py) | 12 [🖥](octobre/12.py) | 13 | 14 | 15 | *16* | *17* |
 | 18 | [19](octobre/README.md#mardi-19-octobre) | 20 | 21 | 22 | *23* | *24* |
 | 25 | 26 | 27 | 28 | 29 | *30* | *31* |
 

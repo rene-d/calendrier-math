@@ -259,15 +259,15 @@ Donc l'aire du triangle DPC est 2.
 
 ## Mercredi 25 Août
 
-Le produit des entiers impairs jusqu'à 2021 est celui des entiers jusqu'à 2021 divisé par le produit des entiers pairs jusqu'à 2020..
+Le produit des entiers impairs jusqu'à 2021 est celui des entiers jusqu'à 2021 divisé par le produit des entiers pairs jusqu'à 2020.
 
-Le produit des entiers pairs jusqu'à 2020 est: 2 × 4 × ... × 2020, soit 2^1010 × (1 × 2 × ... × 1010) = 2^1010 × 1010!
+Le produit des entiers pairs jusqu'à 2020 est: 2 × 4 × … × 2020, soit 2^1010 × (1 × 2 × … × 1010) = 2^1010 × 1010!
 
 > réponse: 2021! / (2^1010 × 1010!)
 
 ## Jeudi 26 Août
 
-Une fourmi pourra faire 2 aller-retours en 1h, soit apporter 4g. Pour ramener 5 kg, il faudra 1250 fourmis
+Une fourmi pourra faire 2 aller-retours en 1h, soit ramener 2 × 2 = 4g. Pour ramener 5 kg, il faudra 5000 / 4 = 1250 fourmis.
 
 > réponse: 1250
 
