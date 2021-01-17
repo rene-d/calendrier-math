@@ -19,7 +19,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![216/261](https://img.shields.io/static/v1?label=solutions&message=216/261%20%2883%25%29&color=blueviolet)
+![221/261](https://img.shields.io/static/v1?label=solutions&message=221/261%20%2885%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -144,12 +144,12 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Décembre
 
-[![3/23](https://img.shields.io/static/v1?label=en%20cours&message=3/23&color=informational)](decembre/)
+[![8/23](https://img.shields.io/static/v1?label=en%20cours&message=8/23&color=informational)](decembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    | [01](decembre/README.md#mercredi-1-décembre) | [02](decembre/README.md#jeudi-2-décembre) [🖥](decembre/02.py) | [03](decembre/README.md#vendredi-3-décembre) | *04* | *05* |
-| 06 | 07 | 08 | 09 | 10 | *11* | *12* |
+| [06](decembre/README.md#lundi-6-décembre) | [07](decembre/README.md#mardi-7-décembre) | [08](decembre/README.md#mercredi-8-décembre) [🖥](decembre/08.py) | [09](decembre/README.md#jeudi-9-décembre) | [10](decembre/README.md#vendredi-10-décembre) | *11* | *12* |
 | 13 | 14 | 15 | 16 | 17 | *18* | *19* |
 | 20 | 21 | 22 | 23 | 24 | *25* | *26* |
 | 27 | 28 | 29 | 30 | 31 |    |    |
