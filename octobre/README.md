@@ -250,3 +250,45 @@ y - x + 105 - x = 180  (angle plat)
 D'où x = (75 + 105 - 180) / 2 = 0
 
 > réponse: x = 0°
+
+## Mardi 26 Octobre
+
+[Programme](26.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import product
+
+m = max(
+    (a * b * c + a * b + b * c + a * c, a, b, c)
+    for a, b, c in product(range(13), repeat=3)
+    if a + b + c == 12
+)
+print(m)
+```
+
+> réponse: 112
+
+## Mercredi 27 Octobre
+
+Pour qu'un nombre soit multiple de 24 il faut qu'il soit divible par 3 et par 8.
+
+B = 0 ou 8 pour qu'il soit divisible par 8.
+
+Si B = 0: 2A600 divisible par 3 ⇒ A = 1, 4, 7
+
+Si B = 8: 2A608 divisible par 3 ⇒ A = 2, 5, 8
+
+> réponse: 6
+
+## Vendredi 29 Octobre
+
+Cotés du triangle rectangle d'hypothénuse AB:
+
+- 21.5 - 4.5 = 17
+- 28
+
+AB = √(28² + 17²) = √1073
+
+> réponse: √1073
