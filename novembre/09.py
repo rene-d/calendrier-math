@@ -37,7 +37,7 @@ for a in points:
 
             # calcule les 3 angles du triangles
             angles = angle(b, a, c), angle(c, b, a), angle(a, c, b)
-            if min(angles) == 0 or max(angles) > 90:
+            if min(angles) == 0 or max(angles) >= 90:
                 continue
 
             # on a un triangle, dont tous les angles sont aigus

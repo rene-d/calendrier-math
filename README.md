@@ -19,7 +19,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![204/261](https://img.shields.io/static/v1?label=solutions&message=204/261%20%2878%25%29&color=blueviolet)
+![213/261](https://img.shields.io/static/v1?label=solutions&message=213/261%20%2882%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -132,13 +132,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Novembre
 
-[![13/22](https://img.shields.io/static/v1?label=en%20cours&message=13/22&color=informational)](novembre/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](novembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 | [01](novembre/README.md#lundi-1-novembre) | [02](novembre/README.md#mardi-2-novembre) | [03](novembre/README.md#mercredi-3-novembre) | [04](novembre/README.md#jeudi-4-novembre) | [05](novembre/README.md#vendredi-5-novembre) | *06* | *07* |
-| [08](novembre/README.md#lundi-8-novembre) | [09](novembre/README.md#mardi-9-novembre) [🖥](novembre/09.py) | [10](novembre/README.md#mercredi-10-novembre) [🖥](novembre/10.py) | [11](novembre/README.md#jeudi-11-novembre) [🖥](novembre/11.py) | 12 | *13* | *14* |
-| 15 | [16](novembre/README.md#mardi-16-novembre) | [17](novembre/README.md#mercredi-17-novembre) [🖥](novembre/17.py) | [18](novembre/README.md#jeudi-18-novembre) | 19 | *20* | *21* |
-| [22](novembre/README.md#lundi-22-novembre) | 23 | 24 | 25 | 26 | *27* | *28* |
-| 29 | 30 |    |    |    |    |    |
+| [08](novembre/README.md#lundi-8-novembre) | [09](novembre/README.md#mardi-9-novembre) [🖥](novembre/09.py) | [10](novembre/README.md#mercredi-10-novembre) [🖥](novembre/10.py) | [11](novembre/README.md#jeudi-11-novembre) [🖥](novembre/11.py) | [12](novembre/README.md#vendredi-12-novembre) | *13* | *14* |
+| [15](novembre/README.md#lundi-15-novembre) | [16](novembre/README.md#mardi-16-novembre) | [17](novembre/README.md#mercredi-17-novembre) [🖥](novembre/17.py) | [18](novembre/README.md#jeudi-18-novembre) | [19](novembre/README.md#vendredi-19-novembre) | *20* | *21* |
+| [22](novembre/README.md#lundi-22-novembre) | [23](novembre/README.md#mardi-23-novembre) | [24](novembre/README.md#mercredi-24-novembre) | [25](novembre/README.md#jeudi-25-novembre) | [26](novembre/README.md#vendredi-26-novembre) | *27* | *28* |
+| [29](novembre/README.md#lundi-29-novembre) [🖥](novembre/29.py) | [30](novembre/README.md#mardi-30-novembre) |    |    |    |    |    |
 
