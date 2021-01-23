@@ -331,6 +331,8 @@ En 12h, les aiguilles seront perpendiculaires 22 fois. En 24h, le double.
 
 ![schéma](28clock.png)
 
+[programme de calcul](28calc.py) [programme de dessin](28clock.py)
+
 > réponse: 44
 
 ## Mercredi 29 Décembre
