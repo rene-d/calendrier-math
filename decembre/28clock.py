@@ -27,8 +27,8 @@ for i in range(22):
     m = (12 * h) % 360
 
     # l'heure
-    turtle.goto(x, y - 10)
-    turtle.write(f"{int(h/30):02d}:{int(m/6):02d}", align="center")
+    turtle.goto(x, y - 22)
+    turtle.write(f"{int(h/30):02d}:{int(m/6):02d}", align="center",  font=("Menlo", 20, "normal"))
 
     # aiguille des heures
     turtle.pensize(2)

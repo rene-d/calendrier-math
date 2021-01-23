@@ -329,11 +329,13 @@ Il faut résoudre  m - h = 90 + 180 × k, soit 11 × h = 90 + 180 × k
 
 En 12h, les aiguilles seront perpendiculaires 22 fois. En 24h, le double.
 
+![schéma](28clock.png)
+
 > réponse: 44
 
 ## Mercredi 29 Décembre
 
-a et n entiers
+Soit a et n entiers.
 
 √a - √2021 = √n
 
@@ -343,8 +345,8 @@ a + 2021 - 2√(a 2021) = n
 
 Donc a doit être de la forme 43 × 47 × k² pour que √(a 2021) soit entier.
 
-Si k = 1, √a - √2021 = 0 ❌
-Si k = 2, 2√2021 - √2021 = 1 ✅
+- Si k = 1, √a - √2021 = 0 ❌
+- Si k = 2, 2√2021 - √2021 = 1 ✅
 
 > réponse: 8084
 
