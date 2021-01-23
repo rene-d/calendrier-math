@@ -19,7 +19,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![221/261](https://img.shields.io/static/v1?label=solutions&message=221/261%20%2885%25%29&color=blueviolet)
+![236/261](https://img.shields.io/static/v1?label=solutions&message=236/261%20%2890%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -144,13 +144,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Décembre
 
-[![8/23](https://img.shields.io/static/v1?label=en%20cours&message=8/23&color=informational)](decembre/)
+[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success)](decembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    | [01](decembre/README.md#mercredi-1-décembre) | [02](decembre/README.md#jeudi-2-décembre) [🖥](decembre/02.py) | [03](decembre/README.md#vendredi-3-décembre) | *04* | *05* |
 | [06](decembre/README.md#lundi-6-décembre) | [07](decembre/README.md#mardi-7-décembre) | [08](decembre/README.md#mercredi-8-décembre) [🖥](decembre/08.py) | [09](decembre/README.md#jeudi-9-décembre) | [10](decembre/README.md#vendredi-10-décembre) | *11* | *12* |
-| 13 | 14 | 15 | 16 | 17 | *18* | *19* |
-| 20 | 21 | 22 | 23 | 24 | *25* | *26* |
-| 27 | 28 | 29 | 30 | 31 |    |    |
+| [13](decembre/README.md#lundi-13-décembre) | [14](decembre/README.md#mardi-14-décembre) | [15](decembre/README.md#mercredi-15-décembre) | [16](decembre/README.md#jeudi-16-décembre) | [17](decembre/README.md#vendredi-17-décembre) [🖥](decembre/17.py) | *18* | *19* |
+| [20](decembre/README.md#lundi-20-décembre) [🖥](decembre/20.py) | [21](decembre/README.md#mardi-21-décembre) | [22](decembre/README.md#mercredi-22-décembre) | [23](decembre/README.md#jeudi-23-décembre) | [24](decembre/README.md#vendredi-24-décembre) | *25* | *26* |
+| [27](decembre/README.md#lundi-27-décembre) | [28](decembre/README.md#mardi-28-décembre) | [29](decembre/README.md#mercredi-29-décembre) | [30](decembre/README.md#jeudi-30-décembre) [🖥](decembre/30.py) | [31](decembre/README.md#vendredi-31-décembre) |    |    |
 
