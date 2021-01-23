@@ -1,4 +1,4 @@
-# Calendrier Mathématique Déccembre 2021
+# Calendrier Mathématique Décembre 2021
 
 ## Mercredi 1 Décembre
 
