@@ -9,6 +9,7 @@ import unicodedata
 import re
 import os
 import hashlib
+import argparse
 
 USE_BADGES = True
 SHOW_SOLUTION = False
@@ -80,10 +81,10 @@ def create_month(month, year=2021):
     md.append("|".join(["", *DAYS, ""]))
     md.append("|".join(["", *["---"] * 7, ""]))
 
-    # date de début du month
+    # date de début du mois
     d = datetime(year, month, 1)
 
-    # date de fin (1er du month suivant)
+    # date de fin (1er du montmoish suivant)
     fin = datetime(year + month // 12, (month % 12) + 1, 1)
 
     # petit retour en arrière pour bien placer le 1er dans le semainier
@@ -99,7 +100,7 @@ def create_month(month, year=2021):
         for i in range(7):
 
             if d.month != month:
-                # on n'est pas encore le 1er du month
+                # on n'est pas encore le 1er du mois
                 cols.append("  ")
 
             elif d.weekday() >= 5:
@@ -198,8 +199,7 @@ def inline_python(month):
             print(f"staged {solutions_md}")
 
 
-def main():
-    year = 2021
+def generate_year(year=2021):
 
     readme = Path("README.md").read_text()
     titre = f"## Solutions {year}\n\n"
@@ -244,6 +244,42 @@ def main():
 
     for month in range(1, 13):
         inline_python(month)
+
+
+def prepare_month(month, year):
+
+    d = datetime(year, month, 1)
+
+    md = []
+    md.append(f"# Calendrier Mathématique {MONTHS[month-1]} {year}")
+    md.append("")
+
+    while d.month == month:
+        if d.weekday() < 5:
+            md.append(f"## {DAYS[d.weekday()]} {d.day} {MONTHS[month-1]}")
+            md.append("")
+        d += timedelta(days=1)
+
+    print("\n".join(md))
+
+
+def main():
+    parse = argparse.ArgumentParser(
+        description="Outil Calendrier Mathématique",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
+
+    parse.add_argument(
+        "--root", default=Path(__file__).parent.resolve(), help="répertoire racine"
+    )
+    parse.add_argument("-y", "--year", type=int, default=2021, help="année")
+    parse.add_argument("-m", "--month", type=int, help="prépare le README.md du mois")
+    args = parse.parse_args()
+
+    if args.month:
+        prepare_month(args.month, args.year)
+    else:
+        generate_year(args.year)
 
 
 if __name__ == "__main__":
