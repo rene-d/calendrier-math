@@ -50,9 +50,9 @@ AB² + BC² = AC² = 21 ⇒ AB = √(21 - 12) = 3
 
 ## Vendredi 10 Septembre
 
-Le coefficient $r$ entre deux termes vaut: $r = \frac { \sqrt[3]{3} } {  \sqrt{3} } = \frac { 3 ^ { \frac{1}{3} }} { 3 ^ { \frac{1}{2}} } = {3} ^ { \frac{1}{3}-\frac{1}{2}}= {3} ^ {- \frac{1}{6}}$
+Le coefficient ![](https://render.githubusercontent.com/render/math?math=r&mode=inline) entre deux termes vaut: ![](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%20%7B%20%5Csqrt%5B3%5D%7B3%7D%20%7D%20%7B%20%20%5Csqrt%7B3%7D%20%7D%20%3D%20%5Cfrac%20%7B%203%20%5E%20%7B%20%5Cfrac%7B1%7D%7B3%7D%20%7D%7D%20%7B%203%20%5E%20%7B%20%5Cfrac%7B1%7D%7B2%7D%7D%20%7D%20%3D%20%7B3%7D%20%5E%20%7B%20%5Cfrac%7B1%7D%7B3%7D-%5Cfrac%7B1%7D%7B2%7D%7D%3D%20%7B3%7D%20%5E%20%7B-%20%5Cfrac%7B1%7D%7B6%7D%7D&mode=inline)
 
-Le terme suivant est donc $\sqrt[6]{3} \times {3} ^ {-\frac{1}{6}} = {3} ^ {\frac{1}{6} -\frac{1}{6}} = 3 ^0 = 1$
+Le terme suivant est donc ![latex](https://render.githubusercontent.com/render/math?math=%5Csqrt%5B6%5D%7B3%7D%20%5Ctimes%20%7B3%7D%20%5E%20%7B-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%20%7B3%7D%20%5E%20%7B%5Cfrac%7B1%7D%7B6%7D%20-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%203%20%5E0%20%3D%201&mode=inline)
 
 > réponse: 1
 
