@@ -150,7 +150,7 @@ print("réponse:", n)
 
 ## Mercredi 14 Avril
 
-> réponse:
+> réponse: (voir schéma)
 
 ![réponse](14.png)
 

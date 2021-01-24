@@ -15,6 +15,8 @@ USE_BADGES = True
 SHOW_SOLUTION = False
 SHOW_SCREEN = True
 
+CURRENT_YEAR = 2021
+
 MONTHS = (
     "Janvier",
     "Février",
@@ -47,7 +49,7 @@ def remove_accents(input_str):
     return only_ascii.decode()
 
 
-def create_month(month, year=2021):
+def create_month(month, year):
 
     month_name = MONTHS[month - 1]
     month_lower = month_name.lower()
@@ -59,17 +61,12 @@ def create_month(month, year=2021):
     if solutions_md.exists():
         for line in solutions_md.open():
             line = line.strip()
-            m = re.match(fr"^## (\d+) {month_name}$", line)
+            m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
             if m:
-                current_day = int(m[1])
-                solutions_link[current_day] = f"{solutions_md}#{m[1]}-{month_lower}"
-            else:
-                m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
-                if m:
-                    current_day = int(m[2])
-                    solutions_link[
-                        current_day
-                    ] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
+                current_day = int(m[2])
+                solutions_link[
+                    current_day
+                ] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
 
             m = re.match(f"^> réponse: (.*)$", line)
             if m:
@@ -112,11 +109,11 @@ def create_month(month, year=2021):
 
                 p = Path(month_norm) / f"{d.day:02d}.py"
 
-                if p.exists() and d.day in solutions_link and SHOW_SCREEN:
+                if p.exists() and d.day in solutions_text and SHOW_SCREEN:
                     cols.append(f"[{d.day:02d}]({solutions_link[d.day]}) [🖥]({p})")
                     done_month += 1
 
-                elif d.day in solutions_link:
+                elif d.day in solutions_text:
                     cols.append(f"[{d.day:02d}]({solutions_link[d.day]})")
                     done_month += 1
 
@@ -191,15 +188,21 @@ def inline_python(month):
         return
 
     solutions_md.write_text(new_readme)
-    print(f"écrit {solutions_md}")
+    print(f"écrit {solutions_md.relative_to(root)}")
 
     if "GIT_INDEX_FILE" in os.environ:
         if Path(os.environ["GIT_INDEX_FILE"]).is_file():
-            os.system(f"git add {solutions_md}")
-            print(f"staged {solutions_md}")
+            os.system(f"git add {solutions_md.relative_to(root)}")
+            print(f"staged {solutions_md.relative_to(root)}")
 
 
-def generate_year(year=2021):
+def generate_year(root_dir, year):
+
+    os.chdir(root_dir)
+    if year != CURRENT_YEAR:
+        os.chdir(f"{year}")
+
+    print(f"----- Année {year} -----")
 
     readme = Path("README.md").read_text()
     titre = f"## Solutions {year}\n\n"
@@ -235,7 +238,7 @@ def generate_year(year=2021):
 
     if hash != hashlib.md5(readme.encode()).hexdigest():
 
-        Path("README.md").write_text(readme)
+        (Path("README.md")).write_text(readme)
 
         if "GIT_INDEX_FILE" in os.environ:
             if Path(os.environ["GIT_INDEX_FILE"]).is_file():
@@ -246,7 +249,7 @@ def generate_year(year=2021):
         inline_python(month)
 
 
-def prepare_month(month, year):
+def prepare_month_template(month, year):
 
     d = datetime(year, month, 1)
 
@@ -264,22 +267,35 @@ def prepare_month(month, year):
 
 
 def main():
+    if "GIT_INDEX_FILE" in os.environ:
+        root_dir = Path(os.environ["GIT_INDEX_FILE"]).parent.parent
+    else:
+        root_dir = Path(__file__).parent.resolve()
+
     parse = argparse.ArgumentParser(
         description="Outil Calendrier Mathématique",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
 
     parse.add_argument(
-        "--root", default=Path(__file__).parent.resolve(), help="répertoire racine"
+        "--root", default=root_dir, help="répertoire racine"
     )
-    parse.add_argument("-y", "--year", type=int, default=2021, help="année")
+    parse.add_argument("-y", "--year", type=int, help="année")
     parse.add_argument("-m", "--month", type=int, help="prépare le README.md du mois")
     args = parse.parse_args()
 
     if args.month:
-        prepare_month(args.month, args.year)
+        prepare_month_template(args.month, args.year)
     else:
-        generate_year(args.year)
+        if args.year:
+            generate_year(args.root, args.year)
+        else:
+            generate_year(args.root, CURRENT_YEAR)
+
+            year = CURRENT_YEAR - 1
+            while Path(f"{year}").is_dir():
+                generate_year(args.root, year)
+                year -= 1
 
 
 if __name__ == "__main__":

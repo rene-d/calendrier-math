@@ -115,13 +115,68 @@ Anna a lu: 20 + 7 × 10 + 4 = 91 pages
 
 ## Lundi 13 Janvier
 
+La suite est constituée de nombres impairs. Soit S le nombre d'élements:
+
+S = 1 + 3 + 5 + 7 + … + n = ((n + 1) / 2)²
+
+On cherche la première valeur de n telle que S ≥ 100. Résolvons l'inéquation:
+
+((n + 1) / 2)² ≥ 100
+
+(n + 1) / 2 ≥ 10
+
+n ≥ 10 × 2 - 1 = 19
+
+Vérification en Python:
+
+```python
+n = 0
+i = 1
+while n < 100:
+    for _ in range(i):
+        n += 1
+        if n == 100:
+            print(i)
+            break
+    i += 2
+```
+
+> réponse: 19
+
 ## Mardi 14 Janvier
+
+Le triangle MNC représente la moitié d'un quart de rectangle, soit 1 / 8. La surface coloriée est donc 7 / 8 = 87.5%.
+
+> réponse: 87.5%
 
 ## Mercredi 15 Janvier
 
+Pour la première case, on a le choix entre trois couleurs. Pour les cases suivantes, on le choix entre deux couleurs. Soit:
+
+3 × 2 × 2 × 2 × 2 = 48
+
+> réponse: 48
+
 ## Jeudi 16 Janvier
 
+Soit ab l'âge de Victor. On a: ababab = ab × 10101.
+
+Or, 10101 = 3 × 7 × 13 × 37
+
+La femme a 37 ans, les filles 13, 7, 3, 1. Victor peut avoir 33, 44, 55, etc.
+
+> réponse: 13 ans
+
 ## Vendredi 17 Janvier
+
+Pour que p + q + r soit pair, il faut qu'un des nombres premiers soit pair, c'est-à-dire 2 le seul premier pair. Notons r ce nombre (p q r ont des rôles similaires dans l'équation).
+
+pqr - 2(pq + qr + rp) + 4(p + q + r)
+ = 2pq - 2(pq + 2p + 2q) + 4(p + q + 2)
+ = 2pq - 2pq - 4p - 4q + 4p + 4q + 8
+ = 8
+
+> réponse: 8
 
 ## Lundi 20 Janvier
 

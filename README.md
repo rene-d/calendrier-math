@@ -2,6 +2,8 @@
 
 Solutions personnelles aux questions du [Calendrier Mathématique 2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
 
+Année précédente: [Calendrier Mathématique 2020](2020/README.md).
+
 J'essaie de vérifier au maximum l'exactitude et la précision des démonstrations. Elles sont pour la plupart d'ailleurs similaires à celles du livret. Cependant des erreurs peuvent subsister (erreur de raisonnement, théorème non cité ou trop compliqué, outils mathématiques trop évolués, etc.). Les solutions officielles sont uniquement celles publiées avec le calendrier.
 
 Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également souvent utilisés.
@@ -39,7 +41,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-| [01](fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) | [02](fevrier/README.md#mardi-2-février) [🖥](fevrier/02.py) | [03](fevrier/README.md#mercredi-3-février) | [04](fevrier/README.md#jeudi-4-février) [🖥](fevrier/04.py) | [05](fevrier/README.md#vendredi-5-février) | *06* | *07* |
+| [01](fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) | [02](fevrier/README.md#mardi-2-février) [🖥](fevrier/02.py) | [03](fevrier/README.md#mercredi-3-février) | 04 [🖥](fevrier/04.py) | [05](fevrier/README.md#vendredi-5-février) | *06* | *07* |
 | [08](fevrier/README.md#lundi-8-février) [🖥](fevrier/08.py) | [09](fevrier/README.md#mardi-9-février) | [10](fevrier/README.md#mercredi-10-février) | [11](fevrier/README.md#jeudi-11-février) [🖥](fevrier/11.py) | [12](fevrier/README.md#vendredi-12-février) | *13* | *14* |
 | [15](fevrier/README.md#lundi-15-février) | [16](fevrier/README.md#mardi-16-février) [🖥](fevrier/16.py) | [17](fevrier/README.md#mercredi-17-février) | [18](fevrier/README.md#jeudi-18-février) | [19](fevrier/README.md#vendredi-19-février) | *20* | *21* |
 | [22](fevrier/README.md#lundi-22-février) | [23](fevrier/README.md#mardi-23-février) | [24](fevrier/README.md#mercredi-24-février) | [25](fevrier/README.md#jeudi-25-février) | [26](fevrier/README.md#vendredi-26-février) | *27* | *28* |
@@ -126,7 +128,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](octobre/README.md#vendredi-1-octobre) | *02* | *03* |
 | [04](octobre/README.md#lundi-4-octobre) | [05](octobre/README.md#mardi-5-octobre) | [06](octobre/README.md#mercredi-6-octobre) | [07](octobre/README.md#jeudi-7-octobre) | [08](octobre/README.md#vendredi-8-octobre) | *09* | *10* |
-| 11 [🖥](octobre/11.py) | [12](octobre/README.md#mardi-12-octobre) [🖥](octobre/12.py) | 13 | [14](octobre/README.md#jeudi-14-octobre) | [15](octobre/README.md#vendredi-15-octobre) [🖥](octobre/15.py) | *16* | *17* |
+| 11 [🖥](octobre/11.py) | 12 [🖥](octobre/12.py) | 13 | [14](octobre/README.md#jeudi-14-octobre) | [15](octobre/README.md#vendredi-15-octobre) [🖥](octobre/15.py) | *16* | *17* |
 | 18 | [19](octobre/README.md#mardi-19-octobre) | [20](octobre/README.md#mercredi-20-octobre) | [21](octobre/README.md#jeudi-21-octobre) | [22](octobre/README.md#vendredi-22-octobre) | *23* | *24* |
 | [25](octobre/README.md#lundi-25-octobre) | [26](octobre/README.md#mardi-26-octobre) [🖥](octobre/26.py) | [27](octobre/README.md#mercredi-27-octobre) | 28 | [29](octobre/README.md#vendredi-29-octobre) | *30* | *31* |
 
