@@ -147,7 +147,40 @@ n = 11111 en base b vaut b⁴ + b³ + b² + b¹ + b⁰ = (b⁵ - 1) / (b - 1)
 
 Les choix 1 et 3 ne sont pas possibles parce qu'il faut un nombre impair d'arêtes au point B (passages puis arrivée).
 
-[programme][24.py] Python qui trace le chemin.
+[programme](24.py) Python qui trace le chemin.
+
+```python
+#!/usr/bin/env python3
+
+import turtle
+
+
+turtle.speed(1)
+turtle.penup()
+
+turtle.goto(115, 0)
+turtle.write("A", font=("Menlo", 20, "normal"))
+
+turtle.goto(100, 0)
+turtle.pendown()
+turtle.goto(-100, 00)
+turtle.goto(-80, 150)
+turtle.goto(120, 120)
+turtle.goto(100, 0)
+turtle.goto(-80, 150)
+turtle.goto(100, 200)
+turtle.goto(120, 120)
+turtle.penup()
+
+turtle.goto(135, 120)
+turtle.write("B", font=("Menlo", 20, "normal"))
+
+
+turtle.mainloop()
+
+# conversion de la capture:
+# ffmpeg -i capture.mov -vf "fps=10,scale=-1:200:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 24.gif
+```
 
 > réponse: 2
 
