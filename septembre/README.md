@@ -178,7 +178,7 @@ turtle.write("B", font=("Menlo", 20, "normal"))
 
 turtle.mainloop()
 
-# conversion de la capture:
+# conversion de la capture pour la création du GIF animé:
 # ffmpeg -i capture.mov -vf "fps=10,scale=-1:200:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 24.gif
 ```
 
@@ -186,8 +186,35 @@ turtle.mainloop()
 
 ## Lundi 27 Septembre
 
+Le triangle ABD est isocèle en B puisque l'angle ADB fait 180 - 80 - 50 = 50° = angle DAB.
+
+Donc AD = BD = CD. Par conséquence, BCD est aussi isocèle en D et x = 180 - 30 × 2 = 120°
+
+> réponse: 120°
+
 ## Mardi 28 Septembre
+
+S = 2021 a + 2020 × 2021 / 2 = 2021 × (a + 1010) = 43 × 47 × (a + 1010).
+
+Il faut que a + 1010 = 2021, soit a = 1011. En-deça, il n'y aura pas 43 et 47 en facteur de a + 1010.
+
+> réponse: a = 1011
 
 ## Mercredi 29 Septembre
 
+1 / 9² = 0,0̅1̅2̅3̅4̅5̅6̅7̅9̅
+
+> réponse: 37
+
 ## Jeudi 30 Septembre
+
+Taille à atteindre: 8 pièces par pile. Il y a au moins 1 + 2 mouvements, puisque le mouvement de départ ne peut laisser 8 pièces et il faut au moins 2 mouvements pour équilibrer 3 colonnes (1 mouvement peut équilibrer 0, 1 ou 2 colonnes au max).
+
+] étape                 | pile ① | pile ② | pile ③ |
+| --------------------- |---------|--------|--------|
+| état initial          |     11 |      7 |      6 |
+| 7 de ① vers ②        |      4 |     14 |      6 |
+| 6 de ② vers ③        |      4 |      8 |     12 |
+| 4 de ③ vers ①        |      8 |      8 |      8 |
+
+> réponse: 3 mouvements

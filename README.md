@@ -21,7 +21,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![249/261](https://img.shields.io/static/v1?label=solutions&message=249/261%20%2895%25%29&color=blueviolet)
+![253/261](https://img.shields.io/static/v1?label=solutions&message=253/261%20%2897%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -122,7 +122,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Septembre
 
-[![13/22](https://img.shields.io/static/v1?label=en%20cours&message=13/22&color=informational)](septembre/)
+[![17/22](https://img.shields.io/static/v1?label=en%20cours&message=17/22&color=informational)](septembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -130,7 +130,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [06](septembre/README.md#lundi-6-septembre) | [07](septembre/README.md#mardi-7-septembre) | [08](septembre/README.md#mercredi-8-septembre) | [09](septembre/README.md#jeudi-9-septembre) | [10](septembre/README.md#vendredi-10-septembre) | *11* | *12* |
 | 13 | 14 | 15 | [16](septembre/README.md#jeudi-16-septembre) | [17](septembre/README.md#vendredi-17-septembre) | *18* | *19* |
 | 20 | [21](septembre/README.md#mardi-21-septembre) | [22](septembre/README.md#mercredi-22-septembre) | [23](septembre/README.md#jeudi-23-septembre) | [24](septembre/README.md#vendredi-24-septembre) [🖥](septembre/24.py) | *25* | *26* |
-| 27 | 28 | 29 | 30 |    |    |    |
+| [27](septembre/README.md#lundi-27-septembre) | [28](septembre/README.md#mardi-28-septembre) | [29](septembre/README.md#mercredi-29-septembre) | [30](septembre/README.md#jeudi-30-septembre) |    |    |    |
 
 ### Octobre
 

@@ -26,5 +26,5 @@ turtle.write("B", font=("Menlo", 20, "normal"))
 
 turtle.mainloop()
 
-# conversion de la capture:
+# conversion de la capture pour la création du GIF animé:
 # ffmpeg -i capture.mov -vf "fps=10,scale=-1:200:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 24.gif
