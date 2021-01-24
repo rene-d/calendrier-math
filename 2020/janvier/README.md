@@ -180,20 +180,97 @@ pqr - 2(pq + qr + rp) + 4(p + q + r)
 
 ## Lundi 20 Janvier
 
+| joueur  | déclaration  | but kylian | but antoine | but eden | but leo |
+| ------- | ------------ | - | - | - | - |
+| kylian  | antoine but  | M | V | M | M |
+| antoine | eden but     | M | M | V | M |
+| eden    | antoine ment | V | V | M | V |
+| leo     | leo pas but  | V | V | V | M |
+
+> réponse: Leo
+
 ## Mardi 21 Janvier
+
+Il y a un nombre qui est compté deux fois: essayons de l'identifier.
+
+2 + 3 + 4 + 5 + 6 + 7 + 8 = 8 * 9  / 2 - 1 = 35
+
+Pour que la somme des deux lignes soit 21 + 21 = 42, il faut compter deux fois le 7.
+
+Une réponse est:
+
+- 7 + 3 + 5 + 6 = 21
+- 7 + 2 + 4 + 8 = 21
+
+> réponse: le nombre à l'intersection doit être 7
 
 ## Mercredi 22 Janvier
 
 ## Jeudi 23 Janvier
 
+Il y a 36 lancers possibles.
+
+Si un impair (2 possibilités) sort au premier lancer, il y aura 2 2 6 4 6 8. Donc 2 × 2 = 4 possibilités.
+
+Si un pair (4 possibilités) sort au premier lancer, il y aura 1 1 3 2 3 4. Donc 4 × 1 = 4 possibilités.
+
+8 / 36 = 2 / 9
+
+> réponse: 2 / 9
+
 ## Vendredi 24 Janvier
+
+> réponse: -1, 1, 3, 5, 10
 
 ## Lundi 27 Janvier
 
+Chaque côté du triangle équilatéral coupe le rayon perpendiculaire en son milieu.
+
+Donc diamètre de L = 1 / 2 rayon de K.
+
+> réponse: 4
+
 ## Mardi 28 Janvier
 
+(difficile à dessiner...)
+
+> réponse: 6
+
 ## Mercredi 29 Janvier
+
+Il faut 2 × 30 + 4 × 20 + 6 × 10 = 200 cm
+
+> réponse: 2 m
 
 ## Jeudi 30 Janvier
 
 ## Vendredi 31 Janvier
+
+Hormis le fait qu'on va additionner 5 tranches de 1000 (celles qui commencent 1, 3, 5, 7, 9) au lieu de 4 pour les chiffres impairs, on peut constater que la sommes des chiffres impairs est 25 contre 20 pour les chiffres pairs.
+
+[Programme](31.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+somme_pair = 0
+somme_impair = 0
+for n in range(0, 10000):
+    pair = True
+    impair = True
+    i = n
+    for _ in range(4):
+        i, r = divmod(i, 10)
+        pair = pair and ((r % 2) == 0)
+        impair = impair and ((r % 2) == 1)
+    if pair:
+        somme_pair += n
+    if impair:
+        somme_impair += n
+
+print(somme_pair, somme_impair)
+
+print(somme_impair- somme_pair)
+```
+
+> réponse: impair

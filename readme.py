@@ -188,12 +188,12 @@ def inline_python(month):
         return
 
     solutions_md.write_text(new_readme)
-    print(f"écrit {solutions_md.relative_to(root)}")
+    print(f"écrit {solutions_md}")
 
     if "GIT_INDEX_FILE" in os.environ:
         if Path(os.environ["GIT_INDEX_FILE"]).is_file():
-            os.system(f"git add {solutions_md.relative_to(root)}")
-            print(f"staged {solutions_md.relative_to(root)}")
+            os.system(f"git add {solutions_md}")
+            print(f"staged {solutions_md}")
 
 
 def generate_year(root_dir, year):
