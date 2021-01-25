@@ -8,13 +8,13 @@ Le critère de divisibilité par 3 est que la somme des chiffres soit multiple d
 
 ## Jeudi 2 Septembre
 
+## Vendredi 3 Septembre
+
 x⁴ - 51x² + 50 = (x² - 1)(x² - 50)
 
 Donc pour x² strictement compris entre 1 et 50, le polynome sera strictement négatif. Dans 2 ≤ ∣x∣ ≤ 7
 
 > réponse: -7 à -2 et 2 à 7
-
-## Vendredi 3 Septembre
 
 ## Lundi 6 Septembre
 
@@ -64,7 +64,19 @@ Le terme suivant est donc:
 
 Il s'agit du plus petit nombre premier qui suit 23, à savoir 29.
 
+> réponse: 29
+
 ## Mardi 14 Septembre
+
+En dessous de la diagonale:
+
+- trois 1x1
+- deux 2x2
+- un 3x3
+
+Idem au dessus de la diagonale.
+
+> réponse: 12
 
 ## Mercredi 15 Septembre
 

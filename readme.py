@@ -306,6 +306,8 @@ def prepare_month_template(month, year):
 
 
 def process_years(root_dir, year, func):
+    """ Appelle la fonction sur l'année spécifiée ou sur toutes les années. """
+
     def chdir(year):
         print(f"----- Année {year} -----")
         os.chdir(root_dir)

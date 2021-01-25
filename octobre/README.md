@@ -107,7 +107,7 @@ for ops in itertools.product("0-+", repeat=4):
 print(len(results))
 ```
 
-> résultat: 40
+> réponse: 40
 
 ## Mardi 12 Octobre
 
@@ -135,7 +135,7 @@ print(f"{a10} {a11} 7")
 print(f"4 {a21} 3")
 ```
 
-> réponse:
+> réponse: (ci-dessous)
 
 ```text
 9 1 5
@@ -191,6 +191,8 @@ print(n)
 ```
 
 > réponse: 101
+
+## Lundi 18 Octobre
 
 ## Mardi 19 Octobre
 
@@ -281,6 +283,8 @@ Si B = 0: 2A600 divisible par 3 ⇒ A = 1, 4, 7
 Si B = 8: 2A608 divisible par 3 ⇒ A = 2, 5, 8
 
 > réponse: 6
+
+## Jeudi 28 Octobre
 
 ## Vendredi 29 Octobre
 
