@@ -210,11 +210,11 @@ Il faut que a + 1010 = 2021, soit a = 1011. En-deça, il n'y aura pas 43 et 47 e
 
 Taille à atteindre: 8 pièces par pile. Il y a au moins 1 + 2 mouvements, puisque le mouvement de départ ne peut laisser 8 pièces et il faut au moins 2 mouvements pour équilibrer 3 colonnes (1 mouvement peut équilibrer 0, 1 ou 2 colonnes au max).
 
-] étape                 | pile ① | pile ② | pile ③ |
-| --------------------- |---------|--------|--------|
-| état initial          |     11 |      7 |      6 |
-| 7 de ① vers ②        |      4 |     14 |      6 |
-| 6 de ② vers ③        |      4 |      8 |     12 |
-| 4 de ③ vers ①        |      8 |      8 |      8 |
+| étape             | pile ① | pile ② | pile ③ |
+ ------------------ |---------|---------|---------|
+| état initial      |      11 |       7 |       6 |
+| 7 de ① vers ②    |       4 |      14 |       6 |
+| 6 de ② vers ③    |       4 |       8 |      12 |
+| 4 de ③ vers ①    |       8 |       8 |       8 |
 
 > réponse: 3 mouvements
