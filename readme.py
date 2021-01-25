@@ -10,6 +10,7 @@ import re
 import os
 import hashlib
 import argparse
+from urllib.parse import quote, unquote
 
 USE_BADGES = True
 SHOW_SOLUTION = False
@@ -47,6 +48,59 @@ def remove_accents(input_str):
     nfkd_form = unicodedata.normalize("NFKD", input_str)
     only_ascii = nfkd_form.encode("ASCII", "ignore")
     return only_ascii.decode()
+
+
+def render_latex_on(readme):
+    def repl_render(m):
+        latex = m[1]
+        url = f"https://render.githubusercontent.com/render/math?math={quote(latex)}&mode=inline"
+        return f"![latex]({url})"
+
+    return re.sub(r"\$(.+?)\$", repl_render, readme)
+
+
+def render_latex_off(readme):
+    def repl_latex(m):
+        url = m[1]
+        return f"${unquote(url)}$"
+
+    return re.sub(
+        r"!\[latex\]\(https://render\.githubusercontent\.com/render/math\?math=(.+?)&mode=inline\)",
+        repl_latex,
+        readme,
+    )
+
+
+def inline_python_off(readme):
+
+    # suppression du script
+    readme = re.sub(
+        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n[^`]*```\n)",
+        r"\1",
+        readme,
+        re.DOTALL,
+    )
+    return readme
+
+
+def inline_python_on(readme):
+
+    readme = inline_python_off(readme)
+
+    # ajout du script
+    def repl(a):
+        line, py = a.groups()
+        script = Path(py).read_text().strip()
+        return f"{line}\n```python\n{script}\n```\n"
+
+    readme = re.sub(
+        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)",
+        repl,
+        readme,
+        re.DOTALL,
+    )
+
+    return readme
 
 
 def create_month(month, year):
@@ -150,59 +204,44 @@ def create_month(month, year):
     return (done_month, total_month), "\n".join(md)
 
 
-def inline_python(month):
+def patch_readme(repl_func):
+    """ Modifie un README.md mensuel en appelant une fonction. """
 
-    month_name = MONTHS[month - 1]
-    month_lower = month_name.lower()
-    month_norm = remove_accents(month_lower)
+    cwd = os.getcwd()
 
-    solutions_md = Path(month_norm) / f"README.md"
-    if not solutions_md.exists():
-        return
+    for month in range(1, 13):
 
-    readme = solutions_md.read_text()
-    hash = hashlib.md5(readme.encode()).hexdigest()
+        month_name = MONTHS[month - 1]
+        month_lower = month_name.lower()
+        month_norm = remove_accents(month_lower)
 
-    # suppression du script
-    readme = re.sub(
-        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n[^`]*```\n)",
-        r"\1",
-        readme,
-        re.DOTALL,
-    )
+        solutions_md = Path(month_norm) / f"README.md"
+        if not solutions_md.exists():
+            continue
 
-    # ajout du script
-    def repl(a):
-        line, py = a.groups()
-        script = (Path(month_norm) / py).read_text().strip()
-        return f"{line}\n```python\n{script}\n```\n"
+        readme = solutions_md.read_text()
+        hash = hashlib.md5(readme.encode()).hexdigest()
 
-    new_readme = re.sub(
-        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)",
-        repl,
-        readme,
-        re.DOTALL,
-    )
+        os.chdir(solutions_md.parent)
+        readme = repl_func(readme)
+        os.chdir(cwd)
 
-    if hash == hashlib.md5(new_readme.encode()).hexdigest():
-        return
+        os.getcwd()
 
-    solutions_md.write_text(new_readme)
-    print(f"écrit {solutions_md}")
+        if hash == hashlib.md5(readme.encode()).hexdigest():
+            continue
 
-    if "GIT_INDEX_FILE" in os.environ:
-        if Path(os.environ["GIT_INDEX_FILE"]).is_file():
-            os.system(f"git add {solutions_md}")
-            print(f"staged {solutions_md}")
+        solutions_md.write_text(readme)
+        print(f"écrit {solutions_md}")
+
+        if "GIT_INDEX_FILE" in os.environ:
+            if Path(os.environ["GIT_INDEX_FILE"]).is_file():
+                os.system(f"git add {solutions_md}")
+                print(f"staged {solutions_md}")
 
 
-def generate_year(root_dir, year):
+def generate_calendar(year):
 
-    os.chdir(root_dir)
-    if year != CURRENT_YEAR:
-        os.chdir(f"{year}")
-
-    print(f"----- Année {year} -----")
 
     readme = Path("README.md").read_text()
     titre = f"## Solutions {year}\n\n"
@@ -245,8 +284,8 @@ def generate_year(root_dir, year):
                 os.system("git add README.md")
                 print("staged README.md")
 
-    for month in range(1, 13):
-        inline_python(month)
+    patch_readme(inline_python_on)
+    patch_readme(render_latex_on)
 
 
 def prepare_month_template(month, year):
@@ -266,6 +305,27 @@ def prepare_month_template(month, year):
     print("\n".join(md))
 
 
+def process_years(root_dir, year, func):
+    def chdir(year):
+        print(f"----- Année {year} -----")
+        os.chdir(root_dir)
+        if year != CURRENT_YEAR:
+            os.chdir(f"{year}")
+
+    if year:
+        chdir(year)
+        func(year)
+    else:
+        chdir(CURRENT_YEAR)
+        func(CURRENT_YEAR)
+
+        year = CURRENT_YEAR - 1
+        while Path(f"{year}").is_dir():
+            chdir(year)
+            func(year)
+            year -= 1
+
+
 def main():
     if "GIT_INDEX_FILE" in os.environ:
         root_dir = Path(os.environ["GIT_INDEX_FILE"]).parent.parent
@@ -277,25 +337,34 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
 
-    parse.add_argument(
-        "--root", default=root_dir, help="répertoire racine"
-    )
+    parse.add_argument("--root", default=root_dir, help="répertoire racine")
     parse.add_argument("-y", "--year", type=int, help="année")
     parse.add_argument("-m", "--month", type=int, help="prépare le README.md du mois")
+    parse.add_argument("-x", "--tex-on", action="store_true", help="TeX on")
+    parse.add_argument("-X", "--tex-off", action="store_true", help="TeX off")
+    parse.add_argument("-p", "--python-on", action="store_true", help="Python on")
+    parse.add_argument("-P", "--python-off", action="store_true", help="Python off")
     args = parse.parse_args()
 
     if args.month:
         prepare_month_template(args.month, args.year)
-    else:
-        if args.year:
-            generate_year(args.root, args.year)
-        else:
-            generate_year(args.root, CURRENT_YEAR)
 
-            year = CURRENT_YEAR - 1
-            while Path(f"{year}").is_dir():
-                generate_year(args.root, year)
-                year -= 1
+    elif args.tex_on:
+        process_years(args.root, args.year, lambda year: patch_readme(render_latex_on))
+
+    elif args.tex_off:
+        process_years(args.root, args.year, lambda year: patch_readme(render_latex_off))
+
+    elif args.python_on:
+        process_years(args.root, args.year, lambda year: patch_readme(inline_python_on))
+
+    elif args.python_off:
+        process_years(
+            args.root, args.year, lambda year: patch_readme(inline_python_off)
+        )
+
+    else:
+        process_years(args.root, args.year, generate_calendar)
 
 
 if __name__ == "__main__":
