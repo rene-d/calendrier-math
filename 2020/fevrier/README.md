@@ -84,6 +84,17 @@ Donc la face entre les dés 1 et 2 est 6. Et par conséquant la face cherchée e
 
 ## Mercredi 12 Février
 
+On va considérer l'inverse des nombres, l'ordre sera inversé.
+
+- 1001/1000 = 1 + 1/1000 = 1 + 2/2000 = 1 + 6/6000
+- 2003/2000 = 1 + 3/2000 = 1 + 3/2000 = 1 + 9/6000
+- 3005/3000 = 1 + 5/3000 = 1 + 5/3000 = 1 + 10/6000
+- etc.
+
+On en déduit que 1001/1000 < 2003/2000 etc.
+
+> réponse: 1000/1001 > 2000/2003 > 3000/3005 > 4000/4007 > 5000/5009
+
 ## Jeudi 13 Février
 
 ![schéma](13.png)
@@ -114,7 +125,28 @@ d'où: x = 25
 
 ## Lundi 17 Février
 
+- Il y a tous les nombres 1xxx, soit 10.
+- Il y a tous les nombres 111x avec x≠1, soit 9.
+- Il y a tous les nombres 1x11 avec x≠1, soit 9.
+- Il y a tous les nombres 11x1 avec x≠1, soit 9.
+
+> réponse: 37
+
 ## Mardi 18 Février
+
+Il y a 3 m par triangle, et un triangle de plus à chaque étage. Le linéaire est donc:
+
+3 × (1 + 2 + 3 + … + n) = 3 n (n + 1) / 2
+
+Résolvons: 3 n (n + 1) / 2 = 100
+
+3n² + 3 n - 200 = 0
+
+La solution positive de l'équation est n ≅ 7.68.
+
+On pourra faire 7 étages au max. Il restera 16 m linéaire d'encre dans le stylo.
+
+> réponse: 7
 
 ## Mercredi 19 Février
 
@@ -132,9 +164,13 @@ L'aire coloriée est donc l'aire du cercle moins quatre fois l'aire du segment c
 
 1 + 3 + 5 + … + (2n + 1) = n² = 44100
 
-D'où n = 210. Il y aura 210 récompenses et la plus forte sera une pile de 421 pièces.
+D'où n = 210. Il y a 210 piles ( 421 pièces dans la plus grande).
 
-> réponse: 210 officiers
+1 + 2 + 3 + … + m = 210 où m = nombre d'officiers récompensés.
+
+m (m + 1) / 2 = 210 ⇔ m² + m - 420 = 0 ⇔ m = 20 ou m = -21
+
+> réponse: 20 officiers
 
 ## Vendredi 21 Février
 

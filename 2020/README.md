@@ -2,7 +2,7 @@
 
 ## Solutions 2020
 
-![36/262](https://img.shields.io/static/v1?label=solutions&message=36/262%20%2814%25%29&color=blueviolet)
+![39/262](https://img.shields.io/static/v1?label=solutions&message=39/262%20%2815%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -18,13 +18,13 @@
 
 ### Février
 
-[![15/20](https://img.shields.io/static/v1?label=en%20cours&message=15/20&color=informational)](fevrier/)
+[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational)](fevrier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    |    | *01* | *02* |
 | 03 | [04](fevrier/README.md#mardi-4-février) | [05](fevrier/README.md#mercredi-5-février) [🖥](fevrier/05.py) | [06](fevrier/README.md#jeudi-6-février) | [07](fevrier/README.md#vendredi-7-février) [🖥](fevrier/07.py) | *08* | *09* |
-| [10](fevrier/README.md#lundi-10-février) | 11 | 12 | [13](fevrier/README.md#jeudi-13-février) | [14](fevrier/README.md#vendredi-14-février) | *15* | *16* |
-| 17 | 18 | [19](fevrier/README.md#mercredi-19-février) | [20](fevrier/README.md#jeudi-20-février) | [21](fevrier/README.md#vendredi-21-février) | *22* | *23* |
+| [10](fevrier/README.md#lundi-10-février) | 11 | [12](fevrier/README.md#mercredi-12-février) | [13](fevrier/README.md#jeudi-13-février) | [14](fevrier/README.md#vendredi-14-février) | *15* | *16* |
+| [17](fevrier/README.md#lundi-17-février) | [18](fevrier/README.md#mardi-18-février) | [19](fevrier/README.md#mercredi-19-février) | [20](fevrier/README.md#jeudi-20-février) | [21](fevrier/README.md#vendredi-21-février) | *22* | *23* |
 | [24](fevrier/README.md#lundi-24-février) | [25](fevrier/README.md#mardi-25-février) | [26](fevrier/README.md#mercredi-26-février) | [27](fevrier/README.md#jeudi-27-février) | [28](fevrier/README.md#vendredi-28-février) | *29* |    |
 
