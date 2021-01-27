@@ -167,9 +167,11 @@ Le 101e est forcément un ♡ puisqu'un sur deux. Le 100 est le symbôle avant l
 
 ## Lundi 23 Mars
 
-Le système a trois équations à quatre inconnues, il y a une infinie de solutions (x1,x2,x3,x4). Cela se vérifie car le déterminant de la matrice est nulle.
+Le système a trois équations à quatre inconnues, il y a une infinie de solutions (x1,x2,x3,x4).
 
-On fixe donc x4 = 0 et on résout le système. On trouve (x1, x2, x3) = [ 8.75 -7. 2.25]
+Pour que x1+x2+x+3+x4 soit constant, il faut que le système avec cette quatrième équation ait aussi une infinie de solutions, Cela se vérifie avec le déterminant de la matrice égal à zéro.
+
+On fixe donc x4 = 0 et on résout le système. On trouve (x1, x2, x3) = [ 8.75 -7. 2.25 ]
 
 D'où la somme x1 + x2 + x3 + x4 = 4
 
