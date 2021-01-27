@@ -371,3 +371,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# latex = input("LaTeX ? ")
+# url =f"https://render.githubusercontent.com/render/math?math={quote(latex)}&mode=inline"
