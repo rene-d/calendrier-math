@@ -97,7 +97,7 @@ On doit résoudre 2 × (245 + x) = (500 + x) pour atteindre 50%.
 
 x = 500 - 490 = 10
 
-> réponse 10
+> réponse: 10
 
 ## Jeudi 12 Mars
 
@@ -109,7 +109,7 @@ A la fin:
 - jean → fabien (nb pair)
 - michel → jean
 
-L'ordre d'arrivée est donc: Fabien puis Jean puis Michel
+> réponse: L'ordre d'arrivée est donc: Fabien puis Jean puis Michel
 
 ## Vendredi 13 Mars
 
@@ -144,6 +144,10 @@ for line in permutations(primes):
 > réponse: 20496
 
 ## Mardi 17 Mars
+
+![schéma](17.png)
+
+> réponse: (cf. schéma)
 
 ## Mercredi 18 Mars
 
@@ -223,12 +227,81 @@ print(np.sum(r) + x4)
 
 ## Mardi 24 Mars
 
+Chaque nombre de la suite est de la forme ((n-1) + n + (n+1)) / 3 = n, pour n entre 2 et 999.
+
+∑ n = 999 * 1000 / 2 - 1 = 499499
+
+Il ya 998 nombres, la moyenne est donc: 499499 / 998 = 1001 / 2
+
+> réponse: 1001 / 2
+
 ## Mercredi 25 Mars
+
+![schéma](25.png)
+
+Le sommet du carré central est surélevé de h. En effet les triangles rectangles constitués par les parties haute et basse de ce carrré sont de même dimensions.
+
+aire T1 = h × b / 2
+
+aire T2 = b × h / 2
+
+> réponse: oui
 
 ## Jeudi 26 Mars
 
+Pour deux niveau, il faut 5 briques. Pour 50 fois plus, il faut 250 briques.
+
+> réponse: 250 briques
+
 ## Vendredi 27 Mars
+
+Il y a en fait douze nombres à tester: 10 à 21, puisque 22^3 = 10648 > 9999.
+
+[Programme](27.py) en Python pour le faire.
+
+```python
+#!/usr/bin/env python3
+
+i = 10
+while True:
+    n = i ** 3
+    if n >= 10000:
+        break
+
+    a = n // 1000
+    b = (n // 100) % 10
+    c = (n // 10) % 10
+    d = n % 10
+
+    if n == (a + b + c + d) ** 3:
+        print(n)
+
+    i += 1
+```
+
+> réponse: 4913 5832
 
 ## Lundi 30 Mars
 
+On a PSQ + PQS = 90° et PSQ / PQS = 1 / 5.
+
+D'où: PQS + 1/5 PQS = 90° ⇒  PQS = 90 × 5 / 6 = 75°
+
+RSQ = PQS = 75°
+
+> réponse: 75°
+
 ## Mardi 31 Mars
+
+```text
+1  3  5  7
+
+2  4  6  8
+```
+
+- 3 choix pour la deuxième maison visitée
+- 2 choix pour la troisème
+- 2 choix pour la quatrième
+- les maisons suivantes n'offrent plus de choix
+
+> réponse: 12
