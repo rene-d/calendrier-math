@@ -113,6 +113,7 @@ def create_month(month, year):
     solutions_text = dict()
     solutions_md = Path(month_norm) / f"README.md"
     if solutions_md.exists():
+        current_day = None
         for line in solutions_md.open():
             line = line.strip()
             m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
@@ -123,8 +124,9 @@ def create_month(month, year):
                 ] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
 
             m = re.match(f"^> réponse: (.*)$", line)
-            if m:
+            if m and current_day:
                 solutions_text[current_day] = m[1]
+                current_day = None
 
     md = []
     md.append(f"### {month_name}")
@@ -242,7 +244,6 @@ def patch_readme(repl_func):
 
 def generate_calendar(year):
 
-
     readme = Path("README.md").read_text()
     titre = f"## Solutions {year}\n\n"
     hash = hashlib.md5(readme.encode()).hexdigest()
@@ -302,7 +303,21 @@ def prepare_month_template(month, year):
             md.append("")
         d += timedelta(days=1)
 
-    print("\n".join(md))
+    return "\n".join(md)
+
+
+def init_year(year):
+    for month in range(1, 13):
+
+        month_name = MONTHS[month - 1]
+        month_lower = month_name.lower()
+        month_norm = remove_accents(month_lower)
+
+        solutions_md = Path(month_norm) / f"README.md"
+        if not solutions_md.exists():
+            solutions_md.parent.mkdir(exist_ok=True, parents=True)
+            solutions_md.write_text(prepare_month_template(month, year))
+            print(f"créé: {solutions_md}")
 
 
 def process_years(root_dir, year, func):
@@ -342,6 +357,7 @@ def main():
     parse.add_argument("--root", default=root_dir, help="répertoire racine")
     parse.add_argument("-y", "--year", type=int, help="année")
     parse.add_argument("-m", "--month", type=int, help="prépare le README.md du mois")
+    parse.add_argument("-i", "--init", action="store_true", help="initialise une année")
     parse.add_argument("-x", "--tex-on", action="store_true", help="TeX on")
     parse.add_argument("-X", "--tex-off", action="store_true", help="TeX off")
     parse.add_argument("-p", "--python-on", action="store_true", help="Python on")
@@ -349,7 +365,10 @@ def main():
     args = parse.parse_args()
 
     if args.month:
-        prepare_month_template(args.month, args.year)
+        print(prepare_month_template(args.month, args.year))
+
+    elif args.init:
+        process_years(args.root, args.year, init_year)
 
     elif args.tex_on:
         process_years(args.root, args.year, lambda year: patch_readme(render_latex_on))
