@@ -1,8 +1,10 @@
-# Calendrier Mathématique 2020
+# Calendrier Mathématique
+
+![cal-2020](cal-2020.png)
 
 ## Solutions 2020
 
-![68/262](https://img.shields.io/static/v1?label=solutions&message=68/262%20%2826%25%29&color=blueviolet)
+![83/262](https://img.shields.io/static/v1?label=solutions&message=83/262%20%2832%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -43,13 +45,13 @@
 
 ### Avril
 
-[![7/22](https://img.shields.io/static/v1?label=en%20cours&message=7/22&color=informational)](avril/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](avril/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    | [01](avril/README.md#mercredi-1-avril) | [02](avril/README.md#jeudi-2-avril) | [03](avril/README.md#vendredi-3-avril) | *04* | *05* |
-| [06](avril/README.md#lundi-6-avril) | [07](avril/README.md#mardi-7-avril) | [08](avril/README.md#mercredi-8-avril) | 09 | [10](avril/README.md#vendredi-10-avril) | *11* | *12* |
-| 13 | 14 | 15 | 16 | 17 | *18* | *19* |
-| 20 | 21 | 22 | 23 | 24 | *25* | *26* |
-| 27 | 28 | 29 | 30 |    |    |    |
+| [06](avril/README.md#lundi-6-avril) | [07](avril/README.md#mardi-7-avril) | [08](avril/README.md#mercredi-8-avril) | [09](avril/README.md#jeudi-9-avril) | [10](avril/README.md#vendredi-10-avril) | *11* | *12* |
+| [13](avril/README.md#lundi-13-avril) [🖥](avril/13.py) | [14](avril/README.md#mardi-14-avril) | [15](avril/README.md#mercredi-15-avril) | [16](avril/README.md#jeudi-16-avril) | [17](avril/README.md#vendredi-17-avril) | *18* | *19* |
+| [20](avril/README.md#lundi-20-avril) | [21](avril/README.md#mardi-21-avril) | [22](avril/README.md#mercredi-22-avril) | [23](avril/README.md#jeudi-23-avril) | [24](avril/README.md#vendredi-24-avril) | *25* | *26* |
+| [27](avril/README.md#lundi-27-avril) | [28](avril/README.md#mardi-28-avril) | [29](avril/README.md#mercredi-29-avril) | [30](avril/README.md#jeudi-30-avril) |    |    |    |
 

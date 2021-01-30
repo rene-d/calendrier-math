@@ -105,6 +105,11 @@ def inline_python_on(readme):
 
 def create_month(month, year):
 
+    if year==CURRENT_YEAR:
+        year_subdir=f"{year}/"
+    else:
+        year_subdir=""
+
     month_name = MONTHS[month - 1]
     month_lower = month_name.lower()
     month_norm = remove_accents(month_lower)
@@ -121,7 +126,7 @@ def create_month(month, year):
                 current_day = int(m[2])
                 solutions_link[
                     current_day
-                ] = f"{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
+                ] = f"{year_subdir}{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
 
             m = re.match(f"^> réponse: (.*)$", line)
             if m and current_day:
@@ -242,9 +247,14 @@ def patch_readme(repl_func):
                 print(f"staged {solutions_md}")
 
 
-def generate_calendar(year):
+def generate_calendar(root_dir, year):
 
-    readme = Path("README.md").read_text()
+    if year == CURRENT_YEAR:
+        readme_md = root_dir / Path("README.md")
+    else:
+        readme_md = Path("README.md")
+
+    readme = readme_md.read_text()
     titre = f"## Solutions {year}\n\n"
     hash = hashlib.md5(readme.encode()).hexdigest()
     readme_begin = readme[: readme.index(titre) + len(titre)]
@@ -278,7 +288,7 @@ def generate_calendar(year):
 
     if hash != hashlib.md5(readme.encode()).hexdigest():
 
-        (Path("README.md")).write_text(readme)
+        readme_md.write_text(readme)
 
         if "GIT_INDEX_FILE" in os.environ:
             if Path(os.environ["GIT_INDEX_FILE"]).is_file():
@@ -306,7 +316,7 @@ def prepare_month_template(month, year):
     return "\n".join(md)
 
 
-def init_year(year):
+def init_year(root_dir, year):
     for month in range(1, 13):
 
         month_name = MONTHS[month - 1]
@@ -323,23 +333,21 @@ def init_year(year):
 def process_years(root_dir, year, func):
     """ Appelle la fonction sur l'année spécifiée ou sur toutes les années. """
 
+    root_dir=Path(root_dir)
+
     def chdir(year):
         print(f"----- Année {year} -----")
-        os.chdir(root_dir)
-        if year != CURRENT_YEAR:
-            os.chdir(f"{year}")
+        os.chdir(root_dir / f"{year}")
 
     if year:
         chdir(year)
-        func(year)
+        func(root_dir, year)
     else:
-        chdir(CURRENT_YEAR)
-        func(CURRENT_YEAR)
 
-        year = CURRENT_YEAR - 1
-        while Path(f"{year}").is_dir():
+        year = CURRENT_YEAR
+        while (root_dir / f"{year}").is_dir():
             chdir(year)
-            func(year)
+            func(root_dir, year)
             year -= 1
 
 
@@ -371,13 +379,13 @@ def main():
         process_years(args.root, args.year, init_year)
 
     elif args.tex_on:
-        process_years(args.root, args.year, lambda year: patch_readme(render_latex_on))
+        process_years(args.root, args.year, lambda root_dir, year: patch_readme(render_latex_on))
 
     elif args.tex_off:
-        process_years(args.root, args.year, lambda year: patch_readme(render_latex_off))
+        process_years(args.root, args.year, lambda root_dir, year: patch_readme(render_latex_off))
 
     elif args.python_on:
-        process_years(args.root, args.year, lambda year: patch_readme(inline_python_on))
+        process_years(args.root, args.year, lambda root_dir, year: patch_readme(inline_python_on))
 
     elif args.python_off:
         process_years(
