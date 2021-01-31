@@ -285,7 +285,7 @@ D'où C = 6
 
 ## Vendredi 22 Mai
 
-⚠️ 🤪 Il manque une précision dans l'énoncé: le *triangle est supposé équilatéral* ! 🤪 ⚠️
+⚠️ 🤪 Il manque une précision **essentielle** dans l'énoncé: le *triangle est supposé équilatéral* ! 🤪 ⚠️
 
 Le rapport est alors 4 / 3.
 
