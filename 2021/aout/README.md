@@ -1,5 +1,7 @@
 # Calendrier Mathématique Août 2021
 
+[Solutions 2021](../../README.md)
+
 ## Lundi 2 Août
 
 ```text

@@ -1,5 +1,7 @@
 # Calendrier Mathématique Septembre 2021
 
+[Solutions 2021](../../README.md)
+
 ## Mercredi 1 Septembre
 
 Le critère de divisibilité par 3 est que la somme des chiffres soit multiple de 3.

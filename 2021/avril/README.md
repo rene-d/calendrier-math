@@ -1,5 +1,7 @@
 # Calendrier Mathématique Avril 2021
 
+[Solutions 2021](../../README.md)
+
 ## Jeudi 1 Avril
 
 On va utiliser le [théorème de l'angle au centre](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre).

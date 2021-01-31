@@ -1,5 +1,7 @@
 # Calendrier Mathématique Juillet 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Mercredi 1 Juillet
 
 ## Jeudi 2 Juillet

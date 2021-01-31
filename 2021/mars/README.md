@@ -1,5 +1,7 @@
 # Calendrier Mathématique Mars 2021
 
+[Solutions 2021](../../README.md)
+
 ## Lundi 1 Mars
 
 Voir [script](01.py) Python.

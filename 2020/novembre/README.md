@@ -1,5 +1,7 @@
 # Calendrier Mathématique Novembre 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Lundi 2 Novembre
 
 ## Mardi 3 Novembre

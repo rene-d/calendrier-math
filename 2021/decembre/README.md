@@ -1,5 +1,7 @@
 # Calendrier Mathématique Décembre 2021
 
+[Solutions 2021](../../README.md)
+
 ## Mercredi 1 Décembre
 
 - 9 chiffres de 1 à 9

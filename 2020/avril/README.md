@@ -1,5 +1,7 @@
 # Calendrier Mathématique Avril 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Mercredi 1 Avril
 
 Il y a trois segments qui partent de chaque point, soit 3 × 8 = 24 en tout. Mais il y a deux segments entre chaque point (qui se superposent). Donc il faut prendre la moitié de 24.
@@ -89,7 +91,7 @@ Pour 18, on peut commencer par 9 à 6:
 - = 8+7+2+1 = 8+6+3+1 = 8+5+4+1 = 8+5+3+2
 - = 7+6+4+1 = 7+6+3+2 = 7+5+4+2
 - = 6+5+4+3
-   
+
 Soit 3 + 3 + 4 + 3 + 1 = 14 possibilités, qu'il faut multiplier par le nombre de permutations des quatre chiffres: 4! = 24. Ce qui donne 24 × 14 = 336.
 
 [Programme](13.py) Python pour vérifier qu'il ne manque rien.

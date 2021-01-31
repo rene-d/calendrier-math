@@ -1,5 +1,7 @@
 # Calendrier Mathématique Janvier 2021
 
+[Solutions 2021](../../README.md)
+
 ## Vendredi 1 Janvier
 
 Cf. [programme](01.py) Python.

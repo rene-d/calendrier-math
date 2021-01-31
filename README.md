@@ -2,8 +2,7 @@
 
 Solutions personnelles aux questions du [Calendrier Mathématique 2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
 
-[![source code](https://img.shields.io/static/v1?label=>&message=code%20source&color=blue&style=flat-square&logo=github)](https://github.com/rene-d/calendrier-math)
-
+[![source code](https://img.shields.io/static/v1?label=GitHub&message=code%20source&color=blue&style=flat-square&logo=github)](https://github.com/rene-d/calendrier-math)
 
 J'essaie de vérifier au maximum l'exactitude et la précision des démonstrations. Elles sont pour la plupart d'ailleurs similaires à celles du livret. Cependant des erreurs peuvent subsister (erreur de raisonnement, théorème non cité ou trop compliqué, outils mathématiques trop évolués, etc.). Les solutions officielles sont uniquement celles publiées avec le calendrier.
 
@@ -26,11 +25,11 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![255/261](https://img.shields.io/static/v1?label=solutions&message=255/261%20%2898%25%29&color=blueviolet)
+![255/261](https://img.shields.io/static/v1?label=solutions&message=255/261%20%2898%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
-[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](janvier/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](janvier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -42,7 +41,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Février
 
-[![20/20](https://img.shields.io/static/v1?label=fini&message=20/20&color=success)](fevrier/)
+[![20/20](https://img.shields.io/static/v1?label=fini&message=20/20&color=success&style=flat-square)](fevrier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -53,7 +52,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Mars
 
-[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success)](mars/)
+[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success&style=flat-square)](mars/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -65,7 +64,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Avril
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](avril/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](avril/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -77,7 +76,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Mai
 
-[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](mai/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -90,7 +89,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Juin
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](juin/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](juin/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -102,7 +101,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Juillet
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](juillet/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](juillet/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -114,7 +113,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Août
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](aout/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](aout/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -127,7 +126,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Septembre
 
-[![19/22](https://img.shields.io/static/v1?label=en%20cours&message=19/22&color=informational)](septembre/)
+[![19/22](https://img.shields.io/static/v1?label=en%20cours&message=19/22&color=informational&style=flat-square)](septembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -139,7 +138,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Octobre
 
-[![18/21](https://img.shields.io/static/v1?label=en%20cours&message=18/21&color=informational)](octobre/)
+[![18/21](https://img.shields.io/static/v1?label=en%20cours&message=18/21&color=informational&style=flat-square)](octobre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -151,7 +150,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Novembre
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](novembre/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](novembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -163,7 +162,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Décembre
 
-[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success)](decembre/)
+[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success&style=flat-square)](decembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|

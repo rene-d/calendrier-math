@@ -1,5 +1,7 @@
 # Calendrier Mathématique Janvier 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Mercredi 1 Janvier
 
 La montre du passant indique 10h12 (« dans 20 minutes il sera 10h32 »).

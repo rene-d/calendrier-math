@@ -1,5 +1,7 @@
 # Calendrier Mathématique Octobre 2021
 
+[Solutions 2021](../../README.md)
+
 ## Vendredi 1 Octobre
 
 ![schéma](01.png)

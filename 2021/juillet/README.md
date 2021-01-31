@@ -1,5 +1,9 @@
 # Calendrier Mathématique Juillet 2021
 
+[Solutions 2021](../../README.md)
+
+## Mardi 1 Juin
+
 ## Jeudi 1 Juillet
 
 Cf. [programme](01.py) Python.

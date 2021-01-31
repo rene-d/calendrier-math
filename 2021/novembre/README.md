@@ -1,5 +1,7 @@
 # Calendrier Mathématique Novembre 2021
 
+[Solutions 2021](../../README.md)
+
 ## Lundi 1 Novembre
 
 Comme 13 est premier, on doit avoir 3a - b = 1 et 3b - a = 13 ou vice-versa.

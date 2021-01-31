@@ -1,5 +1,7 @@
 # Calendrier Mathématique Février 2021
 
+[Solutions 2021](../../README.md)
+
 ## Lundi 1 Février
 
 Cf. [programme](01.py) en Python.

@@ -1,5 +1,7 @@
 # Calendrier Mathématique Mai 2021
 
+[Solutions 2021](../../README.md)
+
 ## Lundi 3 Mai
 
 Le triangle bleu ABP a la même aire que le triangle équilatéral ABO: même base AB, même hauteur h

@@ -1,5 +1,7 @@
 # Calendrier Mathématique Juin 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Lundi 1 Juin
 
 ## Mardi 2 Juin
