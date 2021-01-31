@@ -46,7 +46,7 @@ def divisors(n):
         q, r = divmod(n, i)
         if r == 0:
             divs.extend([i, q])
-    return list(sorted(divs))
+    return list(sorted(set(divs)))
 
 
 n = 2
@@ -285,13 +285,13 @@ D'où C = 6
 
 ## Vendredi 22 Mai
 
-🤪 Il manque une précision dans l'énoncé: le *triangle est supposé équilatéral* ! 🤪
+⚠️ 🤪 Il manque une précision dans l'énoncé: le *triangle est supposé équilatéral* ! 🤪 ⚠️
 
 Le rapport est alors 4 / 3.
 
-Si le triangle était quelconque, il y a une infinité de réponses…
+Si le triangle est quelconque, il y a une infinité de réponses…
 
-> réponse: 4 / 3 ⚠️
+> réponse: 4 / 3
 
 ## Lundi 25 Mai
 

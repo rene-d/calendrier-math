@@ -9,7 +9,7 @@ def divisors(n):
         q, r = divmod(n, i)
         if r == 0:
             divs.extend([i, q])
-    return list(sorted(divs))
+    return list(sorted(set(divs)))
 
 
 n = 2
