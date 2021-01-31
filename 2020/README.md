@@ -4,7 +4,7 @@
 
 ## Solutions 2020
 
-![89/262](https://img.shields.io/static/v1?label=solutions&message=89/262%20%2834%25%29&color=blueviolet)
+![104/262](https://img.shields.io/static/v1?label=solutions&message=104/262%20%2840%25%29&color=blueviolet)
 
 ### Janvier
 
@@ -57,13 +57,13 @@
 
 ### Mai
 
-[![6/21](https://img.shields.io/static/v1?label=en%20cours&message=6/21&color=informational)](mai/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](mai/README.md#vendredi-1-mai) | *02* | *03* |
 | [04](mai/README.md#lundi-4-mai) | [05](mai/README.md#mardi-5-mai) [🖥](mai/05.py) | [06](mai/README.md#mercredi-6-mai) | [07](mai/README.md#jeudi-7-mai) | [08](mai/README.md#vendredi-8-mai) | *09* | *10* |
-| 11 | 12 | 13 | 14 | 15 | *16* | *17* |
-| 18 | 19 | 20 | 21 | 22 | *23* | *24* |
-| 25 | 26 | 27 | 28 | 29 | *30* | *31* |
+| [11](mai/README.md#lundi-11-mai) | [12](mai/README.md#mardi-12-mai) | [13](mai/README.md#mercredi-13-mai) | [14](mai/README.md#jeudi-14-mai) | [15](mai/README.md#vendredi-15-mai) | *16* | *17* |
+| [18](mai/README.md#lundi-18-mai) | [19](mai/README.md#mardi-19-mai) [🖥](mai/19.py) | [20](mai/README.md#mercredi-20-mai) | [21](mai/README.md#jeudi-21-mai) | [22](mai/README.md#vendredi-22-mai) | *23* | *24* |
+| [25](mai/README.md#lundi-25-mai) [🖥](mai/25.py) | [26](mai/README.md#mardi-26-mai) | [27](mai/README.md#mercredi-27-mai) | [28](mai/README.md#jeudi-28-mai) | [29](mai/README.md#vendredi-29-mai) | *30* | *31* |
 

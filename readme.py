@@ -389,7 +389,7 @@ def main():
 
     elif args.python_off:
         process_years(
-            args.root, args.year, lambda year: patch_readme(inline_python_off)
+            args.root, args.year, lambda root_dir, year: patch_readme(inline_python_off)
         )
 
     else:

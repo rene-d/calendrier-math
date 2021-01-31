@@ -6,7 +6,7 @@ J'essaie de vérifier au maximum l'exactitude et la précision des démonstratio
 
 Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également souvent utilisés.
 
-Elles sont rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters) qui offrent une mise en page suffisante. Cependant, il serait possible d'utiliser LaTeX pour des équations plus complexes (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) par exemple, [codecogs](https://www.codecogs.com/latex/eqneditor.php), [katex](https://katex.org), etc.).
+Elles sont rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode) qui offrent une mise en page suffisante. Cependant, il serait possible d'utiliser LaTeX pour des équations plus complexes (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) par exemple, [codecogs](https://www.codecogs.com/latex/eqneditor.php), [katex](https://katex.org), etc.).
 
 Les programmes Python peuvent être lancés en script, interactivement, ou en ligne: [python](https://www.python.org/shell/), [programiz](https://www.programiz.com/python-programming/online-compiler/), [repl.it](https://repl.it/), etc.
 
