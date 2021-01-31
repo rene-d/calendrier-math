@@ -105,10 +105,10 @@ def inline_python_on(readme):
 
 def create_month(month, year):
 
-    if year==CURRENT_YEAR:
-        year_subdir=f"{year}/"
+    if year == CURRENT_YEAR:
+        year_subdir = f"{year}/"
     else:
-        year_subdir=""
+        year_subdir = ""
 
     month_name = MONTHS[month - 1]
     month_lower = month_name.lower()
@@ -198,7 +198,9 @@ def create_month(month, year):
             url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success&style=flat-square"
         else:
             url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational&style=flat-square"
-        md.insert(1, f"[![{done_month}/{total_month}]({url})]({year_subdir}{month_norm}/)")
+        md.insert(
+            1, f"[![{done_month}/{total_month}]({url})]({year_subdir}{month_norm}/)"
+        )
         md.insert(1, "")
 
     else:
@@ -333,7 +335,7 @@ def init_year(root_dir, year):
 def process_years(root_dir, year, func):
     """ Appelle la fonction sur l'année spécifiée ou sur toutes les années. """
 
-    root_dir=Path(root_dir)
+    root_dir = Path(root_dir)
 
     def chdir(year):
         print(f"----- Année {year} -----")
@@ -379,13 +381,19 @@ def main():
         process_years(args.root, args.year, init_year)
 
     elif args.tex_on:
-        process_years(args.root, args.year, lambda root_dir, year: patch_readme(render_latex_on))
+        process_years(
+            args.root, args.year, lambda root_dir, year: patch_readme(render_latex_on)
+        )
 
     elif args.tex_off:
-        process_years(args.root, args.year, lambda root_dir, year: patch_readme(render_latex_off))
+        process_years(
+            args.root, args.year, lambda root_dir, year: patch_readme(render_latex_off)
+        )
 
     elif args.python_on:
-        process_years(args.root, args.year, lambda root_dir, year: patch_readme(inline_python_on))
+        process_years(
+            args.root, args.year, lambda root_dir, year: patch_readme(inline_python_on)
+        )
 
     elif args.python_off:
         process_years(
