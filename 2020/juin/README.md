@@ -137,22 +137,88 @@ Le plus petit qui commence par 3 est 3124, puis 3142.
 
 ## Mardi 16 Juin
 
+a³ + b³ = (a + b)³ - 3a²b - 3ab²
+
+r³ + 1 / r³ = (r + 1 / r)³ - 3 r² / r - 3 r / r² = (√3)³ - 3 (r + 1 / r) = 3 √3 - 3 √3 = 0
+
+Nota: r est un nombre complexe. Il y a quatre solutions à l'équation: r = (± √3 ± 𝑖) / 2
+
+![solutions](16.png)
+
+> réponse: 0
+
 ## Mercredi 17 Juin
+
+2³ × 5⁴ × 10⁵ = 5 × 10³ × 10⁵ = 5 × 10⁸ = 500 000 000
+
+> réponse: 9 chiffres
 
 ## Jeudi 18 Juin
 
 ## Vendredi 19 Juin
 
+![schéma](19.png)
+
+Les deux petits cercles sont sur le cercle de rayon 25 - 8 = 17 cm et de centre C.
+
+Les centres des petits cercles sont sur une droite à distance 8 cm du diamètre du grand cercle.
+
+On a: OC = 17 et NC = 8. D'où ON = √(17² - 8²) = √225 = 25
+
+OP = 30 cm
+
+> réponse: 30 cm
+
 ## Lundi 22 Juin
+
+Il faut chercher k tel que: k² - 8 = 4 - 4k
+
+k² + 4k - 12 = k² + 4k + 4 - 16 = (k + 2)² - 4² = (k + 2 - 4)(k + 2 + 4) = 0
+
+> réponse: k = 2 ou -6
 
 ## Mardi 23 Juin
 
 ## Mercredi 24 Juin
 
+![schéma](24.png)
+
+Si les cercles se chevauchent:
+
+AC = √2 AA - √2 CC' = 2 √2
+
+Si les cercles ne se chevauchent pas:
+
+AB = √[ (3√2)² + (√2)² ] = √(18 + 2) = 2 √5
+
+> réponse: 2 √2 cm (ou 2 √5 cm si pas chevauchement)
+
 ## Jeudi 25 Juin
 
 ## Vendredi 26 Juin
 
+Soit X le nombre dans la case qui croise.
+
+La somme doit être (1 + 4 + 7 + 10 + 13 + X) /2 = (35 + X) / 2
+
+X doit être impair.
+
+Si X = 13, il faut faire 24.  13+10+1 = 24 et 13+7+4 = 24
+
+> réponse: 24
+
 ## Lundi 29 Juin
+
+Soit x le nombre de carreaux que possède Julien.
+
+n² = x - 92
+
+(n + 2)² = x + 100
+
+4n + 4 = 100 + 92 ⇒ n = 47
+
+D'où x = 2301
+
+> réponse: x = 2301
 
 ## Mardi 30 Juin

@@ -6,11 +6,11 @@
 
 ## Solutions 2020
 
-![114/262](https://img.shields.io/static/v1?label=solutions&message=114/262%20%2844%25%29&color=blueviolet&style=flat-square)
+![121/262](https://img.shields.io/static/v1?label=solutions&message=121/262%20%2846%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
-[![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational&style=flat-square)](janvier/)
+[![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational&style=flat-square)](janvier/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -22,7 +22,7 @@
 
 ### Février
 
-[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational&style=flat-square)](fevrier/)
+[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational&style=flat-square)](fevrier/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -34,7 +34,7 @@
 
 ### Mars
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](mars/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](mars/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@
 
 ### Avril
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](avril/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](avril/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@
 
 ### Mai
 
-[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](mai/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](mai/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -71,13 +71,13 @@
 
 ### Juin
 
-[![10/22](https://img.shields.io/static/v1?label=en%20cours&message=10/22&color=informational&style=flat-square)](juin/)
+[![17/22](https://img.shields.io/static/v1?label=en%20cours&message=17/22&color=informational&style=flat-square)](juin/README.md)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 | [01](juin/README.md#lundi-1-juin) | [02](juin/README.md#mardi-2-juin) | [03](juin/README.md#mercredi-3-juin) | [04](juin/README.md#jeudi-4-juin) | [05](juin/README.md#vendredi-5-juin) | *06* | *07* |
 | [08](juin/README.md#lundi-8-juin) | [09](juin/README.md#mardi-9-juin) | [10](juin/README.md#mercredi-10-juin) | [11](juin/README.md#jeudi-11-juin) | [12](juin/README.md#vendredi-12-juin) | *13* | *14* |
-| 15 | 16 | 17 | 18 | 19 | *20* | *21* |
-| 22 | 23 | 24 | 25 | 26 | *27* | *28* |
-| 29 | 30 |    |    |    |    |    |
+| 15 | [16](juin/README.md#mardi-16-juin) | [17](juin/README.md#mercredi-17-juin) | 18 | [19](juin/README.md#vendredi-19-juin) | *20* | *21* |
+| [22](juin/README.md#lundi-22-juin) | 23 | [24](juin/README.md#mercredi-24-juin) | 25 | [26](juin/README.md#vendredi-26-juin) | *27* | *28* |
+| [29](juin/README.md#lundi-29-juin) | 30 |    |    |    |    |    |
 
