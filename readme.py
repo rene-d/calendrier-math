@@ -198,7 +198,7 @@ def create_month(month, year):
             url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success&style=flat-square"
         else:
             url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational&style=flat-square"
-        md.insert(1, f"[![{done_month}/{total_month}]({url})]({month_norm}/)")
+        md.insert(1, f"[![{done_month}/{total_month}]({url})]({year_subdir}{month_norm}/)")
         md.insert(1, "")
 
     else:
