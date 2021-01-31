@@ -25,7 +25,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![255/261](https://img.shields.io/static/v1?label=solutions&message=255/261%20%2898%25%29&color=blueviolet&style=for-the-badge)
+![255/261](https://img.shields.io/static/v1?label=solutions&message=255/261%20%2898%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -45,7 +45,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-| [01](2021/fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) | [02](2021/fevrier/README.md#mardi-2-février) [🖥](fevrier/02.py) | [03](2021/fevrier/README.md#mercredi-3-février) | 04 [🖥](fevrier/04.py) | [05](2021/fevrier/README.md#vendredi-5-février) | *06* | *07* |
+| [01](2021/fevrier/README.md#lundi-1-février) [🖥](fevrier/01.py) | [02](2021/fevrier/README.md#mardi-2-février) [🖥](fevrier/02.py) | [03](2021/fevrier/README.md#mercredi-3-février) | [04](2021/fevrier/README.md#jeudi-4-février) [🖥](fevrier/04.py) | [05](2021/fevrier/README.md#vendredi-5-février) | *06* | *07* |
 | [08](2021/fevrier/README.md#lundi-8-février) [🖥](fevrier/08.py) | [09](2021/fevrier/README.md#mardi-9-février) | [10](2021/fevrier/README.md#mercredi-10-février) | [11](2021/fevrier/README.md#jeudi-11-février) [🖥](fevrier/11.py) | [12](2021/fevrier/README.md#vendredi-12-février) | *13* | *14* |
 | [15](2021/fevrier/README.md#lundi-15-février) | [16](2021/fevrier/README.md#mardi-16-février) [🖥](fevrier/16.py) | [17](2021/fevrier/README.md#mercredi-17-février) | [18](2021/fevrier/README.md#jeudi-18-février) | [19](2021/fevrier/README.md#vendredi-19-février) | *20* | *21* |
 | [22](2021/fevrier/README.md#lundi-22-février) | [23](2021/fevrier/README.md#mardi-23-février) | [24](2021/fevrier/README.md#mercredi-24-février) | [25](2021/fevrier/README.md#jeudi-25-février) | [26](2021/fevrier/README.md#vendredi-26-février) | *27* | *28* |

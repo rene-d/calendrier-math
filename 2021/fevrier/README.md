@@ -128,7 +128,7 @@ for x1 in X:
             print(R)
 ```
 
-> réponse:
+> réponse: (cf. ci-dessous)
 
 ```text
               [10]
