@@ -1,5 +1,7 @@
 # Calendrier Mathématique Mars 2020
 
+[Solutions 2020](../README.md) [Homepage](../../README.md)
+
 ## Lundi 2 Mars
 
 On écrit les équations de l'énoncé:

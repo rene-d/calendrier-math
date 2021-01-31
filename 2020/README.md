@@ -4,11 +4,11 @@
 
 ## Solutions 2020
 
-![104/262](https://img.shields.io/static/v1?label=solutions&message=104/262%20%2840%25%29&color=blueviolet)
+![104/262](https://img.shields.io/static/v1?label=solutions&message=104/262%20%2840%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
-[![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational)](janvier/)
+[![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational&style=flat-square)](janvier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -20,7 +20,7 @@
 
 ### Février
 
-[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational)](fevrier/)
+[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational&style=flat-square)](fevrier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -32,7 +32,7 @@
 
 ### Mars
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](mars/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](mars/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -45,7 +45,7 @@
 
 ### Avril
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success)](avril/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](avril/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -57,7 +57,7 @@
 
 ### Mai
 
-[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success)](mai/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|

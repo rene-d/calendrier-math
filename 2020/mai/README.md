@@ -1,5 +1,7 @@
 # Calendrier Mathématique Mai 2020
 
+[Solutions 2020](../README.md) [Homepage](../../README.md)
+
 ## Vendredi 1 Mai
 
 La mise en équation donne: 4 / 5 n + 4 / 5 = n

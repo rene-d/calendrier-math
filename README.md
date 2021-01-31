@@ -1,6 +1,9 @@
-# Calendrier Mathématique 2021
+# Calendrier Mathématique
 
 Solutions personnelles aux questions du [Calendrier Mathématique 2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
+
+[![source code](https://img.shields.io/static/v1?label=>&message=code%20source&color=blue&style=flat-square&logo=github)](https://github.com/rene-d/calendrier-math)
+
 
 J'essaie de vérifier au maximum l'exactitude et la précision des démonstrations. Elles sont pour la plupart d'ailleurs similaires à celles du livret. Cependant des erreurs peuvent subsister (erreur de raisonnement, théorème non cité ou trop compliqué, outils mathématiques trop évolués, etc.). Les solutions officielles sont uniquement celles publiées avec le calendrier.
 
@@ -169,4 +172,3 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [13](2021/decembre/README.md#lundi-13-décembre) | [14](2021/decembre/README.md#mardi-14-décembre) | [15](2021/decembre/README.md#mercredi-15-décembre) | [16](2021/decembre/README.md#jeudi-16-décembre) | [17](2021/decembre/README.md#vendredi-17-décembre) [🖥](decembre/17.py) | *18* | *19* |
 | [20](2021/decembre/README.md#lundi-20-décembre) [🖥](decembre/20.py) | [21](2021/decembre/README.md#mardi-21-décembre) | [22](2021/decembre/README.md#mercredi-22-décembre) | [23](2021/decembre/README.md#jeudi-23-décembre) | [24](2021/decembre/README.md#vendredi-24-décembre) | *25* | *26* |
 | [27](2021/decembre/README.md#lundi-27-décembre) | [28](2021/decembre/README.md#mardi-28-décembre) | [29](2021/decembre/README.md#mercredi-29-décembre) | [30](2021/decembre/README.md#jeudi-30-décembre) [🖥](decembre/30.py) | [31](2021/decembre/README.md#vendredi-31-décembre) |    |    |
-

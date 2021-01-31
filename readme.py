@@ -195,9 +195,9 @@ def create_month(month, year):
 
     if USE_BADGES:
         if done_month == total_month:
-            url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success"
+            url = f"https://img.shields.io/static/v1?label=fini&message={done_month}/{total_month}&color=success&style=flat-square"
         else:
-            url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational"
+            url = f"https://img.shields.io/static/v1?label=en%20cours&message={done_month}/{total_month}&color=informational&style=flat-square"
         md.insert(1, f"[![{done_month}/{total_month}]({url})]({month_norm}/)")
         md.insert(1, "")
 
@@ -278,7 +278,7 @@ def generate_calendar(root_dir, year):
 
     if USE_BADGES:
         progress = f"{done_total}/{total}%20%28{done_total/total*100:.0f}%25%29"
-        readme_begin += f"![{done_total}/{total}](https://img.shields.io/static/v1?label=solutions&message={progress}&color=blueviolet)\n\n"
+        readme_begin += f"![{done_total}/{total}](https://img.shields.io/static/v1?label=solutions&message={progress}&color=blueviolet&style=flat-square)\n\n"
     else:
         readme_begin += (
             f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
