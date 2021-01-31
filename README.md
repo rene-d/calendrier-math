@@ -2,7 +2,7 @@
 
 Solutions personnelles aux questions du [Calendrier Mathématique 2021](https://www.pug.fr/produit/1692/9782706142741/calendrier-mathematique-2021)
 
-[![source code](https://img.shields.io/static/v1?label=GitHub&message=code%20source&color=blue&style=flat-square&logo=github)](https://github.com/rene-d/calendrier-math)
+[![source code](https://img.shields.io/static/v1?label=GitHub&message=code%20source&color=blue&style=for-the-badge&logo=github)](https://github.com/rene-d/calendrier-math)
 
 J'essaie de vérifier au maximum l'exactitude et la précision des démonstrations. Elles sont pour la plupart d'ailleurs similaires à celles du livret. Cependant des erreurs peuvent subsister (erreur de raisonnement, théorème non cité ou trop compliqué, outils mathématiques trop évolués, etc.). Les solutions officielles sont uniquement celles publiées avec le calendrier.
 
@@ -25,7 +25,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![255/261](https://img.shields.io/static/v1?label=solutions&message=255/261%20%2898%25%29&color=blueviolet&style=flat-square)
+![255/261](https://img.shields.io/static/v1?label=solutions&message=255/261%20%2898%25%29&color=blueviolet&style=for-the-badge)
 
 ### Janvier
 
