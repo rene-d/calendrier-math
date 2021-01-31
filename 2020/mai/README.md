@@ -380,4 +380,4 @@ Vérification en Python:
 sum(1 for n in range(100000, 1000000) if n % 154 == 0 and n % 1000 == 154)
 ```
 
-> réponse: 12
+> réponse: 11
