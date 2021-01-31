@@ -135,6 +135,18 @@ Le plus petit qui commence par 3 est 3124, puis 3142.
 
 ## Lundi 15 Juin
 
+Si Anna commence, elle n'est pas sûre de gagner. Martin commence.
+
+Si Martin prend une pile entière, Anna prendra l'autre pile et elle gagne.
+
+Si Martin enlève 2 jetons, il reste 3-1. Anna enlève à son tour 2 jetons, il reste 1-1 et elle gagne au tour suivant.
+
+Si Martin enlève 1 jeton, il reste 3-2. Anna enlève à son tour 1 jeton, il reste 2-2.
+
+Martin passe à 2-1 (sinon il perd), Anna 1-1 puis Martin 1-0 et Anna gagne.
+
+> réponse: Anna doit laisser Martin commencer
+
 ## Mardi 16 Juin
 
 a³ + b³ = (a + b)³ - 3a²b - 3ab²
@@ -154,6 +166,21 @@ Nota: r est un nombre complexe. Il y a quatre solutions à l'équation: r = (± 
 > réponse: 9 chiffres
 
 ## Jeudi 18 Juin
+
+(5n - 23) / (n - 7) = (5n - 35 + 12) / (n - 7) = 1 + 12 / (n - 7)
+
+Si n positif:  12 ≥ n - 7 ⇒ n ≤ 19
+
+Si n négatif:  12 ≥ 7 - n ⇒ n ≥ -5
+
+Comptage avec script:
+
+```python
+from fractions import Fraction
+print(len(list(Fraction(5*n-23,n-7).numerator for n in range(-5,20) if n!=7 and Fraction(5*n-23,n-7).denominator==1)))
+```
+
+> réponse: 12
 
 ## Vendredi 19 Juin
 
@@ -179,6 +206,18 @@ k² + 4k - 12 = k² + 4k + 4 - 16 = (k + 2)² - 4² = (k + 2 - 4)(k + 2 + 4) = 0
 
 ## Mardi 23 Juin
 
+Pour écrire les nombre de 0 à 99 il faut vingt 1 (dix pour les unités, dix pour les nombres de 10 à 19).
+
+Pour écrire les nombres de 0 à 999, soit dix dizaines, il faut 20×10 pour les unités et dizaines, et 100 de plus pour les nombres de 100 à 199.
+
+Pour les nombres de 1000 à 1999, il y a 1000 (chiffre des milliers) + 300 chiffres 1.
+
+Pour les nombres de 2000 à 2020, il y a 10 (dizaines) + 2 (unités) chiffres 1.
+
+Au total: 300 + 1300 + 12 = 1612.
+
+> réponse: 1612
+
 ## Mercredi 24 Juin
 
 ![schéma](24.png)
@@ -194,6 +233,28 @@ AB = √[ (3√2)² + (√2)² ] = √(18 + 2) = 2 √5
 > réponse: 2 √2 cm (ou 2 √5 cm si pas chevauchement)
 
 ## Jeudi 25 Juin
+
+Soit uₙ  = 2020 / (n × (n + 1))
+
+u₁₁ + u₁₂ = 2020 / (11 × 12) + 2020 / (12 × 13) = (2020 × 13 + 2020 × 11) / (11 × 12 × 13) = (2 × 2020 × 12) / (11 × 12 × 13) = 2 × 2020 / (11 × 13)
+
+u₁₁ + u₁₂ + u₁₃ = 2 × 2020 / (11 × 13) + 2020 / (13 × 14) = (2 × 2020 × 14 + 2020 × 11) / (11 × 13 × 14)
+                = 3 × 2020 / (11 × 14)
+
+Par récurrence on montre que (pour n ≥ 1):
+
+∑ uₙ₊₁₀ = n × 2020 / (11 × (11 + n))
+
+Donc S = 2009 × 2020 / (11 × (11 + 2009)) = 2009 / 11
+
+Vérification en Python:
+
+```python
+from fractions import Fraction
+print(sum(Fraction(2020, i * (i + 1)) for i in range(11, 2020)))
+```
+
+> réponse: 2009 / 11
 
 ## Vendredi 26 Juin
 
@@ -222,3 +283,7 @@ D'où x = 2301
 > réponse: x = 2301
 
 ## Mardi 30 Juin
+
+Il faut trouver le plus grand multiple de 7 tel que (100 - 7k) soit multipe de 5. Comme 100 est divisible par 5, cela revient à trouver le multiple commun à 5 et 7 inférieur à 100, soit 70.
+
+> réponse: 10 sacs de 7 et 6 sacs de 5
