@@ -145,7 +145,9 @@ Si Martin enlève 1 jeton, il reste 3-2. Anna enlève à son tour 1 jeton, il re
 
 Martin passe à 2-1 (sinon il perd), Anna 1-1 puis Martin 1-0 et Anna gagne.
 
-> réponse: Anna doit laisser Martin commencer
+😀 *Bonus*: implémentation du [jeu](15game.py) en Python.
+
+> réponse: Anna : il suffit qu'elle enlève autant de jetons que Martin
 
 ## Mardi 16 Juin
 
