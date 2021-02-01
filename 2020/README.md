@@ -10,7 +10,7 @@
 
 ### Janvier
 
-[![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational&style=flat-square)](janvier/README.md)
+[![21/23](https://img.shields.io/static/v1?label=en%20cours&message=21/23&color=informational&style=flat-square)](janvier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -22,7 +22,7 @@
 
 ### Février
 
-[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational&style=flat-square)](fevrier/README.md)
+[![18/20](https://img.shields.io/static/v1?label=en%20cours&message=18/20&color=informational&style=flat-square)](fevrier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -34,7 +34,7 @@
 
 ### Mars
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](mars/README.md)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](mars/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@
 
 ### Avril
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](avril/README.md)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](avril/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@
 
 ### Mai
 
-[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](mai/README.md)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -71,7 +71,7 @@
 
 ### Juin
 
-[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](juin/README.md)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](juin/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -83,7 +83,7 @@
 
 ### Juillet
 
-[![17/23](https://img.shields.io/static/v1?label=en%20cours&message=17/23&color=informational&style=flat-square)](juillet/README.md)
+[![17/23](https://img.shields.io/static/v1?label=en%20cours&message=17/23&color=informational&style=flat-square)](juillet/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
