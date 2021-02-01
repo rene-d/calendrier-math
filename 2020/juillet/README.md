@@ -113,12 +113,11 @@ d'où CD = √3 / 2
 
 ## Mardi 21 Juillet
 
-Il faut trouver le multiple du ppcm de (2, 3, 4, 5, 6) + 1 qui soit un multiple de 7.
+Il faut trouver le multiple du [ppcm](https://fr.wikipedia.org/wiki/Plus_petit_commun_multiple) de (2, 3, 4, 5, 6) + 1 qui soit un multiple de 7.
 
 ppcm = 3 × 4 × 5 = 30
 
 En tâtonnant, on trouve 301.
-
 
 Vérification en Python:
 
@@ -200,6 +199,7 @@ On peut calculer c: 11 / 9 - 1 = 2 / 9. D'où c = ⌊9 / 2⌋ = 4.
 Et enfin, d = 1 / (9 / 2 - 4) = 2
 
 Vérification avec [PARI/GP](https://pari.math.u-bordeaux.fr), [SageCell](https://sagecell.sagemath.org), etc.
+
 ```text
 a=3; b=1; c=4; d=2
 1/(a+1/(b+1/(c+1/d))) - 11/42
@@ -249,7 +249,7 @@ xy = 1
 
 Utilisons [WolframAlpha](https://www.wolframalpha.com) pour le calcul symbolique:
 
-4 × 8 - ③ = ① × ② - ③ = xy (x⁴ + y⁴) + 2 (xy)² (x² + y²)
+① × ② - ③ = 4 × 8 - ③ = xy (x⁴ + y⁴) + 2 (xy)² (x² + y²)
 
 = xy (8 - (xy)²) + 2 (xy)² (4 - xy)
 
