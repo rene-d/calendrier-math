@@ -25,7 +25,7 @@ IJKL couvre le quart de ABCD, puisque IL = 1/2 AD etc.
 
 ## Lundi 6 Juillet
 
-La nième ligne commence par n(n - 1) + 1.
+La n-ième ligne commence par n(n - 1) + 1.
 
 Ainsi la 21ème ligne commence par 421 et la 20ème finit par 419 donc.
 
@@ -100,6 +100,26 @@ La séquence ABAB est invariante pour l'entrée. 2020 = 505 × 4, donc le résul
 > réponse: 2
 
 ## Vendredi 17 Juillet
+
+Soient vₐ et vᵩ la vitesse en nombre de pas d'Abdoul et de son fils, 𝑥 = nombre de pas d'Abdoul
+
+- vₐ = 6
+- vᵩ = 3 / 5 × 7 = 4.2
+
+Leurs positions respectives sont données par :
+
+- pₐ = vₐ × (𝑥 - 3 / 5 × 30)
+- pᵩ = vᵩ × 𝑥
+
+En posant pₐ = pᵩ, on obtient:
+
+6 × (𝑥 - 3 / 5 × 30) = 4.2 𝑥
+
+1.8 × 𝑥 = 6 × 18 = 108
+
+𝑥 = 108 / 1.8 = 60
+
+> réponse: 60 pas
 
 ## Lundi 20 Juillet
 
@@ -234,6 +254,14 @@ La somme des trois plus grands est donc 45.
 > réponse: 45
 
 ## Jeudi 30 Juillet
+
+Il faut que 1 ≤ n ≤ 30 (sinon 2n > n + 30 et criète impossible).
+
+Il faut que n soit pair mais pas multiple de 4 (à cause du n + 30).
+
+En testant les nombres 2, 6, … 30 on trouve que 2 6 10 30 conviennent mais pas les autres.
+
+> réponse: quatre (2 6 10 30)
 
 ## Vendredi 31 Juillet
 
