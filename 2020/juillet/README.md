@@ -17,6 +17,22 @@ Il faut arriver à 9 + 9 + 5 + 1 = 24 soit 6 jetons par pile
 
 ## Jeudi 2 Juillet
 
+- (a²+b²+c²) - (a+b+c)² = -2 a b - 2 a c - 2 b c = 0
+
+⇒ a b + a c + b c = 0
+
+- (a²+b²+c²)(a+b+c) - (a³+b³+c³) = 0
+
+= a² b + a² c + a b² + b² c + a c² + b c²
+
+= a (ab+ac) + b(ab+bc) + c (ac+bc)
+
+= a (-bc) + b (-ac) + c (-ab) = - 3abc
+
+Donc abc  = 0. Ce qui signifie que a ou b ou c vaut 0, ainsi qu'une autre et la dernière 1.
+
+> réponse: abc = 0
+
 ## Vendredi 3 Juillet
 
 IJKL couvre le quart de ABCD, puisque IL = 1/2 AD etc.
@@ -34,6 +50,15 @@ Ainsi la 21ème ligne commence par 421 et la 20ème finit par 419 donc.
 > réponse: 44100
 
 ## Mardi 7 Juillet
+
+| déclaration                                           | il pleut          | il fait beau      |
+|-------------------------------------------------------|-------------------|-------------------|
+| ① aujourd'hui il pleut                                | tortue            | serpent           |
+| ② celui qui vient de parler ment                      | serpent, renard   | tortue            |
+| ③ aujourd'hui il fait beau                            | renard            | tortue            |
+| ④ celui qui vient de parler ment ou je suis un renard | tortue, serpent   | renard            |
+
+> réponse: 2
 
 ## Mercredi 8 Juillet
 
@@ -71,7 +96,40 @@ f(133, 533) = 533 × 534 / 2 - 132 × 133 / 2 = 133533
 
 ## Lundi 13 Juillet
 
+Le carré d'un nombre impair (2k+1) est impair et vaut 1 (mod 4). En effet:
+
+(2k + 1)² = 4k² + 4k + 1 = 1 (mod 4)
+
+Or 2019 = 2016 + 3, donc 2019 (mod 4) = 3.
+
+Donc tout nombre que se termine par 2019 ne peut être être le carré d'un entier. Et même tout nombre qui se termine par 19.
+
+Le code Python suivant permet de lister les terminaisons à 2 chiffres des carrés d'entier:
+
+```python
+set((k*k)%100 for k in range(0,100))
+```
+
+> réponse: non - aucun carré d'entier se termine par 2019
+
 ## Mardi 14 Juillet
+
+Il y a :
+
+- 12 carrés 1×1
+- 5 carrés 2×2
+- 8 rectangles 1×2
+- 8 rectangles 2×1
+- 4 rectangles 1×3
+- 4 rectangles 3×1
+- 2 rectangles 1×4
+- 2 rectangles 4×1
+- 2 rectangles 2×3
+- 2 rectangles 3×2
+- 1 rectangle 2×4
+- 1 rectangle 4×2
+
+> réponse: 17 carrés, 34 rectangles, 51 en tout
 
 ## Mercredi 15 Juillet
 
