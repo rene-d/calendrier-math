@@ -3,6 +3,7 @@
 # résolution du système d'équations linéaires
 
 import numpy as np
+
 # import random
 
 # la matrice du système à 4 équations

@@ -62,7 +62,7 @@ for a in range(80, 100):
 print("réponse:", nb)
 ```
 
-Il y a donc cinq "paires centenaires": (83, 89) (84, 88) (85, 87) (8,6 86) (90, 91)
+Il y a donc cinq "paires centenaires": (83, 89) (84, 88) (85, 87) (86, 86) (90, 91)
 
 > réponse: 5
 
@@ -133,7 +133,48 @@ Il faut donc que 𝑛²+7 divise 32.
 
 ## Vendredi 14 Août
 
+![schéma](14.png)
+
+Le grand cercle de centre B a pour rayon BA avec AB diagonale du carré de côté r = OB = OA.
+
+L'aire 𝒜 recherchée est l'aire du cercle de centre B de rayon r√2 diminuée de la moitié du cercle de centre O de rayon r et du [segment](https://fr.wikipedia.org/wiki/Segment_circulaire) AA'E du grand cercle.
+
+Le segment AA'E a pour aire 𝒶 celle du [secteur](https://fr.wikipedia.org/wiki/Secteur_circulaire)) ABA' moins le triangle ABA'.
+
+𝒶 = π (r√2)² / 4 - r × 2r / 2
+   = r² × (π / 2 - 1)
+
+𝒜 = π (r√2)² - π (r²) / 2 - 𝒶
+   = r² × (2π - π / 2 - π / 2 + 1)
+   = r² × (π + 1)
+
+> réponse: r² × (π + 1)
+
 ## Lundi 17 Août
+
+Les candidats de carré d'entiers sont 1, 4, 9 et 16. Soit:
+
+- pour 1: 1-0 ⇒ 1 nombre (10)
+- pour 4: 2-2 1-3 4-0 ⇒ 4 nombres (22 13 31 40)
+- pour 9: 1-8 2-7 3-6 4-5 9-0 ⇒ 9 nombres (18 27 36 45 81 72 63 54 90)
+- pour 16: 7-9 8-8 ⇒ 3 nombres (79 97 88)
+
+[Programme](17.py) Python de vérification.
+
+```python
+#!/usr/bin/env python3
+
+carres = list(n * n for n in range(5))
+nb = 0
+for n in range(10, 100):
+    d, u = divmod(n, 10)
+    if d + u in carres:
+        print(n)
+        nb += 1
+print("réponse:", nb)
+```
+
+> réponse: 17
 
 ## Mardi 18 Août
 
@@ -141,7 +182,43 @@ Il faut donc que 𝑛²+7 divise 32.
 
 ## Jeudi 20 Août
 
+365 mod 52 = 1 : on "avance" d'un jour de semaine par année non bissextile, et de deux sinon.
+
+- 2021 n'est pas bissextile, vendredi 20 août 2021
+- 2022 samedi 20 août 2022
+- 2023 dimanche 20 août 2023
+- 2024 est bissextile mardi 20 août 2024
+- 2025 mercredi 20 août 2025
+- 2026 jeudi 20 août 2026
+
+Vérification avec [programme](20.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+from datetime import datetime
+
+annee = 2020
+ref = datetime(2020, 8, 20).weekday()
+while True:
+    annee += 1
+    d = datetime(annee, 8, 20)
+    print(f"{d.year} : {d.strftime('%A')}")
+    if d.weekday() == ref:
+        break
+```
+
+> réponse: 2026
+
 ## Vendredi 21 Août
+
+Le petit rectangle a un rapport largeur/hauteur égal à 2 puisqu'il "contient" deux cercles côte à côte. Calculons ses dimensions dont on déduira le diamètre des cercles (égal à la hauteur du petit rectangle) et ainsi le périmètre du grand rectangle.
+
+2 (l + h) = 2 × (2h + h) = 6h = 60 cm
+
+D'où h = 10 cm et 𝑃 = 2 × (3h + 2h) = 10h = 100 cm
+
+> réponse: 100 cm
 
 ## Lundi 24 Août
 

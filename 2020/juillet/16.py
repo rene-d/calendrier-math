@@ -9,7 +9,7 @@ def A(x):
 
 
 def B(x):
-    x = x   * 2
+    x = x * 2
     return x
 
 

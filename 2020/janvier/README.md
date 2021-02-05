@@ -272,7 +272,7 @@ for n in range(0, 10000):
 
 print(somme_pair, somme_impair)
 
-print(somme_impair- somme_pair)
+print(somme_impair - somme_pair)
 ```
 
 > réponse: impair
