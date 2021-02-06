@@ -72,22 +72,26 @@ Si Jean choisit le dé 4-0:
 
 - 0 est toujours perdant (i.e. Léa gagne)
 - 4 est perdant 5 fois sur 18 tirages possibles
+- si Léa choisit le dé 1-5 elle a 2/3 de chance de gagner
 
 2/6 + 4/6 × 5/18 = 14/27
 
 Si Jean choisit le dé 3:
 
 - 3 est perdant 4+2+3 = 9/18 = 1/2
+- si Léa choisit le dé 0-4 elle a 2/3 de chance de gagner
 
 Si Jean choisit le dé 6-2:
 
 - 2 est perdant 4+6+3: 4/6 × 13/18 = 13/27
 - 6 est toujours gagnant
+- si Léa choisit le dé 3 elle a 2/3 de chance de gagner
 
 Si Jean choisit le dé 5-1:
 
 - 1 est perdant 4+6+6 fois: 3/6 × 16/18
 - 5 est perdant 2 fois: 3/6 × 2/18
+- si Léa choisit le dé 2-6 elle a 2/3 de chance de gagner
 
 3/6 × 2/18 + 3/6 × 16/18 = 1/2
 
@@ -111,6 +115,7 @@ des = [
 
 total_nb = 0
 total_lea_gagne = 0
+max_lea_f = 0
 
 # Jean choisit un dé
 for de_jean in range(4):
@@ -118,11 +123,11 @@ for de_jean in range(4):
     des_lea = set(range(4))
     des_lea.remove(de_jean)
 
-    nb = 0
-    lea_gagne = 0
-
     # Léa choisit un dé parmi les trois restants
     for de_lea in des_lea:
+
+        nb = 0
+        lea_gagne = 0
 
         # Jean tire son dé
         for tirage_jean in des[de_jean]:
@@ -135,17 +140,23 @@ for de_jean in range(4):
                 if tirage_lea > tirage_jean:
                     lea_gagne += 1
 
-    f = Fraction(lea_gagne, nb)
-    print(f"de_jean: {des[de_jean]} lea_gagne: {lea_gagne}/{nb} = {f}")
+        f = Fraction(lea_gagne, nb)
+        # print(
+        #     f"de_jean: {des[de_jean]} de_lea: {des[de_lea]} - "
+        #     + f"lea_gagne: {lea_gagne}/{nb} = {f}"
+        # )
+        if f > max_lea_f:
+            max_lea_f = f
 
-    total_lea_gagne += lea_gagne
-    total_nb += nb
+        total_lea_gagne += lea_gagne
+        total_nb += nb
 
 f = Fraction(total_lea_gagne, total_nb)
 print(f"total_lea_gagne: {total_lea_gagne}/{total_nb} = {f}")
+print(f"max_lea_f: {max_lea_f}")
 ```
 
-> réponse: Léa a une chance sur deux de gagner: p = 1/2
+> réponse: Léa a p=1/2 chances de gagner: . Si elle choisit bien son dé, elle a p=2/3 chances de gagner
 
 ## Mardi 11 Août
 
@@ -295,10 +306,34 @@ D'où h = 10 cm et 𝑃 = 2 × (3h + 2h) = 10h = 100 cm
 
 ## Mardi 25 Août
 
+C'est l'ensemble des nombres 1x0 ou x10 avec x ≠ 9 qui soient multiples de 30.
+
+```python
+[100+i*10 for i in range(10) if (100+i*10)%30==0]
+[10+i*100 for i in range(10) if (10+i*100)%30==0]
+[i for i in range(100,1000) if i%30==0 and str(i).find('1')!=-1 and str(i).find('9')==-1]
+```
+
+> réponse: 120, 150, 180, 210, 510, 810
+
 ## Mercredi 26 Août
 
 ## Jeudi 27 Août
 
 ## Vendredi 28 Août
 
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_2%26%3D1%5Ctimes%28a_0%2Ba_1%29%3D1%5Ctimes%281%2B1%29%3D2%20%5C%5C%0Aa_3%26%3D2%5Ctimes%28a_1%2Ba_2%29%3D2%5Ctimes%281%2B2%29%3D6%20%5C%5C%0Aa_4%26%3D3%5Ctimes%28a_2%2Ba_3%29%3D3%5Ctimes%282%2B6%29%3D24%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
+
+![latex](https://render.githubusercontent.com/render/math?math=a_n&mode=inline) semble être la fonction [factorielle](https://fr.wikipedia.org/wiki/Factorielle). Montrons que ![latex](https://render.githubusercontent.com/render/math?math=a_n%3Dn%21&mode=inline) par récurrence: c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=a_n%2C%20n%5Cleq%204&mode=inline), on suppose que c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=n&mode=inline) et on vérifie pour ![latex](https://render.githubusercontent.com/render/math?math=n%2B1&mode=inline):
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%28%28n-1%29%21%2Bn%21%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
+
+Donc, à partir de 5!, le chiffre des unités est 0 car il y a 2×5=10 comme facteur.
+
+> réponse: 0
+
 ## Lundi 31 Août
+
+![schéma](31.png)
+
+> réponse: 1/8

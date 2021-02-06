@@ -51,24 +51,44 @@ def remove_accents(input_str):
 
 
 def render_latex_on(readme):
+    def repl_render_ml(m):
+        latex = m[1].strip()
+        url = f"https://render.githubusercontent.com/render/math?math={quote(latex)}&mode=inline"
+        return f"![latexml]({url})"
+
+    readme = re.sub(r"\$\$((?s).+?)\$\$", repl_render_ml, readme)
+
     def repl_render(m):
         latex = m[1]
         url = f"https://render.githubusercontent.com/render/math?math={quote(latex)}&mode=inline"
         return f"![latex]({url})"
 
-    return re.sub(r"\$(.+?)\$", repl_render, readme)
+    readme = re.sub(r"\$(.+?)\$", repl_render, readme)
+
+    return readme
 
 
 def render_latex_off(readme):
+    def repl_latex_ml(m):
+        url = m[1]
+        return f"$$\n{unquote(url)}\n$$"
+
     def repl_latex(m):
         url = m[1]
         return f"${unquote(url)}$"
 
-    return re.sub(
+    readme = re.sub(
+        r"!\[latexml\]\(https://render\.githubusercontent\.com/render/math\?math=(.+?)&mode=inline\)",
+        repl_latex_ml,
+        readme,
+    )
+    readme = re.sub(
         r"!\[latex\]\(https://render\.githubusercontent\.com/render/math\?math=(.+?)&mode=inline\)",
         repl_latex,
         readme,
     )
+
+    return readme
 
 
 def inline_python_off(readme):
@@ -171,15 +191,11 @@ def create_month(month, year):
                 p = Path(month_norm) / f"{d.day:02d}.py"
 
                 if p.exists() and d.day in solutions_text and SHOW_SCREEN:
-                    cols.append(f"[{d.day:02d}]({solutions_link[d.day]}) [🖥]({p})")
+                    cols.append(f"[{d.day:02d}]({solutions_link[d.day]}) 🖥")
                     done_month += 1
 
                 elif d.day in solutions_text:
                     cols.append(f"[{d.day:02d}]({solutions_link[d.day]})")
-                    done_month += 1
-
-                elif p.exists():
-                    cols.append(f"{d.day:02d} [🖥]({p})")
                     done_month += 1
 
                 else:
