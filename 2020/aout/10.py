@@ -8,12 +8,12 @@ nb = 0
 lea_gagne = 0
 
 for de_jean in range(4):
-    for jean in des[de_jean]:
+    for tirage_jean in des[de_jean]:
         for de_lea in range(4):
             if de_lea != de_jean:
-                for lea in des[de_lea]:
+                for tirage_lea in des[de_lea]:
                     nb += 1
-                    if lea > jean:
+                    if tirage_lea > tirage_jean:
                         lea_gagne += 1
 
 print(lea_gagne, nb, Fraction(lea_gagne, nb))

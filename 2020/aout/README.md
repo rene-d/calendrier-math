@@ -95,6 +95,30 @@ Soit au total:
 
 1/4 × (14/27 + 1/2 + 13/27 + 1/2) = 1/4 × 2 = 1/2
 
+Calcul de tous les tirages possibles par [programme](10.py).
+
+```python
+#!/usr/bin/env python3
+
+from fractions import Fraction
+
+des = [[0, 0, 4, 4, 4, 4], [3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 6, 6], [1, 1, 1, 5, 5, 5]]
+
+nb = 0
+lea_gagne = 0
+
+for de_jean in range(4):
+    for tirage_jean in des[de_jean]:
+        for de_lea in range(4):
+            if de_lea != de_jean:
+                for tirage_lea in des[de_lea]:
+                    nb += 1
+                    if tirage_lea > tirage_jean:
+                        lea_gagne += 1
+
+print(lea_gagne, nb, Fraction(lea_gagne, nb))
+```
+
 > réponse: Léa a une chance sur deux de gagner: p = 1/2
 
 ## Mardi 11 Août
@@ -179,6 +203,27 @@ print("réponse:", nb)
 ## Mardi 18 Août
 
 ## Mercredi 19 Août
+
+Pour ![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cleq%201&mode=inline), ![latex](https://render.githubusercontent.com/render/math?math=2%5E%7B2%5En%7D%2B9&mode=inline) vaut:
+
+- ![latex](https://render.githubusercontent.com/render/math?math=n%20%3D%200%20%3A%202%5E%7B2%5E0%7D%20%2B%209%20%3D%202%5E1%20%2B%209%20%3D%2011&mode=inline) ✅
+- ![latex](https://render.githubusercontent.com/render/math?math=n%20%3D%201%20%3A%202%5E%7B2%5E1%7D%20%2B%209%20%3D%202%5E2%20%2B%209%20%3D%2013&mode=inline) ✅
+
+Pour ![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cgeq%202&mode=inline): ![latex](https://render.githubusercontent.com/render/math?math=2%5E%7B2%5En%7D%20%3D%202%5E%7B4%20%5Ctimes%202%5E%7Bn-2%7D%7D%20%3D%2016%5E%7Bn-2%7D&mode=inline)
+
+Or, toutes les puissances de 16 se terminent par une puissance du chiffre de l'unité, à savoir 6:
+
+![latex](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%20%3D%20100%20d%5E2%20%2B%2020d%2B%20u%5E2%20%3D%2010%20D%2Bu%5E2&mode=inline)
+
+Et plus généralement:
+
+![latex](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%3D%5Csum_%7Bk%3D0%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%3D%5Csum_%7Bk%3D1%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%2Bu%5En%3D10D%2Bu%5En&mode=inline)
+
+
+
+ Et comme ![latex](https://render.githubusercontent.com/render/math?math=6%5Ctimes6%3D36&mode=inline) se termine aussi par 6, c'est invariablement 6 à la fin. Ajouté 9, le nombre se terminera toujours par 5, et est donc divisible par 5.
+
+> réponse: n = 0 ou n = 1
 
 ## Jeudi 20 Août
 
