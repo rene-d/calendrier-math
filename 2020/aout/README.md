@@ -318,6 +318,16 @@ C'est l'ensemble des nombres 1x0 ou x10 avec x ≠ 9 qui soient multiples de 30.
 
 ## Mercredi 26 Août
 
+Soit x l'âge de Xavier.
+
+(x - 55) × (x + 55) = x² - 55² = p³
+
+Admettons qu'il a moins de 120 ans. Il faut donc trouver un cube de premier inférieur à 11375 < 23³ = 12167.
+
+On va tester les premiers inférieurs à 23 un par un.
+
+> réponse: 66 ans
+
 ## Jeudi 27 Août
 
 ## Vendredi 28 Août
@@ -329,6 +339,26 @@ C'est l'ensemble des nombres 1x0 ou x10 avec x ≠ 9 qui soient multiples de 30.
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%28%28n-1%29%21%2Bn%21%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
 
 Donc, à partir de 5!, le chiffre des unités est 0 car il y a 2×5=10 comme facteur.
+
+On peut le vérifier à l'aide d'un [programme](28.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+from math import factorial
+
+a0, a1 = 1, 1
+
+for n in range(1, 2021):
+    a = n * (a0 + a1)
+    n += 1
+    a1, a0 = a, a1
+    if n <= 6 or n == 2020:
+        s = str(a)
+        if len(s) > 20:
+            s = "[...]" + s[-20:]
+        print(f"a({n}) = {s}", factorial(n) == a)
+```
 
 > réponse: 0
 
