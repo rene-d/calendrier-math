@@ -171,3 +171,4 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [13](2021/decembre/README.md#lundi-13-décembre) | [14](2021/decembre/README.md#mardi-14-décembre) | [15](2021/decembre/README.md#mercredi-15-décembre) | [16](2021/decembre/README.md#jeudi-16-décembre) | [17](2021/decembre/README.md#vendredi-17-décembre) 🖥 | *18* | *19* |
 | [20](2021/decembre/README.md#lundi-20-décembre) 🖥 | [21](2021/decembre/README.md#mardi-21-décembre) | [22](2021/decembre/README.md#mercredi-22-décembre) | [23](2021/decembre/README.md#jeudi-23-décembre) | [24](2021/decembre/README.md#vendredi-24-décembre) | *25* | *26* |
 | [27](2021/decembre/README.md#lundi-27-décembre) | [28](2021/decembre/README.md#mardi-28-décembre) | [29](2021/decembre/README.md#mercredi-29-décembre) | [30](2021/decembre/README.md#jeudi-30-décembre) 🖥 | [31](2021/decembre/README.md#vendredi-31-décembre) |    |    |
+

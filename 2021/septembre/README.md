@@ -54,11 +54,11 @@ AB² + BC² = AC² = 21 ⇒ AB = √(21 - 12) = 3
 
 Le coefficient ![latex](https://render.githubusercontent.com/render/math?math=r&mode=inline) entre deux termes vaut:
 
-![latex](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%7B%5Csqrt%5B3%5D%7B3%7D%7D%7B%5Csqrt%7B3%7D%7D%20%3D%20%5Cfrac%7B3%5E%7B%5Cfrac%7B1%7D%7B3%7D%7D%7D%7B3%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D%7D%20%3D%20%7B3%7D%5E%7B%5Cfrac%7B1%7D%7B3%7D-%5Cfrac%7B1%7D%7B2%7D%7D%20%3D%20%7B3%7D%5E%7B-%5Cfrac%7B1%7D%7B6%7D%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%7B%5Csqrt%5B3%5D%7B3%7D%7D%7B%5Csqrt%7B3%7D%7D%20%3D%20%5Cfrac%7B3%5E%7B%5Cfrac%7B1%7D%7B3%7D%7D%7D%7B3%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D%7D%20%3D%20%7B3%7D%5E%7B%5Cfrac%7B1%7D%7B3%7D-%5Cfrac%7B1%7D%7B2%7D%7D%20%3D%20%7B3%7D%5E%7B-%5Cfrac%7B1%7D%7B6%7D%7D&mode=inline)
 
 Le terme suivant est donc:
 
- ![latex](https://render.githubusercontent.com/render/math?math=%5Csqrt%5B6%5D%7B3%7D%5Ctimes%7B3%7D%5E%7B-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%20%7B3%7D%5E%7B%5Cfrac%7B1%7D%7B6%7D-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%203%5E0%20%3D%201&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Csqrt%5B6%5D%7B3%7D%5Ctimes%7B3%7D%5E%7B-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%20%7B3%7D%5E%7B%5Cfrac%7B1%7D%7B6%7D-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%203%5E0%20%3D%201&mode=inline)
 
 > réponse: 1
 
