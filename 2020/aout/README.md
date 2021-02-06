@@ -324,7 +324,23 @@ Soit x l'âge de Xavier.
 
 Admettons qu'il a moins de 120 ans. Il faut donc trouver un cube de premier inférieur à 11375 < 23³ = 12167.
 
-On va tester les premiers inférieurs à 23 un par un.
+On va tester les premiers inférieurs à 23 un par un à l'aide d'un [programme](26.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+from sympy.ntheory import sieve
+
+sieve.extend(23)
+primes = sieve._list
+
+cubes = [n ** 3 for n in sieve._list]
+
+for n in range(55, 121):
+    if (n - 55) * (n + 55) in cubes:
+        print("réponse:", n)
+        break
+```
 
 > réponse: 66 ans
 

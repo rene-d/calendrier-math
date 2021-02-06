@@ -8,7 +8,7 @@ J'essaie de vérifier au maximum l'exactitude et la précision des démonstratio
 
 Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également souvent utilisés.
 
-Elles sont rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode) qui offrent une mise en page suffisante. Cependant, il serait possible d'utiliser LaTeX pour des équations plus complexes (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) par exemple, [codecogs](https://www.codecogs.com/latex/eqneditor.php), [katex](https://katex.org), etc.).
+Elles sont rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode) qui offrent une mise en page suffisante. Cependant, il est possible d'utiliser LaTeX pour des équations plus complexes (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b) par exemple, [codecogs](https://www.codecogs.com/latex/eqneditor.php), [katex](https://katex.org), etc.). C'est le cas pour quelques problèmes, où les formules sont un peu plus complexes.
 
 Les programmes Python peuvent être lancés en script, interactivement, ou en ligne: [python](https://www.python.org/shell/), [programiz](https://www.programiz.com/python-programming/online-compiler/), [repl.it](https://repl.it/), etc.
 
@@ -171,4 +171,3 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [13](2021/decembre/README.md#lundi-13-décembre) | [14](2021/decembre/README.md#mardi-14-décembre) | [15](2021/decembre/README.md#mercredi-15-décembre) | [16](2021/decembre/README.md#jeudi-16-décembre) | [17](2021/decembre/README.md#vendredi-17-décembre) 🖥 | *18* | *19* |
 | [20](2021/decembre/README.md#lundi-20-décembre) 🖥 | [21](2021/decembre/README.md#mardi-21-décembre) | [22](2021/decembre/README.md#mercredi-22-décembre) | [23](2021/decembre/README.md#jeudi-23-décembre) | [24](2021/decembre/README.md#vendredi-24-décembre) | *25* | *26* |
 | [27](2021/decembre/README.md#lundi-27-décembre) | [28](2021/decembre/README.md#mardi-28-décembre) | [29](2021/decembre/README.md#mercredi-29-décembre) | [30](2021/decembre/README.md#jeudi-30-décembre) 🖥 | [31](2021/decembre/README.md#vendredi-31-décembre) |    |    |
-
