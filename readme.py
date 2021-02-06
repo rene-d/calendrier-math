@@ -245,9 +245,8 @@ def patch_readme(repl_func):
         print(f"écrit {solutions_md}")
 
         if "GIT_INDEX_FILE" in os.environ:
-            if Path(os.environ["GIT_INDEX_FILE"]).is_file():
-                os.system(f"git add {solutions_md}")
-                print(f"staged {solutions_md}")
+            os.system(f"git add {solutions_md}")
+            print(f"staged {solutions_md}")
 
 
 def generate_calendar(root_dir, year):
@@ -294,9 +293,8 @@ def generate_calendar(root_dir, year):
         readme_md.write_text(readme)
 
         if "GIT_INDEX_FILE" in os.environ:
-            if Path(os.environ["GIT_INDEX_FILE"]).is_file():
-                os.system("git add README.md")
-                print("staged README.md")
+            os.system("git add README.md")
+            print("staged README.md")
 
     patch_readme(inline_python_on)
     patch_readme(render_latex_on)
@@ -356,7 +354,7 @@ def process_years(root_dir, year, func):
 
 def main():
     if "GIT_INDEX_FILE" in os.environ:
-        root_dir = Path(os.environ["GIT_INDEX_FILE"]).parent.parent
+        root_dir = Path.cwd()
     else:
         root_dir = Path(__file__).parent.resolve()
 
