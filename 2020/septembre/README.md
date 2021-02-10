@@ -67,14 +67,11 @@ On peut calculer l'aire du trapèze:
 
 ## Mardi 8 Septembre
 
-23⁵ - 23 = 23 × (23⁴ - 1)
-    = 23 × (23² - 1) × (23² + 1)
-    = 23 × (23 - 1) × (23 + 1) × 530
-    = 23 × 22 × 24 × 530
-    = 23 × 2 × 11 × 2 × 2 × 2 × 3 × 2 × 5 × 53
-    = 2⁵ × 3 × 5 × 11 × 23 × 53
+Factorisons l'expression:
 
-Le nombre de diviseurs est ∏(k+1) = 6 × 2 × 2 × 2 × 2 × 2 = 192
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A23%5E5%20-%2023%20%26%3D%2023%20%C3%97%20%2823%5E4%20-%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%20%2823%5E2%20-%201%29%20%C3%97%20%2823%5E2%20%2B%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%20%2823%20-%201%29%20%C3%97%20%2823%20%2B%201%29%20%C3%97%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%2022%20%C3%97%2024%20%C3%97%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%202%20%C3%97%2011%20%C3%97%202%20%C3%97%202%20%C3%97%202%20%C3%97%203%20%C3%97%202%20%C3%97%205%20%C3%97%2053%20%5C%5C%0A%26%3D%202%5E5%20%C3%97%203%20%C3%97%205%20%C3%97%2011%20%C3%97%2023%20%C3%97%2053%0A%5Cend%7Baligned%7D&mode=inline)
+
+Le nombre de diviseurs est ![latex](https://render.githubusercontent.com/render/math?math=%5Csigma_0%28n%29%3D%5Cprod_%7Bp%5Ee%7Cn%7D%20%28e_p%20%2B1%29%3D6%C3%972%C3%972%C3%972%C3%972%C3%972%3D192&mode=inline)
 
 > réponse: 192
 
@@ -174,7 +171,7 @@ r = a / 2 / (1 + √3)
 
 ## Jeudi 17 Septembre
 
-Est-ce qu'il existe n tel que:
+Existe-il n entier tel que:
 
 4 ((n + 1)² - n²) = 2020
 
@@ -211,7 +208,7 @@ Le losange est constitué de quatre triangles rectangles de côtés a et b tels 
 
 Soit a = 32, b = 24.
 
-L'hypoténuse de ces triangles mesure: √((32/2)²+(24/2)²) = 20
+L'hypoténuse de ces triangles mesure: ![latex](https://render.githubusercontent.com/render/math?math=%5Csqrt%7B%28%5Cfrac%7B32%7D%7B2%7D%29%5E2%2B%28%5Cfrac%7B24%7D%7B2%7D%29%5E2%7D%20%3D%2020&mode=inline)
 
 Le périmètre est donc 20 × 4 = 80.
 
