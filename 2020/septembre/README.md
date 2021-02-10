@@ -69,9 +69,9 @@ On peut calculer l'aire du trapèze:
 
 Factorisons l'expression:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A23%5E5%20-%2023%20%26%3D%2023%20%C3%97%20%2823%5E4%20-%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%20%2823%5E2%20-%201%29%20%C3%97%20%2823%5E2%20%2B%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%20%2823%20-%201%29%20%C3%97%20%2823%20%2B%201%29%20%C3%97%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%2022%20%C3%97%2024%20%C3%97%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%C3%97%202%20%C3%97%2011%20%C3%97%202%20%C3%97%202%20%C3%97%202%20%C3%97%203%20%C3%97%202%20%C3%97%205%20%C3%97%2053%20%5C%5C%0A%26%3D%202%5E5%20%C3%97%203%20%C3%97%205%20%C3%97%2011%20%C3%97%2023%20%C3%97%2053%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A23%5E5%20-%2023%20%26%3D%2023%20%5Ctimes%20%2823%5E4%20-%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%5E2%20-%201%29%20%5Ctimes%20%2823%5E2%20%2B%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%20-%201%29%20%5Ctimes%20%2823%20%2B%201%29%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%2022%20%5Ctimes%2024%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%202%20%5Ctimes%2011%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%203%20%5Ctimes%202%20%5Ctimes%205%20%5Ctimes%2053%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%202%5E5%20%5Ctimes%203%20%5Ctimes%205%20%5Ctimes%2011%20%5Ctimes%2023%20%5Ctimes%2053%0A%5Cend%7Baligned%7D&mode=inline)
 
-Le nombre de diviseurs est ![latex](https://render.githubusercontent.com/render/math?math=%5Csigma_0%28n%29%3D%5Cprod_%7Bp%5Ee%7Cn%7D%20%28e_p%20%2B1%29%3D6%C3%972%C3%972%C3%972%C3%972%C3%972%3D192&mode=inline)
+Le nombre de diviseurs est ![latex](https://render.githubusercontent.com/render/math?math=%5Csigma_0%28n%29%3D%5Cprod_%7Bp%5Ee%7Cn%7D%28e_p%2B1%29%3D6%5Ctimes2%5Ctimes2%5Ctimes2%5Ctimes2%5Ctimes2%3D192&mode=inline)
 
 > réponse: 192
 
