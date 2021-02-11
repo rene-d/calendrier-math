@@ -175,7 +175,7 @@ Existe-il n entier tel que:
 
 4 ((n + 1)² - n²) = 2020
 
-2n + 1 = 505
+2n + 1 = 2020 ÷ 4 = 505
 
 Oui: n = 252
 
@@ -184,6 +184,51 @@ Oui: n = 252
 ## Vendredi 18 Septembre
 
 ## Lundi 21 Septembre
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28x%20-%204%29%28x%20-%209%29%20%26%3D%20x%5E2%20-%20%284%20%2B%209%29%20%5Ctimes%20%20x%20%2B%204%20%5Ctimes%20%209%20%5C%5C%0A%26%3D%203%20x%5E2%20-%203%20%5Ctimes%20%284%2B9%29%20%5Ctimes%20%20x%20%2B%203%20%5Ctimes%204%5Ctimes%209%0A%5Cend%7Baligned%7D&mode=inline)
+
+Il faut donc ![latex](https://render.githubusercontent.com/render/math?math=3%20%5Ctimes%204%5Ctimes%209%3D108%3D66_%7Bbase%7D&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=3%20%5Ctimes%20%284%2B9%29%3D39%3D25_%7Bbase%7D&mode=inline)
+
+Soit ![latex](https://render.githubusercontent.com/render/math?math=2%20%5Ctimes%20base%20%2B%205%3D39&mode=inline). Donc ![latex](https://render.githubusercontent.com/render/math?math=base%3D%2839-5%29%20%5Cdiv%202%3D17&mode=inline).
+
+On vérifie que ![latex](https://render.githubusercontent.com/render/math?math=6%20%5Ctimes%20base%20%2B%206%20%3D%2017%20%5Ctimes%206%2B6%3D102%2B6%3D108&mode=inline).
+
+On peut aussi chercher automatiquement à l'aide d'un [programme](21.py).
+
+```python
+#!/usr/bin/env python3
+
+
+def to_base(n: int, base: int) -> str:
+    """ Convertit un nombre entier dans son écriture dans la base indiquée qui doit être ≤ 36. """
+
+    if base > 36 or base < 2:
+        raise ValueError("to_base() base must be >= 2 and <= 36")
+
+    if n == 0:
+        return "0"
+
+    if n < 0:
+        n = -n
+        sign = "-"
+    else:
+        sign = ""
+
+    digits = ""
+    while n != 0:
+        n, r = divmod(n, base)
+        digits += "0123456789abcdefghijklmnopqrstuvwxyz"[r]
+
+    return sign + digits[::-1]
+
+
+for base in range(11, 37):
+    if to_base(39, base) == "25" and to_base(3 * 4 * 9, base) == "66":
+        print("réponsé:", base)
+        break
+```
+
+> réponse: 17
 
 ## Mardi 22 Septembre
 
@@ -216,6 +261,27 @@ Le périmètre est donc 20 × 4 = 80.
 
 ## Lundi 28 Septembre
 
+On voit assez vite que le numérateur de tₙ s'élimine avec le dénominateur de tₙ₋₂.
+
+Donc pour n pair, tₙ = 1 / (n - 1). Et pour n impair ≥ 3, tₙ = 0 (car t₃ = 0).
+
+Pour vérifier, [programme](28.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from fractions import Fraction
+
+n = 2
+tn = 1  # valeur de t2
+while n < 2020:
+    n += 2
+    tn = Fraction(n - 3, n - 1) * tn
+print(f"n={n:5} tn={tn}")
+```
+
+> réponse: 1 / 2019
+
 ## Mardi 29 Septembre
 
 ## Mercredi 30 Septembre
@@ -228,10 +294,12 @@ P(x) = x³ - r₁ x² - r₀² x + r₀² r₁
 
 P(x) = x³ + a x² + b x + c
 
+On a donc:
+
 - a = -r₁
 - b = -r₀²
 - c = r₀² r₁
 
-Doù: ab - c = (-r₀²)(-r₀²) - r₀² r₁ = 0
+D'où: ab - c = (-r₀²)(-r₀²) - r₀² r₁ = 0
 
 > réponse: 0
