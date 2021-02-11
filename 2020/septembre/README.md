@@ -248,14 +248,13 @@ D'où ∑n = 24
 
 Le losange est constitué de quatre triangles rectangles de côtés a et b tels que:
 
-- a + b = 56
-- 3 a = 4 b
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bdcases%7D%0Aa%20%2B%20b%20%3D%2056%20%5C%5C%0A3%20a%20%3D%204%20b%0A%5Cend%7Bdcases%7D&mode=inline)
 
-Soit a = 32, b = 24.
+Soit ![latex](https://render.githubusercontent.com/render/math?math=a%20%3D%2032&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b%20%3D%2024&mode=inline).
 
 L'hypoténuse de ces triangles mesure: ![latex](https://render.githubusercontent.com/render/math?math=%5Csqrt%7B%28%5Cfrac%7B32%7D%7B2%7D%29%5E2%2B%28%5Cfrac%7B24%7D%7B2%7D%29%5E2%7D%20%3D%2020&mode=inline)
 
-Le périmètre est donc 20 × 4 = 80.
+Le périmètre est donc ![latex](https://render.githubusercontent.com/render/math?math=20%20%5Ctimes%204%20%3D%2080&mode=inline).
 
 > réponse: 80 m
 
