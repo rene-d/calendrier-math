@@ -248,7 +248,7 @@ D'où ∑n = 24
 
 Le losange est constitué de quatre triangles rectangles de côtés a et b tels que:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bdcases%7D%0Aa%20%2B%20b%20%3D%2056%20%5C%5C%0A3%20a%20%3D%204%20b%0A%5Cend%7Bdcases%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26a%20%2B%20b%20%3D%2056%20%5C%5C%0A%263%20a%20%3D%204%20b%0A%5Cend%7Baligned%7D&mode=inline)
 
 Soit ![latex](https://render.githubusercontent.com/render/math?math=a%20%3D%2032&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b%20%3D%2024&mode=inline).
 

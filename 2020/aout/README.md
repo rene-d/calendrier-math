@@ -352,7 +352,7 @@ for n in range(55, 121):
 
 ![latex](https://render.githubusercontent.com/render/math?math=a_n&mode=inline) semble être la fonction [factorielle](https://fr.wikipedia.org/wiki/Factorielle). Montrons que ![latex](https://render.githubusercontent.com/render/math?math=a_n%3Dn%21&mode=inline) par récurrence: c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=a_n%2C%20n%5Cleq%204&mode=inline), on suppose que c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=n&mode=inline) et on vérifie pour ![latex](https://render.githubusercontent.com/render/math?math=n%2B1&mode=inline):
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%28%28n-1%29%21%2Bn%21%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%20%5Cbigl%28%28n-1%29%21%2Bn%21%20%5Cbig%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
 
 Donc, à partir de 5!, le chiffre des unités est 0 car il y a 2×5=10 comme facteur.
 
