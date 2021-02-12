@@ -60,9 +60,9 @@ total: 15 + 20 + 20 = 55
 
 ## Mercredi 7 Avril
 
-- angle ABC = 120  (hexagone)
-- angle BAC = 30°  (triangle isocèle en A)
-- angle ABF = angle CBY = 30%, donc angle BXY = 60°, BXY isocèle équilatéral
+- angle ∠ABC = 120  (hexagone)
+- angle ∠BAC = 30°  (triangle isocèle en A)
+- angle ∠ABF = angle ∠CBY = 30%, donc angle ∠BXY = 60°, BXY isocèle équilatéral
 - BX = BY car BXY équilatéral
 - par conséquent XY = AX = XC = AC / 3
 - OAB équilatéral

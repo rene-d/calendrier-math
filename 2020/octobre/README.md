@@ -1,5 +1,7 @@
 # Calendrier Mathématique Octobre 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Jeudi 1 Octobre
 
 ## Vendredi 2 Octobre

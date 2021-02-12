@@ -1,5 +1,7 @@
 # Calendrier Mathématique Décembre 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Mardi 1 Décembre
 
 ## Mercredi 2 Décembre

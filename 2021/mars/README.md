@@ -98,13 +98,13 @@ Traçons le parallèlogramme ABCG.
 
 On a CG=AB=DC. Donc le triangle GCD est isocèle en C.
 
-L'angle (GCD) vaut 90° - angle (BCD) = 90° - 30° = 60°. Ainsi, le triangle GCD est équilatéral et GD=AB=CG=DC.
+L'angle ∠GCD vaut 90° - ∠BCD = 90° - 30° = 60°. Ainsi, le triangle GCD est équilatéral et GD=AB=CG=DC.
 
 Soit H le milieu de GD. Thalès permet d'affirmer que EH // AG et EH = 1/2 AG puisque E défini comme le milieu de AD.
 
 Ainsi EH et FC sont // et de même longueur, le quadrilatère EHCF est un parallèlogramme.
 
-L'angle (GCH) vaut 30° (bissectrice), et par conséquence, l'angle (BCH) est égal à 60°.
+L'angle ∠GCH vaut 30° (bissectrice), et par conséquence, l'angle ∠BCH est égal à 60°.
 
 > réponse: 60°
 

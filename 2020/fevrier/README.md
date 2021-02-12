@@ -219,12 +219,12 @@ Anne a donc (à quelques jours près) 50 ans + 4 ans + (8 + 50 + 7) semaines + 1
 
 Soit O le centre du pentagone.
 
-L'angle DOE vaut 360 / 5 = 72°. Comme DOE est un triangle isocèle en O, les angles DEO et ODE valent tous les deux (180 - 72) / 2 = 54°.
+L'angle ∠DOE vaut 360 / 5 = 72°. Comme DOE est un triangle isocèle en O, les angles ∠DEO et ∠ODE valent tous les deux (180 - 72) / 2 = 54°.
 
-La somme des angles en E vaut 360° : AEO + OED + DEG = 360 - AEG.
+La somme des angles en E vaut 360° : ∠AEO + ∠OED + ∠DEG = 360 - ∠AEG.
 
-D'où: AEG = 360 - 54 - 54 - 90 = 162°
+D'où: ∠AEG = 360 - 54 - 54 - 90 = 162°
 
-Comme AEG est isocèle en A (AE = EG), on a GAE = (180 - AEG) / 2 = (180 - 162) / 2 = 9°
+Comme ∠AEG est isocèle en A (AE = EG), on a ∠GAE = (180 - ∠AEG) / 2 = (180 - 162) / 2 = 9°
 
 > réponse: 9°

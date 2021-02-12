@@ -122,21 +122,21 @@ Donc 2 valeurs conviennent: n = 1 et n = 6
 
 ![schéma](13.png)
 
-BFE = BCE = 90° (par construction)
+∠BFE = ∠BCE = 90° (par construction)
 
 BCEF est un [quadrilatère cyclique](https://fr.wikipedia.org/wiki/Quadrilatère_inscriptible): il existe un point G centre du cercle inscrit
 
 [théorème des angles aux centres](https://fr.wikipedia.org/wiki/Théorème_de_l%27angle_inscrit_et_de_l%27angle_au_centre): deux angles qui interceptent le même arc sont égaux.
 
-D'où: BEC = BFC
+D'où: ∠BEC = ∠BFC
 
-- angle FBC = 90° - FBA = BAF car BAF triangle rectangle
-- = AED  car AB et DE sont //
-- = BEC car E milieu de DC
+- angle ∠FBC = 90° - ∠FBA = ∠BAF car BAF triangle rectangle
+- = ∠AED car AB et DE sont //
+- = ∠BEC car E milieu de DC
 
-D'où: FBC = BEC
+D'où: ∠FBC = ∠BEC
 
-en définitive, on a BEC = FBC = BFC
+En définitive, on a ∠BEC = ∠FBC = ∠BFC
 
 le triangle BCF est donc isocèle en C et BC = FC
 

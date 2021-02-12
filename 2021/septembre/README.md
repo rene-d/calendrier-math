@@ -200,7 +200,7 @@ turtle.mainloop()
 
 ## Lundi 27 Septembre
 
-Le triangle ABD est isocèle en B puisque l'angle ADB fait 180 - 80 - 50 = 50° = angle DAB.
+Le triangle ABD est isocèle en B puisque l'angle ∠ADB fait 180 - 80 - 50 = 50° = angle ∠DAB.
 
 Donc AD = BD = CD. Par conséquence, BCD est aussi isocèle en D et x = 180 - 30 × 2 = 120°
 

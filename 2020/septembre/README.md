@@ -1,8 +1,10 @@
 # Calendrier Mathématique Septembre 2020
 
+[Solutions 2020](../README.md) - [Homepage](../../README.md)
+
 ## Mardi 1 Septembre
 
-(2020 + 4) × 5 = 10120 et 1+0+1+2+0 = 4
+(2020 + 4) × 5 = 10120 et 1 + 0 + 1 + 2 + 0 = 4
 
 [Programme](01.py) Python de recherche.
 
@@ -25,25 +27,62 @@ for m in range(0, 101):
 
 ## Mercredi 2 Septembre
 
+Il faut que le nombre soit pair (i.e. se termine par 0 ou 2) et la somme des chiffres multiple de 3.
+
+- les nombres qui contiennet 0 et 2: 102 210 120
+- les nombres qui contiennet 0 et pas 2: 150 510
+- les nombres qui contiennet 2 et pas 0: 132 312
+
+Confirmation avec [programme](02.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import permutations
+
+nb = 0
+for a, b, c in permutations([0, 1, 2, 3, 5], 3):
+    if a == 0:
+        continue
+    n = a * 100 + b * 10 + c
+    if n % 6 == 0:
+        print(n)
+        nb += 1
+print("réponse:", nb)
+```
+
+> réponse: 7
+
 ## Jeudi 3 Septembre
+
+> réponse: une solution parmi d'autres:
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| 0 | 1 | 2 | 3 | 4 | 5 |
+| 1 | 2 | 3 | 4 | 5 | 0 |
+| 2 | 3 | 4 | 5 | 0 | 1 |
+| 3 | 4 | 5 | 0 | 1 | 2 |
+| 4 | 5 | 0 | 1 | 2 | 3 |
+| 5 | 0 | 1 | 2 | 3 | 4 |
 
 ## Vendredi 4 Septembre
 
-Soient b et h1 la base et la hauteur du triangle supérieur, B et h2 pour le triangle inférieur.
+Soient b et h₁ la base et la hauteur du triangle supérieur, B et h₂ pour le triangle inférieur.
 
 En exprimant l'aire des triangles, on peut écrire:
 
-- b × h1 = 18 × 2 = 36
-- B × h2 = 32 × 2 = 64
+- b × h₁ = 18 × 2 = 36
+- B × h₂ = 32 × 2 = 64
 
 Or les triangles sont semblables. D'où:
 
-- b / h1 = B / h2
-- b / B = h1 / h2
+- b / h₁ = B / h₂
+- b / B = h₁ / h₂
 
 En utilisant les formules des aires:
 
-b / B × h1 / h2 = 36 / 64
+b / B × h₁ / h₂ = 36 / 64
 
 Soit:
 
@@ -53,17 +92,34 @@ On fixe arbitrairement une des deux valeurs (b ou B). Compte tenu de la fraction
 
 b = 3 et B = 4
 
-On déduit h1 et h2:
+On déduit h₁ et h₂:
 
-h1 = 12 et h2 = 16
+h₁ = 12 et h₂ = 16
 
 On peut calculer l'aire du trapèze:
 
-(h1 + h2) × (b + B) / 2 = 28 × 7 / 2 = 98
+(h₁ + h₂) × (b + B) / 2 = 28 × 7 / 2 = 98
 
 > réponse: 98 cm²
 
 ## Lundi 7 Septembre
+
+[Programme](07.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import permutations
+
+nb = 0
+for a, b, c in permutations(range(1, 14), r=3):
+    if a < b < c:  # ne tient pas compte de l'ordre
+        if (a + b + c) % 3 == 0:  # divisble par 3
+            nb += 1
+print("réponse:", nb)
+```
+
+> réponse: 98
 
 ## Mardi 8 Septembre
 
@@ -91,7 +147,7 @@ Ce n'est pas possible car 484 n'est pas divisible par 3.
 
 Si a - b = 5, ou a = b + 5:
 
-(b+5)³ - b³ = 15 b² + 75 b + 125 = 485
+(b + 5)³ - b³ = 15 b² + 75 b + 125 = 485
 
 15 b² + 75 b = 360
 
@@ -109,7 +165,7 @@ Additionnons les 50 nombres impairs entre 1 et 99:
 
 On voit que ça ne suffit pas. Il faut dépasser les 500 (plus que 500 pour compenser les nombres impairs qu'on ne prendra pas).
 
-Donc au minimum six nombres pairs, car 100+98+96+94+92+90 = 570 > 500 (avec cinq, on atteint 480 < 500).
+Donc au minimum six nombres pairs, car 100 + 98 + 96 + 94 + 92 + 90 = 570 > 500 (avec cinq, on atteint 480 < 500).
 
 > réponse: 6
 

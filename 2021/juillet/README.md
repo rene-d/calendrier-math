@@ -129,13 +129,13 @@ Or celle-ci est atteinte pour x=2 et y=3. On ne pourra jamais faire moins.
 
 20 + 40 + 45 = 105
 
-105 billes en tout, réparties équitablement sur 3 sacs: 105 / 3 = 35 billes par sac
+105 billes en tout, réparties équitablement sur 3 sacs: 105 / 3 = 35 billes par sac.
 
 > réponse: 35
 
 ## Jeudi 15 Juillet
 
-angle FDE = 90°  car FDC = 60° et CDE = 90 - EDA = 90° - 60° = 30°
+angle ∠FDE = 90° car ∠FDC = 60° et ∠CDE = 90 - ∠EDA = 90° - 60° = 30°
 
 donc DE² = 8 × 2 = 16 et DE = 4 cm, qui est aussi AB
 
