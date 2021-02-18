@@ -56,7 +56,7 @@ def render_latex_on(readme):
         url = f"https://render.githubusercontent.com/render/math?math={quote(latex)}&mode=inline"
         return f"![latexml]({url})"
 
-    readme = re.sub(r"\$\$((?s).+?)\$\$", repl_render_ml, readme)
+    readme = re.sub(r"(?s)\$\$(.+?)\$\$", repl_render_ml, readme)  # (?s) = flag DOTALL
 
     def repl_render(m):
         latex = m[1]
@@ -114,7 +114,7 @@ def inline_python_on(readme):
         return f"{line}\n```python\n{script}\n```\n"
 
     readme = re.sub(
-        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)",
+        r"(\[[\w\d\s]+\]\((\d\d\.py)\).+?\n)",
         repl,
         readme,
         re.DOTALL,
@@ -387,9 +387,30 @@ def main():
     parse.add_argument("-X", "--tex-off", action="store_true", help="TeX off")
     parse.add_argument("-p", "--python-on", action="store_true", help="Python on")
     parse.add_argument("-P", "--python-off", action="store_true", help="Python off")
+    parse.add_argument("-f", "--file", help="Fichier à traiter")
     args = parse.parse_args()
 
-    if args.month:
+    if args.file:
+
+        content = Path(args.file).read_text()
+        patched = content
+
+        if args.tex_on:
+            patched = render_latex_on(patched)
+        elif args.tex_off:
+            patched = render_latex_off(patched)
+
+        if args.python_on:
+            patched = inline_python_on(patched)
+        elif args.python_off:
+            patched = inline_python_off(patched)
+
+        if patched != content:
+            Path(args.file).rename(Path(args.file + ".bak"))
+            Path(args.file).write_text(patched)
+            print(f"écriture de {Path(args.file)}")
+
+    elif args.month:
         print(prepare_month_template(args.month, args.year))
 
     elif args.init:

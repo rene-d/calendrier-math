@@ -28,6 +28,19 @@ Nota: la solution positive au système initial est: a = 8, b = 9, c = 10
 
 ## Mercredi 5 Août
 
+| mouvement | ① 2 l | ② 5/4 l | ③ 3/4 l |
+|---------- |--------|---------|----------|
+| départ    |   2,00 |   0,00  |   0,00  |
+| ① dans ② |   0,75 |   1,25  |   0,00  |
+| ② dans ③ |   0,75 |   0,50  |   0,75  |
+| ③ dans ① |   1,50 |   0,50  |   0,00  |
+| ② dans ③ |   1,50 |   0,00  |   0,50  |
+| ① dans ② |   0,25 |   1,25  |   0,50  |
+| ② dans ③ |   0,25 |   1,00  |   0,75  |
+| ③ dans ① |   1,00 |   1,00  |   0,00  |
+
+> réponse: oui
+
 ## Jeudi 6 Août
 
 Soient r₁ et r₂ les rayons des deux cercles en centimètres.
