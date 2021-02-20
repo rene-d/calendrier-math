@@ -6,7 +6,7 @@
 
 ## Solutions 2020
 
-![184/262](https://img.shields.io/static/v1?label=solutions&message=184/262%20%2870%25%29&color=blueviolet&style=flat-square)
+![196/262](https://img.shields.io/static/v1?label=solutions&message=196/262%20%2875%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -120,13 +120,13 @@
 
 ### Octobre
 
-[![2/22](https://img.shields.io/static/v1?label=en%20cours&message=2/22&color=informational&style=flat-square)](octobre/)
+[![14/22](https://img.shields.io/static/v1?label=en%20cours&message=14/22&color=informational&style=flat-square)](octobre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    | [01](octobre/README.md#jeudi-1-octobre) | [02](octobre/README.md#vendredi-2-octobre) | *03* | *04* |
-| 05 | 06 | 07 | 08 | 09 | *10* | *11* |
-| 12 | 13 | 14 | 15 | 16 | *17* | *18* |
-| 19 | 20 | 21 | 22 | 23 | *24* | *25* |
+| [05](octobre/README.md#lundi-5-octobre) 🖥 | [06](octobre/README.md#mardi-6-octobre) | [07](octobre/README.md#mercredi-7-octobre) | [08](octobre/README.md#jeudi-8-octobre) | [09](octobre/README.md#vendredi-9-octobre) | *10* | *11* |
+| [12](octobre/README.md#lundi-12-octobre) | [13](octobre/README.md#mardi-13-octobre) | [14](octobre/README.md#mercredi-14-octobre) | [15](octobre/README.md#jeudi-15-octobre) | [16](octobre/README.md#vendredi-16-octobre) | *17* | *18* |
+| [19](octobre/README.md#lundi-19-octobre) 🖥 | [20](octobre/README.md#mardi-20-octobre) | 21 | 22 | 23 | *24* | *25* |
 | 26 | 27 | 28 | 29 | 30 | *31* |    |
 
