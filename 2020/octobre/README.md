@@ -203,16 +203,80 @@ Nota: ![latex](https://render.githubusercontent.com/render/math?math=%281.1%29%5
 
 ## Mercredi 21 Octobre
 
+L'aire du quadrilatère se calcule à partir de l'aire du carré 4×4 en lui enlevant les aires des triangles rectangles délimités par le quadrilatère et les côtés du carré.
+
+aire = 4 × 4 - 2 × 3 / 2 - 1 × 3 / 2 - 1 × 3 / 2 - 1 × 2 / 2 = 9
+
+> réponse: 9 cm²
+
 ## Jeudi 22 Octobre
+
+Si n est un nombre _intéressant_ alors il existe k tel que n = 200k + k = 201k. Par ailleurs, 5 ≤ k ≤ 49 (pour que 10 ≤ 2k ≤ 99).
+
+201 × 5 et 201 × 6 ont comme pgcd 201 (5 et 6 étant premiers entre eux). Le plus grand diviseurs des nombres _intéressants_ est donc 201.
+
+> réponse: 201
 
 ## Vendredi 23 Octobre
 
+Question mal posée: les équipes ne sont pas mixtes. Etant donnée cette précision, il s'agit de trouver le plus petit diviseur commun à 225 et 105 qui soit supérieur à 11. 105=3×5×7 et 225=3×3×5×5. C'est donc 3×5=15 et 15 ≥ 11.
+
+> réponse: 15
+
 ## Lundi 26 Octobre
+
+En multipliant par abc et en simplifiant, l'équation devient:
+
+(a - 11b) (a (b + c) + bc) = 0
+
+Comme a, b, c sont strictement positifs, la seule possibilité est a = 11 b.
+
+a + 2b + c ≤ 40 devient donc 13 b + c ≤ 40
+
+b peut valoir 1, 2 ou 3.
+
+Si b vaut 3, c vaut 1 et a 33.
+
+Si b vaut 2, c vaut 1 à 40-26, soit 1 à 14.
+
+Si b vaut 1, c vaut 1 à 40-13, soit 1 à 27.
+
+Le nombre de triplets est donc 1 + 14 + 27 = 42.
+
+> réponse: 42
 
 ## Mardi 27 Octobre
 
+Les deux points de contact et le cendre d'un cercle avec ses voisins forment un triangle équilatéral (car 6 cercles, donc l'ensemble des points de contact forment un hexagone).
+
+La hauteur de ce triangle équilatéral de côté 1 est √3/2.
+
+La distance entre les deux droites est:
+
+(1 + √3/2) + (√3/2 + √3/2) + (√3/2 + 1) = 2 + 2√3
+
+> réponse: 2 + 2 √3 cm
+
 ## Mercredi 28 Octobre
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D-t_%7B49%7D%26%3D2%5Ctimes%2050%2B3%5C%5C%0At_%7B49%7D-t_%7B48%7D%26%3D2%5Ctimes%2049%2B3%5C%5C%0A%26...%5C%5C%0At_%7B2%7D-t_%7B1%7D%26%3D2%5Ctimes%202%2B3%0A%5Cend%7Baligned%7D&mode=inline)
+
+Donc:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D%26%3Dt_1%2B2%5Ctimes%5Csum_%7Bn%3D2%7D%5E%7B50%7D%7Bn%7D%2B3%5Ctimes%2049%5C%5C%0A%26%3D5%2B2%5Ctimes%5Cleft%28%5Cfrac%7B50%5Ctimes51%7D%7B2%7D-1%5Cright%29%2B147%5C%5C%0A%26%3D5%2B2550-2%2B147%5C%5C%0A%26%3D2700%0A%5Cend%7Baligned%7D&mode=inline)
+
+> réponse: 2700
 
 ## Jeudi 29 Octobre
 
+Le premier joueur a ![latex](https://render.githubusercontent.com/render/math?math=52%5Cchoose13&mode=inline) mains possibles. Le deuxième, ![latex](https://render.githubusercontent.com/render/math?math=39%5Cchoose13&mode=inline), le troisième ![latex](https://render.githubusercontent.com/render/math?math=26%5Cchoose%2013&mode=inline) et le quatrième prend ce qu'il reste.
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B52%21%7D%7B39%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B39%21%7D%7B26%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B26%21%7D%7B13%21%5Ctimes13%21%7D%3D%5Cfrac%7B52%21%7D%7B%2813%21%29%5E4%7D%3D53644737765488792839237440000%20%5Capprox%205.4%5Ctimes10%5E%7B28%7D&mode=inline)
+
+> réponse: 52! / (13!)⁴
+
 ## Vendredi 30 Octobre
+
+La somme de nombres de 1 à 10 vaut 55. Il faut trouver les multiples de 9 inférieurs à 55. Il y a 54 et 45. Donc en enlevant 1, la moyenne est 6. En enlevant 10, la moyenne est 5.
+
+> réponse: 1 ou 10
