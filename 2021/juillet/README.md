@@ -17,11 +17,34 @@ for i in range(11, 100):
         print(i)
 ```
 
+```python
+#!/usr/bin/env python3
+
+for i in range(11, 100):
+    a, b = divmod(i, 10)
+    if (a + b) * 5 == i - (a + b * 10):
+        print(i)
+```
+
 > réponse: 72
 
 ## Vendredi 2 Juillet
 
 Cf. [programme](02.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+n = 0
+for i in range(11, 100):
+    a, b = divmod(i, 10)
+    if a != 0 and b != 0:
+        if i % a == 0 and i % b == 0:
+            print(i)
+            n += 1
+
+print("réponse:", n)
+```
 
 ```python
 #!/usr/bin/env python3

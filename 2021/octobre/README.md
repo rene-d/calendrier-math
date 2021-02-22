@@ -109,11 +109,52 @@ for ops in itertools.product("0-+", repeat=4):
 print(len(results))
 ```
 
+```python
+#!/usr/bin/env python3
+
+import itertools
+
+results = set()
+for ops in itertools.product("0-+", repeat=4):
+    result = 0
+    for op, nb in zip(ops, [1, 3, 9, 27]):
+        if op == "+":
+            result += nb
+        elif op == "-":
+            result -= nb
+    if result > 0:
+        results.add(result)
+
+print(len(results))
+```
+
 > réponse: 40
 
 ## Mardi 12 Octobre
 
 Recherche triviale avec [programme](12.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+import itertools
+
+for a00, a02, a10, a11, a21 in itertools.permutations([2, 5, 6, 8, 9]):
+    if (
+        a00 + 1 + a02
+        == a10 + a11 + 7
+        == 4 + a21 + 3
+        == a00 + a10 + 4
+        == 1 + a11 + a21
+        == a02 + 7 + 3
+    ):
+        break
+
+print("réponse:")
+print(f"{a00} 1 {a02}")
+print(f"{a10} {a11} 7")
+print(f"4 {a21} 3")
+```
 
 ```python
 #!/usr/bin/env python3
@@ -156,6 +197,41 @@ a / b + b / a - ab = (a² + b² - (a - b)²) / ab= (a² + b² - a² + 2 ab - b²
 ## Vendredi 15 Octobre
 
 Utilisation du [programme](15.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+
+def to_base(n: int, base: int) -> str:
+    """ Convertit un nombre entier dans son écriture dans la base indiquée qui doit être ≤ 36. """
+
+    if base > 36 or base < 2:
+        raise ValueError("to_base() base must be >= 2 and <= 36")
+
+    if n == 0:
+        return "0"
+
+    if n < 0:
+        n = -n
+        sign = "-"
+    else:
+        sign = ""
+
+    digits = ""
+    while n != 0:
+        n, r = divmod(n, base)
+        digits += "0123456789abcdefghijklmnopqrstuvwxyz"[r]
+
+    return sign + digits[::-1]
+
+
+n = 0
+for i in range(2021 + 1):
+    i3 = to_base(i, 3)
+    if i3 == i3[::-1]:
+        n += 1
+print(n)
+```
 
 ```python
 #!/usr/bin/env python3
@@ -258,6 +334,19 @@ D'où x = (75 + 105 - 180) / 2 = 0
 ## Mardi 26 Octobre
 
 [Programme](26.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import product
+
+m = max(
+    (a * b * c + a * b + b * c + a * c, a, b, c)
+    for a, b, c in product(range(13), repeat=3)
+    if a + b + c == 12
+)
+print(m)
+```
 
 ```python
 #!/usr/bin/env python3

@@ -148,6 +148,56 @@ for a in points:
 print("réponse:", len(triangles))
 ```
 
+```python
+#!/usr/bin/env python3
+
+from math import degrees, atan2
+
+
+def angle(a, b, c):
+    """ Calcule l'angle ABC non signé non orienté. """
+
+    ang = degrees(atan2(c[1] - b[1], c[0] - b[0]) - atan2(a[1] - b[1], a[0] - b[0]))
+
+    ang = round(abs(ang))
+    if ang > 180:
+        ang = 360 - ang
+
+    return ang
+
+
+# calcule les coordonnées des 9 points
+points = []
+for x in range(-1, 2):
+    for y in range(-1, 2):
+        points.append((x, y))
+
+triangles = set()
+
+for a in points:
+
+    for b in points:
+        if a == b:
+            # deux points confondus: à ignorer
+            continue
+
+        for c in points:
+            if a == c or b == c:
+                # deux points confondus: à ignorer
+                continue
+
+            # calcule les 3 angles du triangles
+            angles = angle(b, a, c), angle(c, b, a), angle(a, c, b)
+            if min(angles) == 0 or max(angles) >= 90:
+                continue
+
+            # on a un triangle, dont tous les angles sont aigus
+            # on mémorise l'identification unique du triangle
+            triangles.add(str(sorted((a, b, c))))
+
+print("réponse:", len(triangles))
+```
+
 ## Mercredi 10 Novembre
 
 - D: 2021 × 2 = 4042
@@ -158,6 +208,28 @@ print("réponse:", len(triangles))
 > réponse: 80
 
 Vérification avec [programme](10.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+
+def D(x):
+    return x * 2
+
+
+def T(x):
+    return x // 10
+
+
+x = 2021
+
+x = D(x)
+x = T(x)
+x = D(x)
+x = T(x)
+
+print(x)
+```
 
 ```python
 #!/usr/bin/env python3
@@ -203,6 +275,24 @@ Il y a deux solutions (normal, l'ordre des deux premiers ne compte pas):
 > réponse: 80
 
 Vérification avec [programme](11.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+import itertools
+
+saisie = [71, 76, 80, 82, 91]
+
+for nb in itertools.permutations(saisie):
+    for i in range(2, len(nb) + 1):
+
+        s = sum(nb[:i])
+        if s % i != 0:
+            break
+
+        if i == len(nb):
+            print(nb[:i], [sum(nb[:j]) / j for j in range(2, len(nb) + 1)])
+```
 
 ```python
 #!/usr/bin/env python3
@@ -269,6 +359,20 @@ Nota: 56167 est premier
 ## Mercredi 17 Novembre
 
 Calcul avec [programme](17.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+a, b = 1, 1
+
+unites = set()
+while len(unites) < 10:
+    # print(f"{a:5}+{b:5}={a+b:6}")
+    b, a = a + b, b
+    unites.add(b % 10)
+
+print("réponse:", b % 10)
+```
 
 ```python
 #!/usr/bin/env python3
@@ -403,6 +507,31 @@ Le dénombrement donne 32.
 > réponse: 32
 
 Vérification en [Python](29.py).
+
+```python
+#!/usr/bin/env python3
+
+from sympy.ntheory import factorint
+
+nb = 0
+for i in range(1000, 10000):
+    p = 1
+    n = i
+    for _ in range(4):
+        n, r = divmod(n, 10)
+        p *= r
+
+    nf = 1
+    for k in factorint(p).values():
+        nf *= k + 1
+    if nf != 3:
+        continue
+
+    # print(i)
+    nb += 1
+
+print("réponse:", nb)
+```
 
 ```python
 #!/usr/bin/env python3

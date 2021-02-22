@@ -135,6 +135,24 @@ for line in permutations(primes):
         print(line)
 ```
 
+```python
+#!/usr/bin/env python3
+
+from itertools import permutations
+
+primes = [11, 13, 17, 19, 23, 29, 31, 37, 41]
+
+puiss2 = [2, 4, 8, 16, 32]
+
+for line in permutations(primes):
+
+    for i in range(len(line) - 1):
+        if abs(line[i + 1] - line[i]) not in puiss2:
+            break
+    else:
+        print(line)
+```
+
 > réponse: 4
 
 ## Lundi 16 Mars
@@ -226,6 +244,41 @@ print(r)
 print(np.sum(r) + x4)
 ```
 
+```python
+#!/usr/bin/env python3
+
+# résolution du système d'équations linéaires
+
+import numpy as np
+
+# import random
+
+# la matrice du système à 4 équations
+M = np.array([[1, 4, 9, 16], [4, 9, 16, 25], [9, 16, 25, 36], [1, 1, 1, 1]])
+print(M)
+print(np.linalg.det(M))
+
+# la matrice du système à 3 équations
+M = np.array([[1, 4, 9], [4, 9, 16], [9, 16, 25]])
+print(M)
+
+# son inverse
+Minv = np.linalg.inv(M)
+print(Minv)
+
+# vecteur résultat
+v = np.array([1, 8, 23])
+
+# colonne des x4, aléatoire
+x4 = 0  # random.uniform(-100, 100)
+vx4 = np.array([16 * x4, 25 * x4, 36 * x4])
+
+r = np.matmul(Minv, v - vx4)
+
+print(r)
+print(np.sum(r) + x4)
+```
+
 > résultat: 4
 
 ## Mardi 24 Mars
@@ -261,6 +314,26 @@ Pour deux niveau, il faut 5 briques. Pour 50 fois plus, il faut 250 briques.
 Il y a en fait douze nombres à tester: 10 à 21, puisque 22^3 = 10648 > 9999.
 
 [Programme](27.py) en Python pour le faire.
+
+```python
+#!/usr/bin/env python3
+
+i = 10
+while True:
+    n = i ** 3
+    if n >= 10000:
+        break
+
+    a = n // 1000
+    b = (n // 100) % 10
+    c = (n // 10) % 10
+    d = n % 10
+
+    if n == (a + b + c + d) ** 3:
+        print(n)
+
+    i += 1
+```
 
 ```python
 #!/usr/bin/env python3

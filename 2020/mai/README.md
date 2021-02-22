@@ -68,6 +68,38 @@ while True:
     n += 1
 ```
 
+```python
+#!/usr/bin/env python3
+
+import math
+
+
+def divisors(n):
+    divs = [1, n]
+    for i in range(2, int(math.sqrt(n)) + 1):
+        q, r = divmod(n, i)
+        if r == 0:
+            divs.extend([i, q])
+    return list(sorted(set(divs)))
+
+
+n = 2
+while True:
+    u = [0] * 10
+    nu = 0
+    for d in divisors(n):
+
+        if u[d % 10] == 0:
+            u[d % 10] = 1
+            nu += 1
+
+        if nu == 10:
+            print(n, divisors(n))
+            exit()
+
+    n += 1
+```
+
 > réponse: 270
 
 ## Mercredi 6 Mai
@@ -263,6 +295,28 @@ for x in range(1, 11):
 print("réponse:", n, len(u))
 ```
 
+```python
+#!/usr/bin/env python3
+
+from fractions import Fraction
+from math import gcd
+
+n = 0
+u = set()
+for x in range(1, 11):
+    for y in range(1, 11):
+
+        # détermination: x et y premiers entre eux
+        if gcd(x, y) == 1:
+            n += 1
+
+        # détermination: pente unique
+        a = Fraction(y, x)
+        u.add(a)
+
+print("réponse:", n, len(u))
+```
+
 > réponse: 63
 
 ## Mercredi 20 Mai
@@ -298,6 +352,16 @@ Si le triangle est quelconque, il y a une infinité de réponses…
 ## Lundi 25 Mai
 
 Comptage avec [programme](25.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import product
+
+n = sum(1 for a, b, c in product(range(0, 10), repeat=3) if a + b + c == 10)
+
+print("réponse:", n)
+```
 
 ```python
 #!/usr/bin/env python3

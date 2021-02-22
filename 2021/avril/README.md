@@ -98,6 +98,21 @@ for a in range(740, 2022, 5):
 print("réponse:", n)
 ```
 
+```python
+#!/usr/bin/env python3
+
+n = 0
+for a in range(740, 2022, 5):
+    if a % 400 == 0:
+        n += 1
+    elif a % 100 == 0:
+        pass
+    elif a % 4 == 0:
+        n += 1
+
+print("réponse:", n)
+```
+
 > réponse: 56
 
 ## Lundi 12 Avril
@@ -135,6 +150,18 @@ Si x + y = -1:
 Donc les nombres qui conviennent sont les nombres non multiples de 3 et de 7, et non premiers, et pas 1.
 
 Il suffit de compter… le [programme](13.py) Python le fait pour nous.
+
+```python
+#!/usr/bin/env python3
+
+from sympy.ntheory.primetest import isprime
+
+n = 0
+for i in range(2, 101):
+    if not isprime(i) and (i % 3) != 0 and (i % 7) != 0:
+        n += 1
+print("réponse:", n)
+```
 
 ```python
 #!/usr/bin/env python3

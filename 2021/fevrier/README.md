@@ -15,6 +15,15 @@ m = max(d for d in range(1, 1260 // 2 + 1) if 1260 % d == 0 and d < 100)
 print("réponse:", m)
 ```
 
+```python
+#!/usr/bin/env python3
+
+# tous les diviseurs qui sont inférieurs à 100
+m = max(d for d in range(1, 1260 // 2 + 1) if 1260 % d == 0 and d < 100)
+
+print("réponse:", m)
+```
+
 > réponse: 90
 
 ## Mardi 2 Février
@@ -58,6 +67,30 @@ R = np.matmul(M_inv, V)
 print("réponse:", R[6])
 ```
 
+```python
+#!/usr/bin/env python3
+
+import numpy as np
+
+M = np.array(
+    (
+        [1, -1, 0, 0, 0, 0, 0, 0],
+        [0.4, 0.4, 0, -1, 0, 0, 0, 0],
+        [0.6, 0.6, -1, 0, 0, 0, 0, 0],
+        [0, 0, 0, -0.75, 0, 1, 0, 0],
+        [-1, 0, 0, 0, 1, 1, 0, 0],
+        [0, -1, 0, 0, 0, 0, 1, 1],
+        [0, 0, 0, -1, 0, 1, 0, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0],
+    )
+)
+M_inv = np.linalg.inv(M)
+V = np.array((0, 0, 0, 0, 0, 0, 0, 100))
+R = np.matmul(M_inv, V)
+# print(R)
+print("réponse:", R[6])
+```
+
 > réponse: 40%
 
 ## Mercredi 3 Février
@@ -75,6 +108,58 @@ print("réponse:", R[6])
 ## Jeudi 4 Février
 
 Calcul avec [script](04.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+CONF = (
+    "x1 + x10 + 13 + 2",
+    "x1 + x2 + x3 + 2",
+    "x8 + x9 + x10 + 13",
+    "x1 + x4 + x6 + 13",
+    "x5 + x7 + x10 + 2",
+    "x6 + x8 + 8 + 15",
+    "x7 + x9 + 8 + 1",
+    "x3 + x5 + 10 + 1",
+    # "x2 + x4 + 10 + 15",
+)
+
+X = [3, 4, 5, 6, 7, 9, 11, 12, 14, 16]
+
+
+import numpy as np
+import re
+
+
+M = np.zeros((10, 10))
+V = np.zeros((10))
+
+for i, e in enumerate(CONF):
+    for x in re.findall(r"x(\d+)", e):
+        M[i, int(x) - 1] = 1
+    v = 34
+    for x in re.findall(r" (\d+)", e):
+        v -= int(x)
+    V[i] = v
+
+
+M[9, 0] = 1  # pour fixer x1
+M[8, 1] = 1  # pour fixer x2
+
+for x1 in X:
+    V[9] = x1
+
+    for x2 in X:
+        V[8] = x2
+
+        if np.linalg.det(M) == 0:
+            continue
+
+        M_inv = np.linalg.inv(M)
+        R = np.matmul(M_inv, V)
+        if set(R) == set(X):
+            print(R)
+```
 
 ```python
 #!/usr/bin/env python3
@@ -181,6 +266,31 @@ while year > 0:
     break
 ```
 
+```python
+#!/usr/bin/env python3
+
+# il faut les nombres premiers jusqu'à environ 2010^(1/3), soit environ 13. au-delà c'est trop grand (11*13*17 = 2431)
+primes = [2, 3, 5, 7, 11, 13]
+
+# calcule le produit de 3 premiers consécutifs
+prod3 = []
+for a, b, c in zip(primes, primes[1:], primes[2:]):
+    if a * b * c > 2010:
+        break
+    prod3.append(a * b * c)
+
+year = 2009
+while year > 0:
+    for i in prod3:
+        if year % i == 0:
+            print("réponse:", year)
+            break
+    else:
+        year -= 1
+        continue
+    break
+```
+
 > réponse: 2002
 
 ## Mardi 9 Février
@@ -249,6 +359,19 @@ for a, b, c, d in product(range(1, 12), repeat=4):
         print(a, b, c, d, "Σ=", a + b + c)
 ```
 
+```python
+#!/usr/bin/env python3
+
+from itertools import product
+
+# x+d = 12 ⇒1 ≤ a,b,c,d ≤ 11
+for a, b, c, d in product(range(1, 12), repeat=4):
+    s = (a + d, b + d, c + d)
+    if s == (7, 10, 12):
+        # uniquement les solutions a < b < c
+        print(a, b, c, d, "Σ=", a + b + c)
+```
+
 ## Vendredi 12 Février
 
 Voir [factordb](http://factordb.com/index.php?query=101010101010101010101), ou [wolframalpha](https://www.wolframalpha.com/input/?i=factor+101010101010101010101.0).
@@ -293,6 +416,21 @@ Or HB = HG + GB donc HG = 1 cm
 - en dessous des 2 autres, on n'a plus le choix puisqu'il reste 1 des 2 autres avec le A, ou les 2 autres
 
 Confirmation avec [script](16.py) Python.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import permutations
+
+n = 0
+for a, b, c, d in permutations("ABCD"):
+    if a == "A" or b == "B" or c == "C" or d == "D":
+        continue
+    print(a, b, c, d)
+    n += 1
+
+print("réponse:", n)
+```
 
 ```python
 #!/usr/bin/env python3

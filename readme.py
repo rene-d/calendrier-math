@@ -95,7 +95,7 @@ def inline_python_off(readme):
 
     # suppression du script
     readme = re.sub(
-        r"(\[[\w\s]+\]\((\d\d\.py)\).+?\n)(\n```python\n[^`]*```\n)",
+        r"(\[[\w\s]+\]\(([\w\d]\.py)\).+?\n)(\n+```python\n.+?```\n)",
         r"\1",
         readme,
         re.DOTALL,
@@ -110,7 +110,11 @@ def inline_python_on(readme):
     # ajout du script
     def repl(a):
         line, py = a.groups()
-        script = Path(py).read_text().strip()
+        try:
+            script = Path(py).read_text().strip()
+        except FileNotFoundError:
+            print("fichier manquant:", Path(py).absolute())
+            exit(2)
         return f"{line}\n```python\n{script}\n```\n"
 
     readme = re.sub(

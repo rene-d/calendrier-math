@@ -89,6 +89,20 @@ for a in range(80, 100):
 print("réponse:", nb)
 ```
 
+```python
+#!/usr/bin/env python3
+
+nb = 0
+for a in range(80, 100):
+    for b in range(a, 100):
+        n1 = a + (b // 10) + (b % 10)
+        n2 = b + (a // 10) + (a % 10)
+        if n1 == n2 == 100:
+            print(a, b)
+            nb += 1
+print("réponse:", nb)
+```
+
 Il y a donc cinq "paires centenaires": (83, 89) (84, 88) (85, 87) (86, 86) (90, 91)
 
 > réponse: 5
@@ -183,6 +197,61 @@ print(f"total_lea_gagne: {total_lea_gagne}/{total_nb} = {f}")
 print(f"max_lea_f: {max_lea_f}")
 ```
 
+```python
+#!/usr/bin/env python3
+
+from fractions import Fraction
+
+des = [
+    [0, 0, 4, 4, 4, 4],
+    [3, 3, 3, 3, 3, 3],
+    [2, 2, 2, 2, 6, 6],
+    [1, 1, 1, 5, 5, 5],
+]
+
+total_nb = 0
+total_lea_gagne = 0
+max_lea_f = 0
+
+# Jean choisit un dé
+for de_jean in range(4):
+
+    des_lea = set(range(4))
+    des_lea.remove(de_jean)
+
+    # Léa choisit un dé parmi les trois restants
+    for de_lea in des_lea:
+
+        nb = 0
+        lea_gagne = 0
+
+        # Jean tire son dé
+        for tirage_jean in des[de_jean]:
+
+            # Léa tire son dé
+            for tirage_lea in des[de_lea]:
+                nb += 1
+
+                # Léa gagne si son tirage est supérieur à celui de Jean
+                if tirage_lea > tirage_jean:
+                    lea_gagne += 1
+
+        f = Fraction(lea_gagne, nb)
+        # print(
+        #     f"de_jean: {des[de_jean]} de_lea: {des[de_lea]} - "
+        #     + f"lea_gagne: {lea_gagne}/{nb} = {f}"
+        # )
+        if f > max_lea_f:
+            max_lea_f = f
+
+        total_lea_gagne += lea_gagne
+        total_nb += nb
+
+f = Fraction(total_lea_gagne, total_nb)
+print(f"total_lea_gagne: {total_lea_gagne}/{total_nb} = {f}")
+print(f"max_lea_f: {max_lea_f}")
+```
+
 > réponse: Léa a p=1/2 chances de gagner: . Si elle choisit bien son dé, elle a p=2/3 chances de gagner
 
 ## Mardi 11 Août
@@ -204,6 +273,260 @@ Autrement dit, tous les nombres qui se terminent par 9 entre 10 et 90.
 > réponse: 8
 
 ## Mercredi 12 Août
+
+```text
+₁ ₂ ₃ ₄ ₅ ₆
+▲ ▲ ▲ ▲ ▲ ▲
+▲ ▼ ▼ ▼ ▼ ▼    ①
+▼ ▼ ▲ ▲ ▲ ▲    ②
+▲ ▲ ▲ ▼ ▼ ▼    ③
+▼ ▼ ▼ ▼ ▲ ▲    ④
+▲ ▲ ▲ ▲ ▲ ▼    ⑤
+▼ ▼ ▼ ▼ ▼ ▼    ⑥
+Gagné
+```
+
+[Programme](12.py) du jeu écrit en Python.
+
+```python
+#!/usr/bin/env python3
+
+import sys
+
+
+def read_single_keypress():
+    """Waits for a single keypress on stdin.
+
+    This is a silly function to call if you need to do it a lot because it has
+    to store stdin's current setup, setup stdin for reading single keystrokes
+    then read the single keystroke then revert stdin back after reading the
+    keystroke.
+
+    Returns a tuple of characters of the key that was pressed - on Linux,
+    pressing keys like up arrow results in a sequence of characters. Returns
+    ('\x03',) on KeyboardInterrupt which can happen when a signal gets
+    handled.
+
+    """
+    import termios, fcntl, sys, os
+
+    fd = sys.stdin.fileno()
+    # save old state
+    flags_save = fcntl.fcntl(fd, fcntl.F_GETFL)
+    attrs_save = termios.tcgetattr(fd)
+    # make raw - the way to do this comes from the termios(3) man page.
+    attrs = list(attrs_save)  # copy the stored version to update
+    # iflag
+    attrs[0] &= ~(
+        termios.IGNBRK
+        | termios.BRKINT
+        | termios.PARMRK
+        | termios.ISTRIP
+        | termios.INLCR
+        | termios.IGNCR
+        | termios.ICRNL
+        | termios.IXON
+    )
+    # oflag
+    attrs[1] &= ~termios.OPOST
+    # cflag
+    attrs[2] &= ~(termios.CSIZE | termios.PARENB)
+    attrs[2] |= termios.CS8
+    # lflag
+    attrs[3] &= ~(
+        termios.ECHONL | termios.ECHO | termios.ICANON | termios.ISIG | termios.IEXTEN
+    )
+    termios.tcsetattr(fd, termios.TCSANOW, attrs)
+    # turn off non-blocking
+    fcntl.fcntl(fd, fcntl.F_SETFL, flags_save & ~os.O_NONBLOCK)
+    # read a single keystroke
+    ret = []
+    try:
+        ret.append(sys.stdin.read(1))  # returns a single character
+        fcntl.fcntl(fd, fcntl.F_SETFL, flags_save | os.O_NONBLOCK)
+        c = sys.stdin.read(1)  # returns a single character
+        while len(c) > 0:
+            ret.append(c)
+            c = sys.stdin.read(1)
+    except KeyboardInterrupt:
+        ret.append("\x03")
+    finally:
+        # restore old state
+        termios.tcsetattr(fd, termios.TCSAFLUSH, attrs_save)
+        fcntl.fcntl(fd, fcntl.F_SETFL, flags_save)
+    return tuple(ret)
+
+
+def play(board, move):
+    if move >= 0 and move < len(board):
+        move = "    " + "①②③④⑤⑥⑦⑧⑨⑩"[move]
+    else:
+        move = ""
+    line = " ".join("▲" if i > 0 else "▼" for i in board)
+    print(f"\033[32m{line}\033[0m{move}", end="\n")
+
+    if all(i == -1 for i in board):
+        return True
+
+    print("\033[2m" + " ".join("₁₂₃₄₅₆₇₈₉₀"[: len(board)]) + "\033[0m")
+    return False
+
+
+print("\033[H\033[2J", end="")  # clear
+
+try:
+    size = int(sys.argv[1])
+    if size < 2 or size > 10:
+        raise ValueError
+except (IndexError, ValueError):
+    size = 6
+
+board = [1] * size
+move = -1
+while True:
+    if play(board, move):
+        print("Gagné")
+        break
+
+    key = "".join(read_single_keypress())
+    if len(key) != 1:
+        continue
+
+    if key in "xXqQ\03\033":  # Echap, ^C, x, q pour quitter
+        break
+
+    if key == "R":  # recommencer
+        board = [1] * len(board)
+        continue
+
+    move = "&é\"'(§è!çà".find(key)
+    if move == -1:
+        move = "1234567890".find(key)
+    if move == -1 or move >= len(board):
+        continue
+    board = [-v if i != move else v for i, v in enumerate(board)]
+```
+
+```python
+#!/usr/bin/env python3
+
+import sys
+
+
+def read_single_keypress():
+    """Waits for a single keypress on stdin.
+
+    This is a silly function to call if you need to do it a lot because it has
+    to store stdin's current setup, setup stdin for reading single keystrokes
+    then read the single keystroke then revert stdin back after reading the
+    keystroke.
+
+    Returns a tuple of characters of the key that was pressed - on Linux,
+    pressing keys like up arrow results in a sequence of characters. Returns
+    ('\x03',) on KeyboardInterrupt which can happen when a signal gets
+    handled.
+
+    """
+    import termios, fcntl, sys, os
+
+    fd = sys.stdin.fileno()
+    # save old state
+    flags_save = fcntl.fcntl(fd, fcntl.F_GETFL)
+    attrs_save = termios.tcgetattr(fd)
+    # make raw - the way to do this comes from the termios(3) man page.
+    attrs = list(attrs_save)  # copy the stored version to update
+    # iflag
+    attrs[0] &= ~(
+        termios.IGNBRK
+        | termios.BRKINT
+        | termios.PARMRK
+        | termios.ISTRIP
+        | termios.INLCR
+        | termios.IGNCR
+        | termios.ICRNL
+        | termios.IXON
+    )
+    # oflag
+    attrs[1] &= ~termios.OPOST
+    # cflag
+    attrs[2] &= ~(termios.CSIZE | termios.PARENB)
+    attrs[2] |= termios.CS8
+    # lflag
+    attrs[3] &= ~(
+        termios.ECHONL | termios.ECHO | termios.ICANON | termios.ISIG | termios.IEXTEN
+    )
+    termios.tcsetattr(fd, termios.TCSANOW, attrs)
+    # turn off non-blocking
+    fcntl.fcntl(fd, fcntl.F_SETFL, flags_save & ~os.O_NONBLOCK)
+    # read a single keystroke
+    ret = []
+    try:
+        ret.append(sys.stdin.read(1))  # returns a single character
+        fcntl.fcntl(fd, fcntl.F_SETFL, flags_save | os.O_NONBLOCK)
+        c = sys.stdin.read(1)  # returns a single character
+        while len(c) > 0:
+            ret.append(c)
+            c = sys.stdin.read(1)
+    except KeyboardInterrupt:
+        ret.append("\x03")
+    finally:
+        # restore old state
+        termios.tcsetattr(fd, termios.TCSAFLUSH, attrs_save)
+        fcntl.fcntl(fd, fcntl.F_SETFL, flags_save)
+    return tuple(ret)
+
+
+def play(board, move):
+    if move >= 0 and move < len(board):
+        move = "    " + "①②③④⑤⑥⑦⑧⑨⑩"[move]
+    else:
+        move = ""
+    line = " ".join("▲" if i > 0 else "▼" for i in board)
+    print(f"\033[32m{line}\033[0m{move}", end="\n")
+
+    if all(i == -1 for i in board):
+        return True
+
+    print("\033[2m" + " ".join("₁₂₃₄₅₆₇₈₉₀"[: len(board)]) + "\033[0m")
+    return False
+
+
+print("\033[H\033[2J", end="")  # clear
+
+try:
+    size = int(sys.argv[1])
+    if size < 2 or size > 10:
+        raise ValueError
+except (IndexError, ValueError):
+    size = 6
+
+board = [1] * size
+move = -1
+while True:
+    if play(board, move):
+        print("Gagné")
+        break
+
+    key = "".join(read_single_keypress())
+    if len(key) != 1:
+        continue
+
+    if key in "xXqQ\03\033":  # Echap, ^C, x, q pour quitter
+        break
+
+    if key == "R":  # recommencer
+        board = [1] * len(board)
+        continue
+
+    move = "&é\"'(§è!çà".find(key)
+    if move == -1:
+        move = "1234567890".find(key)
+    if move == -1 or move >= len(board):
+        continue
+    board = [-v if i != move else v for i, v in enumerate(board)]
+```
+
+> réponse: oui c'est possible
 
 ## Jeudi 13 Août
 
@@ -248,6 +571,19 @@ Les candidats de carré d'entiers sont 1, 4, 9 et 16. Soit:
 - pour 16: 7-9 8-8 ⇒ 3 nombres (79 97 88)
 
 [Programme](17.py) Python de vérification.
+
+```python
+#!/usr/bin/env python3
+
+carres = list(n * n for n in range(5))
+nb = 0
+for n in range(10, 100):
+    d, u = divmod(n, 10)
+    if d + u in carres:
+        print(n)
+        nb += 1
+print("réponse:", nb)
+```
 
 ```python
 #!/usr/bin/env python3
@@ -341,6 +677,21 @@ while True:
         break
 ```
 
+```python
+#!/usr/bin/env python3
+
+from datetime import datetime
+
+annee = 2020
+ref = datetime(2020, 8, 20).weekday()
+while True:
+    annee += 1
+    d = datetime(annee, 8, 20)
+    print(f"{d.year} : {d.strftime('%A')}")
+    if d.weekday() == ref:
+        break
+```
+
 > réponse: 2026
 
 ## Vendredi 21 Août
@@ -393,6 +744,22 @@ for n in range(55, 121):
         break
 ```
 
+```python
+#!/usr/bin/env python3
+
+from sympy.ntheory import sieve
+
+sieve.extend(23)
+primes = sieve._list
+
+cubes = [n ** 3 for n in sieve._list]
+
+for n in range(55, 121):
+    if (n - 55) * (n + 55) in cubes:
+        print("réponse:", n)
+        break
+```
+
 > réponse: 66 ans
 
 ## Jeudi 27 Août
@@ -408,6 +775,24 @@ for n in range(55, 121):
 Donc, à partir de 5!, le chiffre des unités est 0 car il y a 2×5=10 comme facteur.
 
 On peut le vérifier à l'aide d'un [programme](28.py) en Python.
+
+```python
+#!/usr/bin/env python3
+
+from math import factorial
+
+a0, a1 = 1, 1
+
+for n in range(1, 2021):
+    a = n * (a0 + a1)
+    n += 1
+    a1, a0 = a, a1
+    if n <= 6 or n == 2020:
+        s = str(a)
+        if len(s) > 20:
+            s = "[...]" + s[-20:]
+        print(f"a({n}) = {s}", factorial(n) == a)
+```
 
 ```python
 #!/usr/bin/env python3
