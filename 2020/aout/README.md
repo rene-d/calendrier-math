@@ -490,6 +490,20 @@ D'où h = 10 cm et 𝑃 = 2 × (3h + 2h) = 10h = 100 cm
 
 ## Lundi 24 Août
 
+Il faut que ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%201%20-%20x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%20x&mode=inline) pour que les racines carrées soient définies. Donc ![latex](https://render.githubusercontent.com/render/math?math=0%20%5Cleq%20x%20%5Cleq%201&mode=inline).
+
+On en déduit que: ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%5Cleq%201&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%5Cleq%201%20-%20x&mode=inline)
+
+Soit: ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%5Cleq%201&mode=inline). Cependant 0 n'est pas possible car les deux racines ne peuvent être nulles en même temps. On a donc:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%3D1&mode=inline)
+
+Il y a deux solutions évidentes: ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%200&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%201&mode=inline).
+
+La fonction est décroissante puis croissante sur l'intervalle [0; 1]. Les deux solutions sont donc les seules.
+
+> réponse: 0 et 1
+
 ## Mardi 25 Août
 
 C'est l'ensemble des nombres 1x0 ou x10 avec x ≠ 9 qui soient multiples de 30.
@@ -568,4 +582,4 @@ for n in range(1, 2021):
 
 ![schéma](31.png)
 
-> réponse: 1/8
+> réponse: 1 / 8
