@@ -4,6 +4,18 @@
 
 ## Lundi 3 Août
 
+![schéma](03.png)
+
+L'angle de la hauteur issue de C et de (AB) est 90°.
+
+Comme la somme des angles d'un triangle est 180°, ∠DAH = 180 - 97 - 90 = 20°
+
+La bissectrice coupe un angle en deux, donc ∠BAC = 2 × 20 = 40°.
+
+On en déduit l'angle ∠BCA = 180 - 60 - 40 = 80°.
+
+> réponse: 80°
+
 ## Mardi 4 Août
 
 En développant:
@@ -254,6 +266,32 @@ print("réponse:", nb)
 
 ## Mardi 18 Août
 
+Soit respectivement p < m < g le poids des petits, moyens et grands poissons, et X le nombre de poissons de moyenne taille recherché.
+
+3p + X × m + 3g = P
+
+P - 3g = P - 0.35 × P = 0.65 P ⇒ 3g = 7 / 20 × P
+
+0.65 × P - 3p = 0.65 × P - 5 / 13 × 0.65 P ⇒ 3p = 1 / 4 × P
+
+D'où: 1 / 4 × P + X × m + 7 / 20 × P = P
+
+X × m = P × (1 - 3 / 5) = 2 / 5 × P
+
+On doit avoir X entier et 1 / 12 P < m < 7 / 60 P
+
+En remplaçant m par 2 / 5 × P / X:
+
+5 / 60 < 2 / (5 × X) < 7 / 60
+
+12 > 5 / 2 X > 60 / 7
+
+24 / 5 > X > 24 / 7
+
+X = 4
+
+> réponse: 4
+
 ## Mercredi 19 Août
 
 Pour ![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cleq%201&mode=inline), ![latex](https://render.githubusercontent.com/render/math?math=2%5E%7B2%5En%7D%2B9&mode=inline) vaut:
@@ -269,11 +307,9 @@ Or, toutes les puissances de 16 se terminent par une puissance du chiffre de l'u
 
 Et plus généralement:
 
-![latex](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%3D%5Csum_%7Bk%3D0%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%3D%5Csum_%7Bk%3D1%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%2Bu%5En%3D10D%2Bu%5En&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%3D%5Csum_%7Bk%3D0%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%3D%5Csum_%7Bk%3D1%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%2Bu%5En%3D10D%2Bu%5En&mode=inline)
 
-
-
- Et comme ![latex](https://render.githubusercontent.com/render/math?math=6%5Ctimes6%3D36&mode=inline) se termine aussi par 6, c'est invariablement 6 à la fin. Ajouté 9, le nombre se terminera toujours par 5, et est donc divisible par 5.
+Et comme ![latex](https://render.githubusercontent.com/render/math?math=6%5Ctimes6%3D36&mode=inline) se termine aussi par 6, c'est invariablement 6 à la fin. Ajouté 9, le nombre se terminera toujours par 5, et est donc divisible par 5.
 
 > réponse: n = 0 ou n = 1
 
