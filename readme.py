@@ -95,7 +95,7 @@ def inline_python_off(readme):
 
     # suppression du script
     readme = re.sub(
-        r"(\[[\w\s]+\]\(([\w\d]\.py)\).+?\n)(\n+```python\n.+?```\n)",
+        r"(\[[\w\s]+\]\(([\d\w]+\.py)\).+?\n)(\n```python\n[^`]+```\n)",
         r"\1",
         readme,
         re.DOTALL,

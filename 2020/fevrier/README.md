@@ -40,22 +40,6 @@ def rev(n):
 print("réponse:", sum(1 for n in range(100, 1000) if rev(n) > n))
 ```
 
-```python
-#!/usr/bin/env python3
-
-
-def rev(n):
-    """ Retourne le nombre n écrit à l'envers dans sa représentaiton décimale. """
-    u = 0
-    while n != 0:
-        n, r = divmod(n, 10)
-        u = u * 10 + r
-    return u
-
-
-print("réponse:", sum(1 for n in range(100, 1000) if rev(n) > n))
-```
-
 > réponse: 360
 
 ## Jeudi 6 Février
@@ -74,19 +58,6 @@ print("réponse:", sum(1 for n in range(100, 1000) if rev(n) > n))
 ## Vendredi 7 Février
 
 [Programme](07.py) Python.
-
-```python
-#!/usr/bin/env python3
-
-s = 0
-for n in range(10, 100):
-    d, u = divmod(n, 10)
-    if n + (d + u) ** 2 == u * 10 + d:
-        print(n)
-        s += n
-
-print("réponse:", s)
-```
 
 ```python
 #!/usr/bin/env python3

@@ -50,24 +50,6 @@ for p in itertools.permutations("12345"):
 print("réponse:", n)
 ```
 
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-n = 0
-for p in itertools.permutations("12345"):
-    pp = "".join(p)  # recrée une chaine
-    pp = pp + pp  # pour éliminer si le premier et le dernier sont consécutifs
-    if "12" in pp or "23" in pp or "34" in pp or "45" in pp:
-        continue
-    if "21" in pp or "32" in pp or "43" in pp or "54" in pp:
-        continue
-    print("".join(p))
-    n += 1
-print("réponse:", n)
-```
-
 > réponse: 10
 
 ## Vendredi 3 Décembre
@@ -108,23 +90,6 @@ En carré impair entre 5 et 302 sans facteur 3, il y a 25 49 169 289.
 ## Mercredi 8 Décembre
 
 Autant compter avec un [programme](08.py).
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-from sympy.ntheory import sieve
-
-primes = sieve._list
-
-n = 0
-for p in itertools.permutations([2, 4, 6, 8]):
-    for a, b in zip([1, 3, 5, 7], p):
-        if a + b not in primes:
-            break
-    else:
-        print(p)
-```
 
 ```python
 #!/usr/bin/env python3
@@ -250,20 +215,6 @@ Ahmed tire :
 Soit en tout 1 + 3 + 6 + 10 = 20 sur les 6³ tirages possibles = 20 / 216 = 5 / 54
 
 [Programme](20.py) Python de vérification.
-
-```python
-#!/usr/bin/env python3
-
-n = 0
-for a in range(1, 7):
-    for b1 in range(1, 7):
-        for b2 in range(1, 7):
-            if a > b1 + b2:
-                # print(a,b1,b2)
-                n += 1
-
-print("réponse:", n, "/ 216")
-```
 
 ```python
 #!/usr/bin/env python3
@@ -414,26 +365,6 @@ Ainsi parmi les 5040 permutations, il y en a une sur six dans laquelle 1 2 3 son
 5040 / 6 = 840
 
 [Programme](30.py) Python de vérification.
-
-```python
-#!/usr/bin/env python3
-
-from itertools import permutations
-
-n = 0
-for perm in permutations(range(1, 8)):
-    prev = 0
-    for i in perm:
-        if i == 1 and prev == 0:
-            prev = 1
-        elif i == 2 and prev == 1:
-            prev = 2
-        elif i == 3 and prev == 2:
-            n += 1
-            break
-
-print("réponse:", n)
-```
 
 ```python
 #!/usr/bin/env python3

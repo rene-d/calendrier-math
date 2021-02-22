@@ -250,57 +250,11 @@ while True:
     etape += 1
 ```
 
-```python
-#!/usr/bin/env python3
-
-etape = 1
-compteur = 0
-n = 0
-
-while True:
-    print(f"{etape:4d} :  {n:5d}   { -2+(etape)*(etape+2):6d} ; ", end="")
-
-    for _ in range(3 + etape):
-        n += 1
-        print(n, end=" ")
-
-        compteur += 1
-        if compteur == 500000:
-            print(n)
-            exit()
-
-    print()
-
-    n += etape
-    etape += 1
-```
-
 > réponse: 996506
 
 ## Vendredi 20 Août
 
 Vérification avec [programme](20.py) Python.
-
-```python
-#!/usr/bin/env python3
-
-import itertools
-
-n = 0
-
-# rooms[i] = numéro de chambre de l'ami n° i
-for rooms in itertools.product(range(5), repeat=5):
-    # nb[i] = nombre d'amis dans la chambre i
-    nb = [0] * 5
-    for room in rooms:
-        if nb[room] == 2:
-            break
-        nb[room] += 1
-    else:
-        n += 1
-
-print("réponse:", n)
-```
 
 ```python
 #!/usr/bin/env python3
