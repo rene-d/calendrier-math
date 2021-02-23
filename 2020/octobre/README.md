@@ -24,7 +24,6 @@ Et comme il y a au moins cette solution, on peut affirmer que le nomrbe maximal 
 
 ## Lundi 5 Octobre
 
-
 ### Recherche _bruteforce_
 
 [Programme](05.py) Python de recherche exhaustive.
@@ -164,7 +163,7 @@ Il y a 4! façons d'arranger les quatre catégories de livres, et pour chaque ca
 
 Soit le système à trois équations:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Clparen%7BS%7D%5Crparen%5Ccolon%5Cbegin%7Bcases%7D%0A%20y%20%3D%20x%20%2B%201%20%26%281%29%20%5C%5C%0A%20y%20%3D%20mx%20-%201%20%26%282%29%20%5C%5C%0A%20y%20%3D%20-4x%20%2B%202m%20%26%283%29%0A%5Cend%7Bcases%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%7BS%7D%5Cright%29%5Ccolon%5Cbegin%7Bcases%7D%0A%20y%20%3D%20x%20%2B%201%20%26%281%29%20%5C%5C%0A%20y%20%3D%20mx%20-%201%20%26%282%29%20%5C%5C%0A%20y%20%3D%20-4x%20%2B%202m%20%26%283%29%0A%5Cend%7Bcases%7D&mode=inline)
 
 ![latex](https://render.githubusercontent.com/render/math?math=%281%29&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=%282%29&mode=inline) : ![latex](https://render.githubusercontent.com/render/math?math=x%2B1%3Dmx-1%5Ciff%20x%3D%5Cfrac%202%20%7Bm-1%7D&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=m%20%5Cne%201&mode=inline)
 
@@ -277,6 +276,6 @@ Le premier joueur a ![latex](https://render.githubusercontent.com/render/math?ma
 
 ## Vendredi 30 Octobre
 
-La somme de nombres de 1 à 10 vaut 55. Il faut trouver les multiples de 9 inférieurs à 55. Il y a 54 et 45. Donc en enlevant 1, la moyenne est 6. En enlevant 10, la moyenne est 5.
+La somme de nombres de 1 à 10 vaut 55. Il faut donc trouver les multiples de 9 entre 55 - 1 et 55 - 10. Il y a 54 et 45. Donc en enlevant 1, la moyenne est 6. En enlevant 10, la moyenne est 5.
 
 > réponse: 1 ou 10
