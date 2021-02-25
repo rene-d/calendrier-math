@@ -239,6 +239,12 @@ Oui: n = 252
 
 ## Vendredi 18 Septembre
 
+Algorithme a 4 voyelles, donc 4 façons de choisir une voyelle pour commencer, 6 façons de choisir une consonne pour finir, 8! façons d'arranger les 8 lettres restantes.
+
+4 × 8! × 6 = 967680
+
+> réponse: 967680
+
 ## Lundi 21 Septembre
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28x%20-%204%29%28x%20-%209%29%20%26%3D%20x%5E2%20-%20%284%20%2B%209%29%20%5Ctimes%20%20x%20%2B%204%20%5Ctimes%20%209%20%5C%5C%0A%26%3D%203%20x%5E2%20-%203%20%5Ctimes%20%284%2B9%29%20%5Ctimes%20%20x%20%2B%203%20%5Ctimes%204%5Ctimes%209%0A%5Cend%7Baligned%7D&mode=inline)
@@ -288,7 +294,25 @@ for base in range(11, 37):
 
 ## Mardi 22 Septembre
 
+Pour chaque point ABCDEF, il y a ![latex](https://render.githubusercontent.com/render/math?math=%7B5%20%5Cchoose%202%7D%20%3D%2010&mode=inline) moyens de tracer un triangle non dégénéré, sauf ABC qui est dégénéré à cause de l'alignement ABC.
+
+Les triangles sont comptés trois fois, il faut donc diviser par 3.
+
+![latex](https://render.githubusercontent.com/render/math?math=6%20%5Ctimes%20%7B10%5Cchoose%202%7D%3D6%5Ctimes%2010%3D60&mode=inline) d'où ![latex](https://render.githubusercontent.com/render/math?math=60%5Cdiv%203-1%3D19&mode=inline)
+
+> réponse: 19
+
 ## Mercredi 23 Septembre
+
+Tous les nombres de 10 à 19 sont ok, puisque le seul parent est le nombre lui-même.
+
+Pour 2x, il y a deux parents possibles: 11x et 2x. Soit l'équation avec 0 ≤ x ≤ 9 et k entier:
+
+110+x = (20+x)×k → k=5 110-100=4x → pas de solution entière
+
+[Programme](23.c) en C de recherche exhaustive.
+
+> réponse: 13 nombres (10 à 19, 30, 45, 90)
 
 ## Jeudi 24 Septembre
 

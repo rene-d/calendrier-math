@@ -6,7 +6,7 @@
 
 ## Solutions 2020
 
-![208/262](https://img.shields.io/static/v1?label=solutions&message=208/262%20%2879%25%29&color=blueviolet&style=flat-square)
+![211/262](https://img.shields.io/static/v1?label=solutions&message=211/262%20%2881%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -108,14 +108,14 @@
 
 ### Septembre
 
-[![18/22](https://img.shields.io/static/v1?label=en%20cours&message=18/22&color=informational&style=flat-square)](septembre/)
+[![21/22](https://img.shields.io/static/v1?label=en%20cours&message=21/22&color=informational&style=flat-square)](septembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [01](septembre/README.md#mardi-1-septembre) 🖥 | [02](septembre/README.md#mercredi-2-septembre) 🖥 | [03](septembre/README.md#jeudi-3-septembre) | [04](septembre/README.md#vendredi-4-septembre) | *05* | *06* |
 | [07](septembre/README.md#lundi-7-septembre) 🖥 | [08](septembre/README.md#mardi-8-septembre) | [09](septembre/README.md#mercredi-9-septembre) | [10](septembre/README.md#jeudi-10-septembre) | [11](septembre/README.md#vendredi-11-septembre) 🖥 | *12* | *13* |
-| [14](septembre/README.md#lundi-14-septembre) | [15](septembre/README.md#mardi-15-septembre) | [16](septembre/README.md#mercredi-16-septembre) | [17](septembre/README.md#jeudi-17-septembre) | 18 | *19* | *20* |
-| [21](septembre/README.md#lundi-21-septembre) 🖥 | 22 | 23 | [24](septembre/README.md#jeudi-24-septembre) | [25](septembre/README.md#vendredi-25-septembre) | *26* | *27* |
+| [14](septembre/README.md#lundi-14-septembre) | [15](septembre/README.md#mardi-15-septembre) | [16](septembre/README.md#mercredi-16-septembre) | [17](septembre/README.md#jeudi-17-septembre) | [18](septembre/README.md#vendredi-18-septembre) | *19* | *20* |
+| [21](septembre/README.md#lundi-21-septembre) 🖥 | [22](septembre/README.md#mardi-22-septembre) | [23](septembre/README.md#mercredi-23-septembre) | [24](septembre/README.md#jeudi-24-septembre) | [25](septembre/README.md#vendredi-25-septembre) | *26* | *27* |
 | [28](septembre/README.md#lundi-28-septembre) 🖥 | 29 | [30](septembre/README.md#mercredi-30-septembre) |    |    |    |    |
 
 ### Octobre
