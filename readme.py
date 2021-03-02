@@ -269,6 +269,35 @@ def patch_readme(repl_func):
             print(f"staged {solutions_md}")
 
 
+def make_full_year(year):
+    """  """
+
+    cwd = os.getcwd()
+
+    readme_year = "# Calendrier Mathématique {year}\n"
+
+    for month in range(1, 13):
+
+        month_name = MONTHS[month - 1]
+        month_lower = month_name.lower()
+        month_norm = remove_accents(month_lower)
+
+        solutions_md = Path(month_norm) / f"README.md"
+        if not solutions_md.exists():
+            continue
+
+        readme = solutions_md.read_text()
+        readme = re.sub(r"^# Calendrier Mathématique", r"##", readme, re.DOTALL)
+        readme = re.sub(r"\n(\[Solutions 20.*README.md\)\n)", r"", readme, re.DOTALL)
+        readme = re.sub(r"\n(#+ )", r"\n#\1", readme, re.DOTALL)
+
+        readme_year += "\n" + readme
+        # print(readme)
+        # exit()
+
+    return readme_year
+
+
 def generate_calendar(root_dir, year):
 
     if year == CURRENT_YEAR:
@@ -318,6 +347,8 @@ def generate_calendar(root_dir, year):
 
     patch_readme(inline_python_on)
     patch_readme(render_latex_on)
+
+    (root_dir / f"{year}.md").write_text(make_full_year(year))
 
 
 def prepare_month_template(month, year):

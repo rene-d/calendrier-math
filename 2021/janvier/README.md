@@ -35,7 +35,7 @@ On trouve 9 nombres en tout: [11, 13, 17, 31, 37, 71, 73, 79, 97]
 
 ## Lundi 4 Janvier
 
-_Mise en équation_
+### Mise en équation
 
 - martina = 2 × roger
 - martina = raphaël + 5
@@ -355,7 +355,7 @@ Regardons ce qu'il se passe:
 
 Apparemment p^q+1 est toujours divisible par 3 si q premier, et même impair.
 
-_Démonstration_
+### Démonstration
 
 Supposons qu'il existe X tel que 2^(2k+1) + 1 = 3×X
 
