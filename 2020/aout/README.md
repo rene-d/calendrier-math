@@ -442,7 +442,7 @@ Or, toutes les puissances de 16 se terminent par une puissance du chiffre de l'u
 
 Et plus généralement:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%3D%5Csum_%7Bk%3D0%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%3D%5Csum_%7Bk%3D1%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%2Bu%5En%3D10D%2Bu%5En&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%3D%5Csum_%7Bk%3D0%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%3D%5Csum_%7Bk%3D1%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%2Bu%5En%3D10D%2Bu%5En)
 
 Et comme ![latex](https://render.githubusercontent.com/render/math?math=6%5Ctimes6%3D36&mode=inline) se termine aussi par 6, c'est invariablement 6 à la fin. Ajouté 9, le nombre se terminera toujours par 5, et est donc divisible par 5.
 
@@ -496,7 +496,7 @@ On en déduit que: ![latex](https://render.githubusercontent.com/render/math?mat
 
 Soit: ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%5Cleq%201&mode=inline). Cependant 0 n'est pas possible car les deux racines ne peuvent être nulles en même temps. On a donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%3D1&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%3D1)
 
 Il y a deux solutions évidentes: ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%200&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%201&mode=inline).
 
@@ -548,11 +548,11 @@ for n in range(55, 121):
 
 ## Vendredi 28 Août
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_2%26%3D1%5Ctimes%28a_0%2Ba_1%29%3D1%5Ctimes%281%2B1%29%3D2%20%5C%5C%0Aa_3%26%3D2%5Ctimes%28a_1%2Ba_2%29%3D2%5Ctimes%281%2B2%29%3D6%20%5C%5C%0Aa_4%26%3D3%5Ctimes%28a_2%2Ba_3%29%3D3%5Ctimes%282%2B6%29%3D24%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_2%26%3D1%5Ctimes%28a_0%2Ba_1%29%3D1%5Ctimes%281%2B1%29%3D2%20%5C%5C%0Aa_3%26%3D2%5Ctimes%28a_1%2Ba_2%29%3D2%5Ctimes%281%2B2%29%3D6%20%5C%5C%0Aa_4%26%3D3%5Ctimes%28a_2%2Ba_3%29%3D3%5Ctimes%282%2B6%29%3D24%20%5C%5C%0A%5Cend%7Baligned%7D)
 
 ![latex](https://render.githubusercontent.com/render/math?math=a_n&mode=inline) semble être la fonction [factorielle](https://fr.wikipedia.org/wiki/Factorielle). Montrons que ![latex](https://render.githubusercontent.com/render/math?math=a_n%3Dn%21&mode=inline) par récurrence: c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=a_n%2C%20n%5Cleq%204&mode=inline), on suppose que c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=n&mode=inline) et on vérifie pour ![latex](https://render.githubusercontent.com/render/math?math=n%2B1&mode=inline):
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%20%5Cbigl%28%28n-1%29%21%2Bn%21%20%5Cbig%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%20%5Cbigl%28%28n-1%29%21%2Bn%21%20%5Cbig%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D)
 
 Donc, à partir de 5!, le chiffre des unités est 0 car il y a 2×5=10 comme facteur.
 

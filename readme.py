@@ -56,7 +56,7 @@ def remove_accents(input_str):
 def render_latex_on(readme):
     def repl_render_ml(m):
         latex = m[1].strip()
-        url = f"https://render.githubusercontent.com/render/math?math={quote(latex)}&mode=inline"
+        url = f"https://render.githubusercontent.com/render/math?math={quote(latex)}"
         return f"![latexml]({url})"
 
     readme = re.sub(r"(?s)\$\$(.+?)\$\$", repl_render_ml, readme)  # (?s) = flag DOTALL
@@ -81,7 +81,7 @@ def render_latex_off(readme):
         return f"${unquote(url)}$"
 
     readme = re.sub(
-        r"!\[latexml\]\(https://render\.githubusercontent\.com/render/math\?math=(.+?)&mode=inline\)",
+        r"!\[latexml\]\(https://render\.githubusercontent\.com/render/math\?math=(.+?)\)",
         repl_latex_ml,
         readme,
     )

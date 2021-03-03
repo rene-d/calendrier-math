@@ -163,7 +163,7 @@ Il y a 4! façons d'arranger les quatre catégories de livres, et pour chaque ca
 
 Soit le système à trois équations:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%7BS%7D%5Cright%29%5Ccolon%5Cbegin%7Bcases%7D%0A%20y%20%3D%20x%20%2B%201%20%26%281%29%20%5C%5C%0A%20y%20%3D%20mx%20-%201%20%26%282%29%20%5C%5C%0A%20y%20%3D%20-4x%20%2B%202m%20%26%283%29%0A%5Cend%7Bcases%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%7BS%7D%5Cright%29%5Ccolon%5Cbegin%7Bcases%7D%0A%20y%20%3D%20x%20%2B%201%20%26%281%29%20%5C%5C%0A%20y%20%3D%20mx%20-%201%20%26%282%29%20%5C%5C%0A%20y%20%3D%20-4x%20%2B%202m%20%26%283%29%0A%5Cend%7Bcases%7D)
 
 ![latex](https://render.githubusercontent.com/render/math?math=%281%29&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=%282%29&mode=inline) : ![latex](https://render.githubusercontent.com/render/math?math=x%2B1%3Dmx-1%5Ciff%20x%3D%5Cfrac%202%20%7Bm-1%7D&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=m%20%5Cne%201&mode=inline)
 
@@ -192,7 +192,7 @@ Si le nombre commence par 2, comme on vient de voir qu'il faut une retenue pour 
 
 ## Mardi 20 Octobre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%281.1%29%5E%7B15%7D%20%3D%20%5Cfrac%20%7B%5Cleft%2810%2B1%5Cright%29%5E%7B15%7D%7D%20%7B10%5E%7B15%7D%7D%20%3D%20%5Cfrac%20%7B%2010%20%5Csum_%7Bn%3D1%7D%5E%7B14%7D%7B%5Cleft%28c%20%5Ctimes%2010%5En%5Cright%29%7D%20%20%2B1%7D%20%7B10%5E%7B15%7D%7D%20%3D%20%5Cfrac%7BN%7D%7B10%5E%7B14%7D%7D%20%2B%20%5Cfrac%7B1%7D%7B10%5E%7B15%7D%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%281.1%29%5E%7B15%7D%20%3D%20%5Cfrac%20%7B%5Cleft%2810%2B1%5Cright%29%5E%7B15%7D%7D%20%7B10%5E%7B15%7D%7D%20%3D%20%5Cfrac%20%7B%2010%20%5Csum_%7Bn%3D1%7D%5E%7B14%7D%7B%5Cleft%28c%20%5Ctimes%2010%5En%5Cright%29%7D%20%20%2B1%7D%20%7B10%5E%7B15%7D%7D%20%3D%20%5Cfrac%7BN%7D%7B10%5E%7B14%7D%7D%20%2B%20%5Cfrac%7B1%7D%7B10%5E%7B15%7D%7D)
 
 ![latex](https://render.githubusercontent.com/render/math?math=N&mode=inline) étant un entier, ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BN%7D%7B10%5E%7B14%7D%7D&mode=inline) a quatorze décimales au maximum, tandis que ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B1%7D%7B10%5E%7B15%7D%7D&mode=inline) en a quinze.
 
@@ -258,11 +258,11 @@ La distance entre les deux droites est:
 
 ## Mercredi 28 Octobre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D-t_%7B49%7D%26%3D2%5Ctimes%2050%2B3%5C%5C%0At_%7B49%7D-t_%7B48%7D%26%3D2%5Ctimes%2049%2B3%5C%5C%0A%26...%5C%5C%0At_%7B2%7D-t_%7B1%7D%26%3D2%5Ctimes%202%2B3%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D-t_%7B49%7D%26%3D2%5Ctimes%2050%2B3%5C%5C%0At_%7B49%7D-t_%7B48%7D%26%3D2%5Ctimes%2049%2B3%5C%5C%0A%26...%5C%5C%0At_%7B2%7D-t_%7B1%7D%26%3D2%5Ctimes%202%2B3%0A%5Cend%7Baligned%7D)
 
 Donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D%26%3Dt_1%2B2%5Ctimes%5Csum_%7Bn%3D2%7D%5E%7B50%7D%7Bn%7D%2B3%5Ctimes%2049%5C%5C%0A%26%3D5%2B2%5Ctimes%5Cleft%28%5Cfrac%7B50%5Ctimes51%7D%7B2%7D-1%5Cright%29%2B147%5C%5C%0A%26%3D5%2B2550-2%2B147%5C%5C%0A%26%3D2700%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D%26%3Dt_1%2B2%5Ctimes%5Csum_%7Bn%3D2%7D%5E%7B50%7D%7Bn%7D%2B3%5Ctimes%2049%5C%5C%0A%26%3D5%2B2%5Ctimes%5Cleft%28%5Cfrac%7B50%5Ctimes51%7D%7B2%7D-1%5Cright%29%2B147%5C%5C%0A%26%3D5%2B2550-2%2B147%5C%5C%0A%26%3D2700%0A%5Cend%7Baligned%7D)
 
 > réponse: 2700
 
@@ -270,7 +270,7 @@ Donc:
 
 Le premier joueur a ![latex](https://render.githubusercontent.com/render/math?math=52%5Cchoose13&mode=inline) mains possibles. Le deuxième, ![latex](https://render.githubusercontent.com/render/math?math=39%5Cchoose13&mode=inline), le troisième ![latex](https://render.githubusercontent.com/render/math?math=26%5Cchoose%2013&mode=inline) et le quatrième prend ce qu'il reste.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B52%21%7D%7B39%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B39%21%7D%7B26%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B26%21%7D%7B13%21%5Ctimes13%21%7D%3D%5Cfrac%7B52%21%7D%7B%2813%21%29%5E4%7D%3D53644737765488792839237440000%20%5Capprox%205.4%5Ctimes10%5E%7B28%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B52%21%7D%7B39%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B39%21%7D%7B26%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B26%21%7D%7B13%21%5Ctimes13%21%7D%3D%5Cfrac%7B52%21%7D%7B%2813%21%29%5E4%7D%3D53644737765488792839237440000%20%5Capprox%205.4%5Ctimes10%5E%7B28%7D)
 
 > réponse: 52! / (13!)⁴
 

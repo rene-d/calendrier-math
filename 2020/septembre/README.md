@@ -125,7 +125,7 @@ print("réponse:", nb)
 
 Factorisons l'expression:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A23%5E5%20-%2023%20%26%3D%2023%20%5Ctimes%20%2823%5E4%20-%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%5E2%20-%201%29%20%5Ctimes%20%2823%5E2%20%2B%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%20-%201%29%20%5Ctimes%20%2823%20%2B%201%29%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%2022%20%5Ctimes%2024%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%202%20%5Ctimes%2011%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%203%20%5Ctimes%202%20%5Ctimes%205%20%5Ctimes%2053%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%202%5E5%20%5Ctimes%203%20%5Ctimes%205%20%5Ctimes%2011%20%5Ctimes%2023%20%5Ctimes%2053%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A23%5E5%20-%2023%20%26%3D%2023%20%5Ctimes%20%2823%5E4%20-%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%5E2%20-%201%29%20%5Ctimes%20%2823%5E2%20%2B%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%20-%201%29%20%5Ctimes%20%2823%20%2B%201%29%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%2022%20%5Ctimes%2024%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%202%20%5Ctimes%2011%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%203%20%5Ctimes%202%20%5Ctimes%205%20%5Ctimes%2053%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%202%5E5%20%5Ctimes%203%20%5Ctimes%205%20%5Ctimes%2011%20%5Ctimes%2023%20%5Ctimes%2053%0A%5Cend%7Baligned%7D)
 
 Le nombre de diviseurs est ![latex](https://render.githubusercontent.com/render/math?math=%5Csigma_0%28n%29%3D%5Cprod_%7Bp%5Ee%7Cn%7D%28e_p%2B1%29%3D6%5Ctimes2%5Ctimes2%5Ctimes2%5Ctimes2%5Ctimes2%3D192&mode=inline)
 
@@ -247,7 +247,7 @@ Algorithme a 4 voyelles, donc 4 façons de choisir une voyelle pour commencer, 6
 
 ## Lundi 21 Septembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28x%20-%204%29%28x%20-%209%29%20%26%3D%20x%5E2%20-%20%284%20%2B%209%29%20%5Ctimes%20%20x%20%2B%204%20%5Ctimes%20%209%20%5C%5C%0A%26%3D%203%20x%5E2%20-%203%20%5Ctimes%20%284%2B9%29%20%5Ctimes%20%20x%20%2B%203%20%5Ctimes%204%5Ctimes%209%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28x%20-%204%29%28x%20-%209%29%20%26%3D%20x%5E2%20-%20%284%20%2B%209%29%20%5Ctimes%20%20x%20%2B%204%20%5Ctimes%20%209%20%5C%5C%0A%26%3D%203%20x%5E2%20-%203%20%5Ctimes%20%284%2B9%29%20%5Ctimes%20%20x%20%2B%203%20%5Ctimes%204%5Ctimes%209%0A%5Cend%7Baligned%7D)
 
 Il faut donc ![latex](https://render.githubusercontent.com/render/math?math=3%20%5Ctimes%204%5Ctimes%209%3D108%3D66_%7Bbase%7D&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=3%20%5Ctimes%20%284%2B9%29%3D39%3D25_%7Bbase%7D&mode=inline)
 
@@ -328,7 +328,7 @@ D'où ∑n = 24
 
 Le losange est constitué de quatre triangles rectangles de côtés a et b tels que:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26a%20%2B%20b%20%3D%2056%20%5C%5C%0A%263%20a%20%3D%204%20b%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26a%20%2B%20b%20%3D%2056%20%5C%5C%0A%263%20a%20%3D%204%20b%0A%5Cend%7Baligned%7D)
 
 Soit ![latex](https://render.githubusercontent.com/render/math?math=a%20%3D%2032&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b%20%3D%2024&mode=inline).
 

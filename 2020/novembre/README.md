@@ -22,15 +22,15 @@
 
 ## Mercredi 4 Novembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Ax%5E3%2By%5E3%20%3D%2040%20%5C%5C%0Ax%5E2y%2Bxy%5E2%3D8%0A%5Cend%7Baligned%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Ax%5E3%2By%5E3%20%3D%2040%20%5C%5C%0Ax%5E2y%2Bxy%5E2%3D8%0A%5Cend%7Baligned%7D)
 
 Développons le polynome ![latex](https://render.githubusercontent.com/render/math?math=%28x%2By%29%5E3&mode=inline):
 
-![latexml](https://render.githubusercontent.com/render/math?math=%28x%2By%29%5E3%3Dx%5E3%2B3x%5E2y%2B3xy%5E2%2By%5E3%3D40%2B3%5Ctimes8%3D64&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%28x%2By%29%5E3%3Dx%5E3%2B3x%5E2y%2B3xy%5E2%2By%5E3%3D40%2B3%5Ctimes8%3D64)
 
 On peut calculer ![latex](https://render.githubusercontent.com/render/math?math=xy&mode=inline):
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E2y%2Bxy%5E2%3Dxy%28x%2By%29%3Dxy%5Ctimes%5Csqrt%5B3%5D%7B64%7D%3D4xy%3D8&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=x%5E2y%2Bxy%5E2%3Dxy%28x%2By%29%3Dxy%5Ctimes%5Csqrt%5B3%5D%7B64%7D%3D4xy%3D8)
 
 D'où: ![latex](https://render.githubusercontent.com/render/math?math=xy%3D2&mode=inline)
 
@@ -101,9 +101,60 @@ D'une manière générale, le [théorème de l'angle au centre](https://fr.wikip
 
 ## Mercredi 11 Novembre
 
+Pierre a quatre visites à faire. Si on fixe la position des visites à André et Bruno, celle des visites de Charles et Denis est déterminée (les deux places libres, puisque l'ordre est imposé). La réponse est donc ![latex](https://render.githubusercontent.com/render/math?math=%7B4%5Cchoose%202%7D%3D6&mode=inline).
+
+Illustration de la solution en Python:
+
+```python
+from itertools import permutations
+for z in permutations("ABCD"):
+    if z.index("A") < z.index("B") and z.index("C") < z.index("D"):
+        print("".join(z))
+```
+
+> réponse: 6
+
 ## Jeudi 12 Novembre
 
+Comme 1 n'est pas solution de l'équation, on peut factoriser le terme de gauche:
+
+1 + x + x² + x³ = (x⁴ - 1) / (x - 1)
+
+L'équation devient alors:
+
+(x⁴ - 1) / (x - 1) = x⁴ + x⁵
+
+Or:
+
+(x⁴ + x⁵) (x - 1) = x⁶ - x⁴
+
+L'équation s'écrit alors:
+
+x⁶ - x⁴ = x⁴ - 1
+
+x⁴ (x² - 1) = (x² - 1) (x² + 1)
+
+Pour x ≠ 1, x² = 1 est solution, d'où la première racine: x = -1.
+
+Il faut trouver les autres. En simplifiant par x² - 1 devenu non nul à partir d'ici:
+
+x⁴ = x² + 1
+
+x² = (1 ± √5) / 2
+
+On cherche les valeurs réelles (et non complexes). Donc les autres racines sont:
+
+x = ± √((1 + √5) / 2)
+
+> réponse: -1, -√((1 + √5) / 2), √((1 + √5) / 2)
+
 ## Vendredi 13 Novembre
+
+Il y a 2⁴ nombres écrits avec des 3 et des 5 (deux possibilités par chiffre). Chaque chiffre de la moitié de ces nombres est un 3, l'autre moitié un 5. Donc la somme de chaque chiffre est (3 + 5) × 8 = 64.
+
+La réponse est 64 + 640 + 6400 + 64000 = 64 × 1111 = 71104
+
+> réponse: 71104
 
 ## Lundi 16 Novembre
 
@@ -138,7 +189,7 @@ Soir ![latex](https://render.githubusercontent.com/render/math?math=r%3DCB%3DBC&
 
 ![latex](https://render.githubusercontent.com/render/math?math=100%20%3D%2049%2B14r&mode=inline)
 
-![latexml](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%20%7B51%7D%20%7B14%7D%20cm&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%20%7B51%7D%20%7B14%7D%20cm)
 
 > réponse: 51 / 14 cm
 
@@ -220,15 +271,15 @@ x4 ne peut pas être premier. Il reste 19 49 79. Il n'y a que 19 et 79 qui soien
 
 Soit l'équation :
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E3y%2Bx%2By%3Dxy%2B2xy%5E2&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=x%5E3y%2Bx%2By%3Dxy%2B2xy%5E2)
 
 Elle peut s'écrire ainsi:
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E3y%2Bx%2By-xy-2xy%5E2%3D0&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=x%5E3y%2Bx%2By-xy-2xy%5E2%3D0)
 
 Ou encore de ces deux manières différentes:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bcases%7D%0A%26x%20%2By%20%28x%5E3%2B1-x-2xy%29%3D0%20%5C%5C%0A%26y%20%2B%20x%20%28x%5E2y%2B1-y-2y%5E2%29%3D0%0A%5Cend%7Bcases%7D&mode=inline)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bcases%7D%0A%26x%20%2By%20%28x%5E3%2B1-x-2xy%29%3D0%20%5C%5C%0A%26y%20%2B%20x%20%28x%5E2y%2B1-y-2y%5E2%29%3D0%0A%5Cend%7Bcases%7D)
 
 On en déduit que ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) divise ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) divise ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) si ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) sont non nuls. Or, ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) sont entiers, donc ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%20y&mode=inline). Par ailleurs la solution ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%20y%20%3D%200&mode=inline) est valide.
 
