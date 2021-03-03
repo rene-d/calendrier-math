@@ -6,7 +6,7 @@
 
 ## Solutions 2020
 
-![232/262](https://img.shields.io/static/v1?label=solutions&message=232/262%20%2889%25%29&color=blueviolet&style=flat-square)
+![238/262](https://img.shields.io/static/v1?label=solutions&message=238/262%20%2891%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -142,4 +142,16 @@
 | [16](novembre/README.md#lundi-16-novembre) | [17](novembre/README.md#mardi-17-novembre) | [18](novembre/README.md#mercredi-18-novembre) | [19](novembre/README.md#jeudi-19-novembre) | [20](novembre/README.md#vendredi-20-novembre) | *21* | *22* |
 | [23](novembre/README.md#lundi-23-novembre) | [24](novembre/README.md#mardi-24-novembre) | [25](novembre/README.md#mercredi-25-novembre) | [26](novembre/README.md#jeudi-26-novembre) | [27](novembre/README.md#vendredi-27-novembre) | *28* | *29* |
 | [30](novembre/README.md#lundi-30-novembre) 🖥 |    |    |    |    |    |    |
+
+### Décembre
+
+[![6/23](https://img.shields.io/static/v1?label=en%20cours&message=6/23&color=informational&style=flat-square)](decembre/)
+
+|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
+|---|---|---|---|---|---|---|
+|    | [01](decembre/README.md#mardi-1-décembre) | [02](decembre/README.md#mercredi-2-décembre) | [03](decembre/README.md#jeudi-3-décembre) | [04](decembre/README.md#vendredi-4-décembre) | *05* | *06* |
+| [07](decembre/README.md#lundi-7-décembre) | [08](decembre/README.md#mardi-8-décembre) | 09 | 10 | 11 | *12* | *13* |
+| 14 | 15 | 16 | 17 | 18 | *19* | *20* |
+| 21 | 22 | 23 | 24 | 25 | *26* | *27* |
+| 28 | 29 | 30 | 31 |    |    |    |
 
