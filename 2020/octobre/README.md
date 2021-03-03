@@ -169,9 +169,9 @@ Soit le système à trois équations:
 
 ![latex](https://render.githubusercontent.com/render/math?math=%281%29&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=%283%29&mode=inline) : ![latex](https://render.githubusercontent.com/render/math?math=x%2B1%3D-4x%2B2m%5Ciff%20x%3D%5Cfrac%7B2m-1%7D%205&mode=inline)
 
-Donc: ![latexml](https://render.githubusercontent.com/render/math?math=%5Ctag%7B4%7D%5Cfrac%202%20%7Bm-1%7D%3D%5Cfrac%7B2m-1%7D%205&mode=inline)
+Donc: ![latex](https://render.githubusercontent.com/render/math?math=%5Ctag%7B4%7D%5Cfrac%7B2%7D%7Bm-1%7D%3D%5Cfrac%7B2m-1%7D%7B5%7D&mode=inline)
 
-L'équation du second degré ![latex](https://render.githubusercontent.com/render/math?math=%284%29&mode=inline) a pour solution ![latex](https://render.githubusercontent.com/render/math?math=m%3D3&mode=inline) ou ![latex](https://render.githubusercontent.com/render/math?math=m%3D-%5Cfrac%203%202&mode=inline).
+Cette équation du second degré a pour solution ![latex](https://render.githubusercontent.com/render/math?math=m%3D3&mode=inline) ou ![latex](https://render.githubusercontent.com/render/math?math=m%3D-%5Cfrac%203%202&mode=inline).
 
 > réponse: m = 3 ou m = -3 / 2
 

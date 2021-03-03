@@ -300,6 +300,10 @@ def make_full_year(year):
 
 def generate_calendar(root_dir, year):
 
+    # prépare les README.md mensuels
+    patch_readme(inline_python_on)
+    patch_readme(render_latex_on)
+
     if year == CURRENT_YEAR:
         readme_md = root_dir / Path("README.md")
     else:
@@ -337,18 +341,15 @@ def generate_calendar(root_dir, year):
 
     readme = readme_begin + readme
 
+    # le calendrier a été modifié: on l'enregistre
     if hash != hashlib.md5(readme.encode()).hexdigest():
-
         readme_md.write_text(readme)
-
+        # si on est appelé comme hook Git, on stage le fichier
         if "GIT_INDEX_FILE" in os.environ:
             os.system("git add README.md")
             print("staged README.md")
 
-    patch_readme(inline_python_on)
-    patch_readme(render_latex_on)
-
-    (root_dir / f"{year}.md").write_text(make_full_year(year))
+    # (root_dir / f"{year}.md").write_text(make_full_year(year))
 
 
 def prepare_month_template(month, year):
