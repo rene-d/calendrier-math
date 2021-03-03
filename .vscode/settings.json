@@ -2,5 +2,6 @@
     "python.pythonPath": "/opt/homebrew/bin/python3",
     "markdownlint.config": {
         "MD033": false
-    }
+    },
+    "editor.formatOnSave": true,
 }

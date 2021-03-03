@@ -12,6 +12,9 @@ import hashlib
 import argparse
 from urllib.parse import quote, unquote
 
+# from render import render  # readme2tex
+
+
 USE_BADGES = True
 SHOW_SOLUTION = False
 SHOW_SCREEN = True
@@ -234,6 +237,35 @@ def create_month(month, year):
     return (done_month, total_month), "\n".join(md)
 
 
+def readme2tex():
+    """ Modifie un README.md mensuel en appelant une fonction. """
+
+    cwd = os.getcwd()
+
+    for month in range(1, 13):
+
+        month_name = MONTHS[month - 1]
+        month_lower = month_name.lower()
+        month_norm = remove_accents(month_lower)
+
+        solutions_md = Path(month_norm) / "INPUT.md"
+        if not solutions_md.exists():
+            continue
+
+        print(f"render {solutions_md}")
+        cwd = os.getcwd()
+        os.chdir(Path(month_norm))
+        render(
+            "INPUT.md",
+            "README.md",
+            svgdir="svgs",
+            packages=("amsmath", "amssymb", "amsthm", "tikz"),
+            nocdn=True,
+            use_valign=True,
+        )
+        os.chdir(cwd)
+
+
 def patch_readme(repl_func):
     """ Modifie un README.md mensuel en appelant une fonction. """
 
@@ -303,6 +335,7 @@ def generate_calendar(root_dir, year):
     # prépare les README.md mensuels
     patch_readme(inline_python_on)
     patch_readme(render_latex_on)
+    # readme2tex()
 
     if year == CURRENT_YEAR:
         readme_md = root_dir / Path("README.md")
