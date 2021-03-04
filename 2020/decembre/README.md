@@ -66,19 +66,101 @@ Il y a 3⁴ = 81 nombres.
 
 ## Mercredi 9 Décembre
 
+![schéma](09.png)
+
+Le point F centre du cercle doit être tel que FA = FB = FE et F sur la médiatrice du segment CD.
+
+En construisant le losange ADEF, on a bien FA = FE = DE = AD.
+
+Le rayon du cercle est donc 1 cm.
+
+> réponse: 1 cm
+
 ## Jeudi 10 Décembre
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%262%20clou%20%2B%205%20vis%20%2B%208%20cheville%20%3D%20150%20%20%26%281%29%5C%5C%0A%261%20clou%20%2B%203%20vis%20%2B%205%20cheville%20%3D%2080%20%20%20%26%282%29%20%5C%5C%0A%5C%5C%0A%262%5Ctimes%282%29-%281%29%20%3D%20vis%2B2cheville%3D10%20%20%20%5C%5C%0A%26%5Cimplies%20vis%3D10-2cheville%26%283%29%20%5C%5C%0A%26%5Cimplies%20vis%2B2cheville%3D10%26%284%29%20%5C%5C%0A%5Cend%7Baligned%7D)
+
+En utilisant (2), (3) puis (4):
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26clou%2Bvis%2Bcheville%5C%5C%0A%26%3D%2880-3vis-5cheville%29%2B%2810-2cheville%29%2Bcheville%5C%5C%0A%26%3D90-3vis-6cheville%5C%5C%0A%26%3D90-3%28vis%2B2cheville%29%5C%5C%0A%26%3D90-3%5Ctimes%2010%20%3D%2060%0A%5Cend%7Baligned%7D)
+
+Une autre manière de faire (mais qui revient _in fine_ au même) est de fixer arbitrairement une valeur d'une inconnue puisque le système de deux équations à trois inconnues admet une infinie de solutions.
+
+Soit ![latex](https://render.githubusercontent.com/render/math?math=cheville%20%3D%200&mode=inline). On a alors:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%262%20clou%20%2B%205%20vis%3D150%5C%5C%0A%261%20clou%20%2B%203%20vis%3D80%20%5C%5C%0A%26%5Cimplies%20%5Cbegin%7Bcases%7Dvis%3D10%20%5C%5C%0Aclou%3D50%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
+
+Et donc:
+
+![latexml](https://render.githubusercontent.com/render/math?math=clou%2Bvis%2Bcheville%3D50%2B10%2B9%3D60)
+
+> réponse: clou + vis + cheville = 60 g
 
 ## Vendredi 11 Décembre
 
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7Ba%5E2%2Bb%5E2%2B1%7D%7Bab%2Ba%2Bb%7D%3D-2%20%5Ciff%20%20a%5E2%2Bb%5E2%2B1%2B2ab%2B2a%2B2b%3D%28a%2Bb%29%5E2%2B1%2B2%28a%2Bb%29%3D0)
+
+Soit ![latex](https://render.githubusercontent.com/render/math?math=x%3Da%2Bb&mode=inline). L'équation devient: ![latex](https://render.githubusercontent.com/render/math?math=x%5E2%2B2x%2B1%3D0&mode=inline).
+
+La racine double du polynome du deuxième degré est ![latex](https://render.githubusercontent.com/render/math?math=x%3D-1&mode=inline).
+
+> réponse: a + b = -1
+
 ## Lundi 14 Décembre
+
+97 + y² = x²
+
+x² - y² = (x + y)(x - y) = 97 × 1
+
+97 est premier. Donc la seule possibilité est x + y = 97 et x - y = 1. Soit x = 49 et y = 48.
+
+D'où x² + y² = 4705
+
+> réponse: 4705
 
 ## Mardi 15 Décembre
 
+On a:
+
+(100 + x - y) + (50 + x +z) + (120 -x) + (100 + x + y) + (80 + x - z) = 3x + 450 = 180 (5 - 2) / 5 = 540° (modulo 360)
+
+Car la somme des angles internes d'un polygone est π (n-2).
+
+Donc x = (540 - 450) / 3 = 39°
+
+> réponse: x = 30°
+
 ## Mercredi 16 Décembre
+
+Eve enlève toute une pile puis enlève le même nombre de jetons que Bob dans l'autre pile. Bob perdra.
+
+> réponse: Eve
 
 ## Jeudi 17 Décembre
 
+Comme 175 = 5 × 5 × 7, les seuls nombres à trois chiffres non nuls donc le produit est multiple de 175 sont ceux avec 557.
+
+Il y a 9 nombres avec deux 0 (100, 200, etc.)
+
+Il y a 9 × 9 nombres avec un 0 chiffre des dizaines, et autant avec un 0 en unité.
+
+Soit 3 + 9 + 81 × 2 = 174
+
+> réponse: 557 575 755 et les nombres avec un ou deux 0: 174 nombres
+
 ## Vendredi 18 Décembre
+
+Jeanne a une probabilité de gagner de j = 1 / 2
+
+Karim a p = k et Laura p = l avec k + l = 1 / 2 et k = 2 l. Soit k = 1 / 3 et l = 1 / 6.
+
+La probabilité que Jeanne gagne trois manches puis Karim deux puis Laura un est p = j³ × k² × l = 1 / 432
+
+Dans les 6 parties, Jeanne a ![latex](https://render.githubusercontent.com/render/math?math=%7B6%5Cchoose%203%7D&mode=inline) = 20 combinaisons d'en gagner 3. Karim a ![latex](https://render.githubusercontent.com/render/math?math=%7B3%5Cchoose%202%7D%3D3&mode=inline) possibilités pour gagner 2 des 3 restantes.
+
+Donc p = 20 × 3 × 1 / 432 = 5 / 36
+
+> réponse: 5 / 36
 
 ## Lundi 21 Décembre
 
