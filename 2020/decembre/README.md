@@ -164,18 +164,74 @@ Donc p = 20 × 3 × 1 / 432 = 5 / 36
 
 ## Lundi 21 Décembre
 
+Les deux triangles intérieurs de base les côtés inférieu et supérieur ont des aires identiques.
+
+Aire triangle = 3 + 6 + quadrilatère central = 5 + x + quadrilatère central
+
+D'où x = 3 + 6 - 5 = 2
+
+> réponse: x = 2
+
 ## Mardi 22 Décembre
 
 ## Mercredi 23 Décembre
 
+Pythagore donne le résultat immédiatement: AE = √((20 - 15)² + 20²) = √425 = 5 √17
+
+> réponse: 5 √17 cm
+
 ## Jeudi 24 Décembre
+
+Il y a 4 × 5 = 20 nombres pair-impair (le zéro est exclu)
+
+Il y a 5 × 5 = 25 nombres impair-pair
+
+> réponse: 55
 
 ## Vendredi 25 Décembre
 
+20202020 = 10001 × 2020
+
+La moyenne est donc 20202020 / 2020 = 10001
+
+> réponse: 10001
+
 ## Lundi 28 Décembre
+
+p = 13 convient.
+
+p ne peut être multiple de 3 (ni de 2 d'ailleurs). Il s'écrit donc 3k + 1 ou 3k + 2. p-10 et p+10 valent alors:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B1%29-10%20%3D%203k%20-%209%20%3D%203%28k-3%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%20%5C%5C%0Ap%2B10%3D%283k%2B1%29%2B10%0A%5Cend%7Bcases%7D%20%5C%5C%0A%5C%5C%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B2%29-10%20%5C%5C%0Ap%2B10%3D%283k%2B2%29%2B10%20%3D%203k%20%2B%2012%20%3D%203%28k%2B4%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
+
+Donc la seule solution est p = 13
+
+> réponse: p = 13 (3, 13, 23 premiers)
 
 ## Mardi 29 Décembre
 
+![latex](https://render.githubusercontent.com/render/math?math=125000027%3D5%5E3%5Ctimes%20100%5E3%2B3%5E3%3D500%5E3%2B3%5E3&mode=inline)
+
+Or, ![latex](https://render.githubusercontent.com/render/math?math=a%5E3%2Bb%5E3%3D%28a%2Bb%29%28a%5E2-ab%2Bb%5E2%29&mode=inline).
+
+Donc: ![latex](https://render.githubusercontent.com/render/math?math=125000027%3D%28500%2B3%29%28500%5E2-500%5Ctimes%203%2B3%5E2%29&mode=inline)
+
+![latex](https://render.githubusercontent.com/render/math?math=125000027%3D503%5Ctimes%28250000-1500%2B9%29%3D248509&mode=inline)
+
+Par ailleurs, on peut vérifier que cela correspond à la décomposition en facteurs premiers.
+
+> réponse: 503 et 248509
+
 ## Mercredi 30 Décembre
 
+Tous les nombres premiers 2 3 5  7 11 13  17 19 conviennent.
+
+1 aussi convient à l'énoncé.
+
+> réponse: 9
+
 ## Jeudi 31 Décembre
+
+Les points délimitent des triangles équilatéraux de côté 4 cm. Ainsi il y a un hexagone régulier inscrit dans le cercle, dont le rayon vaut donc le côté de l'hexagone, à savoir 4 cm.
+
+> réponse: 4 cm
