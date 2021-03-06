@@ -208,6 +208,30 @@ Une réponse est:
 
 ## Mercredi 22 Janvier
 
+![schéma](22.png)
+
+Les triangles ABC et et BCD sont semblables puisqu'ils ont deux angles égaux (et donc le troisième également). En effet ∠BAC = ∠CBD et ∠BCD = ∠CAB.
+
+Ainsi, les côtés sont proportionnels:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BBD%7D%7BAB%7D%20%3D%20%5Cfrac%7BCD%7D%7BBC%7D%20%3D%20%5Cfrac%7BBC%7D%7BAC%7D)
+
+Comme D est le milieu de AC:
+
+![latexml](https://render.githubusercontent.com/render/math?math=AC%5Ctimes%20CD%3D%5Cfrac%7B1%7D%7B2%7D%7BAC%7D%5E2%3D%7BBC%7D%5E2%5Cimplies%7B%5Cleft%28%5Cfrac%7BBC%7D%7BAC%7D%5Cright%29%7D%5E2%3D%5Cfrac%7B1%7D%7B2%7D%5Cimplies%5Cfrac%7BBC%7D%7BAC%7D%3D%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D)
+
+D'où:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BBD%7D%7BAB%7D%3D%5Cfrac%7Bx%7D%7B12%7D%3D%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%5Cimplies%20x%3D%5Cfrac%7B12%7D%7B%5Csqrt%7B2%7D%7D)
+
+De ce résultat, nous pouvons établir une construction à la règle et au compas des points C:
+
+- Tracer le point O symétrique de A par rapport à B.
+- Placer le point A' tel que AA' = AB = AO et AA' ⟂ AB. Ainsi AA' = AO = AB √ 2.
+- Les points C sont sur le cercle de centre O et de rayon AA'.
+
+> réponse: x = 12 / √2 = 6 √2
+
 ## Jeudi 23 Janvier
 
 Il y a 36 lancers possibles.
@@ -245,6 +269,13 @@ Il faut 2 × 30 + 4 × 20 + 6 × 10 = 200 cm
 > réponse: 2 m
 
 ## Jeudi 30 Janvier
+
+E A B B B D F
+A A A B C C C
+
+avec A B C = coups à 3 € et E F = coups à 1 €.
+
+> réponse: 11 €
 
 ## Vendredi 31 Janvier
 
