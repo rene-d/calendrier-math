@@ -4,6 +4,34 @@
 
 ## Lundi 3 Février
 
+une solution: 1 2 5 6 3 4 7 8 11 9 12 10
+
+[Programme](03.py) en Python pour les chercher toutes. Il y en a 1990656 sur 12! permutations.
+
+```python
+#!/usr/bin/env python3
+
+from itertools import permutations
+
+nb = 0
+for n in permutations(range(1, 13)):
+    if n[0] == 2:
+        # pas la peine de refaire toutes les permutations avec 1 à une autre place
+        nb *= 12
+        break
+    for i in range(12):
+        a, b, c = n[i], n[(i + 1) % 12], n[(i + 2) % 12]
+        if (a + b + c) % 3 == 0:
+            break
+    else:
+        print(" ".join(map(str, n)))
+        nb += 1
+
+print(nb)
+```
+
+> réponse: 1 2 5 6 3 4 7 8 11 9 12 10
+
 ## Mardi 4 Février
 
 L'hexagone est rempli de:
@@ -83,6 +111,35 @@ Donc la face entre les dés 1 et 2 est 6. Et par conséquant la face cherchée e
 > réponse: 1
 
 ## Mardi 11 Février
+
+![latexml](https://render.githubusercontent.com/render/math?math=x%5E2%20y%5E3%3D6%5E%7B12%7D%3D2%5E%7B12%7D%5Ctimes%203%5E%7B12%7D)
+
+Etant entiers, x et y sont donc nécessairement de la forme ![latex](https://render.githubusercontent.com/render/math?math=2%5Ea%5Ctimes%203%5Eb&mode=inline) Il s'agit de résoudre l'équation ![latex](https://render.githubusercontent.com/render/math?math=2a%2B3b%3D12&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=%28a%2Cb%29%5Cin%5CN&mode=inline), a étant l'exposant de x et b celui de y. Les solutions sont: (0, 4) (3, 2) (6, 0). Ces solutions sont valables pour les puissances de 2 et de 3. Ce qui fait donc 3 × 3 = 9 solutions.
+
+Recherche exhaustive en [Python](11.py).
+
+```python
+#!/usr/bin/env python3
+
+from itertools import product
+
+r = 6 ** 12
+nb = 0
+for a, b in product(range(7), repeat=2):
+    x = 2 ** a * 3 ** b
+
+    for c, d in product(range(5), repeat=2):
+
+        y = 2 ** c * 3 ** d
+
+        if x ** 2 * y ** 3 == r:
+            nb += 1
+            print(f"{nb:2} x=2^{a}*3^{b}={x:5} y=2^{c}*3^{d}={y:5}")
+
+print("réponse:", nb)
+```
+
+> réponse: 9
 
 ## Mercredi 12 Février
 
