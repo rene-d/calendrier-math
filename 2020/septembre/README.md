@@ -363,6 +363,10 @@ print(f"n={n:5} tn={tn}")
 
 ## Mardi 29 Septembre
 
+![damier](29.svg)
+
+> réponse: 1 seul carré 1×1 - cf. damier
+
 ## Mercredi 30 Septembre
 
 Soient r₀, -r₀ et r₁ les trois racines de P(x).

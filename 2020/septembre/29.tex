@@ -1,0 +1,50 @@
+% latex -interaction nonstopmode 27.tex && dvisvgm -a -n 27.dvi
+% puis ajuster width/height/viewBox du svg à la main...
+
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{pgffor}
+\usepackage[margin=10mm]{geometry}
+
+\thispagestyle{empty}
+\geometry{paperwidth=270mm,paperheight=270mm}
+
+\begin{document}
+
+\def\a{0.03}
+
+\newcommand{\piece}[3]{
+    \fill [blue,very thick] (#1+\a,#2+\a) rectangle (#1+#3-\a,#2+#3-\a);
+}
+
+\newcommand{\blocv}[2]{
+    \foreach \y in {0,3,6,9}{
+            \foreach \x in {0,3,6}{
+                    \piece{#1+\x}{#2+\y}{3}
+                }
+        }
+    \foreach \y in {0,2,4,6,8,10}{
+            \piece{#1+9}{#2+\y}{2}
+        }
+}
+
+\newcommand{\bloch}[2]{
+    \foreach \y in {0,3,6}{
+            \foreach \x in {0,3,6,9}{
+                    \piece{#1+\x}{#2+\y}{3}
+                }
+        }
+    \foreach \x in {0,2,4,6,8,10}{
+            \piece{#1+\x}{#2+9}{2}
+        }
+}
+
+\begin{tikzpicture}
+    \fill [gray] (0,0) rectangle (23,23);
+    \blocv{0}{0}
+    \blocv{12}{11}
+    \bloch{11}{0}
+    \bloch{0}{12}
+\end{tikzpicture}
+
+\end{document}
