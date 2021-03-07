@@ -45,7 +45,7 @@ De même, 10 en partant la ligne du milieu, puis 4, puis 1.
 
 Au total: 35+20+10+4+1 = 70
 
-Nota: la formule générale est ![latex](https://render.githubusercontent.com/render/math?math=n%28n%2B1%29%28n%2B2%29%28n%2B3%29/24&mode=inline) - cf. [A000332](https://oeis.org/A000332).
+Nota: la formule générale est n(n+1)(n+2)(n+3)/24 - cf. [A000332](https://oeis.org/A000332).
 
 > réponse: 70
 
@@ -180,7 +180,7 @@ N B N B N B
 - Si un blanc = 0, un noir doit être = 0 pour n × n = 0.
 - Si un noir = 0, alors le blanc = 0 parce que = 0 × l'autre voisin
 
-Supposons donc ici que ![latex](https://render.githubusercontent.com/render/math?math=a_i%20%5Cne%200&mode=inline). Dès la deuxième égalité, on va voir que ![latex](https://render.githubusercontent.com/render/math?math=a_1%5Cne1&mode=inline) (sinon ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) serait forcément égal à 0 et tous les nombres seraient aussi égaux à 0 come vu ci-avant, ce qui provoque une contradiction).
+Supposons donc ici que ![latex](https://render.githubusercontent.com/render/math?math=a_i%20%5Cne%200&mode=inline). Dès la deuxième égalité, on va voir que ![latex](https://render.githubusercontent.com/render/math?math=a_1%5Cne1&mode=inline) (sinon ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) serait forcément égal à 0 et tous les nombres seraient aussi égaux à 0 comme vu ci-avant, ce qui provoque une contradiction).
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_0%2Ba_2%3Da_1%20%5Cimplies%20%26a_2%3Da_1%20-%20a_0%20%5C%5C%0Aa_1%5Ctimes%20a_3%3Da_2%20%5Cimplies%20%26a_3%3D%28a_1%20-%20a_0%29%20/%20a_1%3D1-a_0/a_1%20%5C%5C%0Aa_2%2Ba_4%3Da_3%20%5Cimplies%20%26a_4%3D%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%20%5C%5C%0Aa_3%5Ctimes%20a_5%3Da_4%20%5Cimplies%20%26a_5%3D%5Cfrac%7B%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%7D%20%7B%28a_1%20-%20a_0%29%20/%20a_1%7D%20%3D%201%20-%20a_1%20%5C%5C%0Aa_4%2Ba_6%3Da_5%20%5Cimplies%20%26a_6%3D%281%20-%20a_1%29%20-%20%5Cleft%5B%20%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%20%5Cright%5D%20%3D%20a_0%20%281%20-%20a_1%29/a_1%20%5C%5C%0Aa_5%5Ctimes%20a_7%3Da_6%20%5Cimplies%20%26a_7%3D%5Cfrac%7Ba_0%281%20-%20a_1%29/a_1%7D%7B1%20-%20a_1%7D%20%3D%20a_0%20/%20a_1%20%5C%5C%0Aa_6%2Ba_8%3Da_7%20%5Cimplies%20%26a_8%3D%20%28a_0%20/%20a_1%29%20-%20%5Cleft%5Ba_0%20%281%20-%20a_1%29/a_1%5Cright%5D%20%3D%20a_0%20%5C%5C%0Aa_7%5Ctimes%20a_9%3Da_8%20%5Cimplies%20%26a_9%3D%5Cfrac%7Ba_0%7D%7Ba_0%20/%20a_1%7D%20%3D%20a_1%0A%5Cend%7Baligned%7D)
 
