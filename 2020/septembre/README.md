@@ -365,6 +365,8 @@ print(f"n={n:5} tn={tn}")
 
 ![damier](29.svg)
 
+[Source](29.tex) du damier réalisé en LaTeX avec TikZ.
+
 > réponse: 1 seul carré 1×1 - cf. damier
 
 ## Mercredi 30 Septembre
