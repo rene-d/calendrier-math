@@ -4,10 +4,10 @@
 \documentclass{article}
 \usepackage{tikz}
 \usepackage{pgffor}
-\usepackage[margin=10mm]{geometry}
+\usepackage[margin=5mm]{geometry}
 
 \thispagestyle{empty}
-\geometry{paperwidth=270mm,paperheight=270mm}
+\geometry{paperwidth=135mm,paperheight=130mm}
 
 \begin{document}
 
@@ -39,7 +39,7 @@
         }
 }
 
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=0.5]
     \fill [gray] (0,0) rectangle (23,23);
     \blocv{0}{0}
     \blocv{12}{11}
