@@ -204,6 +204,8 @@ print(n)
 
 ## Lundi 18 Octobre
 
+On place les nombres en fonction des indications de l'énoncé:
+
 ![schéma](18.png)
 
 > réponse: 5

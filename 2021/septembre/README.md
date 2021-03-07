@@ -133,7 +133,7 @@ Par construction des points B' et C', l'angle ∠C'AB' est le triple de ∠BAC, 
 
 La [loi des cosinus](https://fr.wikipedia.org/wiki/Loi_des_cosinus) permet de calculer B'C':
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28B%27C%27%29%5E2%20%26%3D%20%28AC%27%29%5E2%2B%28AB%27%29%5E2-2%28AC%27%29%28AB%27%29cos%28120%C2%B0%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%26%3D%206%5E2%2B10%5E2-2%5Ctimes%2010%5Ctimes%206%5Ctimes%20%5Cleft%28-%5Cdfrac%7B1%7D%7B2%7D%5Cright%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%26%3D%20136%2B60%20%3D%20196%20%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%26%3D%7B14%7D%5E2%0A%5Cend%7Baligned%7D)
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28B%27C%27%29%5E2%26%3D%28AC%27%29%5E2%2B%28AB%27%29%5E2-2%28AC%27%29%28AB%27%29cos%28120%5E%7B%5Ccirc%7D%29%20%5C%5C%0A%26%3D6%5E2%2B10%5E2-2%5Ctimes%2010%5Ctimes%206%5Ctimes%20%5Cleft%28-%5Cdfrac%7B1%7D%7B2%7D%5Cright%29%20%5C%5C%0A%26%3D136%2B60%3D196%20%5C%5C%0A%26%3D%7B14%7D%5E2%0A%5Cend%7Baligned%7D)
 
 > réponse: 14 cm
 
