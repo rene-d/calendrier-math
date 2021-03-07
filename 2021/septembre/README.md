@@ -173,9 +173,12 @@ Soit (![latex](https://render.githubusercontent.com/render/math?math=a_i&mode=in
 
 ```text
 N B N B N B
-    n*0*n       si un blanc=0 un noir dans être = 0 pour n*n=0
-  b+0+b         si un noir=0 alors le blanc=0 parce b=0*autre voisin
+    n*0*n
+  b+0+b
 ```
+
+- Si un blanc = 0, un noir doit être = 0 pour n × n = 0.
+- Si un noir = 0, alors le blanc = 0 parce que = 0 × l'autre voisin
 
 Supposons donc ici que ![latex](https://render.githubusercontent.com/render/math?math=a_i%20%5Cne%200&mode=inline). Dès la deuxième égalité, on va voir que ![latex](https://render.githubusercontent.com/render/math?math=a_1%5Cne1&mode=inline) (sinon ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) serait forcément égal à 0 et tous les nombres seraient aussi égaux à 0 come vu ci-avant, ce qui provoque une contradiction).
 
