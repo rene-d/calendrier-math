@@ -45,6 +45,7 @@ def rendertex(engine, string, packages, temp_dir, block):
         check_output(
             [
                 engine,
+                "-shell-escape",
                 "-output-directory=" + temp_dir,
                 "-interaction",
                 "nonstopmode",

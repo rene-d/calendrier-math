@@ -11,6 +11,7 @@ import os
 import hashlib
 import argparse
 from urllib.parse import quote, unquote
+import subprocess
 
 # from render import render  # readme2tex
 
@@ -45,6 +46,19 @@ DAYS = (
     "Samedi",
     "Dimanche",
 )
+
+
+def stage(filename):
+    if "GIT_INDEX_FILE" not in os.environ:
+        return
+    branch_name = (
+        subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"])
+        .decode()
+        .strip()
+    )
+    if branch_name == "main":
+        subprocess.run(["git", "add", filename])
+        print(f"staged {filename}")
 
 
 def remove_accents(input_str):
@@ -296,9 +310,7 @@ def patch_readme(repl_func):
         solutions_md.write_text(readme)
         print(f"écrit {solutions_md}")
 
-        if "GIT_INDEX_FILE" in os.environ:
-            os.system(f"git add {solutions_md}")
-            print(f"staged {solutions_md}")
+        stage(solutions_md)
 
 
 def make_full_year(year):
@@ -378,9 +390,7 @@ def generate_calendar(root_dir, year):
     if hash != hashlib.md5(readme.encode()).hexdigest():
         readme_md.write_text(readme)
         # si on est appelé comme hook Git, on stage le fichier
-        if "GIT_INDEX_FILE" in os.environ:
-            os.system("git add README.md")
-            print("staged README.md")
+        stage("README.md")
 
     # (root_dir / f"{year}.md").write_text(make_full_year(year))
 
@@ -512,8 +522,6 @@ def main():
                 args.year,
                 lambda root_dir, year: patch_readme(inline_python_off),
             )
-
-        print(args)
 
         if (
             not args.tex_on
