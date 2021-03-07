@@ -183,7 +183,7 @@ print(f"total_lea_gagne: {total_lea_gagne}/{total_nb} = {f}")
 print(f"max_lea_f: {max_lea_f}")
 ```
 
-> réponse: Léa a p=1/2 chances de gagner: . Si elle choisit bien son dé, elle a p=2/3 chances de gagner
+> réponse: Léa a p=1/2 chances de gagner. Si elle choisit bien son dé, elle a p=2/3 chances de gagner
 
 ## Mardi 11 Août
 
