@@ -546,6 +546,12 @@ for n in range(55, 121):
 
 ## Jeudi 27 Août
 
+![damier](27.svg)
+
+Source en [LaTeX](27.tex) du dessin réalisé avec [TikZ](https://pgf-tikz.github.io/).
+
+> réponse: cf. damier
+
 ## Vendredi 28 Août
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_2%26%3D1%5Ctimes%28a_0%2Ba_1%29%3D1%5Ctimes%281%2B1%29%3D2%20%5C%5C%0Aa_3%26%3D2%5Ctimes%28a_1%2Ba_2%29%3D2%5Ctimes%281%2B2%29%3D6%20%5C%5C%0Aa_4%26%3D3%5Ctimes%28a_2%2Ba_3%29%3D3%5Ctimes%282%2B6%29%3D24%20%5C%5C%0A%5Cend%7Baligned%7D)
