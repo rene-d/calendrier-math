@@ -123,7 +123,7 @@ Idem au dessus de la diagonale.
 
 ![schéma](15.png)
 
-Soit C' le symétrique de C par rapport à AB et N' le symétrique de B par rapport à AC.
+Soit C' le symétrique de C par rapport à AB et B' le symétrique de B par rapport à AC.
 
 On a donc EB = EB' et DC = DC'. Donc BE+ED+DC = B'E+ED+DC'.
 
