@@ -15,7 +15,7 @@ from itertools import permutations
 
 nb = 0
 for n in permutations(range(1, 13)):
-    if n[0] == 2:
+    if n[0] != 1:
         # pas la peine de refaire toutes les permutations avec 1 à une autre place
         nb *= 12
         break
@@ -127,15 +127,11 @@ r = 6 ** 12
 nb = 0
 for a, b in product(range(7), repeat=2):
     x = 2 ** a * 3 ** b
-
     for c, d in product(range(5), repeat=2):
-
         y = 2 ** c * 3 ** d
-
         if x ** 2 * y ** 3 == r:
             nb += 1
             print(f"{nb:2} x=2^{a}*3^{b}={x:5} y=2^{c}*3^{d}={y:5}")
-
 print("réponse:", nb)
 ```
 

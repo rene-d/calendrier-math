@@ -6,7 +6,7 @@
 
 ## Solutions 2020
 
-![258/262](https://img.shields.io/static/v1?label=solutions&message=258/262%20%2898%25%29&color=blueviolet&style=flat-square)
+![259/262](https://img.shields.io/static/v1?label=solutions&message=259/262%20%2899%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -34,7 +34,7 @@
 
 ### Mars
 
-[![21/22](https://img.shields.io/static/v1?label=en%20cours&message=21/22&color=informational&style=flat-square)](mars/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](mars/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -42,7 +42,7 @@
 | [02](mars/README.md#lundi-2-mars) | [03](mars/README.md#mardi-3-mars) | [04](mars/README.md#mercredi-4-mars) | [05](mars/README.md#jeudi-5-mars) | [06](mars/README.md#vendredi-6-mars) | *07* | *08* |
 | [09](mars/README.md#lundi-9-mars) | [10](mars/README.md#mardi-10-mars) | [11](mars/README.md#mercredi-11-mars) | [12](mars/README.md#jeudi-12-mars) | [13](mars/README.md#vendredi-13-mars) 🖥 | *14* | *15* |
 | [16](mars/README.md#lundi-16-mars) | [17](mars/README.md#mardi-17-mars) | [18](mars/README.md#mercredi-18-mars) | [19](mars/README.md#jeudi-19-mars) | [20](mars/README.md#vendredi-20-mars) | *21* | *22* |
-| 23 | [24](mars/README.md#mardi-24-mars) | [25](mars/README.md#mercredi-25-mars) | [26](mars/README.md#jeudi-26-mars) | [27](mars/README.md#vendredi-27-mars) 🖥 | *28* | *29* |
+| [23](mars/README.md#lundi-23-mars) 🖥 | [24](mars/README.md#mardi-24-mars) | [25](mars/README.md#mercredi-25-mars) | [26](mars/README.md#jeudi-26-mars) | [27](mars/README.md#vendredi-27-mars) 🖥 | *28* | *29* |
 | [30](mars/README.md#lundi-30-mars) | [31](mars/README.md#mardi-31-mars) |    |    |    |    |    |
 
 ### Avril

@@ -25,7 +25,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![254/261](https://img.shields.io/static/v1?label=solutions&message=254/261%20%2897%25%29&color=blueviolet&style=flat-square)
+![261/261](https://img.shields.io/static/v1?label=solutions&message=261/261%20%28100%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -126,27 +126,27 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Septembre
 
-[![19/22](https://img.shields.io/static/v1?label=en%20cours&message=19/22&color=informational&style=flat-square)](2021/septembre/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](2021/septembre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-|    |    | [01](2021/septembre/README.md#mercredi-1-septembre) | 02 | [03](2021/septembre/README.md#vendredi-3-septembre) | *04* | *05* |
+|    |    | [01](2021/septembre/README.md#mercredi-1-septembre) | [02](2021/septembre/README.md#jeudi-2-septembre) | [03](2021/septembre/README.md#vendredi-3-septembre) | *04* | *05* |
 | [06](2021/septembre/README.md#lundi-6-septembre) | [07](2021/septembre/README.md#mardi-7-septembre) | [08](2021/septembre/README.md#mercredi-8-septembre) | [09](2021/septembre/README.md#jeudi-9-septembre) | [10](2021/septembre/README.md#vendredi-10-septembre) | *11* | *12* |
-| [13](2021/septembre/README.md#lundi-13-septembre) | [14](2021/septembre/README.md#mardi-14-septembre) | 15 | [16](2021/septembre/README.md#jeudi-16-septembre) | [17](2021/septembre/README.md#vendredi-17-septembre) | *18* | *19* |
-| 20 | [21](2021/septembre/README.md#mardi-21-septembre) | [22](2021/septembre/README.md#mercredi-22-septembre) | [23](2021/septembre/README.md#jeudi-23-septembre) | [24](2021/septembre/README.md#vendredi-24-septembre) 🖥 | *25* | *26* |
+| [13](2021/septembre/README.md#lundi-13-septembre) | [14](2021/septembre/README.md#mardi-14-septembre) | [15](2021/septembre/README.md#mercredi-15-septembre) | [16](2021/septembre/README.md#jeudi-16-septembre) | [17](2021/septembre/README.md#vendredi-17-septembre) | *18* | *19* |
+| [20](2021/septembre/README.md#lundi-20-septembre) | [21](2021/septembre/README.md#mardi-21-septembre) | [22](2021/septembre/README.md#mercredi-22-septembre) | [23](2021/septembre/README.md#jeudi-23-septembre) | [24](2021/septembre/README.md#vendredi-24-septembre) 🖥 | *25* | *26* |
 | [27](2021/septembre/README.md#lundi-27-septembre) | [28](2021/septembre/README.md#mardi-28-septembre) | [29](2021/septembre/README.md#mercredi-29-septembre) | [30](2021/septembre/README.md#jeudi-30-septembre) |    |    |    |
 
 ### Octobre
 
-[![17/21](https://img.shields.io/static/v1?label=en%20cours&message=17/21&color=informational&style=flat-square)](2021/octobre/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](2021/octobre/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](2021/octobre/README.md#vendredi-1-octobre) | *02* | *03* |
 | [04](2021/octobre/README.md#lundi-4-octobre) | [05](2021/octobre/README.md#mardi-5-octobre) | [06](2021/octobre/README.md#mercredi-6-octobre) | [07](2021/octobre/README.md#jeudi-7-octobre) | [08](2021/octobre/README.md#vendredi-8-octobre) | *09* | *10* |
-| 11 | [12](2021/octobre/README.md#mardi-12-octobre) 🖥 | 13 | [14](2021/octobre/README.md#jeudi-14-octobre) | [15](2021/octobre/README.md#vendredi-15-octobre) 🖥 | *16* | *17* |
-| 18 | [19](2021/octobre/README.md#mardi-19-octobre) | [20](2021/octobre/README.md#mercredi-20-octobre) | [21](2021/octobre/README.md#jeudi-21-octobre) | [22](2021/octobre/README.md#vendredi-22-octobre) | *23* | *24* |
-| [25](2021/octobre/README.md#lundi-25-octobre) | [26](2021/octobre/README.md#mardi-26-octobre) 🖥 | [27](2021/octobre/README.md#mercredi-27-octobre) | 28 | [29](2021/octobre/README.md#vendredi-29-octobre) | *30* | *31* |
+| [11](2021/octobre/README.md#lundi-11-octobre) 🖥 | [12](2021/octobre/README.md#mardi-12-octobre) 🖥 | [13](2021/octobre/README.md#mecredi-13-octobre) | [14](2021/octobre/README.md#jeudi-14-octobre) | [15](2021/octobre/README.md#vendredi-15-octobre) 🖥 | *16* | *17* |
+| [18](2021/octobre/README.md#lundi-18-octobre) | [19](2021/octobre/README.md#mardi-19-octobre) | [20](2021/octobre/README.md#mercredi-20-octobre) | [21](2021/octobre/README.md#jeudi-21-octobre) | [22](2021/octobre/README.md#vendredi-22-octobre) | *23* | *24* |
+| [25](2021/octobre/README.md#lundi-25-octobre) | [26](2021/octobre/README.md#mardi-26-octobre) 🖥 | [27](2021/octobre/README.md#mercredi-27-octobre) | [28](2021/octobre/README.md#jeudi-28-octobre) | [29](2021/octobre/README.md#vendredi-29-octobre) | *30* | *31* |
 
 ### Novembre
 

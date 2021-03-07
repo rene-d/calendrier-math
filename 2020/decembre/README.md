@@ -40,7 +40,7 @@ En remplaçant:
 
 ## Vendredi 4 Décembre
 
-Il y a 21 chances sur 25 de prendre une première calculette non défectueuse. Pius 20 sur 24 d'en prendre une deuxième. Etc.
+Il y a 21 chances sur 25 de prendre une première calculette non défectueuse. Puis 20 chances sur 24 d'en prendre une deuxième. Etc.
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B21%7D%7B25%7D%5Ctimes%5Cfrac%7B20%7D%7B24%7D%5Ctimes%5Cfrac%7B19%7D%7B23%7D%5Ctimes%5Cfrac%7B18%7D%7B22%7D%3D%5Cfrac%7B969%7D%7B2530%7D)
 
@@ -204,7 +204,7 @@ p ne peut être multiple de 3 (ni de 2 d'ailleurs). Il s'écrit donc 3k + 1 ou 3
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B1%29-10%20%3D%203k%20-%209%20%3D%203%28k-3%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%20%5C%5C%0Ap%2B10%3D%283k%2B1%29%2B10%0A%5Cend%7Bcases%7D%20%5C%5C%0A%5C%5C%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B2%29-10%20%5C%5C%0Ap%2B10%3D%283k%2B2%29%2B10%20%3D%203k%20%2B%2012%20%3D%203%28k%2B4%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
 
-Donc la seule solution est p = 13
+Donc la seule solution est p = 13.
 
 > réponse: p = 13 (3, 13, 23 premiers)
 
@@ -224,7 +224,7 @@ Par ailleurs, on peut vérifier que cela correspond à la décomposition en fact
 
 ## Mercredi 30 Décembre
 
-Tous les nombres premiers 2 3 5  7 11 13  17 19 conviennent.
+Tous les nombres premiers 2 3 5 7 11 13 17 19 conviennent par définition.
 
 1 aussi convient à l'énoncé.
 

@@ -82,7 +82,7 @@ x - p = -2 p + 2
 
 > réponse: -2 p + 2
 
-## Lundi 11 Octotbre
+## Lundi 11 Octobre
 
 Il y a 3⁴ opérations possibles: on peut soustraire, additionner ou soustraire chaque nombre.
 
@@ -145,6 +145,14 @@ print(f"4 {a21} 3")
 4 8 3
 ```
 
+## Mecredi 13 Octobre
+
+aire ABCD = aire DCB + aire ABD = aire ABC + aire DCA
+
+aire DCB = aire ABC + aire DCA -  aire ABD = aire DCA = 5 cm²
+
+> réponse: 5 cm²
+
 ## Jeudi 14 Octobre
 
 Nota: ab ≠ 0
@@ -195,6 +203,10 @@ print(n)
 > réponse: 101
 
 ## Lundi 18 Octobre
+
+![schéma](18.png)
+
+> réponse: 5
 
 ## Mardi 19 Octobre
 
@@ -287,6 +299,10 @@ Si B = 8: 2A608 divisible par 3 ⇒ A = 2, 5, 8
 > réponse: 6
 
 ## Jeudi 28 Octobre
+
+On fixe une couleur pour un sommet. Puis il y a 3 rotations qui donneront la même disposition.
+
+> réponse: 7! / 3 = 1680
 
 ## Vendredi 29 Octobre
 

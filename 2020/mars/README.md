@@ -226,7 +226,7 @@ print(r)
 print(np.sum(r) + x4)
 ```
 
-> résultat: 4
+> réponse: 4
 
 ## Mardi 24 Mars
 

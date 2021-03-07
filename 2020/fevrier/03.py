@@ -4,7 +4,7 @@ from itertools import permutations
 
 nb = 0
 for n in permutations(range(1, 13)):
-    if n[0] == 2:
+    if n[0] != 1:
         # pas la peine de refaire toutes les permutations avec 1 à une autre place
         nb *= 12
         break

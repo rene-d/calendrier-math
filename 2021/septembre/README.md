@@ -10,6 +10,45 @@ Le critère de divisibilité par 3 est que la somme des chiffres soit multiple d
 
 ## Jeudi 2 Septembre
 
+Cela revient à compter le nombre de rectangles ci-dessous:
+
+```text
+X
+XX
+XXX
+XXXX
+XXXXX
+```
+
+Il y a 15 rectangles. Chaque rectangle est le coin inférieur gauche d'un autre rectangle.
+
+Sur ligne du bas, de gauche à droite: on peut faire:
+
+- 5+4+3+2+1 = 15 rectangles (5 de hauteur 1, 4 de hauteur 2, 3 de hauteur 3, etc.)
+- 4+3+2+1 = 10 (4x1, 3 de h2, 2 h3, 1 de h4)
+- 3+2+1 = 6
+- 2+1 = 3
+- 1 = 1
+
+Soit 35 pour la dernière ligne.
+
+Pour l'avant-dernière ligne:
+
+- 4+3+2+1 = 10
+- 3+2+1
+- 2+1
+- 1
+
+Soit 20.
+
+De même, 10 en partant la ligne du milieu, puis 4, puis 1.
+
+Au total: 35+20+10+4+1 = 70
+
+Nota: la formule générale est ![latex](https://render.githubusercontent.com/render/math?math=n%28n%2B1%29%28n%2B2%29%28n%2B3%29/24&mode=inline) - cf. [A000332](https://oeis.org/A000332).
+
+> réponse: 70
+
 ## Vendredi 3 Septembre
 
 x⁴ - 51x² + 50 = (x² - 1)(x² - 50)
@@ -82,6 +121,22 @@ Idem au dessus de la diagonale.
 
 ## Mercredi 15 Septembre
 
+![schéma](15.png)
+
+Soit C' le symétrique de C par rapport à AB et N' le symétrique de B par rapport à AC.
+
+On a donc EB = EB' et DC = DC'. Donc BE+ED+DC = B'E+ED+DC'.
+
+La plus court chemin de B' à C' étant la ligne droite, il faut calculer cette distance qui sera la longueur minimale recherchée.
+
+Par construction des points B' et C', l'angle ∠C'AB' est le triple de ∠BAC, soit 120°.
+
+La [loi des cosinus](https://fr.wikipedia.org/wiki/Loi_des_cosinus) permet de calculer B'C':
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28B%27C%27%29%5E2%20%26%3D%20%28AC%27%29%5E2%2B%28AB%27%29%5E2-2%28AC%27%29%28AB%27%29cos%28120%C2%B0%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%26%3D%206%5E2%2B10%5E2-2%5Ctimes%2010%5Ctimes%206%5Ctimes%20%5Cleft%28-%5Cdfrac%7B1%7D%7B2%7D%5Cright%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%26%3D%20136%2B60%20%3D%20196%20%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%26%3D%7B14%7D%5E2%0A%5Cend%7Baligned%7D)
+
+> réponse: 14 cm
+
 ## Jeudi 16 Septembre
 
 Trois équations à trois inconnues:
@@ -113,6 +168,28 @@ Les nombres qui conviennent sont les permutations différentes de 5577.
 > réponse: 6
 
 ## Lundi 20 Septembre
+
+Soit (![latex](https://render.githubusercontent.com/render/math?math=a_i&mode=inline)) la série des 1000 nombres. ![latex](https://render.githubusercontent.com/render/math?math=%28a_i%29%3D0&mode=inline) est une solution triviale. Et dès qu'il y a un nombre égal à 0, son voisin est aussi égal à 0, etc. Donc tous les nombres sont nuls ou aucun ne l'est.
+
+```text
+N B N B N B
+    n*0*n       si un blanc=0 un noir dans être = 0 pour n*n=0
+  b+0+b         si un noir=0 alors le blanc=0 parce b=0*autre voisin
+```
+
+Supposons donc ici que ![latex](https://render.githubusercontent.com/render/math?math=a_i%20%5Cne%200&mode=inline). Dès la deuxième égalité, on va voir que ![latex](https://render.githubusercontent.com/render/math?math=a_1%5Cne1&mode=inline) (sinon ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) serait forcément égal à 0 et tous les nombres seraient aussi égaux à 0 come vu ci-avant, ce qui provoque une contradiction).
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_0%2Ba_2%3Da_1%20%5Cimplies%20%26a_2%3Da_1%20-%20a_0%20%5C%5C%0Aa_1%5Ctimes%20a_3%3Da_2%20%5Cimplies%20%26a_3%3D%28a_1%20-%20a_0%29%20/%20a_1%3D1-a_0/a_1%20%5C%5C%0Aa_2%2Ba_4%3Da_3%20%5Cimplies%20%26a_4%3D%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%20%5C%5C%0Aa_3%5Ctimes%20a_5%3Da_4%20%5Cimplies%20%26a_5%3D%5Cfrac%7B%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%7D%20%7B%28a_1%20-%20a_0%29%20/%20a_1%7D%20%3D%201%20-%20a_1%20%5C%5C%0Aa_4%2Ba_6%3Da_5%20%5Cimplies%20%26a_6%3D%281%20-%20a_1%29%20-%20%5Cleft%5B%20%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%20%5Cright%5D%20%3D%20a_0%20%281%20-%20a_1%29/a_1%20%5C%5C%0Aa_5%5Ctimes%20a_7%3Da_6%20%5Cimplies%20%26a_7%3D%5Cfrac%7Ba_0%281%20-%20a_1%29/a_1%7D%7B1%20-%20a_1%7D%20%3D%20a_0%20/%20a_1%20%5C%5C%0Aa_6%2Ba_8%3Da_7%20%5Cimplies%20%26a_8%3D%20%28a_0%20/%20a_1%29%20-%20%5Cleft%5Ba_0%20%281%20-%20a_1%29/a_1%5Cright%5D%20%3D%20a_0%20%5C%5C%0Aa_7%5Ctimes%20a_9%3Da_8%20%5Cimplies%20%26a_9%3D%5Cfrac%7Ba_0%7D%7Ba_0%20/%20a_1%7D%20%3D%20a_1%0A%5Cend%7Baligned%7D)
+
+On constate donc que ![latex](https://render.githubusercontent.com/render/math?math=a_%7B0%7D%3Da_%7B8%7D&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=a_%7B1%7D%3Da_%7B9%7D&mode=inline). Par conséquent il y a un cycle de longueur 8 et  ![latex](https://render.githubusercontent.com/render/math?math=a_%7Bi%7D%3Da_%7Bi%2B8%7D&mode=inline). Faisons la somme des ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) à ![latex](https://render.githubusercontent.com/render/math?math=a_7&mode=inline) :
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AS%26%3Da_0%0A%2Ba_1%0A%2B%28a_1-a_0%29%0A%2B%281-a_0/a_1%29%0A%2B%5Cleft%5B%28a_1-a_0%29/a_1-%28a_1-a_0%29%5Cright%5D%0A%2B%281-a_1%29%0A%2B%28a_0%20%281-a_1%29/a_1%29%0A%2B%28a_0/a_1%29%20%5C%5C%0A%26%3D3%0A%5Cend%7Baligned%7D)
+
+Ainsi, tous les huit nombres, la somme est 3. Comme 1000 est un multiple de 8 et 1000 / 8 = 125, la somme totale est 3 × 125 = 375.
+
+(🙏 Merci à [WolframAlpha](https://www.wolframalpha.com) pour les calculs symboliques et à [Visual Studio Code](https://code.visualstudio.com) et son ⌘2 afin d'écrire l'expression en [![latex](https://render.githubusercontent.com/render/math?math=%5CLaTeX&mode=inline)](https://www.latex-project.org)).
+
+> réponse: 0 ou 375
 
 ## Mardi 21 Septembre
 
