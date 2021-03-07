@@ -485,28 +485,43 @@ def main():
     elif args.init:
         process_years(args.root, args.year, init_year)
 
-    elif args.tex_on:
-        process_years(
-            args.root, args.year, lambda root_dir, year: patch_readme(render_latex_on)
-        )
-
-    elif args.tex_off:
-        process_years(
-            args.root, args.year, lambda root_dir, year: patch_readme(render_latex_off)
-        )
-
-    elif args.python_on:
-        process_years(
-            args.root, args.year, lambda root_dir, year: patch_readme(inline_python_on)
-        )
-
-    elif args.python_off:
-        process_years(
-            args.root, args.year, lambda root_dir, year: patch_readme(inline_python_off)
-        )
-
     else:
-        process_years(args.root, args.year, generate_calendar)
+
+        if args.tex_on:
+            process_years(
+                args.root,
+                args.year,
+                lambda root_dir, year: patch_readme(render_latex_on),
+            )
+        elif args.tex_off:
+            process_years(
+                args.root,
+                args.year,
+                lambda root_dir, year: patch_readme(render_latex_off),
+            )
+
+        if args.python_on:
+            process_years(
+                args.root,
+                args.year,
+                lambda root_dir, year: patch_readme(inline_python_on),
+            )
+        elif args.python_off:
+            process_years(
+                args.root,
+                args.year,
+                lambda root_dir, year: patch_readme(inline_python_off),
+            )
+
+        print(args)
+
+        if (
+            not args.tex_on
+            and not args.tex_off
+            and not args.python_on
+            and not args.python_off
+        ):
+            process_years(args.root, args.year, generate_calendar)
 
 
 if __name__ == "__main__":
