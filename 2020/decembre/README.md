@@ -174,6 +174,16 @@ D'où x = 3 + 6 - 5 = 2
 
 ## Mardi 22 Décembre
 
+Une personne connait au maximum trois personnes.
+
+Ces trois personnes connaissent à leur tour trois personnes au maxium mais parmi ces trois connaissances il doit y avoir la première personne (connaissance en commun). Donc elles ne peuvent connaitre que deux autres différentes.
+
+Il ne peut y avoir d'autres personnes sinon la première personne n'aurait pas de connaissance en commun avec ces nouvelles.
+
+Soit au total: 1 + 3 + 6 = 10
+
+> réponse: 10
+
 ## Mercredi 23 Décembre
 
 Pythagore donne le résultat immédiatement: AE = √((20 - 15)² + 20²) = √425 = 5 √17
