@@ -189,7 +189,7 @@ print(f"max_lea_f: {max_lea_f}")
 
 Soit d le chiffre des dizaines de n et u celui des unités.
 
-Ils sont solution de l'équation:
+Ils sont solutions de l'équation:
 
 d × u + d + u = 10 × d + u
 
@@ -587,5 +587,7 @@ for n in range(1, 2021):
 ## Lundi 31 Août
 
 ![schéma](31.png)
+
+Il y a un quart de l'hémisphère sud qui intercepte le carré.
 
 > réponse: 1 / 8
