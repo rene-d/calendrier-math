@@ -103,7 +103,7 @@
 | [03](aout/README.md#lundi-3-août) | [04](aout/README.md#mardi-4-août) | [05](aout/README.md#mercredi-5-août) | [06](aout/README.md#jeudi-6-août) | [07](aout/README.md#vendredi-7-août) 🖥 | *08* | *09* |
 | [10](aout/README.md#lundi-10-août) 🖥 | [11](aout/README.md#mardi-11-août) 🖥 | [12](aout/README.md#mercredi-12-août) 🖥 | [13](aout/README.md#jeudi-13-août) | [14](aout/README.md#vendredi-14-août) | *15* | *16* |
 | [17](aout/README.md#lundi-17-août) 🖥 | [18](aout/README.md#mardi-18-août) | [19](aout/README.md#mercredi-19-août) | [20](aout/README.md#jeudi-20-août) 🖥 | [21](aout/README.md#vendredi-21-août) | *22* | *23* |
-| [24](aout/README.md#lundi-24-août) | [25](aout/README.md#mardi-25-août) | [26](aout/README.md#mercredi-26-août) 🖥 | [27](aout/README.md#jeudi-27-août) 🖥 | [28](aout/README.md#vendredi-28-août) 🖥 | *29* | *30* |
+| [24](aout/README.md#lundi-24-août) | [25](aout/README.md#mardi-25-août) | [26](aout/README.md#mercredi-26-août) 🖥 | [27](aout/README.md#jeudi-27-août) | [28](aout/README.md#vendredi-28-août) 🖥 | *29* | *30* |
 | [31](aout/README.md#lundi-31-août) |    |    |    |    |    |    |
 
 ### Septembre
