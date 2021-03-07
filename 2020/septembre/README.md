@@ -371,11 +371,13 @@ print(f"n={n:5} tn={tn}")
 
 ## Mercredi 30 Septembre
 
-Soient r₀, -r₀ et r₁ les trois racines de P(x).
+Soient r₀, -r₀ et r₁ les trois racines de P(x). Le polynome peut donc s'écrire:
 
 P(x) = (x - r₀) × (x + r₀) × (x - r₁)
 
 P(x) = x³ - r₁ x² - r₀² x + r₀² r₁
+
+Faisons l'équivalence avec l'expression développée:
 
 P(x) = x³ + a x² + b x + c
 
@@ -385,6 +387,6 @@ On a donc:
 - b = -r₀²
 - c = r₀² r₁
 
-D'où: ab - c = (-r₀²)(-r₀²) - r₀² r₁ = 0
+D'où: ab - c = (-r₁)(-r₀²) - r₀² r₁ = 0
 
 > réponse: 0
