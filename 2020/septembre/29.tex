@@ -1,5 +1,4 @@
-% latex -interaction nonstopmode 27.tex && dvisvgm -a -n 27.dvi
-% puis ajuster width/height/viewBox du svg à la main...
+% latex -interaction=nonstopmode 29.tex && dvisvgm -a -n 29.dvi
 
 \documentclass{article}
 \usepackage{tikz}
@@ -11,12 +10,15 @@
 
 \begin{document}
 
+% l'interstice entre les pièces
 \def\a{0.03}
 
+% carré
 \newcommand{\piece}[3]{
     \fill [blue,very thick] (#1+\a,#2+\a) rectangle (#1+#3-\a,#2+#3-\a);
 }
 
+% bloc 11x12
 \newcommand{\blocv}[2]{
     \foreach \y in {0,3,6,9}{
             \foreach \x in {0,3,6}{
@@ -28,6 +30,7 @@
         }
 }
 
+% bloc 12x11
 \newcommand{\bloch}[2]{
     \foreach \y in {0,3,6}{
             \foreach \x in {0,3,6,9}{

@@ -548,7 +548,7 @@ for n in range(55, 121):
 
 ![damier](27.svg)
 
-Source en [LaTeX](27.tex) du dessin réalisé avec [TikZ](https://pgf-tikz.github.io/).
+Code [source](27.tex) du dessin réalisé avec [TikZ](https://pgf-tikz.github.io/) en LaTeX .
 
 > réponse: cf. damier
 

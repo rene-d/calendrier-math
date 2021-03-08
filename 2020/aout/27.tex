@@ -1,14 +1,15 @@
-% latex -interaction nonstopmode 27.tex && dvisvgm -a -n 27.dvi
-% puis ajuster width/height/viewBox du svg à la main...
+% latex 27.tex && dvisvgm -a -n 27.dvi
 
 \documentclass{article}
 \usepackage{tikz}
+\usepackage[margin=0mm]{geometry}
 
-\usepackage{geometry}
-\geometry{ left=0pt, top=0pt}
+\pagestyle{empty}
+\geometry{left=0pt,top=0pt,paperwidth=90mm,paperheight=85mm}
 
 \begin{document}
 
+% l'interstice entre les pièces
 \def\a{0.03}
 
 % ┛ 180
@@ -26,7 +27,7 @@
     % le fond du damier
     \fill [red] (0,0) rectangle (8,8);
 
-    % la rangée de bordure du damier
+    % la rangée de bordure du damier (plusieurs dispositions possibles)
     \piece{0}{6}{0}
     \piece{0}{5}{180}
     \piece{0}{3}{270}
@@ -50,7 +51,7 @@
     % le carré interdit
     \draw [fill=yellow] (4+\a,3+\a) rectangle (5-\a,4-\a);
 
-    % remplissage du centre en évitant l'interdit
+    % remplissage du centre en évitant le carré interdit
     \piece{2}{2}{90}
     \piece{4}{2}{180}
     \piece{2}{4}{0}
