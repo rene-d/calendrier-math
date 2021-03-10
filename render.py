@@ -186,13 +186,11 @@ def render(
             nocdn = True
 
     if nocdn:
-        svg_url = svgdir / "{name}.svg"
-
         docdir = output.parent
         up_dir = Path()
         while True:
             try:
-                svg_url = (up_dir / svgdir.relative_to(docdir)).as_posix()
+                svg_url = (up_dir / svgdir.relative_to(docdir) / "{name}.svg").as_posix()
                 break
             except ValueError:
                 if docdir == ".":
@@ -326,11 +324,11 @@ def render(
         tail = []
         if bustcache:
             tail.append("%x" % random.randint(0, 1e12))
-        img = '<img alt=%s src="%s%s" %s width="%spt" height="%spt"/>' % (
+        img = '<img alt=%s src="%s%s" %s width="%.6fpt" height="%.6fpt"/>' % (
             '"LaTeX"',  # quoteattr(equation),
             url,
             "?%s" % ("&".join(tail)) if tail else "",
-            ('valign="%spx"' % (-off * scale) if use_valign else 'align="middle"'),
+            f'valign="{-off * scale:.6f}px"' if use_valign else 'align="middle"',
             width,
             height,
         )
