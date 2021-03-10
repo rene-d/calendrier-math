@@ -13,7 +13,7 @@ import argparse
 from urllib.parse import quote, unquote
 import subprocess
 
-# from render import render  # readme2tex
+from render import render  # readme2tex
 
 
 USE_BADGES = True
@@ -267,17 +267,17 @@ def readme2tex():
             continue
 
         print(f"render {solutions_md}")
-        cwd = os.getcwd()
-        os.chdir(Path(month_norm))
+        # cwd = os.getcwd()
+        # os.chdir(Path(month_norm))
         render(
-            "INPUT.md",
-            "README.md",
-            svgdir="svgs",
+            solutions_md,
+            solutions_md.parent / "README.md",
+            svgdir=solutions_md.parent / "svgs",
             packages=("amsmath", "amssymb", "amsthm", "tikz"),
             nocdn=True,
             use_valign=True,
         )
-        os.chdir(cwd)
+        # os.chdir(cwd)
 
 
 def patch_readme(repl_func):
@@ -347,7 +347,7 @@ def generate_calendar(root_dir, year):
     # prépare les README.md mensuels
     patch_readme(inline_python_on)
     patch_readme(render_latex_on)
-    # readme2tex()
+    readme2tex()
 
     if year == CURRENT_YEAR:
         readme_md = root_dir / Path("README.md")

@@ -199,8 +199,6 @@ def render(
                     logging.fatal("Cannot find svgs relative path to svgdir")
                 docdir = docdir.parent
                 up_dir /= ".."
-        print(svg_url)
-        exit()
     else:
         svg_url = "https://cdn.jsdelivr.net/gh/{user}/{project}@{branch}/{svgdir}/{name}.svg"
     if pngtrick:
@@ -252,7 +250,8 @@ def render(
         #############################################################################################################
         # LaTex rendering
         #
-        logging.debug(f"render: {equation} {name}")
+        short_equation = equation[:20].replace("\n", "␤")
+        logging.debug(f"render: {short_equation} {name}")
 
         svg, dvi, name = rendertex(engine, equation, packages, temp_dir, block)
 
@@ -339,6 +338,7 @@ def render(
             img = '<p align="center">%s</p>' % img
         new = new[:start] + img + new[end:]
 
+    md = None
     if branch and branch != working_branch:
         # if we use a dedicated branch, we use Git to get content
         try:
@@ -450,12 +450,12 @@ def render(
 
 
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.DEBUG)
-render(
-    "toto.md",
-    output="docs/2021/README.md",
-    svgdir="docs/svgs",
-    packages=("tikz", "amsmath", "amssymb"),
-    branch="gh_pages",
-    nocdn=True,
-    non_interactive=True,
-)
+# render(
+#     "toto.md",
+#     output="docs/2021/README.md",
+#     svgdir="docs/svgs",
+#     packages=("tikz", "amsmath", "amssymb"),
+#     branch="gh_pages",
+#     nocdn=True,
+#     non_interactive=True,
+# )

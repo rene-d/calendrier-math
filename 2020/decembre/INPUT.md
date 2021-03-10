@@ -24,9 +24,11 @@ A = 4 + 8 √2 + 4 = 8 + 8 √2
 
 Regroupons et calculons les facteurs deux par deux (pour n pair ≥ 2) :
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="520.93514715pt" height="39.452455349999994pt"/></p>
+$$
+\left(1+\frac{1}{n}\right)\times\left(1-\frac{1}{n+1}\right) = \left(\frac{n+1}{n}\right)\times\left(\frac{n+1-1}{n+1}\right)=\frac{(n+1)\times n}{n\times(n+1)}=1
+$$
 
-Il y a un nombre impair de facteurs, le dernier étant <img alt="LaTeX" src="svgs" valign="-5.66859480000001px" width="108.56618025pt" height="19.55642205pt"/>. Comme le produit des précédents vaut 1, le résultat est celui-ci.
+Il y a un nombre impair de facteurs, le dernier étant $1+\frac{1}{1000}=\frac{1001}{1000}$. Comme le produit des précédents vaut 1, le résultat est celui-ci.
 
 > réponse: 1001 / 1000
 
@@ -34,7 +36,9 @@ Il y a un nombre impair de facteurs, le dernier étant <img alt="LaTeX" src="svg
 
 En remplaçant:
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="534.05664345pt" height="18.312383099999998pt"/></p>
+$$
+ab+ac+bc = ab+ac+a^2-a+1 = a(a+b+c)-a+1=a-a+1=1
+$$
 
 > réponse: 1
 
@@ -42,7 +46,9 @@ En remplaçant:
 
 Il y a 21 chances sur 25 de prendre une première calculette non défectueuse. Puis 20 chances sur 24 d'en prendre une deuxième. Etc.
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="196.60244834999997pt" height="32.990165999999995pt"/></p>
+$$
+\frac{21}{25}\times\frac{20}{24}\times\frac{19}{23}\times\frac{18}{22}=\frac{969}{2530}
+$$
 
 > réponse: 969 / 2530
 
@@ -78,31 +84,60 @@ Le rayon du cercle est donc 1 cm.
 
 ## Jeudi 10 Décembre
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="294.93529064999996pt" height="139.72602765pt"/></p>
+$$
+\begin{aligned}
+&2 clou + 5 vis + 8 cheville = 150  &(1)\\
+&1 clou + 3 vis + 5 cheville = 80   &(2) \\
+\\
+&2\times(2)-(1) = vis+2cheville=10   \\
+&\implies vis=10-2cheville&(3) \\
+&\implies vis+2cheville=10&(4) \\
+\end{aligned}
+$$
 
 En utilisant (2), (3) puis (4):
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="397.11832215pt" height="111.41553884999999pt"/></p>
+$$
+\begin{aligned}
+&clou+vis+cheville\\
+&=(80-3vis-5cheville)+(10-2cheville)+cheville\\
+&=90-3vis-6cheville\\
+&=90-3(vis+2cheville)\\
+&=90-3\times 10 = 60
+\end{aligned}
+$$
 
 Une autre manière de faire (mais qui revient _in fine_ au même) est de fixer arbitrairement une valeur d'une inconnue puisque le système de deux équations à trois inconnues admet une infinie de solutions.
 
-Soit <img alt="LaTeX" src="svgs" valign="0.0px" width="86.70779205pt" height="11.4155283pt"/>. On a alors:
+Soit $cheville = 0$. On a alors:
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="134.75188814999998pt" height="97.8818247pt"/></p>
+$$
+\begin{aligned}
+&2 clou + 5 vis=150\\
+&1 clou + 3 vis=80 \\
+&\implies \begin{cases}vis=10 \\
+clou=50
+\end{cases}
+\end{aligned}
+$$
 
 Et donc:
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="289.9524639pt" height="12.785402849999999pt"/></p>
+$$
+clou+vis+cheville=50+10+9=60
+$$
 
 > réponse: clou + vis + cheville = 60 g
 
 ## Vendredi 11 Décembre
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="580.7952611999999pt" height="37.147307999999995pt"/></p>
+$$
+\frac{a^2+b^2+1}{ab+a+b}=-2 \iff  a^2+b^2+1+2ab+2a+2b=(a+b)^2+1+2(a+b)=0
+$$
 
-Soit <img alt="LaTeX" src="svgs" valign="-1.3698745500000056px" width="67.14775979999999pt" height="12.785402849999999pt"/>. L'équation devient: <img alt="LaTeX" src="svgs" valign="-1.3698729000000083px" width="112.9220763pt" height="14.750749199999998pt"/>.
+Soit $x=a+b$. L'équation devient: $x^2+2x+1=0$.
 
-La racine double du polynome du deuxième degré est <img alt="LaTeX" src="svgs" valign="-1.3698745499999938px" width="52.31726115pt" height="11.96348175pt"/>.
+La racine double du polynome du deuxième degré est $x=-1$.
 
 > réponse: a + b = -1
 
@@ -156,7 +191,7 @@ Karim a p = k et Laura p = l avec k + l = 1 / 2 et k = 2 l. Soit k = 1 / 3 et l 
 
 La probabilité que Jeanne gagne trois manches puis Karim deux puis Laura un est p = j³ × k² × l = 1 / 432
 
-Dans les 6 parties, Jeanne a <img alt="LaTeX" src="svgs" valign="-5.7535301999999975px" width="21.621118199999998pt" height="20.4632505pt"/> = 20 combinaisons d'en gagner 3. Karim a <img alt="LaTeX" src="svgs" valign="-5.7535301999999975px" width="51.75795899999999pt" height="20.4632505pt"/> possibilités pour gagner 2 des 3 restantes.
+Dans les 6 parties, Jeanne a ${6\choose 3}$ = 20 combinaisons d'en gagner 3. Karim a ${3\choose 2}=3$ possibilités pour gagner 2 des 3 restantes.
 
 Donc p = 20 × 3 × 1 / 432 = 5 / 36
 
@@ -212,7 +247,19 @@ p = 13 convient.
 
 p ne peut être multiple de 3 (ni de 2 d'ailleurs). Il s'écrit donc 3k + 1 ou 3k + 2. p-10 et p+10 valent alors:
 
-<p align="center"><img alt="LaTeX" src="svgs" valign="0.0px" width="691.8892629pt" height="131.50782809999998pt"/></p>
+$$
+\begin{aligned}
+&\begin{cases}
+p-10=(3k+1)-10 = 3k - 9 = 3(k-3) : \text{le nombre est multiple de 3 et donc non premier} \\
+p+10=(3k+1)+10
+\end{cases} \\
+\\
+&\begin{cases}
+p-10=(3k+2)-10 \\
+p+10=(3k+2)+10 = 3k + 12 = 3(k+4) : \text{le nombre est multiple de 3 et donc non premier}
+\end{cases}
+\end{aligned}
+$$
 
 Donc la seule solution est p = 13.
 
@@ -220,13 +267,13 @@ Donc la seule solution est p = 13.
 
 ## Mardi 29 Décembre
 
-<img alt="LaTeX" src="svgs" valign="-1.3698729000000083px" width="288.10499024999996pt" height="14.750749199999998pt"/>
+$125000027=5^3\times 100^3+3^3=500^3+3^3$
 
-Or, <img alt="LaTeX" src="svgs" valign="-4.109589000000009px" width="220.32690404999997pt" height="17.4904653pt"/>.
+Or, $a^3+b^3=(a+b)(a^2-ab+b^2)$.
 
-Donc: <img alt="LaTeX" src="svgs" valign="-4.109589000000009px" width="315.20558024999997pt" height="17.4904653pt"/>
+Donc: $125000027=(500+3)(500^2-500\times 3+3^2)$
 
-<img alt="LaTeX" src="svgs" valign="-4.109589000000009px" width="355.25134095pt" height="16.438356pt"/>
+$125000027=503\times(250000-1500+9)=248509$
 
 Par ailleurs, on peut vérifier que cela correspond à la décomposition en facteurs premiers.
 
