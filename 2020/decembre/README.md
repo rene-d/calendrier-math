@@ -24,9 +24,9 @@ A = 4 + 8 √2 + 4 = 8 + 8 √2
 
 Regroupons et calculons les facteurs deux par deux (pour n pair ≥ 2) :
 
-<p align="center"><img alt="LaTeX" src="svgs/fbfe3151adcd025c08b278d0423dda28.svg" valign="0.000000px" width="520.935147pt" height="39.452455pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%281%2B%5Cfrac%7B1%7D%7Bn%7D%5Cright%29%5Ctimes%5Cleft%281-%5Cfrac%7B1%7D%7Bn%2B1%7D%5Cright%29%20%3D%20%5Cleft%28%5Cfrac%7Bn%2B1%7D%7Bn%7D%5Cright%29%5Ctimes%5Cleft%28%5Cfrac%7Bn%2B1-1%7D%7Bn%2B1%7D%5Cright%29%3D%5Cfrac%7B%28n%2B1%29%5Ctimes%20n%7D%7Bn%5Ctimes%28n%2B1%29%7D%3D1)
 
-Il y a un nombre impair de facteurs, le dernier étant <img alt="LaTeX" src="svgs/7e375b74af221d1919f7518c16bac3c1.svg" valign="-5.668595px" width="108.566180pt" height="19.556422pt"/>. Comme le produit des précédents vaut 1, le résultat est celui-ci.
+Il y a un nombre impair de facteurs, le dernier étant ![latex](https://render.githubusercontent.com/render/math?math=1%2B%5Cfrac%7B1%7D%7B1000%7D%3D%5Cfrac%7B1001%7D%7B1000%7D&mode=inline). Comme le produit des précédents vaut 1, le résultat est celui-ci.
 
 > réponse: 1001 / 1000
 
@@ -34,7 +34,7 @@ Il y a un nombre impair de facteurs, le dernier étant <img alt="LaTeX" src="svg
 
 En remplaçant:
 
-<p align="center"><img alt="LaTeX" src="svgs/da1012aab15ed2037d751f6c097a163e.svg" valign="0.000000px" width="534.056643pt" height="18.312383pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=ab%2Bac%2Bbc%20%3D%20ab%2Bac%2Ba%5E2-a%2B1%20%3D%20a%28a%2Bb%2Bc%29-a%2B1%3Da-a%2B1%3D1)
 
 > réponse: 1
 
@@ -42,7 +42,7 @@ En remplaçant:
 
 Il y a 21 chances sur 25 de prendre une première calculette non défectueuse. Puis 20 chances sur 24 d'en prendre une deuxième. Etc.
 
-<p align="center"><img alt="LaTeX" src="svgs/ecb37d95ee1112019f2647b855938b5d.svg" valign="0.000000px" width="196.602448pt" height="32.990166pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B21%7D%7B25%7D%5Ctimes%5Cfrac%7B20%7D%7B24%7D%5Ctimes%5Cfrac%7B19%7D%7B23%7D%5Ctimes%5Cfrac%7B18%7D%7B22%7D%3D%5Cfrac%7B969%7D%7B2530%7D)
 
 > réponse: 969 / 2530
 
@@ -78,31 +78,31 @@ Le rayon du cercle est donc 1 cm.
 
 ## Jeudi 10 Décembre
 
-<p align="center"><img alt="LaTeX" src="svgs/dcf2eb748145661a9f6636063baaf3db.svg" valign="0.000000px" width="294.935291pt" height="139.726028pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%262%20clou%20%2B%205%20vis%20%2B%208%20cheville%20%3D%20150%20%20%26%281%29%5C%5C%0A%261%20clou%20%2B%203%20vis%20%2B%205%20cheville%20%3D%2080%20%20%20%26%282%29%20%5C%5C%0A%5C%5C%0A%262%5Ctimes%282%29-%281%29%20%3D%20vis%2B2cheville%3D10%20%20%20%5C%5C%0A%26%5Cimplies%20vis%3D10-2cheville%26%283%29%20%5C%5C%0A%26%5Cimplies%20vis%2B2cheville%3D10%26%284%29%20%5C%5C%0A%5Cend%7Baligned%7D)
 
 En utilisant (2), (3) puis (4):
 
-<p align="center"><img alt="LaTeX" src="svgs/30b3580c70d20aed0acc03d0771a641f.svg" valign="0.000000px" width="397.118322pt" height="111.415539pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26clou%2Bvis%2Bcheville%5C%5C%0A%26%3D%2880-3vis-5cheville%29%2B%2810-2cheville%29%2Bcheville%5C%5C%0A%26%3D90-3vis-6cheville%5C%5C%0A%26%3D90-3%28vis%2B2cheville%29%5C%5C%0A%26%3D90-3%5Ctimes%2010%20%3D%2060%0A%5Cend%7Baligned%7D)
 
 Une autre manière de faire (mais qui revient _in fine_ au même) est de fixer arbitrairement une valeur d'une inconnue puisque le système de deux équations à trois inconnues admet une infinie de solutions.
 
-Soit <img alt="LaTeX" src="svgs/93ff807afeb907c30c1bdfd3c979e6e4.svg" valign="0.000000px" width="86.707792pt" height="11.415528pt"/>. On a alors:
+Soit ![latex](https://render.githubusercontent.com/render/math?math=cheville%20%3D%200&mode=inline). On a alors:
 
-<p align="center"><img alt="LaTeX" src="svgs/89401485f3d32c7bfac57bd621dd2c13.svg" valign="0.000000px" width="134.751888pt" height="97.881825pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%262%20clou%20%2B%205%20vis%3D150%5C%5C%0A%261%20clou%20%2B%203%20vis%3D80%20%5C%5C%0A%26%5Cimplies%20%5Cbegin%7Bcases%7Dvis%3D10%20%5C%5C%0Aclou%3D50%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
 
 Et donc:
 
-<p align="center"><img alt="LaTeX" src="svgs/f040832068d84691621dfe5b5522a2bd.svg" valign="0.000000px" width="289.952464pt" height="12.785403pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=clou%2Bvis%2Bcheville%3D50%2B10%2B9%3D60)
 
 > réponse: clou + vis + cheville = 60 g
 
 ## Vendredi 11 Décembre
 
-<p align="center"><img alt="LaTeX" src="svgs/9b18e62ea0c158375f785bebcb659a17.svg" valign="0.000000px" width="580.795261pt" height="37.147308pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7Ba%5E2%2Bb%5E2%2B1%7D%7Bab%2Ba%2Bb%7D%3D-2%20%5Ciff%20%20a%5E2%2Bb%5E2%2B1%2B2ab%2B2a%2B2b%3D%28a%2Bb%29%5E2%2B1%2B2%28a%2Bb%29%3D0)
 
-Soit <img alt="LaTeX" src="svgs/791abb2fe9123d10536cb858c3dcbe7b.svg" valign="-1.369875px" width="67.147760pt" height="12.785403pt"/>. L'équation devient: <img alt="LaTeX" src="svgs/69023640c3225b4c05b6df923f1e1b37.svg" valign="-1.369873px" width="112.922076pt" height="14.750749pt"/>.
+Soit ![latex](https://render.githubusercontent.com/render/math?math=x%3Da%2Bb&mode=inline). L'équation devient: ![latex](https://render.githubusercontent.com/render/math?math=x%5E2%2B2x%2B1%3D0&mode=inline).
 
-La racine double du polynome du deuxième degré est <img alt="LaTeX" src="svgs/bf5ac0bcbf53cc190fe2bb49a301eed1.svg" valign="-1.369875px" width="52.317261pt" height="11.963482pt"/>.
+La racine double du polynome du deuxième degré est ![latex](https://render.githubusercontent.com/render/math?math=x%3D-1&mode=inline).
 
 > réponse: a + b = -1
 
@@ -156,7 +156,7 @@ Karim a p = k et Laura p = l avec k + l = 1 / 2 et k = 2 l. Soit k = 1 / 3 et l 
 
 La probabilité que Jeanne gagne trois manches puis Karim deux puis Laura un est p = j³ × k² × l = 1 / 432
 
-Dans les 6 parties, Jeanne a <img alt="LaTeX" src="svgs/2994c7ecb2310ac1d0abe335c226a5d6.svg" valign="-5.753530px" width="21.621118pt" height="20.463251pt"/> = 20 combinaisons d'en gagner 3. Karim a <img alt="LaTeX" src="svgs/0b15f8a072e156ab4694a2a4fdeacf59.svg" valign="-5.753530px" width="51.757959pt" height="20.463251pt"/> possibilités pour gagner 2 des 3 restantes.
+Dans les 6 parties, Jeanne a ![latex](https://render.githubusercontent.com/render/math?math=%7B6%5Cchoose%203%7D&mode=inline) = 20 combinaisons d'en gagner 3. Karim a ![latex](https://render.githubusercontent.com/render/math?math=%7B3%5Cchoose%202%7D%3D3&mode=inline) possibilités pour gagner 2 des 3 restantes.
 
 Donc p = 20 × 3 × 1 / 432 = 5 / 36
 
@@ -212,7 +212,7 @@ p = 13 convient.
 
 p ne peut être multiple de 3 (ni de 2 d'ailleurs). Il s'écrit donc 3k + 1 ou 3k + 2. p-10 et p+10 valent alors:
 
-<p align="center"><img alt="LaTeX" src="svgs/2e495ffdeb57a74cf28e2761cc170934.svg" valign="0.000000px" width="691.889263pt" height="131.507828pt"/></p>
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B1%29-10%20%3D%203k%20-%209%20%3D%203%28k-3%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%20%5C%5C%0Ap%2B10%3D%283k%2B1%29%2B10%0A%5Cend%7Bcases%7D%20%5C%5C%0A%5C%5C%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B2%29-10%20%5C%5C%0Ap%2B10%3D%283k%2B2%29%2B10%20%3D%203k%20%2B%2012%20%3D%203%28k%2B4%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
 
 Donc la seule solution est p = 13.
 
@@ -220,13 +220,13 @@ Donc la seule solution est p = 13.
 
 ## Mardi 29 Décembre
 
-<img alt="LaTeX" src="svgs/2523370ef4cfdb72c555ba80ed4b5129.svg" valign="-1.369873px" width="288.104990pt" height="14.750749pt"/>
+![latex](https://render.githubusercontent.com/render/math?math=125000027%3D5%5E3%5Ctimes%20100%5E3%2B3%5E3%3D500%5E3%2B3%5E3&mode=inline)
 
-Or, <img alt="LaTeX" src="svgs/013cc888ec6d41455a0b6075c850f857.svg" valign="-4.109589px" width="220.326904pt" height="17.490465pt"/>.
+Or, ![latex](https://render.githubusercontent.com/render/math?math=a%5E3%2Bb%5E3%3D%28a%2Bb%29%28a%5E2-ab%2Bb%5E2%29&mode=inline).
 
-Donc: <img alt="LaTeX" src="svgs/4b152c1763fb6c12102443e4d122e2d6.svg" valign="-4.109589px" width="315.205580pt" height="17.490465pt"/>
+Donc: ![latex](https://render.githubusercontent.com/render/math?math=125000027%3D%28500%2B3%29%28500%5E2-500%5Ctimes%203%2B3%5E2%29&mode=inline)
 
-<img alt="LaTeX" src="svgs/364222b130d07d6b14126e2a459e91e1.svg" valign="-4.109589px" width="355.251341pt" height="16.438356pt"/>
+![latex](https://render.githubusercontent.com/render/math?math=125000027%3D503%5Ctimes%28250000-1500%2B9%29%3D248509&mode=inline)
 
 Par ailleurs, on peut vérifier que cela correspond à la décomposition en facteurs premiers.
 
