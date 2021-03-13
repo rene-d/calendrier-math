@@ -51,11 +51,7 @@ DAYS = (
 def stage(filename):
     if "GIT_INDEX_FILE" not in os.environ:
         return
-    branch_name = (
-        subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"])
-        .decode()
-        .strip()
-    )
+    branch_name = subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"]).decode().strip()
     if branch_name == "main":
         subprocess.run(["git", "add", filename])
         print(f"staged {filename}")
@@ -165,9 +161,7 @@ def create_month(month, year):
             m = re.match(fr"^## (\w+) (\d+) {month_name}$", line.strip())
             if m:
                 current_day = int(m[2])
-                solutions_link[
-                    current_day
-                ] = f"{year_subdir}{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
+                solutions_link[current_day] = f"{year_subdir}{solutions_md}#{m[1].lower()}-{m[2]}-{month_lower}"
 
             m = re.match(f"^> réponse: (.*)$", line)
             if m and current_day:
@@ -242,9 +236,7 @@ def create_month(month, year):
         md.insert(1, "")
 
     else:
-        md[
-            0
-        ] += f" ({done_month} {'réalisés' if done_month > 1 else 'réalisé'} parmi {total_month} défis)"
+        md[0] += f" ({done_month} {'réalisés' if done_month > 1 else 'réalisé'} parmi {total_month} défis)"
 
     md.append("")
 
@@ -276,6 +268,7 @@ def readme2tex():
             packages=("amsmath", "amssymb", "amsthm", "tikz"),
             nocdn=True,
             use_valign=True,
+            non_interactive=True,
         )
         # os.chdir(cwd)
 
@@ -380,9 +373,7 @@ def generate_calendar(root_dir, year):
         progress = f"{done_total}/{total}%20%28{done_total/total*100:.0f}%25%29"
         readme_begin += f"![{done_total}/{total}](https://img.shields.io/static/v1?label=solutions&message={progress}&color=blueviolet&style=flat-square)\n\n"
     else:
-        readme_begin += (
-            f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
-        )
+        readme_begin += f"\n### Avancement\n\nNombre de solutions: {done_total} / {total}\n\n"
 
     readme = readme_begin + readme
 
@@ -523,12 +514,7 @@ def main():
                 lambda root_dir, year: patch_readme(inline_python_off),
             )
 
-        if (
-            not args.tex_on
-            and not args.tex_off
-            and not args.python_on
-            and not args.python_off
-        ):
+        if not args.tex_on and not args.tex_off and not args.python_on and not args.python_off:
             process_years(args.root, args.year, generate_calendar)
 
 

@@ -7,7 +7,7 @@ import re
 import sys
 import tempfile
 import xml.etree.ElementTree as ET
-from subprocess import check_output, DEVNULL
+import subprocess
 from xml.sax.saxutils import quoteattr
 import logging
 from pathlib import Path
@@ -133,6 +133,13 @@ def extract_equations(content):
             yield content[begin:cursor], begin, cursor, True
 
 
+def check_output(cmd):
+    logging.info(f'cmd: " ".join(cmd)')
+    ret = subprocess.check_output(cmd)
+    logging.info(f"ret: {ret}")
+    return ret
+
+
 def render(
     readme,
     output="README_GH.md",
@@ -226,7 +233,7 @@ def render(
             if branch and branch != working_branch:
                 # use Git show if we use a dedicated branch
                 try:
-                    svg = check_output(["git", "show", f"{branch}:{svg_path}"], stderr=DEVNULL)
+                    svg = check_output(["git", "show", f"{branch}:{svg_path}"], stderr=subprocess.DEVNULL)
                 except Exception:
                     logging.info(f"Cannot find {branch}:{svg_path}")
             else:
