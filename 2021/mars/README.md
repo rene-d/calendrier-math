@@ -161,13 +161,13 @@ n = 1 ⇒ 5 n + 7 = 12 divisible par 3, donc n = 1 + 3k conviennent. k de 0 à 3
 
 ## Mercredi 17 Mars
 
-carrés à 2 chiffres: 16 25 36 47 63 81
+Carrés à 2 chiffres: 16 25 36 47 63 81
 
-critère de divisibilité par 11: Σ chiffres pairs - Σ chiffres impairs divisible par 11
+Critère de divisibilité par 11: Σ (chiffres de rang pair) - Σ (chiffres de rang impair) divisible par 11
 
-on peut donc toujours trouver un et un seul chiffre (pour en trouver 2, il faudrait ajouter ou soustraire 11 au chiffre ajouté, ce n'est pas possible): 616 825 836 847 363 781
+Ici, cette différence vaut au moins 2: on peut donc toujours trouver un et un seul chiffre qui convient. Pour en trouver 2, il faudrait ajouter ou soustraire 11 au chiffre ajouté, ce n'est pas possible. Les solutions sont: 616 825 836 847 363 781
 
-en tirant un chiffre en 1 et 9, on a une chance sur 9 de tomber sur le bon
+En tirant un chiffre en 1 et 9, on a une chance sur 9 de tomber sur le bon.
 
 > réponse: 1 / 9
 
