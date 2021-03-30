@@ -25,7 +25,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2021
 
-![238/261](https://img.shields.io/static/v1?label=solutions&message=238/261%20%2891%25%29&color=blueviolet&style=flat-square)
+![261/261](https://img.shields.io/static/v1?label=solutions&message=261/261%20%28100%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -49,6 +49,18 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [08](2021/fevrier/README.md#lundi-8-février) 🖥 | [09](2021/fevrier/README.md#mardi-9-février) | [10](2021/fevrier/README.md#mercredi-10-février) | [11](2021/fevrier/README.md#jeudi-11-février) 🖥 | [12](2021/fevrier/README.md#vendredi-12-février) | *13* | *14* |
 | [15](2021/fevrier/README.md#lundi-15-février) | [16](2021/fevrier/README.md#mardi-16-février) 🖥 | [17](2021/fevrier/README.md#mercredi-17-février) | [18](2021/fevrier/README.md#jeudi-18-février) | [19](2021/fevrier/README.md#vendredi-19-février) | *20* | *21* |
 | [22](2021/fevrier/README.md#lundi-22-février) | [23](2021/fevrier/README.md#mardi-23-février) | [24](2021/fevrier/README.md#mercredi-24-février) | [25](2021/fevrier/README.md#jeudi-25-février) | [26](2021/fevrier/README.md#vendredi-26-février) | *27* | *28* |
+
+### Mars
+
+[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success&style=flat-square)](2021/mars/)
+
+|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
+|---|---|---|---|---|---|---|
+| [01](2021/mars/README.md#lundi-1-mars) 🖥 | [02](2021/mars/README.md#mardi-2-mars) | [03](2021/mars/README.md#mercredi-3-mars) | [04](2021/mars/README.md#jeudi-4-mars) | [05](2021/mars/README.md#vendredi-5-mars) | *06* | *07* |
+| [08](2021/mars/README.md#lundi-8-mars) | [09](2021/mars/README.md#mardi-9-mars) | [10](2021/mars/README.md#mercredi-10-mars) | [11](2021/mars/README.md#jeudi-11-mars) | [12](2021/mars/README.md#vendredi-12-mars) | *13* | *14* |
+| [15](2021/mars/README.md#lundi-15-mars) | [16](2021/mars/README.md#mardi-16-mars) | [17](2021/mars/README.md#mercredi-17-mars) | [18](2021/mars/README.md#jeudi-18-mars) | [19](2021/mars/README.md#vendredi-19-mars) 🖥 | *20* | *21* |
+| [22](2021/mars/README.md#lundi-22-mars) | [23](2021/mars/README.md#mardi-23-mars) | [24](2021/mars/README.md#mercredi-24-mars) | [25](2021/mars/README.md#jeudi-25-mars) | [26](2021/mars/README.md#vendredi-26-mars) | *27* | *28* |
+| [29](2021/mars/README.md#lundi-29-mars) | [30](2021/mars/README.md#mardi-30-mars) | [31](2021/mars/README.md#mercredi-31-mars) |    |    |    |    |
 
 ### Avril
 
