@@ -20,7 +20,7 @@ USE_BADGES = True
 SHOW_SOLUTION = False
 SHOW_SCREEN = True
 
-CURRENT_YEAR = 2021
+CURRENT_YEAR = 2022
 
 MONTHS = (
     "Janvier",
@@ -244,7 +244,7 @@ def create_month(month, year):
 
 
 def readme2tex():
-    """ Modifie un README.md mensuel en appelant une fonction. """
+    """Modifie un README.md mensuel en appelant une fonction."""
 
     cwd = os.getcwd()
 
@@ -274,7 +274,7 @@ def readme2tex():
 
 
 def patch_readme(repl_func):
-    """ Modifie un README.md mensuel en appelant une fonction. """
+    """Modifie un README.md mensuel en appelant une fonction."""
 
     cwd = os.getcwd()
 
@@ -307,7 +307,7 @@ def patch_readme(repl_func):
 
 
 def make_full_year(year):
-    """  """
+    """ """
 
     cwd = os.getcwd()
 
@@ -350,6 +350,8 @@ def generate_calendar(root_dir, year):
     readme = readme_md.read_text()
     titre = f"## Solutions {year}\n\n"
     hash = hashlib.md5(readme.encode()).hexdigest()
+    print("readme", readme_md.absolute())
+    print("titre ", titre)
     readme_begin = readme[: readme.index(titre) + len(titre)]
 
     readme = ""
@@ -418,7 +420,7 @@ def init_year(root_dir, year):
 
 
 def process_years(root_dir, year, func):
-    """ Appelle la fonction sur l'année spécifiée ou sur toutes les années. """
+    """Appelle la fonction sur l'année spécifiée ou sur toutes les années."""
 
     root_dir = Path(root_dir)
 
