@@ -1,6 +1,6 @@
 # Calendrier Mathématique Juin 2021
 
-[Solutions 2021](../../README.md)
+[Solutions 2021](../README.md) - [Homepage](../../README.md)
 
 ## Mardi 1 Juin
 

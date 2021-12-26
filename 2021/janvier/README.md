@@ -1,6 +1,6 @@
 # Calendrier Mathématique Janvier 2021
 
-[Solutions 2021](../../README.md)
+[Solutions 2021](../README.md) - [Homepage](../../README.md)
 
 ## Vendredi 1 Janvier
 

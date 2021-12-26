@@ -1,6 +1,6 @@
 # Calendrier Mathématique Septembre 2021
 
-[Solutions 2021](../../README.md)
+[Solutions 2021](../README.md) - [Homepage](../../README.md)
 
 ## Mercredi 1 Septembre
 

@@ -1,5 +1,7 @@
 # Calendrier Mathématique Janvier 2022
 
+[Solutions 2022](../README.md) - [Homepage](../../README.md)
+
 ## Lundi 3 Janvier
 
 `18 × 1500 = 27000` : il faut donc diminuer le numérateur de 27000. Ceci s'obtient en permutant les chiffres de `5` et de `2`. En effet: `52 - 25 = 27`.
