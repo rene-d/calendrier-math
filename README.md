@@ -27,17 +27,17 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![5/260](https://img.shields.io/static/v1?label=solutions&message=5/260%20%282%25%29&color=blueviolet&style=flat-square)
+![7/260](https://img.shields.io/static/v1?label=solutions&message=7/260%20%283%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
-[![5/21](https://img.shields.io/static/v1?label=en%20cours&message=5/21&color=informational&style=flat-square)](2022/janvier/)
+[![7/21](https://img.shields.io/static/v1?label=en%20cours&message=7/21&color=informational&style=flat-square)](2022/janvier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    |    | *01* | *02* |
 | [03](2022/janvier/README.md#lundi-3-janvier) | [04](2022/janvier/README.md#mardi-4-janvier) | [05](2022/janvier/README.md#mercredi-5-janvier) | [06](2022/janvier/README.md#jeudi-6-janvier) | [07](2022/janvier/README.md#vendredi-7-janvier) | *08* | *09* |
-| 10 | 11 | 12 | 13 | 14 | *15* | *16* |
+| [10](2022/janvier/README.md#lundi-10-janvier) | [11](2022/janvier/README.md#mardi-11-janvier) | 12 | 13 | 14 | *15* | *16* |
 | 17 | 18 | 19 | 20 | 21 | *22* | *23* |
 | 24 | 25 | 26 | 27 | 28 | *29* | *30* |
 | 31 |    |    |    |    |    |    |
