@@ -169,6 +169,8 @@ Les événements sont indépendants, il n'y a pas de raison que la pièce soit t
 
 ## Jeudi 20 Janvier
 
+![20](./20.png)
+
 On a : AB = 2, AC = 1, BC = √3.
 
 AC² + BC² = 1 + 3 = 4 = 2² = AB²
