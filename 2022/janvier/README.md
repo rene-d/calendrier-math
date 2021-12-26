@@ -2,9 +2,9 @@
 
 ## Lundi 3 Janvier
 
-`18 × 1500 = 27000` : il faut donc diminuer le numérateur de 27000. Ceci s'obtient en permutant les chiffres de `5` et de `2`. En effet: `52 - 25 = 17`.
+`18 × 1500 = 27000` : il faut donc diminuer le numérateur de 27000. Ceci s'obtient en permutant les chiffres de `5` et de `2`. En effet: `52 - 25 = 27`.
 
-> réponse: le `2` et le `5` : 925473 / 18
+> réponse: le `2` et le `5`
 
 ## Mardi 4 Janvier
 
@@ -28,11 +28,11 @@ Rapport des aires: `(1 / 4) / 2 = 1 / 8`
 
 Le codage GXMKTZ → ARGENT est réalisé avec un décalage de 6 lettres. On peut établir la table de décodage suivante:
 
-<code>
+<pre>
 A B C D E F <class style="color:red">G</class> H I J <class style="color:red">K</class> L <class style="color:red">M</class> N O P Q R S <class style="color:red">T</class> U V W <class style="color:red">X</class> Y <class style="color:red">Z</class> <br>
 ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ <br>
 U V W X Y Z <class style="color:red">A</class> B C D <class style="color:red">E</class> F <class style="color:red">G</class> H I J K L M <class style="color:red">N</class> O P Q <class style="color:red">R</class> S <class style="color:red">T</class> <br>
-</code>
+</pre>
 
 
 Le mot `LXGTIGOY` se décode donc en `FRANCAIS`.
