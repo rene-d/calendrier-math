@@ -93,6 +93,8 @@ Il y a 23 filles dans la classe complète, soit 20 filles dans la classe le jour
 - 20212021 - 2021 × 10000 - 2021
 - 20212021 - 20210000 - 2021 = 0
 
+> réponse: 0
+
 ## Vendredi 14 Janvier
 
 ![latex](https://render.githubusercontent.com/render/math?math=30%20%5Cle%20n%20%5Cle%20100&mode=inline)
