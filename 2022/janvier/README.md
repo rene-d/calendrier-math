@@ -29,9 +29,9 @@ Rapport des aires: `(1 / 4) / 2 = 1 / 8`
 Le codage GXMKTZ → ARGENT est réalisé avec un décalage de 6 lettres. On peut établir la table de décodage suivante:
 
 <code>
-A B C D E F <class style="color:green">G</class> H I J K L M N O P Q R S T U V W <class style="color:green">X</class> Y Z <br>
+A B C D E F <class style="color:red">G</class> H I J <class style="color:red">K</class> L <class style="color:red">M</class> N O P Q R S <class style="color:red">T</class> U V W <class style="color:red">X</class> Y <class style="color:red">Z</class> <br>
 ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ <br>
-U V W X Y Z <class style="color:green">A</class> B C D E F G H I J K L M N O P Q <class style="color:green">R</class> S T <br>
+U V W X Y Z <class style="color:red">A</class> B C D <class style="color:red">E</class> F <class style="color:red">G</class> H I J K L M <class style="color:red">N</class> O P Q <class style="color:red">R</class> S <class style="color:red">T</class> <br>
 </code>
 
 
