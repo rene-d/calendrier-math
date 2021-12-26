@@ -28,11 +28,12 @@ Rapport des aires: `1 / 4 / 2 = 1 / 8`
 
 Le codage GXMKTZ → ARGENT est réalisé avec un décalage de 6 lettres. On peut établir la table de décodage suivante:
 
-```text
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
-U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
-```
+<code>
+A B C D E F <class style="color:green">G</class> H I J K L M N O P Q R S T U V W <class style="color:green">X</class> Y Z <br>
+↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ <br>
+U V W X Y Z <class style="color:green">A</class> B C D E F G H I J K L M N O P Q <class style="color:green">R</class> S T <br>
+</code>
+
 
 Le mot `LXGTIGOY` se décode donc en `FRANCAIS`.
 
@@ -45,6 +46,8 @@ Le mot `LXGTIGOY` se décode donc en `FRANCAIS`.
 > réponse: 10 / 3
 
 ## Lundi 10 Janvier
+
+
 
 ## Mardi 11 Janvier
 
