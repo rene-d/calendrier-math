@@ -258,14 +258,14 @@ Cependant 1 est aussi diviseur du nombre, comme il l'est de tous les entiers.
 | M1            | Mensonge | Mensonge | Mensonge | Vérité   | Vérité   | Vérité   |          |
 | M2            | Vérité   | Vérité   | Vérité   | Mensonge | Mensonge | Mensonge |          |
 
-M1 dit la vérité: "hier j'ai menti" = c'était mercredi, jour où il ment
-M2 ment, puisqu'il ment le jeudi
+- M1 dit la vérité: "hier j'ai menti" = c'était mercredi, jour où il ment.
+- M2 ment, puisqu'il ment le jeudi et ne peut pas dire qu'il avait dit la vérité la veille.
 
 réponse: Jeudi
 
 ## Vendredi 28 Janvier
 
-![](./28.png)
+![28](./28.png)
 
 Le triangle CEG est isocèle en E puisque CE = EG. Or, l'angle ∠BCD est égal à 30°, CD étant la bissectrice de ACB d'angle 60° (triangle équilatéral).
 
