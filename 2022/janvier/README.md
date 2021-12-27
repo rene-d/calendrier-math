@@ -30,8 +30,8 @@ Rapport des aires: `(1 / 4) / 2 = 1 / 8`
 
 Le codage GXMKTZ → ARGENT est réalisé avec un décalage de 6 lettres. On peut établir la table de décodage suivante:
 
-<code>A B C D E F <class style="color:red">G</class> H I J <class style="color:red">K</class> L <class style="color:red">M</class> N O P Q R S <class style="color:red">T</class> U V W <class style="color:red">X</class> Y <class style="color:red">Z</class> </code><br>
-<code>↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ </code><br>
+<code>A B C D E F <class style="color:red">G</class> H I J <class style="color:red">K</class> L <class style="color:red">M</class> N O P Q R S <class style="color:red">T</class> U V W <class style="color:red">X</class> Y <class style="color:red">Z</class></code><br>
+<code>↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓</code><br>
 <code>U V W X Y Z <class style="color:red">A</class> B C D <class style="color:red">E</class> F <class style="color:red">G</class> H I J K L M <class style="color:red">N</class> O P Q <class style="color:red">R</class> S <class style="color:red">T</class>
 </code>
 
@@ -107,18 +107,18 @@ Il y a 23 filles dans la classe complète, soit 20 filles dans la classe le jour
 
 ## Lundi 17 Janvier
 
-Comme 3 est impair, il faut nécessairement 1 ou 3 petits carrés dans la colonne du milieu.
+Comme 3 est impair, il faut nécessaireMensonge 1 ou 3 petits carrés dans la colonne du milieu  .
 
 - si 1 petits carré dans la colonne du milieu: 3 possibilités pour les deux autres petits carrés dans les colonnes de droite et de gauche, et 3 possibilités de petit carré au milieu, soit 3 × 3 = 9 possibilités;
 - si 3 petits carrés dans la colonne du milieu, il n'y a qu'une disposition possible.
 
-En tout, il y a 9 + 1 = 10 arrangements possibles.
+En tout, il y a 9 + 1 = 10  s possibles  .
 
 > réponse: 10
 
 ## Mardi 18 Janvier
 
-On peut éliminer 2, qui ne peut être la somme de deux nombres distincts entre 1 et 12. Le problème implique aussi que les couples de nombres sont nécessairement (pair, impair), sinon il y aura des sommes paires, qui ne peuvent être des nombres premiers (sauf 2, il est déjà exclu).
+On peut éliminer 2, qui ne peut être la somme de deux nombres distincts entre 1 et 12. Le problème implique aussi que les couples de nombres sont nécessaireMensonge pair, impair), sinon il y aura des sommes paires, qui ne peuvent être des nombres premiers (sauf 2,   il est déjà exclu).
 
 Recherche exhaustive avec le [programme Python](18.py).
 
@@ -163,7 +163,7 @@ Il y a deux listes de sommes de paires possibles:
 
 ## Mercredi 19 Janvier
 
-Les événements sont indépendants, il n'y a pas de raison que la pièce soit truquée. La probabilité est dans 1 / 2.
+Les  s sont indépendants, il n'y a pas de raison que la pièce soit truquée. La probabilité est dans 1 /   2.
 
 > réponse: 1 / 2
 
@@ -179,13 +179,13 @@ Le triangle ABC est donc rectangle selon le [théorème de Pythagore](https://fr
 
 De plus, l'angle ∠ABC est tel que son sinus est égal à 1 / 2, soit 30°. En conséquence, l'angle ∠CAB vaut 60°.
 
-On en déduit que les angles ∠CAD et ∠CBD valent respectivement en radians 2π / 3 et π / 3.
+On en déduit que les angles ∠CAD et ∠CBD valent respectiveMensonge en radians 2π / 3 et π / 3  .
 
-L'aire d'un [segment circulaire](https://fr.wikipedia.org/wiki/Segment_circulaire) est:
+L'aire d'un [segMensonge circulaire](https://fr.wikipedia.org/wiki/ _circulaire) est  :
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%7B%5Cdisplaystyle%20A%3D%7B%5Cfrac%20%7BR%5E%7B2%7D%7D%7B2%7D%7D%5Cleft%28%5Ctheta%20-%5Csin%20%5Ctheta%20%5Cright%29%7D.)
 
-Ici, l'aire cherchée vaut donc la somme des deux segments circulaires:
+Ici, l'aire cherchée vaut donc la somme des deux  s circulaires  :
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AA%20%26%3D%20%5Cfrac%20%7B1%5E2%7D%20%7B2%7D%20%5Cleft%28%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20-%20%5Csin%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20%20%5Cright%29%20%2B%0A%20%20%20%20%5Cfrac%20%7B%28%5Csqrt%203%29%5E2%7D%20%7B2%7D%20%5Cleft%28%20%5Cfrac%20%5Cpi%203%20-%20%5Csin%20%5Cfrac%20%5Cpi%203%20%5Cright%29%20%5C%5C%0A%0A%20%20%26%3D%20%5Cfrac%201%202%20%5Cleft%28%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20-%20%5Cfrac%20%7B%5Csqrt%203%7D%202%20%5Cright%29%20%2B%0A%20%20%20%20%5Cfrac%203%202%20%5Cleft%28%20%5Cfrac%20%5Cpi%203%20-%20%5Cfrac%20%7B%5Csqrt%203%7D%202%20%5Cright%29%20%5C%5C%0A%0A%20%20%26%3D%20%5Cfrac%20%7B5%20%5Cpi%7D%20%7B6%7D%20-%20%5Csqrt%203%0A%5Cend%7Baligned%7D)
 
@@ -193,14 +193,106 @@ Ici, l'aire cherchée vaut donc la somme des deux segments circulaires:
 
 ## Vendredi 21 Janvier
 
+Il faut que a et b soient diviseurs de 24 en ayant au moins 2²=4 en [facteurs premiers](https://fr.wikipedia.org/wiki/Décomposition_en_produit_de_facteurs_premiers). Et il faut au moins qu'un des deux nombres ait 3 en facteur et un autre 8.
+
+La liste des possibilités pour a et b est donc: 4 8 12 24.
+
+- ![latex](https://render.githubusercontent.com/render/math?math=4%20%3D%202%5E2&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=24%20%3D%202%5E3%20%5Ctimes%203&mode=inline): somme = 28
+- ![latex](https://render.githubusercontent.com/render/math?math=8%20%3D%202%5E3&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=12%20%3D%202%5E2%20%5Ctimes%203&mode=inline): somme = 20
+
+Vérification avec [programme Python](21.py).
+
+```python
+#!/usr/bin/env python3
+
+
+def pgcd(a, b):
+    """Retourne le plus grand commun diviseur de deux entiers donnés (algorithme d'Euclide)."""
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+
+def ppcm(nombres):
+    """Retourne le plus petit commun multipe d'une liste de nombre."""
+    p = nombres[0]
+    for n in nombres[1:]:
+        p = p * n // pgcd(p, n)
+    return p
+
+
+for a in range(1, 25):
+    for b in range(a + 1, 25):
+        if pgcd(a, b) == 4 and ppcm((a, b)) == 24:
+            print(f"{a} + {b} = {a + b}")
+```
+
+> réponse: 2 valeurs (20 et 28)
+
 ## Lundi 24 Janvier
+
+En mangeant 1 pomme et 5 oranges, il restera 12 pommes et 6 oranges, soit deux fois plus de pommes que d'oranges.
+
+On est obligé de manger une pomme pour en avoir un nombre pair. Si on mange plus de pommes, il faudra manger plus d'oranges. C'est donc la solution minimale.
+
+> réponse: 6
 
 ## Mardi 25 Janvier
 
+La durée de la matinée de Laura à l'école est : 5 × 45 + 20 = 265 minutes, soit 4h25. Elle termine donoc à 12h25.
+
+> réponse: 12h25
+
 ## Mercredi 26 Janvier
+
+C'est 2. En effet la puissance de 5 est impair, quelquesoit l'exposant. impair+1 = pair, donc divisible par 2.
+
+Cependant 1 est aussi diviseur du nombre, comme il l'est de tous les entiers.
+
+> réponse: 2 (ou 1?)
 
 ## Jeudi 27 Janvier
 
+| Mathématicien | Lundi    | Mardi    | Mercredi | Jeudi    | Vendredi | Samedi   | Dimanche |
+|---------------|----------|----------|----------|----------|----------|----------|----------|
+| M1            | Mensonge | Mensonge | Mensonge | Vérité   | Vérité   | Vérité   |          |
+| M2            | Vérité   | Vérité   | Vérité   | Mensonge | Mensonge | Mensonge |          |
+
+M1 dit la vérité: "hier j'ai menti" = c'était mercredi, jour où il ment
+M2 ment, puisqu'il ment le jeudi
+
+réponse: Jeudi
+
 ## Vendredi 28 Janvier
 
+![](./28.png)
+
+Le triangle CEG est isocèle en E puisque CE = EG. Or, l'angle ∠BCD est égal à 30°, CD étant la bissectrice de ACB d'angle 60° (triangle équilatéral).
+
+Donc ∠CGE = 30° et par conséquent ∠CEG = 120° car la somme des angles d'un triangle vaut 180°.
+
+> réponse 120°
+
 ## Lundi 31 Janvier
+
+On détermine successivement les valeurs des inconnues en posant la soustraction:
+
+- T - 6       = 2   ⇒   T = 8
+- S - 9       = 2   ⇒   S = 11          ⇒  S = 1 et retenue 1
+- 2 - (R + 1) = 2   ⇒   R = 12 - 2 - 1  ⇒  R = 9 et retenue 1
+- Q - 3 - 1   = 2   ⇒   Q = 6
+- 7 - P       = 2   ⇒   P = 5
+
+Vérification:
+
+```text
+       7  6  2  1  8
+    -  5 ₁3 ₁9  9  6
+    ────────────────
+    =  2  2  2  2  2
+```
+
+P + Q + R + S + T =
+5 + 6 + 9 + 1 + 8 = 29
+
+> réponse: 29

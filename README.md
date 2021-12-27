@@ -27,18 +27,18 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![14/260](https://img.shields.io/static/v1?label=solutions&message=14/260%20%285%25%29&color=blueviolet&style=flat-square)
+![19/260](https://img.shields.io/static/v1?label=solutions&message=19/260%20%287%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
-[![14/21](https://img.shields.io/static/v1?label=en%20cours&message=14/21&color=informational&style=flat-square)](2022/janvier/)
+[![19/21](https://img.shields.io/static/v1?label=en%20cours&message=19/21&color=informational&style=flat-square)](2022/janvier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    |    | *01* | *02* |
 | [03](2022/janvier/README.md#lundi-3-janvier) | [04](2022/janvier/README.md#mardi-4-janvier) | [05](2022/janvier/README.md#mercredi-5-janvier) | [06](2022/janvier/README.md#jeudi-6-janvier) | [07](2022/janvier/README.md#vendredi-7-janvier) | *08* | *09* |
 | [10](2022/janvier/README.md#lundi-10-janvier) | [11](2022/janvier/README.md#mardi-11-janvier) | [12](2022/janvier/README.md#mercredi-12-janvier) | [13](2022/janvier/README.md#jeudi-13-janvier) | [14](2022/janvier/README.md#vendredi-14-janvier) | *15* | *16* |
-| [17](2022/janvier/README.md#lundi-17-janvier) | [18](2022/janvier/README.md#mardi-18-janvier) 🖥 | [19](2022/janvier/README.md#mercredi-19-janvier) | [20](2022/janvier/README.md#jeudi-20-janvier) | 21 | *22* | *23* |
-| 24 | 25 | 26 | 27 | 28 | *29* | *30* |
-| 31 |    |    |    |    |    |    |
+| [17](2022/janvier/README.md#lundi-17-janvier) | [18](2022/janvier/README.md#mardi-18-janvier) 🖥 | [19](2022/janvier/README.md#mercredi-19-janvier) | [20](2022/janvier/README.md#jeudi-20-janvier) | [21](2022/janvier/README.md#vendredi-21-janvier) 🖥 | *22* | *23* |
+| [24](2022/janvier/README.md#lundi-24-janvier) | [25](2022/janvier/README.md#mardi-25-janvier) | [26](2022/janvier/README.md#mercredi-26-janvier) | 27 | 28 | *29* | *30* |
+| [31](2022/janvier/README.md#lundi-31-janvier) |    |    |    |    |    |    |
 
