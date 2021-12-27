@@ -310,7 +310,7 @@ Pour 2x, il y a deux parents possibles: 11x et 2x. Soit l'équation avec 0 ≤ x
 
 110+x = (20+x)×k → k=5 110-100=4x → pas de solution entière
 
-[Programme](23.c) en C de recherche exhaustive.
+[Programme](23.c) en C de recherche exhaustive. La même chose en [Rust](23.rs).
 
 > réponse: 13 nombres (10 à 19, 30, 45, 90)
 

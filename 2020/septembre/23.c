@@ -5,12 +5,16 @@
 
 #include <stdio.h>
 #include <inttypes.h>
+#include <sys/time.h>
 
 int main()
 {
+    struct timeval now, elapsed;
     int a, b;
     int n, n_max;
     int reponse = 0;
+
+    gettimeofday(&now, NULL);
 
     for (a = 1; a <= 9; ++a)
     {
@@ -69,5 +73,14 @@ int main()
     }
 
     printf("réponse: %d\n", reponse);
+    gettimeofday(&elapsed, NULL);
+
+    if (now.tv_usec > elapsed.tv_usec)
+    {
+        elapsed.tv_usec += 1000000;
+        elapsed.tv_sec -= 1;
+    }
+
+    printf("temps: %ld.%06d s\n", elapsed.tv_sec - now.tv_sec, elapsed.tv_usec - now.tv_usec);
     return 0;
 }
