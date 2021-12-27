@@ -27,11 +27,11 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![23/260](https://img.shields.io/static/v1?label=solutions&message=23/260%20%289%25%29&color=blueviolet&style=flat-square)
+![26/260](https://img.shields.io/static/v1?label=solutions&message=26/260%20%2810%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
-[![19/21](https://img.shields.io/static/v1?label=en%20cours&message=19/21&color=informational&style=flat-square)](2022/janvier/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](2022/janvier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -39,16 +39,16 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [03](2022/janvier/README.md#lundi-3-janvier) | [04](2022/janvier/README.md#mardi-4-janvier) | [05](2022/janvier/README.md#mercredi-5-janvier) | [06](2022/janvier/README.md#jeudi-6-janvier) | [07](2022/janvier/README.md#vendredi-7-janvier) | *08* | *09* |
 | [10](2022/janvier/README.md#lundi-10-janvier) | [11](2022/janvier/README.md#mardi-11-janvier) | [12](2022/janvier/README.md#mercredi-12-janvier) | [13](2022/janvier/README.md#jeudi-13-janvier) | [14](2022/janvier/README.md#vendredi-14-janvier) | *15* | *16* |
 | [17](2022/janvier/README.md#lundi-17-janvier) | [18](2022/janvier/README.md#mardi-18-janvier) 🖥 | [19](2022/janvier/README.md#mercredi-19-janvier) | [20](2022/janvier/README.md#jeudi-20-janvier) | [21](2022/janvier/README.md#vendredi-21-janvier) 🖥 | *22* | *23* |
-| [24](2022/janvier/README.md#lundi-24-janvier) | [25](2022/janvier/README.md#mardi-25-janvier) | [26](2022/janvier/README.md#mercredi-26-janvier) | 27 | 28 | *29* | *30* |
+| [24](2022/janvier/README.md#lundi-24-janvier) | [25](2022/janvier/README.md#mardi-25-janvier) | [26](2022/janvier/README.md#mercredi-26-janvier) | [27](2022/janvier/README.md#jeudi-27-janvier) | [28](2022/janvier/README.md#vendredi-28-janvier) | *29* | *30* |
 | [31](2022/janvier/README.md#lundi-31-janvier) |    |    |    |    |    |    |
 
 ### Février
 
-[![4/20](https://img.shields.io/static/v1?label=en%20cours&message=4/20&color=informational&style=flat-square)](2022/fevrier/)
+[![5/20](https://img.shields.io/static/v1?label=en%20cours&message=5/20&color=informational&style=flat-square)](2022/fevrier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
-|    | [01](2022/fevrier/README.md#mardi-1-février) | [02](2022/fevrier/README.md#mercredi-2-février) | 03 | [04](2022/fevrier/README.md#vendredi-4-février) 🖥 | *05* | *06* |
+|    | [01](2022/fevrier/README.md#mardi-1-février) | [02](2022/fevrier/README.md#mercredi-2-février) | [03](2022/fevrier/README.md#jeudi-3-février) | [04](2022/fevrier/README.md#vendredi-4-février) 🖥 | *05* | *06* |
 | 07 | [08](2022/fevrier/README.md#mardi-8-février) | 09 | 10 | 11 | *12* | *13* |
 | 14 | 15 | 16 | 17 | 18 | *19* | *20* |
 | 21 | 22 | 23 | 24 | 25 | *26* | *27* |
