@@ -261,7 +261,7 @@ Cependant 1 est aussi diviseur du nombre, comme il l'est de tous les entiers.
 - M1 dit la vérité: "hier j'ai menti" = c'était mercredi, jour où il ment.
 - M2 ment, puisqu'il ment le jeudi et ne peut pas dire qu'il avait dit la vérité la veille.
 
-réponse: Jeudi
+> réponse: Jeudi
 
 ## Vendredi 28 Janvier
 
@@ -271,7 +271,7 @@ Le triangle CEG est isocèle en E puisque CE = EG. Or, l'angle ∠BCD est égal 
 
 Donc ∠CGE = 30° et par conséquent ∠CEG = 120° car la somme des angles d'un triangle vaut 180°.
 
-> réponse 120°
+> réponse: 120°
 
 ## Lundi 31 Janvier
 

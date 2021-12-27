@@ -62,7 +62,7 @@ Vérification:
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%7D%0AM%20-%20N%20%26%3D%20%20%5Cfrac%20%7B%20%5Csum%20%7B%28a_i%20%2B%20a%7D%29%7D%20n%20-%20%5Cfrac%20%7B%20%5Csum%20%7B%20a_i%20%7D%7D%20%7Bn-1%7D%0A%5C%5C%0A%26%3D%20%20%20%5Cfrac%20%7B%20%5Csum%20%7B%28a_i%20%2B%20a%7D%29%7D%20n%20-%20%5Cfrac%20n%20%7Bn-1%7D%20%5Cleft%28%0A%20%20%20%20%20%20%20%20%5Cfrac%20%7B%5Csum%20%7B%20a_i%20%7D%7D%20%20n%20%2B%20%5Cfrac%20a%20n%20-%20%5Cfrac%20a%20n%20%5Cright%29%0A%5C%5C%0A%26%3D%20M%20-%20%5Cfrac%20n%20%7Bn-1%7D%20%5Cleft%28M%20-%20%5Cfrac%20a%20n%20%5Cright%29%0A%5C%5C%0A%26%3D%20M%20%5Cleft%28%201%20-%20%5Cfrac%20n%20%7Bn-1%7D%20%5Cright%29%20%2B%20%5Cfrac%20%7Ba%7D%20%7Bn-1%7D%0A%5C%5C%0A%26%3D%20-%20%5Cfrac%20M%20%7Bn%20-%201%7D%20%2B%20%5Cfrac%20%7Ba%7D%20%7Bn-1%7D%0A%5C%5C%0A%26%3D%20%5Cfrac%20%7Ba-M%7D%20%7Bn%20-%201%7D%0A%5Cend%7Balign%7D)
 
-réponse: (a - M) / (n - 1)
+> réponse: (a - M) / (n - 1)
 
 ## Vendredi 4 Février
 
