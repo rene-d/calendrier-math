@@ -6,7 +6,7 @@ Solutions personnelles aux questions du [Calendrier Mathématique 2022](https://
 
 J'essaie de vérifier au maximum l'exactitude et la précision des démonstrations. Elles sont pour la plupart d'ailleurs similaires à celles du livret. Cependant des erreurs peuvent subsister (erreur de raisonnement, théorème non cité ou trop compliqué, outils mathématiques trop évolués, etc.). Les solutions officielles sont uniquement celles publiées avec le calendrier.
 
-Certains défis parmi les 261 proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également souvent utilisés.
+Certains défis parmi ceux proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également très souvent utilisés.
 
 Elles sont principalement rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode) qui offrent une mise en page suffisante. Cependant, quelques problèmes nécessitent des équations un peu plus complexes et les solutions utilisent [LaTeX](https://www.latex-project.org) (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), référence [katex](https://katex.org), extension Visual Studio Code [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)). La mise en page est assurée par un _hook_ Git qui crée automatiquement les calendriers mensuels, ajoute ou enlève les scripts Python et l'encodage des équations LaTeX (`./readme.py -X -P` pour supprimer la mise en page Python/LaTeX).
 
@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![19/260](https://img.shields.io/static/v1?label=solutions&message=19/260%20%287%25%29&color=blueviolet&style=flat-square)
+![23/260](https://img.shields.io/static/v1?label=solutions&message=23/260%20%289%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -42,3 +42,14 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [24](2022/janvier/README.md#lundi-24-janvier) | [25](2022/janvier/README.md#mardi-25-janvier) | [26](2022/janvier/README.md#mercredi-26-janvier) | 27 | 28 | *29* | *30* |
 | [31](2022/janvier/README.md#lundi-31-janvier) |    |    |    |    |    |    |
 
+### Février
+
+[![4/20](https://img.shields.io/static/v1?label=en%20cours&message=4/20&color=informational&style=flat-square)](2022/fevrier/)
+
+|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
+|---|---|---|---|---|---|---|
+|    | [01](2022/fevrier/README.md#mardi-1-février) | [02](2022/fevrier/README.md#mercredi-2-février) | 03 | [04](2022/fevrier/README.md#vendredi-4-février) 🖥 | *05* | *06* |
+| 07 | [08](2022/fevrier/README.md#mardi-8-février) | 09 | 10 | 11 | *12* | *13* |
+| 14 | 15 | 16 | 17 | 18 | *19* | *20* |
+| 21 | 22 | 23 | 24 | 25 | *26* | *27* |
+| 28 |    |    |    |    |    |    |
