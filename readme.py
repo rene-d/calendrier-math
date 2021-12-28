@@ -105,14 +105,22 @@ def render_latex_off(readme):
 
 
 def inline_python_off(readme):
+    def _inline(ext, language):
+        nonlocal readme
 
-    # suppression du script
-    readme = re.sub(
-        r"(\[[\w\s]+\]\(([\d\w]+\.py)\).+?\n)(\n```python\n[^`]+```\n)",
-        r"\1",
-        readme,
-        re.DOTALL,
-    )
+        # suppression du script
+        readme = re.sub(
+            rf"(\[[\w\s]+\]\(([\d\w]+\.{ext})\).+?\n)(\n```{language}\n[^`]+```\n)",
+            r"\1",
+            readme,
+            re.DOTALL,
+        )
+
+    _inline("py", "python")
+    # _inline("c", "c")
+    _inline("rs", "rust")
+    _inline("hs", "haskell")
+
     return readme
 
 
@@ -141,7 +149,7 @@ def inline_python_on(readme):
         )
 
     _inline("py", "python")
-    _inline("c", "c")
+    # _inline("c", "c")
     _inline("rs", "rust")
     _inline("hs", "haskell")
 
