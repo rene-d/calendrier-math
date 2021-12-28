@@ -120,22 +120,30 @@ def inline_python_on(readme):
 
     readme = inline_python_off(readme)
 
-    # ajout du script
-    def repl(a):
-        line, py = a.groups()
-        try:
-            script = Path(py).read_text().strip()
-        except FileNotFoundError:
-            print("fichier manquant:", Path(py).absolute())
-            exit(2)
-        return f"{line}\n```python\n{script}\n```\n"
+    def _inline(ext, language):
+        nonlocal readme
 
-    readme = re.sub(
-        r"(\[[\w\d\s]+\]\((\d\d\.py)\).+?\n)",
-        repl,
-        readme,
-        re.DOTALL,
-    )
+        # ajout du script
+        def _repl(a):
+            line, py = a.groups()
+            try:
+                script = Path(py).read_text().strip()
+            except FileNotFoundError:
+                print("fichier manquant:", Path(py).absolute())
+                exit(2)
+            return f"{line}\n```{language}\n{script}\n```\n"
+
+        readme = re.sub(
+            rf"(\[[\w\d\s]+\]\((\d\d\.{ext})\).+?\n)",
+            _repl,
+            readme,
+            re.DOTALL,
+        )
+
+    _inline("py", "python")
+    _inline("c", "c")
+    _inline("rs", "rust")
+    _inline("hs", "haskell")
 
     return readme
 
@@ -203,7 +211,10 @@ def create_month(month, year):
             else:
                 total_month += 1
 
-                p = Path(month_norm) / f"{d.day:02d}.py"
+                for ext in ["py", "c", "rs", "hs"]:
+                    p = Path(month_norm) / f"{d.day:02d}.{ext}"
+                    if p.exists():
+                        break
 
                 if p.exists() and d.day in solutions_text and SHOW_SCREEN:
                     cols.append(f"[{d.day:02d}]({solutions_link[d.day]}) 🖥")

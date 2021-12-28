@@ -186,6 +186,14 @@ fn main() {
 }
 ```
 
+```rust
+fn main() {
+    (1..=1011)
+        .filter(|i| (i + 1011) % i == 0)
+        .for_each(|i| println!("{:4} * {:4} = {:4}", i, (i + 1011) / i, i + 1011))
+}
+```
+
 > réponse: 4
 
 ## Mercredi 16 Février
@@ -314,6 +322,6 @@ Le rang de Sandra est donc n+1 = 17.
 
 ## Lundi 28 Février
 
-Les bases de chaque triangle équilatéral vaut exactement la somme des deux autres côtés. Ainsi la somme de tous les côtés autres que les bases vaut le double d la somme des bases.
+La base de chaque triangle équilatéral vaut exactement la somme des deux autres côtés. Ainsi la somme de tous les côtés autres que les bases vaut exactement le double de la somme des bases. Et ce, quelque soit le nombre de triangles équilatéraux.
 
 > réponse: 40 cm

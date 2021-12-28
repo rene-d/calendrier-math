@@ -6,7 +6,7 @@ Solutions personnelles aux questions du [Calendrier Mathématique 2022](https://
 
 J'essaie de vérifier au maximum l'exactitude et la précision des démonstrations. Elles sont pour la plupart d'ailleurs similaires à celles du livret. Cependant des erreurs peuvent subsister (erreur de raisonnement, théorème non cité ou trop compliqué, outils mathématiques trop évolués, etc.). Les solutions officielles sont uniquement celles publiées avec le calendrier.
 
-Certains défis parmi ceux proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également très souvent utilisés.
+Certains défis parmi ceux proposés peuvent se résoudre (ou plutôt se vérifier) à l'aide d'un petit programme en [Python](https://www.python.org) mais aussi en [Rust](http://rust-lang.org). Ils sont identifiés par l'icône 🖥. [WolframAlpha](https://www.wolframalpha.com) et [GeoGebra](https://www.geogebra.org/calculator) sont également très souvent utilisés.
 
 Elles sont principalement rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode) qui offrent une mise en page suffisante. Cependant, quelques problèmes nécessitent des équations un peu plus complexes et les solutions utilisent [LaTeX](https://www.latex-project.org) (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), référence [katex](https://katex.org), extension Visual Studio Code [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)). La mise en page est assurée par un _hook_ Git qui crée automatiquement les calendriers mensuels, ajoute ou enlève les scripts Python et l'encodage des équations LaTeX (`./readme.py -X -P` pour supprimer la mise en page Python/LaTeX).
 
@@ -49,8 +49,8 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [01](2022/fevrier/README.md#mardi-1-février) | [02](2022/fevrier/README.md#mercredi-2-février) | [03](2022/fevrier/README.md#jeudi-3-février) | [04](2022/fevrier/README.md#vendredi-4-février) 🖥 | *05* | *06* |
-| [07](2022/fevrier/README.md#lundi-7-février) | [08](2022/fevrier/README.md#mardi-8-février) | [09](2022/fevrier/README.md#mercredi-9-février) | [10](2022/fevrier/README.md#jeudi-10-février) | [11](2022/fevrier/README.md#vendredi-11-février) | *12* | *13* |
-| [14](2022/fevrier/README.md#lundi-14-février) | [15](2022/fevrier/README.md#mardi-15-février) | [16](2022/fevrier/README.md#mercredi-16-février) | [17](2022/fevrier/README.md#jeudi-17-février) | [18](2022/fevrier/README.md#vendredi-18-février) | *19* | *20* |
+| [07](2022/fevrier/README.md#lundi-7-février) | [08](2022/fevrier/README.md#mardi-8-février) | [09](2022/fevrier/README.md#mercredi-9-février) | [10](2022/fevrier/README.md#jeudi-10-février) | [11](2022/fevrier/README.md#vendredi-11-février) 🖥 | *12* | *13* |
+| [14](2022/fevrier/README.md#lundi-14-février) | [15](2022/fevrier/README.md#mardi-15-février) 🖥 | [16](2022/fevrier/README.md#mercredi-16-février) | [17](2022/fevrier/README.md#jeudi-17-février) | [18](2022/fevrier/README.md#vendredi-18-février) | *19* | *20* |
 | [21](2022/fevrier/README.md#lundi-21-février) | [22](2022/fevrier/README.md#mardi-22-février) | [23](2022/fevrier/README.md#mercredi-23-février) 🖥 | [24](2022/fevrier/README.md#jeudi-24-février) | [25](2022/fevrier/README.md#vendredi-25-février) | *26* | *27* |
 | [28](2022/fevrier/README.md#lundi-28-février) |    |    |    |    |    |    |
 
