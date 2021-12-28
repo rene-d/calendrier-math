@@ -18,7 +18,7 @@ La proportion de filles est: ![latex](https://render.githubusercontent.com/rende
 
 ![02](02.png)
 
-réponse: en prenant la symétrique par rapport à l'axe des abscisses jusqu'à 4
+> réponse: en prenant la symétrique par rapport à l'axe des abscisses jusqu'à 4
 
 ## Jeudi 3 Mars
 
@@ -150,7 +150,7 @@ En effet :
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A5%5E%7B2n%2B1%7D%20-%201%0A%26%3D%205%20%5Ctimes%205%5E%7B2n%7D%20-%201%20-%204%20%2B%204%0A%5C%5C%0A%26%3D%205%20%5Ctimes%20%5Cleft%28%205%5E%7B2n%7D%20-%201%20%5Cright%29%20%2B%204%0A%5C%5C%0A%26%3D%205%20%5Ctimes%20%5Cleft%28%205%5En%20%2B%201%20%5Cright%29%20%5Cleft%28%205%5En%20-%201%20%5Cright%29%20%2B%204%0A%5Cend%7Baligned%7D)
 
-Le premier terme est multiple de 4 (au moins) puisque ![latex](https://render.githubusercontent.com/render/math?math=5%5En-1&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=5%5En%2B1&mode=inline) sont pairs. Mais le deuxième terme n'est multiplque que de 4, et pas de 8.
+Le premier terme est multiple de 4 (au moins) puisque ![latex](https://render.githubusercontent.com/render/math?math=5%5En-1&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=5%5En%2B1&mode=inline) sont pairs. Mais le deuxième terme est multiple de 4 mais pas de 8.
 
 Il y a donc deux puissances de 2 par facteur. Il y a 100 facteurs.
 
