@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![26/260](https://img.shields.io/static/v1?label=solutions&message=26/260%20%2810%25%29&color=blueviolet&style=flat-square)
+![41/260](https://img.shields.io/static/v1?label=solutions&message=41/260%20%2816%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -44,13 +44,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Février
 
-[![5/20](https://img.shields.io/static/v1?label=en%20cours&message=5/20&color=informational&style=flat-square)](2022/fevrier/)
+[![20/20](https://img.shields.io/static/v1?label=fini&message=20/20&color=success&style=flat-square)](2022/fevrier/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [01](2022/fevrier/README.md#mardi-1-février) | [02](2022/fevrier/README.md#mercredi-2-février) | [03](2022/fevrier/README.md#jeudi-3-février) | [04](2022/fevrier/README.md#vendredi-4-février) 🖥 | *05* | *06* |
-| 07 | [08](2022/fevrier/README.md#mardi-8-février) | 09 | 10 | 11 | *12* | *13* |
-| 14 | 15 | 16 | 17 | 18 | *19* | *20* |
-| 21 | 22 | 23 | 24 | 25 | *26* | *27* |
-| 28 |    |    |    |    |    |    |
+| [07](2022/fevrier/README.md#lundi-7-février) | [08](2022/fevrier/README.md#mardi-8-février) | [09](2022/fevrier/README.md#mercredi-9-février) | [10](2022/fevrier/README.md#jeudi-10-février) | [11](2022/fevrier/README.md#vendredi-11-février) | *12* | *13* |
+| [14](2022/fevrier/README.md#lundi-14-février) | [15](2022/fevrier/README.md#mardi-15-février) | [16](2022/fevrier/README.md#mercredi-16-février) | [17](2022/fevrier/README.md#jeudi-17-février) | [18](2022/fevrier/README.md#vendredi-18-février) | *19* | *20* |
+| [21](2022/fevrier/README.md#lundi-21-février) | [22](2022/fevrier/README.md#mardi-22-février) | [23](2022/fevrier/README.md#mercredi-23-février) 🖥 | [24](2022/fevrier/README.md#jeudi-24-février) | [25](2022/fevrier/README.md#vendredi-25-février) | *26* | *27* |
+| [28](2022/fevrier/README.md#lundi-28-février) |    |    |    |    |    |    |
 
