@@ -139,7 +139,7 @@ D'où:
 - uₙ = 3 × 2ⁿ⁻²
 - u₁₉ = 3 × 2¹⁷ = 393216
 
-Vérification du calcul en [Rust](./11.rs) :
+Vérification du calcul en [Rust](11.rs).
 
 ```rust
 fn main() {
@@ -177,14 +177,6 @@ Soit (k - 1) × n = 1011 = 1 × 3 × 337
 Donc n peut valoir 1, 3, 337 ou 1011.
 
 Vérification en [Rust](15.rs):
-
-```rust
-fn main() {
-    (1..=1011)
-        .filter(|i| (i + 1011) % i == 0)
-        .for_each(|i| println!("{:4} * {:4} = {:4}", i, (i + 1011) / i, i + 1011))
-}
-```
 
 ```rust
 fn main() {
@@ -308,7 +300,7 @@ Soit n le nombre de personnes avant et après Sandra. Le nombre total d'élèves
 - il faut que le 2n+1 soit multiple de 3
 
 ```text
-1 ...                            Th                         Ra
+                                 Th                         Ra
 1 ... 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 ...
                   ^^ ^^ ^^ ^^ ^^
                       Sandra
