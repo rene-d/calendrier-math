@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![56/260](https://img.shields.io/static/v1?label=solutions&message=56/260%20%2822%25%29&color=blueviolet&style=flat-square)
+![64/260](https://img.shields.io/static/v1?label=solutions&message=64/260%20%2825%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -56,13 +56,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Mars
 
-[![15/23](https://img.shields.io/static/v1?label=en%20cours&message=15/23&color=informational&style=flat-square)](2022/mars/)
+[![23/23](https://img.shields.io/static/v1?label=fini&message=23/23&color=success&style=flat-square)](2022/mars/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    | [01](2022/mars/README.md#mardi-1-mars) | [02](2022/mars/README.md#mercredi-2-mars) | [03](2022/mars/README.md#jeudi-3-mars) | [04](2022/mars/README.md#vendredi-4-mars) | *05* | *06* |
-| [07](2022/mars/README.md#lundi-7-mars) | 08 | 09 | 10 | 11 | *12* | *13* |
-| [14](2022/mars/README.md#lundi-14-mars) | 15 | 16 | 17 | [18](2022/mars/README.md#vendredi-18-mars) | *19* | *20* |
-| [21](2022/mars/README.md#lundi-21-mars) | [22](2022/mars/README.md#mardi-22-mars) | [23](2022/mars/README.md#mercredi-23-mars) 🖥 | 24 | [25](2022/mars/README.md#vendredi-25-mars) | *26* | *27* |
+| [07](2022/mars/README.md#lundi-7-mars) | [08](2022/mars/README.md#mardi-8-mars) | [09](2022/mars/README.md#mercredi-9-mars) | [10](2022/mars/README.md#jeudi-10-mars) | [11](2022/mars/README.md#vendredi-11-mars) | *12* | *13* |
+| [14](2022/mars/README.md#lundi-14-mars) | [15](2022/mars/README.md#mardi-15-mars) | [16](2022/mars/README.md#mercredi-16-mars) | [17](2022/mars/README.md#jeudi-17-mars) | [18](2022/mars/README.md#vendredi-18-mars) | *19* | *20* |
+| [21](2022/mars/README.md#lundi-21-mars) | [22](2022/mars/README.md#mardi-22-mars) | [23](2022/mars/README.md#mercredi-23-mars) 🖥 | [24](2022/mars/README.md#jeudi-24-mars) | [25](2022/mars/README.md#vendredi-25-mars) | *26* | *27* |
 | [28](2022/mars/README.md#lundi-28-mars) | [29](2022/mars/README.md#mardi-29-mars) | [30](2022/mars/README.md#mercredi-30-mars) | [31](2022/mars/README.md#jeudi-31-mars) |    |    |    |
 
