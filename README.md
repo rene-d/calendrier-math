@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![64/260](https://img.shields.io/static/v1?label=solutions&message=64/260%20%2825%25%29&color=blueviolet&style=flat-square)
+![68/260](https://img.shields.io/static/v1?label=solutions&message=68/260%20%2826%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -65,4 +65,16 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [14](2022/mars/README.md#lundi-14-mars) | [15](2022/mars/README.md#mardi-15-mars) | [16](2022/mars/README.md#mercredi-16-mars) | [17](2022/mars/README.md#jeudi-17-mars) | [18](2022/mars/README.md#vendredi-18-mars) | *19* | *20* |
 | [21](2022/mars/README.md#lundi-21-mars) | [22](2022/mars/README.md#mardi-22-mars) | [23](2022/mars/README.md#mercredi-23-mars) 🖥 | [24](2022/mars/README.md#jeudi-24-mars) | [25](2022/mars/README.md#vendredi-25-mars) | *26* | *27* |
 | [28](2022/mars/README.md#lundi-28-mars) | [29](2022/mars/README.md#mardi-29-mars) | [30](2022/mars/README.md#mercredi-30-mars) | [31](2022/mars/README.md#jeudi-31-mars) |    |    |    |
+
+### Avril
+
+[![4/21](https://img.shields.io/static/v1?label=en%20cours&message=4/21&color=informational&style=flat-square)](2022/avril/)
+
+|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
+|---|---|---|---|---|---|---|
+|    |    |    |    | [01](2022/avril/README.md#vendredi-1-avril) | *02* | *03* |
+| [04](2022/avril/README.md#lundi-4-avril) | [05](2022/avril/README.md#mardi-5-avril) | [06](2022/avril/README.md#mercredi-6-avril) | 07 | 08 | *09* | *10* |
+| 11 | 12 | 13 | 14 | 15 | *16* | *17* |
+| 18 | 19 | 20 | 21 | 22 | *23* | *24* |
+| 25 | 26 | 27 | 28 | 29 | *30* |    |
 
