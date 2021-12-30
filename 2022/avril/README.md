@@ -1,5 +1,7 @@
 # Calendrier Mathématique Avril 2022
 
+[Solutions 2022](../README.md) - [Homepage](https://rene-d.github.io/calendrier-math/)
+
 ## Vendredi 1 Avril
 
 ## Lundi 4 Avril

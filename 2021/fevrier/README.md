@@ -1,6 +1,6 @@
 # Calendrier Mathématique Février 2021
 
-[Solutions 2021](../README.md) - [Homepage](../../README.md)
+[Solutions 2021](../README.md) - [Homepage](https://rene-d.github.io/calendrier-math/)
 
 ## Lundi 1 Février
 

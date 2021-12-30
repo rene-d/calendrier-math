@@ -1,6 +1,6 @@
 # Calendrier Mathématique Avril 2021
 
-[Solutions 2021](../README.md) - [Homepage](../../README.md)
+[Solutions 2021](../README.md) - [Homepage](https://rene-d.github.io/calendrier-math/)
 
 ## Jeudi 1 Avril
 
