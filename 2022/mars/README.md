@@ -60,7 +60,7 @@ Il faut enlever le 3 de 43620 car 4620 est un multiple de 105.
 
 ## Mardi 8 Mars
 
-Sur 40% qui n'ont pas réussi aux deux examens, 10% n'ont réussi que les maths et 20% que le français. Il reste donc 10%.
+Il y a 40% qui n'ont pas réussi aux deux examens, 10% n'ont réussi que les maths et 20% que le français. Il reste donc 10%.
 
 > réponse: 10%
 
@@ -197,11 +197,11 @@ En noir le chemin qui passe par tous les sommets, une seule fois (donc impossibl
 
 La somme des nombres de 1 à 9 est 45.
 
-La somme des trois côtés du triangle fait donc 45 + 7 + a où a est le nombre placédans le troisème sommet. Cette somme doit être divisible par 3.
+La somme des trois côtés du triangle fait donc 45 + 2 + 5 + a = 52 + a où a est le nombre placé dans le troisième sommet. Cette somme doit être divisible par 3.
 
-Les valeurs 1, 3, 4, 6, 7, 9 ne conviennent pas. 2 et 5 sont déjà prises. Il reste donc 8.
+Les valeurs 1, 3, 4, 6, 7, 9 ne conviennent pas. 2 et 5 sont déjà prises. Il reste donc a = 8.
 
-La somme des côtés est donc 20.
+La somme des côtés est donc (52 + 8) / 3 = 20.
 
 Programme [Python](23.py) pour énumérer toutes les solutions.
 
@@ -258,7 +258,7 @@ En effet :
 
 Le premier terme est multiple de 4 (au moins) puisque ![latex](https://render.githubusercontent.com/render/math?math=5%5En-1&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=5%5En%2B1&mode=inline) sont pairs. Mais le deuxième terme est multiple de 4 mais pas de 8.
 
-Il y a donc deux puissances de 2 par facteur. Il y a 100 facteurs.
+Il y a donc deux puissances de 2 par facteur, et il y a 100 facteurs.
 
 > réponse: 200
 
