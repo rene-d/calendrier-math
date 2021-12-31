@@ -30,6 +30,12 @@ Donc x = √X = 13 ou 3 √41
 
 ![01](01.png)
 
+### Nota
+
+Complément de solution par rapport à celle du livret: le triangle rectangle constitué avec la hauteur peut se construire à l' « extérieur » de la base, ce qui donne un autre résultat (3√41 en l'occurrence).
+
+![01bis](01bis.png)
+
 > réponse: 13 cm ou 3 √41 cm
 
 ## Lundi 4 Avril
@@ -67,32 +73,222 @@ Les coordonnées du point I sont (2/3; 2/3). D'où l'aire = 2 × 2/3 = 4/3 cm²
 
 ## Vendredi 8 Avril
 
+Déterminons la valeur de ![latex](https://render.githubusercontent.com/render/math?math=xy%2Byz%2Bzx&mode=inline):
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%20x%20%2B%20%5Cfrac%201%20y%20%2B%20%5Cfrac%201%20z%0A%3D%20%5Cfrac%20%7Bxz%2Byz%20%2B%20xy%7D%20%7Bxyz%7D%0A%3D%20%5Cfrac%203%204)
+
+D'où: ![latex](https://render.githubusercontent.com/render/math?math=xy%2Byz%2Bzx%3D%5Cfrac%203%204%5Ctimes%2072%3D54&mode=inline)
+
+On peut maintenant calculer ![latex](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%20y%5E2%20%2B%20z%5E2&mode=inline):
+
+![latexml](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%20y%5E2%20%2B%20z%5E2%20%20%3D%20%28x%2By%2Bz%29%5E2%20-%20%5Cleft%28%202xy%20%2B%202yz%20%2B%202zx%5Cright%29%0A%3D%7B13%7D%5E2-%5Cleft%282%5Ctimes%7B54%7D%5Cright%29%3D169-108%3D61)
+
+> réponse: 61
+
 ## Lundi 11 Avril
+
+Dans un quadrillage carré de taille impaire, il y a un nombre impair de carrés formant les diagonales (5 pour une grille 3×3).
+
+Le quadrillage est donc de taille paire, et le nombre de carrés formant une diagonale est la taille du côté. Les diagonales n'ont pas de carrés en commun.
+
+Donc la mosaïque a pour côté 1616/2 = 808. Il y a en tout 652864 carrés, dont 1616 bleus et donc
+651248 rouges.
+
+> réponse: 651248
 
 ## Mardi 12 Avril
 
 ## Mercredi 13 Avril
 
+Si n a 6 diviseurs, alors sa décomposition en facteurs premiers peut être:
+
+- p²⋅q où p et q sont premiers → 1, p, p², p⋅q, q, p²⋅q
+- p⁵ où p est premier → 1, p, p², p³, p⁴, p⁵
+
+Dans le premier cas, n² = p⁴⋅q² → 5×3 = 15 diviseurs.
+
+Dans le deuxième cas, n⁵ = p¹¹ → 11 diviseurs.
+
+> réponse: 11 ou 15
+
 ## Jeudi 14 Avril
+
+x⁴y⁴ est toujours positif, donc le facteur restant yz doit être strictement positif.
+
+> réponse: yz > 0
 
 ## Vendredi 15 Avril
 
 ## Lundi 18 Avril
 
+Pour M / N soit maximal, il faut M le plus grand possible et N le plus petit possible. M vaut au maximum 999, N au minimum 100. Le rapport vaut au maximum 9.99, soit 9 puisque il doit être entier. Donc M = 999 et N = 111.
+
+> réponse: 9
+
 ## Mardi 19 Avril
+
+a est un diviseur de ![latex](https://render.githubusercontent.com/render/math?math=100%20%3D%202%5E2%20%5Ctimes%205%5E2&mode=inline).
+
+c est un diviseur de ![latex](https://render.githubusercontent.com/render/math?math=140%20%3D%202%5E2%20%5Ctimes%205%20%5Ctimes%207&mode=inline).
+
+Ainsi, b est un diviseur de ![latex](https://render.githubusercontent.com/render/math?math=2%5E2%20%5Ctimes%205&mode=inline), soit 6 valeurs possibles.
+
+Programe en [Python](19.py):
+
+```python
+#!/usr/bin/env python3
+
+for a in range(1, 141):
+    for b in range(1, 141):
+        for c in range(1, 141):
+            if a * b == 100 and b * c == 140:
+                print(a, b, c)
+```
+
+> réponse: 6
 
 ## Mercredi 20 Avril
 
 ## Jeudi 21 Avril
 
+Pour les nombres à n chiffres, il y a 9ⁿ possibilités. Soit 9 + 9 × 9 + 9 × 9 × 9 = 819 jusqu'à 999.
+
+Entre 1100 et 1200, il y a 9×9 supplémentaires, soit 900 en tout.
+
+Idem entre 1200 et 1300, il y a 9×9 supplémentaires, soit 981 en tout.
+
+Chaque dizaine apporte ensuite 9 nombres supplémentaires: jusqu'à 1330 il y aura 999 nombres. Le suivant et millième est donc 1331.
+
+Nota: 1331 est l'écriture de 1000 en base 9.
+
+Exemples de conversion en Python et en Rust:
+
+```python
+import numpy
+print(int("1331", 9))
+print(numpy.base_repr(1000, 9))
+```
+
+```rust
+extern crate num_bigint;
+use num_bigint::BigUint;
+
+fn main() {
+    println!("{}", u32::from_str_radix("1331", 9).unwrap());
+    println!("{:?}", BigUint::from(1000u32).to_radix_be(9));
+}
+```
+
+Vérification par comptage en [Python](21.py):
+
+```python
+#!/usr/bin/env python3
+
+n = 0
+i = 0
+while True:
+    if "0" not in str(i):
+        n += 1
+        if n == 1000:
+            print(i)
+            break
+            break
+    i += 1
+```
+
+> réponse: 1331
+
 ## Vendredi 22 Avril
+
+Soient ![latex](https://render.githubusercontent.com/render/math?math=a&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b&mode=inline) les chiffres des dizaines et des unités. Ils doivent vérifier l'équation: ![latex](https://render.githubusercontent.com/render/math?math=a%5Ctimes%20b%2B2a%2B2b%3D10a%2Bb&mode=inline) qui se simplifie en: ![latex](https://render.githubusercontent.com/render/math?math=a%5Ctimes%288-b%29%3Db&mode=inline).
+
+- ![latex](https://render.githubusercontent.com/render/math?math=a%3D1%5Cimplies%208-b%3Db%5Cimplies%20b%3D4&mode=inline)
+- ![latex](https://render.githubusercontent.com/render/math?math=a%3D2%5Cimplies%2016%3D3b%5Cimplies%20%5Ctext%7Bpas%20de%20solution%20pour%20%7Db&mode=inline)
+- ![latex](https://render.githubusercontent.com/render/math?math=a%3D3%5Cimplies%2024%3D4b%5Cimplies%20b%3D6&mode=inline)
+- ![latex](https://render.githubusercontent.com/render/math?math=a%3D4%2C5%2C6%5Cimplies%20%5Ctext%7Bpas%20de%20solution%20pour%20%7Db&mode=inline)
+- ![latex](https://render.githubusercontent.com/render/math?math=a%3D7%5Cimplies%2056%3D8b%5Cimplies%20b%3D7&mode=inline)
+- ![latex](https://render.githubusercontent.com/render/math?math=a%3D8%2C9%5Cimplies%20%5Ctext%7Bpas%20de%20solution%20pour%20%7Db&mode=inline)
+
+Programme en [Rust](22.rs):
+
+```rust
+fn main() {
+    println!(
+        "{:?}",
+        (1..=100)
+            .filter(|n| *n == (n / 10) * (n % 10) + 2 * ((n / 10) + (n % 10)))
+            .collect::<Vec<_>>()
+    );
+}
+```
+
+Et en Python:
+
+```python
+print(list(n for n in range(1, 101) if n == (n // 10) * (n % 10) + 2 * ((n // 10) + (n % 10))))
+```
+
+> réponse: 14 36 77
 
 ## Lundi 25 Avril
 
+Il a acheté 27 bonbons, il en a reçu 5 gratuits, donc 27 + 5 = 32.
+
+> réponse: 2.70€
+
 ## Mardi 26 Avril
+
+500 000 007 × 499 999 993 = (500 000 000 - 7) × (500 000 000 + 7) = (5⋅10⁸)² - 7² = 250 000 000 000 000 000 - 49 = 249 999 999 999 999 951
+
+La somme des chiffres vaut 2 + 4 + 5 + 1 + 9 × 14 = 138
+
+```python
+sum(int(c) for c in str(500_000_007 * 499_999_993))
+```
+
+> réponse: 138
 
 ## Mercredi 27 Avril
 
+On peut prendre tous les nombres pairs ou tous les nombres impairs.
+
+> réponse: 15
+
 ## Jeudi 28 Avril
 
+Les diagonales d'un rectangle se coupent en leur milieu et sont de même longueur.
+
+Ainsi dans le rectangle ABCE, on a AD=CD : D est donc le milieu de la diagonale CB et donc de AE.
+
+![28](28.png)
+
+> réponse: 10 cm
+
+
 ## Vendredi 29 Avril
+
+Il faut que n+4 ou n+2 soit multiple de 7.
+
+n+4 est multiple de 7 pour n=7k+3 : 3, 10, 17, ... 94. Soit (94-3)/7+1=14 valeurs.
+
+n+2 est multiple de 7 pour n=7k+5 : 5, 12, 19, ... 96. Soit (96-5)/7+1=14 valeurs.
+
+Programme en [Rust](29.rs):
+
+```rust
+fn main() {
+    println!(
+        "{:?}",
+        (1..=100)
+            .filter(|n| (n + 4) * (n + 2) % 7 == 0)
+            .collect::<Vec<_>>()
+    );
+
+    println!(
+        "{}",
+        (1..=100).filter(|n| (n + 4) * (n + 2) % 7 == 0).count()
+    );
+}
+```
+
+> réponse: 28

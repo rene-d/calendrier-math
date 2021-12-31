@@ -10,7 +10,7 @@ Certains défis parmi ceux proposés peuvent se résoudre (ou plutôt se vérifi
 
 Elles sont principalement rédigées en [Markdown](https://guides.github.com/features/mastering-markdown/) et [Unicode](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode) qui offrent une mise en page suffisante. Cependant, quelques problèmes nécessitent des équations un peu plus complexes et les solutions utilisent [LaTeX](https://www.latex-project.org) (avec ce [hack](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b), référence [katex](https://katex.org), extension Visual Studio Code [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)). La mise en page est assurée par un _hook_ Git qui crée automatiquement les calendriers mensuels, ajoute ou enlève les scripts Python et l'encodage des équations LaTeX (`./readme.py -X -P` pour supprimer la mise en page Python/LaTeX).
 
-Les programmes Python peuvent être lancés en script, interactivement, ou en ligne: [python](https://www.python.org/shell/), [programiz](https://www.programiz.com/python-programming/online-compiler/), [repl.it](https://repl.it/), etc.
+Les programmes Python peuvent être lancés en script, interactivement, ou en ligne: [Python](https://www.python.org/shell/), [Rust](https://play.rust-lang.org), [programiz](https://www.programiz.com/python-programming/online-compiler/), [repl.it](https://repl.it/), etc.
 
 Même si le recours à l'informatique n'est pas l'objectif du calendrier, cela a malgré tout deux intérêts:
 
@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![68/260](https://img.shields.io/static/v1?label=solutions&message=68/260%20%2826%25%29&color=blueviolet&style=flat-square)
+![74/260](https://img.shields.io/static/v1?label=solutions&message=74/260%20%2828%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -68,13 +68,12 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Avril
 
-[![4/21](https://img.shields.io/static/v1?label=en%20cours&message=4/21&color=informational&style=flat-square)](2022/avril/)
+[![10/21](https://img.shields.io/static/v1?label=en%20cours&message=10/21&color=informational&style=flat-square)](2022/avril/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](2022/avril/README.md#vendredi-1-avril) | *02* | *03* |
-| [04](2022/avril/README.md#lundi-4-avril) | [05](2022/avril/README.md#mardi-5-avril) | [06](2022/avril/README.md#mercredi-6-avril) | 07 | 08 | *09* | *10* |
-| 11 | 12 | 13 | 14 | 15 | *16* | *17* |
-| 18 | 19 | 20 | 21 | 22 | *23* | *24* |
-| 25 | 26 | 27 | 28 | 29 | *30* |    |
-
+| [04](2022/avril/README.md#lundi-4-avril) | [05](2022/avril/README.md#mardi-5-avril) | [06](2022/avril/README.md#mercredi-6-avril) | 07 | [08](2022/avril/README.md#vendredi-8-avril) | *09* | *10* |
+| [11](2022/avril/README.md#lundi-11-avril) | 12 | [13](2022/avril/README.md#mercredi-13-avril) | [14](2022/avril/README.md#jeudi-14-avril) | 15 | *16* | *17* |
+| 18 | 19 | 20 | 21 | [22](2022/avril/README.md#vendredi-22-avril) 🖥 | *23* | *24* |
+| 25 | 26 | 27 | 28 | [29](2022/avril/README.md#vendredi-29-avril) 🖥 | *30* |    |
