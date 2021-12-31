@@ -264,7 +264,6 @@ Ainsi dans le rectangle ABCE, on a AD=CD : D est donc le milieu de la diagonale 
 
 > réponse: 10 cm
 
-
 ## Vendredi 29 Avril
 
 Il faut que n+4 ou n+2 soit multiple de 7.
