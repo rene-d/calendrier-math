@@ -119,7 +119,7 @@ Si c'est 1 le chiffre des centaines, on aboutit qu'à des produits supérieurs �
 
 Si c'est 109𝑥 il faudra aussi un 9 car 9 x 9 = 81. Mais 1098 ne convient pas. Il faut 𝑥 tel 8 + 9𝑥 = 𝑥0 = 10𝑥. D'où 𝑥 = 8.
 
-> réponse; 1089
+> réponse: 1089
 
 ## Vendredi 13 Mai
 
@@ -177,7 +177,6 @@ Le triangle AGH est semblable à PHC. Donc:
 Son aire est:
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%202%20%5Ctimes%209%20%5Ctimes%20%5Cfrac%20%7B72%7D%7Bx%7D%3D%5Cfrac%20%7B324%7D%20%7Bx%7D)
-
 
 L'aire du triangle ABC est donnée par la fonction:
 
