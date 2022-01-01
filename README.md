@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![99/260](https://img.shields.io/static/v1?label=solutions&message=99/260%20%2838%25%29&color=blueviolet&style=flat-square)
+![102/260](https://img.shields.io/static/v1?label=solutions&message=102/260%20%2839%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -80,7 +80,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Mai
 
-[![15/22](https://img.shields.io/static/v1?label=en%20cours&message=15/22&color=informational&style=flat-square)](2022/mai/)
+[![18/22](https://img.shields.io/static/v1?label=en%20cours&message=18/22&color=informational&style=flat-square)](2022/mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
@@ -88,6 +88,6 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [02](2022/mai/README.md#lundi-2-mai) | [03](2022/mai/README.md#mardi-3-mai) | [04](2022/mai/README.md#mercredi-4-mai) | [05](2022/mai/README.md#jeudi-5-mai) | [06](2022/mai/README.md#vendredi-6-mai) | *07* | *08* |
 | [09](2022/mai/README.md#lundi-9-mai) | [10](2022/mai/README.md#mardi-10-mai) | [11](2022/mai/README.md#mercredi-11-mai) | [12](2022/mai/README.md#jeudi-12-mai) | [13](2022/mai/README.md#vendredi-13-mai) 🖥 | *14* | *15* |
 | [16](2022/mai/README.md#lundi-16-mai) | [17](2022/mai/README.md#mardi-17-mai) | [18](2022/mai/README.md#mercredi-18-mai) | [19](2022/mai/README.md#jeudi-19-mai) | [20](2022/mai/README.md#vendredi-20-mai) | *21* | *22* |
-| 23 | 24 | 25 | 26 | 27 | *28* | *29* |
+| 23 | [24](2022/mai/README.md#mardi-24-mai) | [25](2022/mai/README.md#mercredi-25-mai) | 26 | [27](2022/mai/README.md#vendredi-27-mai) | *28* | *29* |
 | 30 | 31 |    |    |    |    |    |
 
