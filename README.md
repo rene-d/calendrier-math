@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![104/260](https://img.shields.io/static/v1?label=solutions&message=104/260%20%2840%25%29&color=blueviolet&style=flat-square)
+![106/260](https://img.shields.io/static/v1?label=solutions&message=106/260%20%2841%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -80,14 +80,14 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Mai
 
-[![20/22](https://img.shields.io/static/v1?label=en%20cours&message=20/22&color=informational&style=flat-square)](2022/mai/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](2022/mai/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    |    |    | *01* |
 | [02](2022/mai/README.md#lundi-2-mai) | [03](2022/mai/README.md#mardi-3-mai) | [04](2022/mai/README.md#mercredi-4-mai) | [05](2022/mai/README.md#jeudi-5-mai) | [06](2022/mai/README.md#vendredi-6-mai) | *07* | *08* |
-| [09](2022/mai/README.md#lundi-9-mai) | [10](2022/mai/README.md#mardi-10-mai) | [11](2022/mai/README.md#mercredi-11-mai) | [12](2022/mai/README.md#jeudi-12-mai) | [13](2022/mai/README.md#vendredi-13-mai) 🖥 | *14* | *15* |
+| [09](2022/mai/README.md#lundi-9-mai) | [10](2022/mai/README.md#mardi-10-mai) | [11](2022/mai/README.md#mercredi-11-mai) | [12](2022/mai/README.md#jeudi-12-mai) | [13](2022/mai/README.md#vendredi-13-mai) | *14* | *15* |
 | [16](2022/mai/README.md#lundi-16-mai) | [17](2022/mai/README.md#mardi-17-mai) | [18](2022/mai/README.md#mercredi-18-mai) | [19](2022/mai/README.md#jeudi-19-mai) | [20](2022/mai/README.md#vendredi-20-mai) | *21* | *22* |
-| 23 | [24](2022/mai/README.md#mardi-24-mai) | [25](2022/mai/README.md#mercredi-25-mai) | 26 | [27](2022/mai/README.md#vendredi-27-mai) | *28* | *29* |
+| [23](2022/mai/README.md#lundi-23-mai) | [24](2022/mai/README.md#mardi-24-mai) | [25](2022/mai/README.md#mercredi-25-mai) | [26](2022/mai/README.md#jeudi-26-mai) | [27](2022/mai/README.md#vendredi-27-mai) | *28* | *29* |
 | [30](2022/mai/README.md#lundi-30-mai) | [31](2022/mai/README.md#mardi-31-mai) |    |    |    |    |    |
 
