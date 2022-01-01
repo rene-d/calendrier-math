@@ -75,7 +75,7 @@ En n jours, Jean dépense 1+2+3+...+n = n(n+1)/2 €.
 - n² + n - 420 = 0
 - n = 20 (ou n = -21 mais on ne peut pas revenir dans le temps)
 
-réponse: 20 jours
+> réponse: 20 jours
 
 ## Vendredi 6 Mai
 

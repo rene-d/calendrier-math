@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![81/260](https://img.shields.io/static/v1?label=solutions&message=81/260%20%2831%25%29&color=blueviolet&style=flat-square)
+![88/260](https://img.shields.io/static/v1?label=solutions&message=88/260%20%2834%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -68,13 +68,26 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Avril
 
-[![17/21](https://img.shields.io/static/v1?label=en%20cours&message=17/21&color=informational&style=flat-square)](2022/avril/)
+[![19/21](https://img.shields.io/static/v1?label=en%20cours&message=19/21&color=informational&style=flat-square)](2022/avril/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](2022/avril/README.md#vendredi-1-avril) | *02* | *03* |
-| [04](2022/avril/README.md#lundi-4-avril) | [05](2022/avril/README.md#mardi-5-avril) | [06](2022/avril/README.md#mercredi-6-avril) | 07 | [08](2022/avril/README.md#vendredi-8-avril) | *09* | *10* |
-| [11](2022/avril/README.md#lundi-11-avril) | 12 | [13](2022/avril/README.md#mercredi-13-avril) | [14](2022/avril/README.md#jeudi-14-avril) | 15 | *16* | *17* |
+| [04](2022/avril/README.md#lundi-4-avril) | [05](2022/avril/README.md#mardi-5-avril) | [06](2022/avril/README.md#mercredi-6-avril) | [07](2022/avril/README.md#jeudi-7-avril) | [08](2022/avril/README.md#vendredi-8-avril) | *09* | *10* |
+| [11](2022/avril/README.md#lundi-11-avril) | [12](2022/avril/README.md#mardi-12-avril) | [13](2022/avril/README.md#mercredi-13-avril) | [14](2022/avril/README.md#jeudi-14-avril) | 15 | *16* | *17* |
 | [18](2022/avril/README.md#lundi-18-avril) | [19](2022/avril/README.md#mardi-19-avril) 🖥 | 20 | [21](2022/avril/README.md#jeudi-21-avril) 🖥 | [22](2022/avril/README.md#vendredi-22-avril) 🖥 | *23* | *24* |
 | [25](2022/avril/README.md#lundi-25-avril) | [26](2022/avril/README.md#mardi-26-avril) | [27](2022/avril/README.md#mercredi-27-avril) | [28](2022/avril/README.md#jeudi-28-avril) | [29](2022/avril/README.md#vendredi-29-avril) 🖥 | *30* |    |
+
+### Mai
+
+[![5/22](https://img.shields.io/static/v1?label=en%20cours&message=5/22&color=informational&style=flat-square)](2022/mai/)
+
+|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
+|---|---|---|---|---|---|---|
+|    |    |    |    |    |    | *01* |
+| [02](2022/mai/README.md#lundi-2-mai) | [03](2022/mai/README.md#mardi-3-mai) | [04](2022/mai/README.md#mercredi-4-mai) | [05](2022/mai/README.md#jeudi-5-mai) | [06](2022/mai/README.md#vendredi-6-mai) | *07* | *08* |
+| 09 | 10 | 11 | 12 | 13 | *14* | *15* |
+| 16 | 17 | 18 | 19 | 20 | *21* | *22* |
+| 23 | 24 | 25 | 26 | 27 | *28* | *29* |
+| 30 | 31 |    |    |    |    |    |
 
