@@ -240,4 +240,18 @@ L'aire coloriée est la somme des deux petits demi-cercles plus l'aire du triang
 
 ## Lundi 30 Mai
 
+Comme (x + 20)(x + 5) = 100 + 25 x + x², il faut x divise 100. Il y a: 1, 2, 4, 5, 10, 20, 25, 50, 100.
+
+> réponse: 9
+
 ## Mardi 31 Mai
+
+Le point B est aligné avec les centres O₁ O₂ des deux cercles: le rayon BO₁ est perpendiculaire à la tangeante, le rayoon BO₂ est également perpendiculaire à la même tangeante.
+
+Le point D est sur la bissectrice de l'angle AO₁B, donc AD = DB.
+
+De même, CD = BD.
+
+On en déduit que ABC sont sur un cercle de centre C. Et donc que l'angle ABC est droit.
+
+> réponse: 90°
