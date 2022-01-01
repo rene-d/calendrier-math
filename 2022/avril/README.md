@@ -180,8 +180,14 @@ Soit H l'aire de l'hexagone dessiné par l'intersection des deux triangles.
 
 L'aire du premier triangle est:
 
-- A1 = H + 2 + 3 + 4
+- A1 = H + 2 + 2 + 4
 - A2 = H + x + 1 + 2
+
+Comme les triangles sont superposables, on a A1=A2.
+
+D'où: x = H + 2 + 4  - H - 1 - 2 = 5
+
+> réponse: 5
 
 ## Jeudi 21 Avril
 
