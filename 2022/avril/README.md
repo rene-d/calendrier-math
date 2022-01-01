@@ -146,6 +146,24 @@ x⁴y⁴ est toujours positif, donc le facteur restant yz doit être strictement
 
 ## Vendredi 15 Avril
 
+_Soit n un nombre entier positif qui est égal au produit de n nombres entiers dont la somme est 0. Est-ce que n doit être pair ou impair ?_
+
+Cela fonctionne avec n pair, avec au moins la solution pour n=4 : ![latex](https://render.githubusercontent.com/render/math?math=%5Cprod%20%3D%20%28-1%29%20%5Ccdot%201%20%5Ccdot%20%28-2%29%20%5Ccdot%202%20%3D%204%5Ctext%7B%2C%20%7D%5Csum%3D1-1%2B2-2%3D0&mode=inline).
+
+Mais aussi pour n=16: ![latex](https://render.githubusercontent.com/render/math?math=%5Cprod%20%3D%20%7B%28-1%29%7D%5E6%20%5Ccdot%20%7B%28-2%29%7D%5E2%20%5Ccdot%20%201%5E6%20%5Ccdot%20%202%5E2%3D16%5Ctext%7B%2C%20%7D%5Csum%3D0&mode=inline) N+P=0.
+
+Supposons à présent n impair.
+
+Soit N l'ensemble des nombres négatifs et P l'ensemble des nombres positifs. Ces deux ensembles sont exclusivement de nombres impairs, pour que leur produit soit égal à n, impair. De plus, N + P = 0.
+
+Pour que le produit soit positif il faut card(N) pair. Donc N est également pair, puisque impair+impair=pair.
+
+Or card(P) = n - card(N) est impair (impair-pair=impair). Mais la somme d'un nombre impair de nombres impairs est impaire. P et N ont la même parité (N+P=0), et P ne peut pas être à la fois pair et impair.
+
+D'où la condradition qui entraine l'impossibilité de n impair.
+
+> réponse: n doit être pair
+
 ## Lundi 18 Avril
 
 Pour M / N soit maximal, il faut M le plus grand possible et N le plus petit possible. M vaut au maximum 999, N au minimum 100. Le rapport vaut au maximum 9.99, soit 9 puisque il doit être entier. Donc M = 999 et N = 111.
