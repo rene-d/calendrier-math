@@ -287,13 +287,13 @@ D'où C = 6
 
 ## Vendredi 22 Mai
 
-⚠️ 🤪 Il manque une précision **essentielle** dans l'énoncé: le *triangle est supposé équilatéral* ! 🤪 ⚠️
+⚠️ 🤪 Il manque une précision **essentielle** dans l'énoncé: le *triangle est supposé équilatéral* ! 🤪
 
 Le rapport est alors 4 / 3.
 
 Si le triangle est quelconque, il y a une infinité de réponses…
 
-> réponse: 4 / 3
+> réponse: 4 / 3 ⚠️
 
 ## Lundi 25 Mai
 

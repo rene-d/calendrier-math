@@ -256,9 +256,9 @@ L'aire coloriée est la somme des deux petits demi-cercles plus l'aire du triang
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AA_%7Bc%7D%20%26%3D%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20a%202%5Cright%29%7D%5E2%0A%2B%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20b%202%5Cright%29%7D%5E2%0A%2B%20%5Cfrac%201%202%20ab%0A-%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20c%202%5Cright%29%7D%5E2%0A%5C%5C%0A%26%3D%20%5Cfrac%20%5Cpi%208%20%5Cleft%28%0Aa%5E2%2Bb%5E2-c%5E2%0A%5Cright%29%0A%2B%5Cfrac%20%7Bab%7D%202%0A%5C%5C%0A%26%3D%5Cfrac%20%7Bab%7D%202%0A%5Cend%7Baligned%7D)
 
-⚠️ erreur dans solution du livret
-
 > réponse: les aires sont identiques ⚠️
+
+⚠️ erreur dans la solution du livret: l'aire du demi-disque est ![latex](https://render.githubusercontent.com/render/math?math=S_a%3D%5Cfrac%20%5Cpi%208%20a%5E2&mode=inline) et non ![latex](https://render.githubusercontent.com/render/math?math=S_a%3D%5Cfrac%20%5Cpi%202%20a%5E2&mode=inline) comme indiqué (resp. ![latex](https://render.githubusercontent.com/render/math?math=S_b&mode=inline), ![latex](https://render.githubusercontent.com/render/math?math=S_c&mode=inline)).
 
 ## Lundi 30 Mai
 

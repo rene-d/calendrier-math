@@ -52,7 +52,7 @@ L'empilement 2 doit avoir quatorze cubes pour peser 700 g. On en voit onze, il e
 
 > réponse: 4 ⚠️
 
-⚠️ Le livret dit 3. Mais il y a un cube caché derrière l'empilement 1 !
+⚠️ Le livret des solutions dit 3. Mais il y a un cube caché derrière l'empilement 1 !
 
 ## Mardi 7 Janvier
 

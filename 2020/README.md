@@ -4,6 +4,11 @@
 
 ![cal-2020](cal-2020.png)
 
+## Ecarts avec les solutions officielles
+
+- [6 Janvier](janvier/README.md#lundi-6-janvier)
+- [22 Mai](mai/README.md#vendredi-22-mai)
+
 ## Solutions 2020
 
 ![262/262](https://img.shields.io/static/v1?label=solutions&message=262/262%20%28100%25%29&color=blueviolet&style=flat-square)
