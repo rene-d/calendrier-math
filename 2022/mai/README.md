@@ -246,7 +246,9 @@ Comme (x + 20)(x + 5) = 100 + 25 x + x², il faut x divise 100. Il y a: 1, 2, 4,
 
 ## Mardi 31 Mai
 
-Le point B est aligné avec les centres O₁ O₂ des deux cercles: le rayon BO₁ est perpendiculaire à la tangeante, le rayoon BO₂ est également perpendiculaire à la même tangeante.
+![31](31.png)
+
+Le point B est aligné avec les centres O₁ O₂ des deux cercles: le rayon BO₁ est perpendiculaire à la tangente, le rayoon BO₂ est également perpendiculaire à la même tangente.
 
 Le point D est sur la bissectrice de l'angle AO₁B, donc AD = DB.
 
