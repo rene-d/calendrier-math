@@ -249,7 +249,7 @@ C'est 2. En effet la puissance de 5 est impair, quelquesoit l'exposant. impair+1
 
 Cependant 1 est aussi diviseur du nombre, comme il l'est de tous les entiers.
 
-> réponse: 2 (ou 1?)
+> réponse: 2 (ou 1?) ⚠️
 
 ## Jeudi 27 Janvier
 

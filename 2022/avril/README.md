@@ -36,7 +36,7 @@ Complément de solution par rapport à celle du livret: le triangle rectangle co
 
 ![01bis](01bis.png)
 
-> réponse: 13 cm ou 3 √41 cm
+> réponse: 13 cm ou 3 √41 cm ⚠️
 
 ## Lundi 4 Avril
 
