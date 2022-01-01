@@ -208,6 +208,18 @@ Tout autre choix imposera une valeur supérieure pour d.
 
 ## Lundi 23 Mai
 
+```text
+1 2 3 4 5 6 1 2 3 4 5 6
+A B C D E F              ✅
+  A B C D E F            ❌ B↔︎3
+    A B C D E F          ✅
+      A B C D E F        ❌ A↔︎4 C↔︎6
+        A B C D E F      ✅
+          A B C D E F    ✅
+```
+
+> réponse: 4
+
 ## Mardi 24 Mai
 
 ![latex](https://render.githubusercontent.com/render/math?math=127%3D2%5E7-1%3D2%5E0%2B2%5E1%2B2%5E2%2B2%5E3%2B2%5E4%2B2%5E5%2B2%5E6&mode=inline)
@@ -225,6 +237,16 @@ D'où: ![latex](https://render.githubusercontent.com/render/math?math=x%3D4&mode
 > réponse: 4
 
 ## Jeudi 26 Mai
+
+Ce sont tous les entiers pairs entre -16 et 16, soit 17 valeurs possibles.
+
+```python
+from itertools import combinations
+
+print(len(set(a + b for a, b in combinations([-9, -7, -5, -3, -1, 1, 3, 5, 7, 9], 2))))
+```
+
+> réponse: 17
 
 ## Vendredi 27 Mai
 
