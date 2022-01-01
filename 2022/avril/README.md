@@ -40,15 +40,17 @@ Complément de solution par rapport à celle du livret: le triangle rectangle co
 
 ## Lundi 4 Avril
 
+Après avoir réécrit l'expression sous forme de produit de fractions, on simplifie deux à deux les termes identiques:
+
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%7D%0AE%26%3D%5Cprod_%7Bk%3D8%7D%5E%7B70%7D%7B%5Cleft%281-%5Cfrac%7B1%7D%7Bk%5E2%7D%5Cright%29%7D%0A%5C%5C%0A%26%3D%5Cprod_%7Bk%3D8%7D%5E%7B70%7D%7B%5Cfrac%7Bk%5E2-1%7D%7Bk%5E2%7D%7D%0A%5C%5C%0A%26%3D%5Cprod_%7Bk%3D8%7D%5E%7B70%7D%7B%5Cfrac%7B%28k-1%29%28k%2B1%29%7D%7Bk%5E2%7D%7D%0A%5C%5C%0A%26%3D%5Cfrac%7B7%5Ctimes%7B%5Ccancel%7B9%7D%7D%7D%7B8%5Ctimes%7B%5Ccancel%7B8%7D%7D%7D%5Ctimes%5Cfrac%7B%7B%5Ccancel%7B8%7D%7D%5Ctimes%7B%5Ccancel%7B1%7D0%7D%7D%7B%7B%5Ccancel%7B9%7D%7D%5Ctimes%7B%5Ccancel%7B9%7D%7D%7D%5Ctimes%5Cfrac%7B%7B%5Ccancel%7B9%7D%7D%5Ctimes%7B%5Ccancel%7B11%7D%7D%7D%7B%7B%5Ccancel%7B10%7D%7D%5Ctimes%7B%5Ccancel%7B10%7D%7D%7D%5Ctimes%5Ccdots%5Ctimes%5Cfrac%7B%7B%5Ccancel%7B69%7D%7D%5Ctimes%7B71%7D%7D%7B%7B%5Ccancel%7B70%7D%7D%5Ctimes%7B70%7D%7D%0A%5C%5C%0A%26%3D%5Cfrac%7B7%7D%7B8%7D%5Ctimes%5Cfrac%7B71%7D%7B70%7D%0A%5C%5C%0A%26%3D%5Cfrac%7B71%7D%7B80%7D%0A%5Cend%7Balign%7D)
 
 > réponse: 71/80
 
 ## Mardi 5 Avril
 
-Pour qu'un nombre se termine par 0, il faut qu'il soit multiple de 2 et de 5.
+Un nombre se termine par 0 si et seulement s'il est multiple de 2 et de 5, respectivement par n 0, 2ⁿ et 5ⁿ.
 
-Donc si a = 2¹⁰ × 100000 et b = 5¹⁰ × 100000, alors a × b = 10²⁰
+Donc si a = 2¹⁰ × 100000 et b = 5¹⁰ × 100000, alors a × b = 10²⁰.
 
 > réponse: oui
 
@@ -70,6 +72,12 @@ Les coordonnées du point I sont (2/3; 2/3). D'où l'aire = 2 × 2/3 = 4/3 cm²
 > réponse: 4/3 cm²
 
 ## Jeudi 7 Avril
+
+Dans un carré 4x4, on peut dessiner au maximum 5 rectangles 3x1 ou 1x3. Il faut donc supprimer au minimum 5 cases.
+
+![07](07.png)
+
+> réponse: 5
 
 ## Vendredi 8 Avril
 
@@ -97,6 +105,25 @@ Donc la mosaïque a pour côté 1616/2 = 808. Il y a en tout 652864 carrés, don
 > réponse: 651248
 
 ## Mardi 12 Avril
+
+Le [théorème des bissectrices](https://fr.wikipedia.org/wiki/Bissectrice#Bissectrices_d'un_triangle) d'un triangle permet d'écrire:
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BAB%7D%20%7BAC%7D%20%3D%20%5Cfrac%20%7BDB%7D%20%7BDC%7D)
+
+![12](12.png)
+
+On peut calculer la longueur ![latex](https://render.githubusercontent.com/render/math?math=AB%2BBD&mode=inline):
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BAB%7D%20%7BAC%7D%20%3D%20%5Cfrac%20%7BDB%7D%20%7BDC%7D%3D%20%5Cfrac%20%7BAB%2BDB%7D%20%7BAC%2BDC%7D%0A%3D%5Cfrac%7BAB%2BDB%7D%7B12%7D%3D2)
+
+car
+
+![latexml](https://render.githubusercontent.com/render/math?math=CD%3D%5Cfrac%201%203%20BC%20%3D%20%5Cfrac%201%203%20%5Cleft%28%20BD%2BCD%20%5Cright%29%20%5Cimplies%20BD%3D2%20CD)
+
+Le périmètre du triangle est donc:
+
+![latexml](https://render.githubusercontent.com/render/math?math=AB%2BBC%2BCA%3D%20%28AB%2BBD%29%2B%28DC%2BCA%29%3D2%5Ctimes%2012%2B12%3D36)
+
+> réponse: 36 cm
 
 ## Mercredi 13 Avril
 
@@ -148,6 +175,13 @@ for a in range(1, 141):
 > réponse: 6
 
 ## Mercredi 20 Avril
+
+Soit H l'aire de l'hexagone dessiné par l'intersection des deux triangles.
+
+L'aire du premier triangle est:
+
+- A1 = H + 2 + 3 + 4
+- A2 = H + x + 1 + 2
 
 ## Jeudi 21 Avril
 
