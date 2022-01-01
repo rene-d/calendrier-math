@@ -198,13 +198,13 @@ Donc l'aire minimale du rectangle ABC est ![latex](https://render.githubusercont
 
 - 2a < b
 - 3b < c => 6a < 3b < c
-- 3c < d => 18a < 9b < 3c < d
+- 4c < d => 18a < 9b < 4c < d
 
-Donc si a=1, b=3, c=10, d=31
+Donc si a=1, b=3, c=10, d=41
 
-Tout autre choix imposera une valeur supérieure pour d (au moins 36 si a=2, etc.).
+Tout autre choix imposera une valeur supérieure pour d.
 
-> réponse: 31
+> réponse: 41
 
 ## Lundi 23 Mai
 
