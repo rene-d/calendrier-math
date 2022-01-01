@@ -181,11 +181,11 @@ De plus, l'angle ∠ABC est tel que son sinus est égal à 1 / 2, soit 30°. En 
 
 On en déduit que les angles ∠CAD et ∠CBD valent respectiveMensonge en radians 2π / 3 et π / 3  .
 
-L'aire d'un [segMensonge circulaire](https://fr.wikipedia.org/wiki/ _circulaire) est  :
+L'aire d'un [segment circulaire](https://fr.wikipedia.org/wiki/Segment_circulaire) est:
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%7B%5Cdisplaystyle%20A%3D%7B%5Cfrac%20%7BR%5E%7B2%7D%7D%7B2%7D%7D%5Cleft%28%5Ctheta%20-%5Csin%20%5Ctheta%20%5Cright%29%7D.)
 
-Ici, l'aire cherchée vaut donc la somme des deux  s circulaires  :
+Ici, l'aire cherchée vaut donc la somme des deux  s circulaires:
 
 ![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AA%20%26%3D%20%5Cfrac%20%7B1%5E2%7D%20%7B2%7D%20%5Cleft%28%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20-%20%5Csin%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20%20%5Cright%29%20%2B%0A%20%20%20%20%5Cfrac%20%7B%28%5Csqrt%203%29%5E2%7D%20%7B2%7D%20%5Cleft%28%20%5Cfrac%20%5Cpi%203%20-%20%5Csin%20%5Cfrac%20%5Cpi%203%20%5Cright%29%20%5C%5C%0A%0A%20%20%26%3D%20%5Cfrac%201%202%20%5Cleft%28%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20-%20%5Cfrac%20%7B%5Csqrt%203%7D%202%20%5Cright%29%20%2B%0A%20%20%20%20%5Cfrac%203%202%20%5Cleft%28%20%5Cfrac%20%5Cpi%203%20-%20%5Cfrac%20%7B%5Csqrt%203%7D%202%20%5Cright%29%20%5C%5C%0A%0A%20%20%26%3D%20%5Cfrac%20%7B5%20%5Cpi%7D%20%7B6%7D%20-%20%5Csqrt%203%0A%5Cend%7Baligned%7D)
 
