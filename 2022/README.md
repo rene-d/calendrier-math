@@ -9,6 +9,7 @@
 - [26 Janvier](janvier/README.md#mercredi-26-janvier) : énoncé pas assez précis
 - [1 Avril](avril/README.md#vendredi-1-avril) : réponse incomplète
 - [10 Mai](mai/README.md#mardi-10-mai) : énoncé pas assez précis
+- [27 Mai](mai/README.md#vendredi-27-mai) : erreur dans la solution du livret
 
 ## Solutions 2022
 

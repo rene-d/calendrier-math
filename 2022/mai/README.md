@@ -210,11 +210,33 @@ Tout autre choix imposera une valeur supérieure pour d.
 
 ## Mardi 24 Mai
 
+![latex](https://render.githubusercontent.com/render/math?math=127%3D2%5E7-1%3D2%5E0%2B2%5E1%2B2%5E2%2B2%5E3%2B2%5E4%2B2%5E5%2B2%5E6&mode=inline)
+
+> réponse: 7
+
 ## Mercredi 25 Mai
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%209%205%20%3D1%2B%20%5Cfrac%20%7B1%7D%20%7B1%2B%5Cfrac%7B1%7D%7Bx%7D%20%7D%0A%5Cimplies%0A%5Cfrac%204%205%3D%5Cfrac%20%7B1%7D%20%7B1%2B%5Cfrac%7B1%7D%7Bx%7D%20%7D)
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%205%204%20%3D%201%2B%5Cfrac%201%20x%0A%5Cimplies%0A%5Cfrac%201%20x%20%3D%20%5Cfrac%201%204)
+
+D'où: ![latex](https://render.githubusercontent.com/render/math?math=x%3D4&mode=inline)
+
+> réponse: 4
 
 ## Jeudi 26 Mai
 
 ## Vendredi 27 Mai
+
+Soit a, b, c les trois côtés du triangle, c l'hypoténuse.
+
+L'aire coloriée est la somme des deux petits demi-cercles plus l'aire du triangle moins l'aire du demi-cercle porté par l'hypoténuse.
+
+![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AA_%7Bc%7D%20%26%3D%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20a%202%5Cright%29%7D%5E2%0A%2B%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20b%202%5Cright%29%7D%5E2%0A%2B%20%5Cfrac%201%202%20ab%0A-%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20c%202%5Cright%29%7D%5E2%0A%5C%5C%0A%26%3D%20%5Cfrac%20%5Cpi%208%20%5Cleft%28%0Aa%5E2%2Bb%5E2-c%5E2%0A%5Cright%29%0A%2B%5Cfrac%20%7Bab%7D%202%0A%5C%5C%0A%26%3D%5Cfrac%20%7Bab%7D%202%0A%5Cend%7Baligned%7D)
+
+⚠️ erreur dans solution du livret
+
+> réponse: les aires sont identiques ⚠️
 
 ## Lundi 30 Mai
 
