@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![129/260](https://img.shields.io/static/v1?label=solutions&message=129/260%20%2850%25%29&color=blueviolet&style=flat-square)
+![137/260](https://img.shields.io/static/v1?label=solutions&message=137/260%20%2853%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -102,4 +102,16 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 | [13](2022/juin/README.md#lundi-13-juin) | [14](2022/juin/README.md#mardi-14-juin) | [15](2022/juin/README.md#mercredi-15-juin) | [16](2022/juin/README.md#jeudi-16-juin) | [17](2022/juin/README.md#vendredi-17-juin) | *18* | *19* |
 | [20](2022/juin/README.md#lundi-20-juin) | [21](2022/juin/README.md#mardi-21-juin) | [22](2022/juin/README.md#mercredi-22-juin) | [23](2022/juin/README.md#jeudi-23-juin) | [24](2022/juin/README.md#vendredi-24-juin) | *25* | *26* |
 | [27](2022/juin/README.md#lundi-27-juin) | [28](2022/juin/README.md#mardi-28-juin) | [29](2022/juin/README.md#mercredi-29-juin) | [30](2022/juin/README.md#jeudi-30-juin) |    |    |    |
+
+### Juillet
+
+[![8/21](https://img.shields.io/static/v1?label=en%20cours&message=8/21&color=informational&style=flat-square)](2022/juillet/)
+
+|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
+|---|---|---|---|---|---|---|
+|    |    |    |    | 01 | *02* | *03* |
+| [04](2022/juillet/README.md#lundi-4-juillet) | [05](2022/juillet/README.md#mardi-5-juillet) | [06](2022/juillet/README.md#mercredi-6-juillet) | [07](2022/juillet/README.md#jeudi-7-juillet) | [08](2022/juillet/README.md#vendredi-8-juillet) | *09* | *10* |
+| [11](2022/juillet/README.md#lundi-11-juillet) | [12](2022/juillet/README.md#mardi-12-juillet) | [13](2022/juillet/README.md#mercredi-13-juillet) | 14 | 15 | *16* | *17* |
+| 18 | 19 | 20 | 21 | 22 | *23* | *24* |
+| 25 | 26 | 27 | 28 | 29 | *30* | *31* |
 
