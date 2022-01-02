@@ -129,7 +129,7 @@ Donc l'aire rouge: 1/√2 + 1 + 1/√2 = √2 + 1
 
 Aire jaune: (1/√2)²/2 × 3 + 1/√2 × 2 = 3/4 + √2
 
-> réponse 1/4 cm²
+> réponse: 1/4 cm²
 
 ## Mardi 21 Juin
 
@@ -182,3 +182,13 @@ En remplaçant par les valeurs de l'énoncé:
 > réponse: 5
 
 ## Jeudi 30 Juin
+
+![30](30.png)
+
+Pour être tangent au côté du rectangle et au cercle central C (noir), le centre H du cercle C1 (violet) doit être à l'intersection de la droite y=15 et du cercle de centre E et de rayon 30.
+
+Le triangle EIH est rectangle en I, son hypoténuse est 30 et un de ses côtés 35 - 15 = 20. D'où IH = √(30² - 20²) = √500 = 10√5.
+
+La longueur l = AD est donc 15 + 10√5 + 15 = 30 + 10√5 ≈ 52.4
+
+> réponse: 30+10√5 cm

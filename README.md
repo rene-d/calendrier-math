@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![127/260](https://img.shields.io/static/v1?label=solutions&message=127/260%20%2849%25%29&color=blueviolet&style=flat-square)
+![129/260](https://img.shields.io/static/v1?label=solutions&message=129/260%20%2850%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -93,13 +93,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Juin
 
-[![20/22](https://img.shields.io/static/v1?label=en%20cours&message=20/22&color=informational&style=flat-square)](2022/juin/)
+[![22/22](https://img.shields.io/static/v1?label=fini&message=22/22&color=success&style=flat-square)](2022/juin/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    | [01](2022/juin/README.md#mercredi-1-juin) | [02](2022/juin/README.md#jeudi-2-juin) | [03](2022/juin/README.md#vendredi-3-juin) | *04* | *05* |
 | [06](2022/juin/README.md#lundi-6-juin) | [07](2022/juin/README.md#mardi-7-juin) | [08](2022/juin/README.md#mercredi-8-juin) | [09](2022/juin/README.md#jeudi-9-juin) | [10](2022/juin/README.md#vendredi-10-juin) | *11* | *12* |
 | [13](2022/juin/README.md#lundi-13-juin) | [14](2022/juin/README.md#mardi-14-juin) | [15](2022/juin/README.md#mercredi-15-juin) | [16](2022/juin/README.md#jeudi-16-juin) | [17](2022/juin/README.md#vendredi-17-juin) | *18* | *19* |
-| 20 | [21](2022/juin/README.md#mardi-21-juin) | [22](2022/juin/README.md#mercredi-22-juin) | [23](2022/juin/README.md#jeudi-23-juin) | [24](2022/juin/README.md#vendredi-24-juin) | *25* | *26* |
-| [27](2022/juin/README.md#lundi-27-juin) | [28](2022/juin/README.md#mardi-28-juin) | [29](2022/juin/README.md#mercredi-29-juin) | 30 |    |    |    |
+| [20](2022/juin/README.md#lundi-20-juin) | [21](2022/juin/README.md#mardi-21-juin) | [22](2022/juin/README.md#mercredi-22-juin) | [23](2022/juin/README.md#jeudi-23-juin) | [24](2022/juin/README.md#vendredi-24-juin) | *25* | *26* |
+| [27](2022/juin/README.md#lundi-27-juin) | [28](2022/juin/README.md#mardi-28-juin) | [29](2022/juin/README.md#mercredi-29-juin) | [30](2022/juin/README.md#jeudi-30-juin) |    |    |    |
 
