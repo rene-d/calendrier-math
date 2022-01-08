@@ -163,6 +163,16 @@ Sur chaque extrêmité il y a 4 cordes : il faut donc 4×10=40 extrêmités de c
 
 ## Vendredi 22 Juillet
 
+Les multiples de 3 qui ont pour chiffre des unités 6 sont ![latex](https://render.githubusercontent.com/render/math?math=6%2B30k&mode=inline) et ceux par 7 ![latex](https://render.githubusercontent.com/render/math?math=27%2B30k&mode=inline).
+
+Multiples qui se terminent par 6:
+![latexml](https://render.githubusercontent.com/render/math?math=1%20%5Cle%206%2B30k%20%5Cle%201000%0A%5C%5C%0A0%20%5Cle%20%20k%20%5Cle%20%5Clfloor%20%5Cfrac%7B1000-6%7D%7B30%7D%20%20%20%5Crfloor%3D%2033%0A%5C%5C%0A%5Cimplies%2034%20%5Ctext%7B%20valeurs%7D)
+
+Multiples qui se terminent par 7:
+![latexml](https://render.githubusercontent.com/render/math?math=1%20%5Cle%2027%2B30k%20%5Cle%201000%0A%5C%5C%0A0%20%5Cle%20%20k%20%5Cle%20%5Clfloor%20%5Cfrac%7B1000-27%7D%7B30%7D%20%20%20%5Crfloor%3D%2032%0A%5C%5C%0A%5Cimplies%2033%20%5Ctext%7B%20valeurs%7D)
+
+> réponse: multiples qui finissent par 6
+
 ## Lundi 25 Juillet
 
 Le critère de divisibilité par 4 est que les deux derniers chiffres forment un nombre dvisible par 4. Avec les chiffres donnés, on peut former:
@@ -203,6 +213,8 @@ Exemple:
 - Il y a 12 triangles de côté 1.
 - Il y a 6 triangles de côté 2.
 - Il y a 2 triangles de côté 3.
+
+> réponse: 20
 
 ## Jeudi 28 Juillet
 

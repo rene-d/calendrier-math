@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![148/260](https://img.shields.io/static/v1?label=solutions&message=148/260%20%2857%25%29&color=blueviolet&style=flat-square)
+![150/260](https://img.shields.io/static/v1?label=solutions&message=150/260%20%2858%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -105,13 +105,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Juillet
 
-[![19/21](https://img.shields.io/static/v1?label=en%20cours&message=19/21&color=informational&style=flat-square)](2022/juillet/)
+[![21/21](https://img.shields.io/static/v1?label=fini&message=21/21&color=success&style=flat-square)](2022/juillet/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 |    |    |    |    | [01](2022/juillet/README.md#vendredi-1-juillet) | *02* | *03* |
 | [04](2022/juillet/README.md#lundi-4-juillet) | [05](2022/juillet/README.md#mardi-5-juillet) | [06](2022/juillet/README.md#mercredi-6-juillet) | [07](2022/juillet/README.md#jeudi-7-juillet) | [08](2022/juillet/README.md#vendredi-8-juillet) | *09* | *10* |
 | [11](2022/juillet/README.md#lundi-11-juillet) | [12](2022/juillet/README.md#mardi-12-juillet) | [13](2022/juillet/README.md#mercredi-13-juillet) | [14](2022/juillet/README.md#jeudi-14-juillet) | [15](2022/juillet/README.md#vendredi-15-juillet) | *16* | *17* |
-| [18](2022/juillet/README.md#lundi-18-juillet) | [19](2022/juillet/README.md#mardi-19-juillet) | [20](2022/juillet/README.md#mercredi-20-juillet) | [21](2022/juillet/README.md#jeudi-21-juillet) | 22 | *23* | *24* |
-| [25](2022/juillet/README.md#lundi-25-juillet) | [26](2022/juillet/README.md#mardi-26-juillet) | 27 | [28](2022/juillet/README.md#jeudi-28-juillet) | [29](2022/juillet/README.md#vendredi-29-juillet) | *30* | *31* |
+| [18](2022/juillet/README.md#lundi-18-juillet) | [19](2022/juillet/README.md#mardi-19-juillet) | [20](2022/juillet/README.md#mercredi-20-juillet) | [21](2022/juillet/README.md#jeudi-21-juillet) | [22](2022/juillet/README.md#vendredi-22-juillet) | *23* | *24* |
+| [25](2022/juillet/README.md#lundi-25-juillet) | [26](2022/juillet/README.md#mardi-26-juillet) | [27](2022/juillet/README.md#mercredi-27-juillet) | [28](2022/juillet/README.md#jeudi-28-juillet) | [29](2022/juillet/README.md#vendredi-29-juillet) | *30* | *31* |
 
