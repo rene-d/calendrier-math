@@ -205,11 +205,13 @@ int(str(n).replace("7", "", 1)) % 9
 - Aire triangle blanc inférieur: (4 - 1) × (7 - 3) ÷ 2 = 6
 - Aire colorée: 28 - 7 ÷ 2 - 6 = 37 ÷ 2
 
-> réponse 37/2 cm²
+> réponse 37/2 cm² = 18.5 cm²
 
 ## Mercredi 24 Août
 
 Durée du trajet : (17h30 - 13h - 2h30) / 2 = 1h
+
+Nota: l'horloge retarde d'une heure.
 
 > réponse: 18h30
 
@@ -221,7 +223,7 @@ On peut former 3! = 6 mots avec BCD. Les voyelles sont forcément intercalées e
 
 ## Vendredi 26 Août
 
-Le point est forcément sur la médiatrice d'un côté (distances équivalentes de 3 cm).
+Le point est forcément sur la médiatrice d'un côté (distances équivalentes de 3 cm), donc également à équidistance des deux autres sommets.
 
 > réponse: 7 cm
 
@@ -231,7 +233,7 @@ Le point est forcément sur la médiatrice d'un côté (distances équivalentes 
 
 ## Mardi 30 Août
 
-Ils ont 32 ans de différences. Quand le père aura 64 ans, le fils aura 32.
+Ils ont 32 ans de différence. Quand le père aura 64 ans, le fils aura 32.
 
 > réponse: 29 ans
 
