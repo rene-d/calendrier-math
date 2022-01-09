@@ -205,7 +205,7 @@ int(str(n).replace("7", "", 1)) % 9
 - Aire triangle blanc inférieur: (4 - 1) × (7 - 3) ÷ 2 = 6
 - Aire colorée: 28 - 7 ÷ 2 - 6 = 37 ÷ 2
 
-> réponse 37/2 cm² = 18.5 cm²
+> réponse: 37/2 cm² = 18.5 cm²
 
 ## Mercredi 24 Août
 
