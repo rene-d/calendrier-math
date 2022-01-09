@@ -188,7 +188,7 @@ Il faut que la somme des chiffres soit multiple de 9 pour que le nombre soit div
 
 La somme des chiffres vaut 52.
 
-Le multiple de 9 inférieur est 45. Il faut donc enlever 7.
+Le multiple de 9 inférieur est 45. Il faut donc enlever un des quatre 7.
 
 ```python
 n = 7_231_123_772_137_321
