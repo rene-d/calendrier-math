@@ -27,7 +27,7 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ## Solutions 2022
 
-![160/260](https://img.shields.io/static/v1?label=solutions&message=160/260%20%2862%25%29&color=blueviolet&style=flat-square)
+![172/260](https://img.shields.io/static/v1?label=solutions&message=172/260%20%2866%25%29&color=blueviolet&style=flat-square)
 
 ### Janvier
 
@@ -117,13 +117,13 @@ Par ailleurs, chaque semaine, le [CNRS](https://portail.math.cnrs.fr) propose un
 
 ### Août
 
-[![10/23](https://img.shields.io/static/v1?label=en%20cours&message=10/23&color=informational&style=flat-square)](2022/aout/)
+[![22/23](https://img.shields.io/static/v1?label=en%20cours&message=22/23&color=informational&style=flat-square)](2022/aout/)
 
 |Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche|
 |---|---|---|---|---|---|---|
 | [01](2022/aout/README.md#lundi-1-août) | [02](2022/aout/README.md#mardi-2-août) | [03](2022/aout/README.md#mercredi-3-août) | [04](2022/aout/README.md#jeudi-4-août) | [05](2022/aout/README.md#vendredi-5-août) | *06* | *07* |
 | [08](2022/aout/README.md#lundi-8-août) | [09](2022/aout/README.md#mardi-9-août) 🖥 | [10](2022/aout/README.md#mercredi-10-août) | [11](2022/aout/README.md#jeudi-11-août) | [12](2022/aout/README.md#vendredi-12-août) | *13* | *14* |
-| 15 | 16 | 17 | 18 | 19 | *20* | *21* |
-| 22 | 23 | 24 | 25 | 26 | *27* | *28* |
-| 29 | 30 | 31 |    |    |    |    |
+| [15](2022/aout/README.md#lundi-15-août) | [16](2022/aout/README.md#mardi-16-août) | [17](2022/aout/README.md#mercredi-17-août) | [18](2022/aout/README.md#jeudi-18-août) | [19](2022/aout/README.md#vendredi-19-août) | *20* | *21* |
+| [22](2022/aout/README.md#lundi-22-août) | 23 | [24](2022/aout/README.md#mercredi-24-août) | [25](2022/aout/README.md#jeudi-25-août) | [26](2022/aout/README.md#vendredi-26-août) | *27* | *28* |
+| [29](2022/aout/README.md#lundi-29-août) | [30](2022/aout/README.md#mardi-30-août) | [31](2022/aout/README.md#mercredi-31-août) 🖥 |    |    |    |    |
 
