@@ -22,7 +22,7 @@ Rapport des aires: `(1 / 4) / 2 = 1 / 8`
 
 ## Mercredi 5 Janvier
 
-![latex](https://render.githubusercontent.com/render/math?math=%28100%20%5C%25%20-%2040%20%5C%25%20%29%20%5Ctimes%20850%20%3D%200.6%20%5Ctimes%20850%20%3D%20510&mode=inline)
+$(100 \% - 40 \% ) \times 850 = 0.6 \times 850 = 510$
 
 > réponse: 510 litres
 
@@ -41,7 +41,12 @@ Le mot `LXGTIGOY` se décode donc en `FRANCAIS`.
 
 ## Vendredi 7 Janvier
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7B2%5E%7B2022%7D%20%2B%202%5E%7B2020%7D%7D%20%7B2%5E%7B2021%7D%20-%202%5E%7B2019%7D%7D%0A%3D%20%5Cfrac%20%20%7B%202%5E%7B2019%7D%20%5Ctimes%20%28%202%5E%7B3%7D%20%2B%202%5E%7B1%7D%20%29%20%7D%20%7B2%5E%7B2019%7D%5Ctimes%282%5E%7B2%7D%20-%202%5E%7B0%7D%29%7D%0A%3D%20%5Cfrac%20%7B8%2B2%7D%20%7B4%20-%201%7D%0A%3D%20%5Cfrac%20%7B10%7D%20%7B3%7D)
+$$
+\frac {2^{2022} + 2^{2020}} {2^{2021} - 2^{2019}}
+= \frac  { 2^{2019} \times ( 2^{3} + 2^{1} ) } {2^{2019}\times(2^{2} - 2^{0})}
+= \frac {8+2} {4 - 1}
+= \frac {10} {3}
+$$
 
 > réponse: 10 / 3
 
@@ -58,15 +63,21 @@ Les deux triangles peuvent être découpés en deux triangles rectangle : H₂OD
 
 Les bandes blanches sont en nombre impair et les bandes colorées en nombre pair (une de plus). Ainsi, seules les petits côtés des bandes blanches se confondent avec le périmètre du carré.
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=a&mode=inline) le côté du carré. Son périmètre est donc ![latex](https://render.githubusercontent.com/render/math?math=4a&mode=inline).
+Soit $a$ le côté du carré. Son périmètre est donc $4a$.
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=n&mode=inline) le nombre de bandes blanches. Il y a ![latex](https://render.githubusercontent.com/render/math?math=2n%20%2B%201&mode=inline) bandes en tout.
+Soit $n$ le nombre de bandes blanches. Il y a $2n + 1$ bandes en tout.
 
-On a donc ![latex](https://render.githubusercontent.com/render/math?math=2n%20%2B%201%20%3D%20a&mode=inline).
+On a donc $2n + 1 = a$.
 
 La fraction blanche du périmètre se calcule avec la formule:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7B6%7D%7B25%7D%20%3D%20%5Cfrac%20%7B2n%7D%7B4a%7D%0A%3D%20%5Cfrac%20%7B2n%7D%7B4%282n%2B1%29%7D%0A%3D%20%5Cfrac%20%7Bn%7D%7B2%282n%2B1%29%7D%0A%5Cimplies%2025n%20%3D%206%E2%8B%852%E2%8B%85%282n%2B1%29%3D24n%2B12%0A%5Cimplies%20n%3D12)
+$$
+\frac {6}{25} = \frac {2n}{4a}
+= \frac {2n}{4(2n+1)}
+= \frac {n}{2(2n+1)}
+\implies 25n = 6⋅2⋅(2n+1)=24n+12
+\implies n=12
+$$
 
 Il y a donc 12 bandes blanches, et par conséquent 13 bandes colorées et 25 bandes en tout.
 
@@ -74,11 +85,17 @@ Il y a donc 12 bandes blanches, et par conséquent 13 bandes colorées et 25 ban
 
 ## Mercredi 12 Janvier
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=f&mode=inline) le nombre de filles dans la classe complète.
+Soit $f$ le nombre de filles dans la classe complète.
 
 L'effectif de cette classe est : 31 + 2 + 3 = 36 élèves.
 
-![latexml](https://render.githubusercontent.com/render/math?math=f%20%2B%20f-10%20%3D%2036%0A%5Cimplies%0A2f%3D46%0A%5Cimplies%0Af%3D23)
+$$
+f + f-10 = 36
+\implies
+2f=46
+\implies
+f=23
+$$
 
 Il y a 23 filles dans la classe complète, soit 20 filles dans la classe le jour où il y a trois filles et deux garçons absents.
 
@@ -97,11 +114,11 @@ Il y a 23 filles dans la classe complète, soit 20 filles dans la classe le jour
 
 ## Vendredi 14 Janvier
 
-![latex](https://render.githubusercontent.com/render/math?math=30%20%5Cle%20n%20%5Cle%20100&mode=inline)
+$30 \le n \le 100$
 
-![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cequiv%201%20%5Cpmod%20%7B7%7D&mode=inline)
+$n \equiv 1 \pmod {7}$
 
-![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cequiv%202%20%5Cpmod%20%7B10%7D&mode=inline)
+$n \equiv 2 \pmod {10}$
 
 > réponse: 92
 
@@ -183,11 +200,23 @@ On en déduit que les angles ∠CAD et ∠CBD valent respectiveMensonge en radia
 
 L'aire d'un [segment circulaire](https://fr.wikipedia.org/wiki/Segment_circulaire) est:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%7B%5Cdisplaystyle%20A%3D%7B%5Cfrac%20%7BR%5E%7B2%7D%7D%7B2%7D%7D%5Cleft%28%5Ctheta%20-%5Csin%20%5Ctheta%20%5Cright%29%7D.)
+$$
+{\displaystyle A={\frac {R^{2}}{2}}\left(\theta -\sin \theta \right)}.
+$$
 
 Ici, l'aire cherchée vaut donc la somme des deux  s circulaires:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AA%20%26%3D%20%5Cfrac%20%7B1%5E2%7D%20%7B2%7D%20%5Cleft%28%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20-%20%5Csin%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20%20%5Cright%29%20%2B%0A%20%20%20%20%5Cfrac%20%7B%28%5Csqrt%203%29%5E2%7D%20%7B2%7D%20%5Cleft%28%20%5Cfrac%20%5Cpi%203%20-%20%5Csin%20%5Cfrac%20%5Cpi%203%20%5Cright%29%20%5C%5C%0A%0A%20%20%26%3D%20%5Cfrac%201%202%20%5Cleft%28%20%5Cfrac%20%7B2%20%5Cpi%7D%203%20-%20%5Cfrac%20%7B%5Csqrt%203%7D%202%20%5Cright%29%20%2B%0A%20%20%20%20%5Cfrac%203%202%20%5Cleft%28%20%5Cfrac%20%5Cpi%203%20-%20%5Cfrac%20%7B%5Csqrt%203%7D%202%20%5Cright%29%20%5C%5C%0A%0A%20%20%26%3D%20%5Cfrac%20%7B5%20%5Cpi%7D%20%7B6%7D%20-%20%5Csqrt%203%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+A &= \frac {1^2} {2} \left( \frac {2 \pi} 3 - \sin \frac {2 \pi} 3  \right) +
+    \frac {(\sqrt 3)^2} {2} \left( \frac \pi 3 - \sin \frac \pi 3 \right) \\
+
+  &= \frac 1 2 \left( \frac {2 \pi} 3 - \frac {\sqrt 3} 2 \right) +
+    \frac 3 2 \left( \frac \pi 3 - \frac {\sqrt 3} 2 \right) \\
+
+  &= \frac {5 \pi} {6} - \sqrt 3
+\end{aligned}
+$$
 
 > réponse: 5π / 6 - √3 cm²
 
@@ -197,8 +226,8 @@ Il faut que a et b soient diviseurs de 24 en ayant au moins 2²=4 en [facteurs p
 
 La liste des possibilités pour a et b est donc: 4 8 12 24.
 
-- ![latex](https://render.githubusercontent.com/render/math?math=4%20%3D%202%5E2&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=24%20%3D%202%5E3%20%5Ctimes%203&mode=inline): somme = 28
-- ![latex](https://render.githubusercontent.com/render/math?math=8%20%3D%202%5E3&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=12%20%3D%202%5E2%20%5Ctimes%203&mode=inline): somme = 20
+- $4 = 2^2$ et $24 = 2^3 \times 3$: somme = 28
+- $8 = 2^3$ et $12 = 2^2 \times 3$: somme = 20
 
 Vérification avec [programme Python](21.py).
 
