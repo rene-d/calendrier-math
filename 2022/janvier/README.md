@@ -204,7 +204,7 @@ $$
 {\displaystyle A={\frac {R^{2}}{2}}\left(\theta -\sin \theta \right)}.
 $$
 
-Ici, l'aire cherchée vaut donc la somme des deux s circulaires:
+Ici, l'aire cherchée vaut donc la somme des deux segments circulaires:
 
 $$
 \begin{aligned}
@@ -231,8 +231,6 @@ La liste des possibilités pour a et b est donc: 4 8 12 24.
 
 Vérification avec [programme Python](21.py).
 
-<details><summary>Code source de 21.py</summary><p>
-
 ```python
 #!/usr/bin/env python3
 
@@ -257,8 +255,6 @@ for a in range(1, 25):
         if pgcd(a, b) == 4 and ppcm((a, b)) == 24:
             print(f"{a} + {b} = {a + b}")
 ```
-
-</p></details>
 
 > réponse: 2 valeurs (20 et 28)
 
