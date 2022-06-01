@@ -342,7 +342,7 @@ while True:
 
 ## Jeudi 13 Août
 
-![latex](https://render.githubusercontent.com/render/math?math=k%3D%5Cfrac%7B9n%5E2%2B31%7D%7Bn%5E2%2B7%7D%3D%5Cfrac%7B9n%5E2%2B63-32%7D%7Bn%5E2%2B7%7D%3D9-%5Cfrac%7B32%7D%7Bn%5E2%2B7%7D&mode=inline)
+$k=\frac{9n^2+31}{n^2+7}=\frac{9n^2+63-32}{n^2+7}=9-\frac{32}{n^2+7}$
 
 Il faut donc que 𝑛²+7 divise 32.
 
@@ -429,22 +429,24 @@ X = 4
 
 ## Mercredi 19 Août
 
-Pour ![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cleq%201&mode=inline), ![latex](https://render.githubusercontent.com/render/math?math=2%5E%7B2%5En%7D%2B9&mode=inline) vaut:
+Pour $n \leq 1$, $2^{2^n}+9$ vaut:
 
-- ![latex](https://render.githubusercontent.com/render/math?math=n%20%3D%200%20%3A%202%5E%7B2%5E0%7D%20%2B%209%20%3D%202%5E1%20%2B%209%20%3D%2011&mode=inline) ✅
-- ![latex](https://render.githubusercontent.com/render/math?math=n%20%3D%201%20%3A%202%5E%7B2%5E1%7D%20%2B%209%20%3D%202%5E2%20%2B%209%20%3D%2013&mode=inline) ✅
+- $n = 0 : 2^{2^0} + 9 = 2^1 + 9 = 11$ ✅
+- $n = 1 : 2^{2^1} + 9 = 2^2 + 9 = 13$ ✅
 
-Pour ![latex](https://render.githubusercontent.com/render/math?math=n%20%5Cgeq%202&mode=inline): ![latex](https://render.githubusercontent.com/render/math?math=2%5E%7B2%5En%7D%20%3D%202%5E%7B4%20%5Ctimes%202%5E%7Bn-2%7D%7D%20%3D%2016%5E%7Bn-2%7D&mode=inline)
+Pour $n \geq 2$: $2^{2^n} = 2^{4 \times 2^{n-2}} = 16^{n-2}$
 
 Or, toutes les puissances de 16 se terminent par une puissance du chiffre de l'unité, à savoir 6:
 
-![latex](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%20%3D%20100%20d%5E2%20%2B%2020d%2B%20u%5E2%20%3D%2010%20D%2Bu%5E2&mode=inline)
+$(10d+u)^n = 100 d^2 + 20d+ u^2 = 10 D+u^2$
 
 Et plus généralement:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%2810d%2Bu%29%5En%3D%5Csum_%7Bk%3D0%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%3D%5Csum_%7Bk%3D1%7D%5En%20%7Bn%20%5Cchoose%20k%7D%20%2810d%29%5E%7Bk%7D%20u%5E%7Bn-k%7D%2Bu%5En%3D10D%2Bu%5En)
+$$
+(10d+u)^n=\sum_{k=0}^n {n \choose k} (10d)^{k} u^{n-k}=\sum_{k=1}^n {n \choose k} (10d)^{k} u^{n-k}+u^n=10D+u^n
+$$
 
-Et comme ![latex](https://render.githubusercontent.com/render/math?math=6%5Ctimes6%3D36&mode=inline) se termine aussi par 6, c'est invariablement 6 à la fin. Ajouté 9, le nombre se terminera toujours par 5, et est donc divisible par 5.
+Et comme $6\times6=36$ se termine aussi par 6, c'est invariablement 6 à la fin. Ajouté 9, le nombre se terminera toujours par 5, et est donc divisible par 5.
 
 > réponse: n = 0 ou n = 1
 
@@ -490,15 +492,17 @@ D'où h = 10 cm et 𝑃 = 2 × (3h + 2h) = 10h = 100 cm
 
 ## Lundi 24 Août
 
-Il faut que ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%201%20-%20x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%20x&mode=inline) pour que les racines carrées soient définies. Donc ![latex](https://render.githubusercontent.com/render/math?math=0%20%5Cleq%20x%20%5Cleq%201&mode=inline).
+Il faut que $0\leq 1 - x$ et $0\leq x$ pour que les racines carrées soient définies. Donc $0 \leq x \leq 1$.
 
-On en déduit que: ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%5Cleq%201&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%5Cleq%201%20-%20x&mode=inline)
+On en déduit que: $0\leq\left(\sqrt{x}\right)^{2019} \leq 1$ et $0\leq\left(\sqrt{1-x}\right)^{2020} \leq 1 - x$
 
-Soit: ![latex](https://render.githubusercontent.com/render/math?math=0%5Cleq%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%5Cleq%201&mode=inline). Cependant 0 n'est pas possible car les deux racines ne peuvent être nulles en même temps. On a donc:
+Soit: $0\leq\left(\sqrt{x}\right)^{2019} + \left(\sqrt{1-x}\right)^{2020} \leq 1$. Cependant 0 n'est pas possible car les deux racines ne peuvent être nulles en même temps. On a donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E%7B2019%7D%20%2B%20%5Cleft%28%5Csqrt%7B1-x%7D%5Cright%29%5E%7B2020%7D%20%3D1)
+$$
+\left(\sqrt{x}\right)^{2019} + \left(\sqrt{1-x}\right)^{2020} =1
+$$
 
-Il y a deux solutions évidentes: ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%200&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%201&mode=inline).
+Il y a deux solutions évidentes: $x = 0$ et $x = 1$.
 
 La fonction est décroissante puis croissante sur l'intervalle [0; 1]. Les deux solutions sont donc les seules.
 
@@ -554,11 +558,25 @@ Code [source](27.tex) du dessin réalisé avec [TikZ](https://pgf-tikz.github.io
 
 ## Vendredi 28 Août
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_2%26%3D1%5Ctimes%28a_0%2Ba_1%29%3D1%5Ctimes%281%2B1%29%3D2%20%5C%5C%0Aa_3%26%3D2%5Ctimes%28a_1%2Ba_2%29%3D2%5Ctimes%281%2B2%29%3D6%20%5C%5C%0Aa_4%26%3D3%5Ctimes%28a_2%2Ba_3%29%3D3%5Ctimes%282%2B6%29%3D24%20%5C%5C%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+a_2&=1\times(a_0+a_1)=1\times(1+1)=2 \\
+a_3&=2\times(a_1+a_2)=2\times(1+2)=6 \\
+a_4&=3\times(a_2+a_3)=3\times(2+6)=24 \\
+\end{aligned}
+$$
 
-![latex](https://render.githubusercontent.com/render/math?math=a_n&mode=inline) semble être la fonction [factorielle](https://fr.wikipedia.org/wiki/Factorielle). Montrons que ![latex](https://render.githubusercontent.com/render/math?math=a_n%3Dn%21&mode=inline) par récurrence: c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=a_n%2C%20n%5Cleq%204&mode=inline), on suppose que c'est vrai pour ![latex](https://render.githubusercontent.com/render/math?math=n&mode=inline) et on vérifie pour ![latex](https://render.githubusercontent.com/render/math?math=n%2B1&mode=inline):
+$a_n$ semble être la fonction [factorielle](https://fr.wikipedia.org/wiki/Factorielle). Montrons que $a_n=n!$ par récurrence: c'est vrai pour $a_n, n\leq 4$, on suppose que c'est vrai pour $n$ et on vérifie pour $n+1$:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_%7Bn%2B1%7D%26%3Dn%28a_%7Bn-1%7D%2Ba_n%29%20%5C%5C%0A%26%3Dn%20%5Cbigl%28%28n-1%29%21%2Bn%21%20%5Cbig%29%20%5C%5C%0A%26%3Dn%21%2Bn%5Ctimes%20n%21%20%5C%5C%0A%26%3Dn%21%5Ctimes%281%2Bn%29%20%5C%5C%0A%26%3D%28n%2B1%29%21%20%5C%5C%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+a_{n+1}&=n(a_{n-1}+a_n) \\
+&=n \bigl((n-1)!+n! \big) \\
+&=n!+n\times n! \\
+&=n!\times(1+n) \\
+&=(n+1)! \\
+\end{aligned}
+$$
 
 Donc, à partir de 5!, le chiffre des unités est 0 car il y a 2×5=10 comme facteur.
 

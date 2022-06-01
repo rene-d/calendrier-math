@@ -163,15 +163,21 @@ Il y a 4! façons d'arranger les quatre catégories de livres, et pour chaque ca
 
 Soit le système à trois équations:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%28%7BS%7D%5Cright%29%5Ccolon%5Cbegin%7Bcases%7D%0A%20y%20%3D%20x%20%2B%201%20%26%281%29%20%5C%5C%0A%20y%20%3D%20mx%20-%201%20%26%282%29%20%5C%5C%0A%20y%20%3D%20-4x%20%2B%202m%20%26%283%29%0A%5Cend%7Bcases%7D)
+$$
+\left({S}\right)\colon\begin{cases}
+ y = x + 1 &(1) \\
+ y = mx - 1 &(2) \\
+ y = -4x + 2m &(3)
+\end{cases}
+$$
 
-![latex](https://render.githubusercontent.com/render/math?math=%281%29&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=%282%29&mode=inline) : ![latex](https://render.githubusercontent.com/render/math?math=x%2B1%3Dmx-1%5Ciff%20x%3D%5Cfrac%202%20%7Bm-1%7D&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=m%20%5Cne%201&mode=inline)
+$(1)$ et $(2)$ : $x+1=mx-1\iff x=\frac 2 {m-1}$ avec $m \ne 1$
 
-![latex](https://render.githubusercontent.com/render/math?math=%281%29&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=%283%29&mode=inline) : ![latex](https://render.githubusercontent.com/render/math?math=x%2B1%3D-4x%2B2m%5Ciff%20x%3D%5Cfrac%7B2m-1%7D%205&mode=inline)
+$(1)$ et $(3)$ : $x+1=-4x+2m\iff x=\frac{2m-1} 5$
 
-Donc: ![latex](https://render.githubusercontent.com/render/math?math=%5Ctag%7B4%7D%5Cfrac%7B2%7D%7Bm-1%7D%3D%5Cfrac%7B2m-1%7D%7B5%7D&mode=inline)
+Donc: $\tag{4}\frac{2}{m-1}=\frac{2m-1}{5}$
 
-Cette équation du second degré a pour solution ![latex](https://render.githubusercontent.com/render/math?math=m%3D3&mode=inline) ou ![latex](https://render.githubusercontent.com/render/math?math=m%3D-%5Cfrac%203%202&mode=inline).
+Cette équation du second degré a pour solution $m=3$ ou $m=-\frac 3 2$.
 
 > réponse: m = 3 ou m = -3 / 2
 
@@ -192,11 +198,13 @@ Si le nombre commence par 2, comme on vient de voir qu'il faut une retenue pour 
 
 ## Mardi 20 Octobre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%281.1%29%5E%7B15%7D%20%3D%20%5Cfrac%20%7B%5Cleft%2810%2B1%5Cright%29%5E%7B15%7D%7D%20%7B10%5E%7B15%7D%7D%20%3D%20%5Cfrac%20%7B%2010%20%5Csum_%7Bn%3D1%7D%5E%7B14%7D%7B%5Cleft%28c%20%5Ctimes%2010%5En%5Cright%29%7D%20%20%2B1%7D%20%7B10%5E%7B15%7D%7D%20%3D%20%5Cfrac%7BN%7D%7B10%5E%7B14%7D%7D%20%2B%20%5Cfrac%7B1%7D%7B10%5E%7B15%7D%7D)
+$$
+(1.1)^{15} = \frac {\left(10+1\right)^{15}} {10^{15}} = \frac { 10 \sum_{n=1}^{14}{\left(c \times 10^n\right)}  +1} {10^{15}} = \frac{N}{10^{14}} + \frac{1}{10^{15}}
+$$
 
-![latex](https://render.githubusercontent.com/render/math?math=N&mode=inline) étant un entier, ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BN%7D%7B10%5E%7B14%7D%7D&mode=inline) a quatorze décimales au maximum, tandis que ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B1%7D%7B10%5E%7B15%7D%7D&mode=inline) en a quinze.
+$N$ étant un entier, $\frac{N}{10^{14}}$ a quatorze décimales au maximum, tandis que $\frac{1}{10^{15}}$ en a quinze.
 
-Nota: ![latex](https://render.githubusercontent.com/render/math?math=%281.1%29%5E%7B15%7D%20%3D%204.177248169415651&mode=inline)
+Nota: $(1.1)^{15} = 4.177248169415651$
 
 > réponse: 15
 
@@ -258,19 +266,35 @@ La distance entre les deux droites est:
 
 ## Mercredi 28 Octobre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D-t_%7B49%7D%26%3D2%5Ctimes%2050%2B3%5C%5C%0At_%7B49%7D-t_%7B48%7D%26%3D2%5Ctimes%2049%2B3%5C%5C%0A%26...%5C%5C%0At_%7B2%7D-t_%7B1%7D%26%3D2%5Ctimes%202%2B3%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+t_{50}-t_{49}&=2\times 50+3\\
+t_{49}-t_{48}&=2\times 49+3\\
+&...\\
+t_{2}-t_{1}&=2\times 2+3
+\end{aligned}
+$$
 
 Donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0At_%7B50%7D%26%3Dt_1%2B2%5Ctimes%5Csum_%7Bn%3D2%7D%5E%7B50%7D%7Bn%7D%2B3%5Ctimes%2049%5C%5C%0A%26%3D5%2B2%5Ctimes%5Cleft%28%5Cfrac%7B50%5Ctimes51%7D%7B2%7D-1%5Cright%29%2B147%5C%5C%0A%26%3D5%2B2550-2%2B147%5C%5C%0A%26%3D2700%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+t_{50}&=t_1+2\times\sum_{n=2}^{50}{n}+3\times 49\\
+&=5+2\times\left(\frac{50\times51}{2}-1\right)+147\\
+&=5+2550-2+147\\
+&=2700
+\end{aligned}
+$$
 
 > réponse: 2700
 
 ## Jeudi 29 Octobre
 
-Le premier joueur a ![latex](https://render.githubusercontent.com/render/math?math=52%5Cchoose13&mode=inline) mains possibles. Le deuxième, ![latex](https://render.githubusercontent.com/render/math?math=39%5Cchoose13&mode=inline), le troisième ![latex](https://render.githubusercontent.com/render/math?math=26%5Cchoose%2013&mode=inline) et le quatrième prend ce qu'il reste.
+Le premier joueur a $52\choose13$ mains possibles. Le deuxième, $39\choose13$, le troisième $26\choose 13$ et le quatrième prend ce qu'il reste.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B52%21%7D%7B39%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B39%21%7D%7B26%21%5Ctimes13%21%7D%5Ctimes%5Cfrac%7B26%21%7D%7B13%21%5Ctimes13%21%7D%3D%5Cfrac%7B52%21%7D%7B%2813%21%29%5E4%7D%3D53644737765488792839237440000%20%5Capprox%205.4%5Ctimes10%5E%7B28%7D)
+$$
+\frac{52!}{39!\times13!}\times\frac{39!}{26!\times13!}\times\frac{26!}{13!\times13!}=\frac{52!}{(13!)^4}=53644737765488792839237440000 \approx 5.4\times10^{28}
+$$
 
 > réponse: 52! / (13!)⁴
 

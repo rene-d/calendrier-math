@@ -10,7 +10,7 @@ Après expulsion de 2/3 des garçons, il en reste 1/3, soit 4/5 × 1/3 = 4/15.
 
 Il reste une quantité totale de = 4/15 + 1/5 = 7/15
 
-La proportion de filles est: ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B%5Cfrac%201%205%7D%7B%5Cfrac%207%20%7B15%7D%7D%20%3D%20%5Cfrac%7B3%7D%7B7%7D&mode=inline)
+La proportion de filles est: $\frac{\frac 1 5}{\frac 7 {15}} = \frac{3}{7}$
 
 > réponse: 3/7
 
@@ -103,23 +103,37 @@ On peut calculer t₄ = t₁⋅t₃ / t₂ = 3 × 6 / 5 = 3.6
 
 ## Vendredi 11 Mars
 
-Soient ![latex](https://render.githubusercontent.com/render/math?math=x%2Cy%2Cz&mode=inline) trois réels tels que:
+Soient $x,y,z$ trois réels tels que:
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E2%2By%5E2%2Bz%5E2%2B2xy%2B2yz%2B2zx%3D3%28xy%2Byz%2Bzx%29%0A%5C%5C%0Ax%5E2%2By%5E2%2Bz%5E2%3Dxy%2Byz%2Bzx%0A%5C%5C%0Az%5E2-z%28y%2Bx%29-xy%2Bx%5E2%2By%5E2%3D0)
+$$
+x^2+y^2+z^2+2xy+2yz+2zx=3(xy+yz+zx)
+\\
+x^2+y^2+z^2=xy+yz+zx
+\\
+z^2-z(y+x)-xy+x^2+y^2=0
+$$
 
-Pour ![latex](https://render.githubusercontent.com/render/math?math=x%2Cy&mode=inline) donnés, ![latex](https://render.githubusercontent.com/render/math?math=z&mode=inline) vaut, en utilisant le [discriminant](https://fr.wikipedia.org/wiki/Équation_du_second_degré#Discriminant):
+Pour $x,y$ donnés, $z$ vaut, en utilisant le [discriminant](https://fr.wikipedia.org/wiki/Équation_du_second_degré#Discriminant):
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Az%20%26%3D%20%5Cfrac%20%7B%20%28y%2Bx%29%20%5Cpm%20%5Csqrt%7B%20%28x%2By%29%5E2-4%28x%5E2%2By%5E2-xy%29%20%7D%20%7D%20%20%7B2%7D%0A%5C%5C%0A%26%3D%20%5Cfrac%201%202%20%5Cleft%28%20x%2By%20%5Cpm%20%5Csqrt%7B%20-3%20x%5E2%20-3%20y%5E2%20%2B%206xy%20%7D%20%5Cright%29%0A%5C%5C%0A%26%3D%20%5Cfrac%201%202%20%5Cleft%28%20x%2By%20%5Cpm%20%5Csqrt%7B%20-3%20%28x%20-%20y%29%5E2%20%7D%20%5Cright%29%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+z &= \frac { (y+x) \pm \sqrt{ (x+y)^2-4(x^2+y^2-xy) } }  {2}
+\\
+&= \frac 1 2 \left( x+y \pm \sqrt{ -3 x^2 -3 y^2 + 6xy } \right)
+\\
+&= \frac 1 2 \left( x+y \pm \sqrt{ -3 (x - y)^2 } \right)
+\end{aligned}
+$$
 
-On constate que si ![latex](https://render.githubusercontent.com/render/math?math=z&mode=inline) est [réel](https://fr.wikipedia.org/wiki/Nombre_réel), il faut que ![latex](https://render.githubusercontent.com/render/math?math=x%3Dy&mode=inline). Et par suite ![latex](https://render.githubusercontent.com/render/math?math=z%3Dx%3Dy&mode=inline).
+On constate que si $z$ est [réel](https://fr.wikipedia.org/wiki/Nombre_réel), il faut que $x=y$. Et par suite $z=x=y$.
 
-Donc les solutions réelles imposent ![latex](https://render.githubusercontent.com/render/math?math=x%3Dy%3Dz&mode=inline) et par conséquent ![latex](https://render.githubusercontent.com/render/math?math=x%28y-z%29%3D0&mode=inline)
+Donc les solutions réelles imposent $x=y=z$ et par conséquent $x(y-z)=0$
 
 > réponse: 0
 
 ## Lundi 14 Mars
 
-Soient ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) deux entiers tels que ![latex](https://render.githubusercontent.com/render/math?math=x%5E2%2By%5E2%3D50&mode=inline)
+Soient $x$ et $y$ deux entiers tels que $x^2+y^2=50$
 
 Les solutions entières sont (±1, ±7) et (±5, ±5).
 
@@ -135,9 +149,13 @@ Sept valeurs possibles: 8, 6, -6, -8, 10, -10, 0
 
 ## Mardi 15 Mars
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=a_i&mode=inline) les numéros de feuille entre 1 et 200. Les numéros de page sont ![latex](https://render.githubusercontent.com/render/math?math=2a_i-1&mode=inline).
+Soit $a_i$ les numéros de feuille entre 1 et 200. Les numéros de page sont $2a_i-1$.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Csum_%7Ba_i%20%5Cin%20%5B1%3B200%5D%20%2C%20i%3D1%20%5Cto%2025%20%7D%20%7B%5Cleft%28%282%20a_i%20-%201%29%20%2B%20%282%20a_i%20%29%5Cright%29%7D%0A%3D%5Csum_%7Bi%3D1%5Cto%2025%7D%20%7B%5Cleft%28%204%20a_i%20-1%20%5Cright%29%20%7D%0A%3D-25%2B4%20%5Csum_%7Bi%3D1%5Cto%2025%7D%20%7Ba_i%7D)
+$$
+\sum_{a_i \in [1;200] , i=1 \to 25 } {\left((2 a_i - 1) + (2 a_i )\right)}
+=\sum_{i=1\to 25} {\left( 4 a_i -1 \right) }
+=-25+4 \sum_{i=1\to 25} {a_i}
+$$
 
 Or 2022 - 25 = 1997 et 1997 n'est pas un multiple de 4. Donc on ne peut pas trouver 25 nombres entre 1 et 200 qui satisfassent la condition.
 
@@ -161,7 +179,9 @@ Si le nombre est pair (A1 vraie), alors le chiffre des unités serait 5 (B2), ce
 
 ## Jeudi 17 Mars
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7B8%7D%20%7B15%7D%20%5Ctimes%20%5Cfrac%20%7B7%7D%20%7B14%7D%20%2B%20%5Cfrac%20%7B7%7D%20%7B15%7D%20%5Ctimes%20%5Cfrac%20%7B6%7D%20%7B14%7D%20%3D%20%5Cfrac%20%7B7%7D%20%7B15%7D)
+$$
+\frac {8} {15} \times \frac {7} {14} + \frac {7} {15} \times \frac {6} {14} = \frac {7} {15}
+$$
 
 > réponse: 7 / 15
 
@@ -250,13 +270,22 @@ m = 18, p = 5, b = 4, c = 3
 
 ## Vendredi 25 Mars
 
-![latex](https://render.githubusercontent.com/render/math?math=5%5E%7B2n%2B1%7D%20-%201&mode=inline) est disible par 4 mais par 8.
+$5^{2n+1} - 1$ est disible par 4 mais par 8.
 
 En effet :
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A5%5E%7B2n%2B1%7D%20-%201%0A%26%3D%205%20%5Ctimes%205%5E%7B2n%7D%20-%201%20-%204%20%2B%204%0A%5C%5C%0A%26%3D%205%20%5Ctimes%20%5Cleft%28%205%5E%7B2n%7D%20-%201%20%5Cright%29%20%2B%204%0A%5C%5C%0A%26%3D%205%20%5Ctimes%20%5Cleft%28%205%5En%20%2B%201%20%5Cright%29%20%5Cleft%28%205%5En%20-%201%20%5Cright%29%20%2B%204%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+5^{2n+1} - 1
+&= 5 \times 5^{2n} - 1 - 4 + 4
+\\
+&= 5 \times \left( 5^{2n} - 1 \right) + 4
+\\
+&= 5 \times \left( 5^n + 1 \right) \left( 5^n - 1 \right) + 4
+\end{aligned}
+$$
 
-Le premier terme est multiple de 4 (au moins) puisque ![latex](https://render.githubusercontent.com/render/math?math=5%5En-1&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=5%5En%2B1&mode=inline) sont pairs. Mais le deuxième terme est multiple de 4 mais pas de 8.
+Le premier terme est multiple de 4 (au moins) puisque $5^n-1$ et $5^n+1$ sont pairs. Mais le deuxième terme est multiple de 4 mais pas de 8.
 
 Il y a donc deux puissances de 2 par facteur, et il y a 100 facteurs.
 
@@ -281,11 +310,15 @@ Soit au total, 6 + 6 + 6 + 6 + 9 + 9 = 42 possibilités.
 
 a, b distincts, a=x et b=x sont impossibles.
 
-![latex](https://render.githubusercontent.com/render/math?math=%28x-a%29%5E2%3D%28x-b%29%5E2&mode=inline)
+$(x-a)^2=(x-b)^2$
 
-![latex](https://render.githubusercontent.com/render/math?math=-2xa%2Ba%5E2%3D-2bx%2Bb%5E2&mode=inline)
+$-2xa+a^2=-2bx+b^2$
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%20%7Bb%5E2-a%5E2%7D%20%7B2b%20-%202a%7D%0A%3D%20%5Cfrac%20%7B%28b-a%29%28b%2Ba%29%7D%20%7B2%28b-a%29%7D%0A%3D%20%5Cfrac%20%7Ba%2Bb%7D%202)
+$$
+x = \frac {b^2-a^2} {2b - 2a}
+= \frac {(b-a)(b+a)} {2(b-a)}
+= \frac {a+b} 2
+$$
 
 > réponse: (a+b)/2
 

@@ -24,9 +24,11 @@ A = 4 + 8 √2 + 4 = 8 + 8 √2
 
 Regroupons et calculons les facteurs deux par deux (pour n pair ≥ 2) :
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cleft%281%2B%5Cfrac%7B1%7D%7Bn%7D%5Cright%29%5Ctimes%5Cleft%281-%5Cfrac%7B1%7D%7Bn%2B1%7D%5Cright%29%20%3D%20%5Cleft%28%5Cfrac%7Bn%2B1%7D%7Bn%7D%5Cright%29%5Ctimes%5Cleft%28%5Cfrac%7Bn%2B1-1%7D%7Bn%2B1%7D%5Cright%29%3D%5Cfrac%7B%28n%2B1%29%5Ctimes%20n%7D%7Bn%5Ctimes%28n%2B1%29%7D%3D1)
+$$
+\left(1+\frac{1}{n}\right)\times\left(1-\frac{1}{n+1}\right) = \left(\frac{n+1}{n}\right)\times\left(\frac{n+1-1}{n+1}\right)=\frac{(n+1)\times n}{n\times(n+1)}=1
+$$
 
-Il y a un nombre impair de facteurs, le dernier étant ![latex](https://render.githubusercontent.com/render/math?math=1%2B%5Cfrac%7B1%7D%7B1000%7D%3D%5Cfrac%7B1001%7D%7B1000%7D&mode=inline). Comme le produit des précédents vaut 1, le résultat est celui-ci.
+Il y a un nombre impair de facteurs, le dernier étant $1+\frac{1}{1000}=\frac{1001}{1000}$. Comme le produit des précédents vaut 1, le résultat est celui-ci.
 
 > réponse: 1001 / 1000
 
@@ -34,7 +36,9 @@ Il y a un nombre impair de facteurs, le dernier étant ![latex](https://render.g
 
 En remplaçant:
 
-![latexml](https://render.githubusercontent.com/render/math?math=ab%2Bac%2Bbc%20%3D%20ab%2Bac%2Ba%5E2-a%2B1%20%3D%20a%28a%2Bb%2Bc%29-a%2B1%3Da-a%2B1%3D1)
+$$
+ab+ac+bc = ab+ac+a^2-a+1 = a(a+b+c)-a+1=a-a+1=1
+$$
 
 > réponse: 1
 
@@ -42,7 +46,9 @@ En remplaçant:
 
 Il y a 21 chances sur 25 de prendre une première calculette non défectueuse. Puis 20 chances sur 24 d'en prendre une deuxième. Etc.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B21%7D%7B25%7D%5Ctimes%5Cfrac%7B20%7D%7B24%7D%5Ctimes%5Cfrac%7B19%7D%7B23%7D%5Ctimes%5Cfrac%7B18%7D%7B22%7D%3D%5Cfrac%7B969%7D%7B2530%7D)
+$$
+\frac{21}{25}\times\frac{20}{24}\times\frac{19}{23}\times\frac{18}{22}=\frac{969}{2530}
+$$
 
 > réponse: 969 / 2530
 
@@ -78,31 +84,60 @@ Le rayon du cercle est donc 1 cm.
 
 ## Jeudi 10 Décembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%262%20clou%20%2B%205%20vis%20%2B%208%20cheville%20%3D%20150%20%20%26%281%29%5C%5C%0A%261%20clou%20%2B%203%20vis%20%2B%205%20cheville%20%3D%2080%20%20%20%26%282%29%20%5C%5C%0A%5C%5C%0A%262%5Ctimes%282%29-%281%29%20%3D%20vis%2B2cheville%3D10%20%20%20%5C%5C%0A%26%5Cimplies%20vis%3D10-2cheville%26%283%29%20%5C%5C%0A%26%5Cimplies%20vis%2B2cheville%3D10%26%284%29%20%5C%5C%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+&2 clou + 5 vis + 8 cheville = 150  &(1)\\
+&1 clou + 3 vis + 5 cheville = 80   &(2) \\
+\\
+&2\times(2)-(1) = vis+2cheville=10   \\
+&\implies vis=10-2cheville&(3) \\
+&\implies vis+2cheville=10&(4) \\
+\end{aligned}
+$$
 
 En utilisant (2), (3) puis (4):
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26clou%2Bvis%2Bcheville%5C%5C%0A%26%3D%2880-3vis-5cheville%29%2B%2810-2cheville%29%2Bcheville%5C%5C%0A%26%3D90-3vis-6cheville%5C%5C%0A%26%3D90-3%28vis%2B2cheville%29%5C%5C%0A%26%3D90-3%5Ctimes%2010%20%3D%2060%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+&clou+vis+cheville\\
+&=(80-3vis-5cheville)+(10-2cheville)+cheville\\
+&=90-3vis-6cheville\\
+&=90-3(vis+2cheville)\\
+&=90-3\times 10 = 60
+\end{aligned}
+$$
 
 Une autre manière de faire (mais qui revient _in fine_ au même) est de fixer arbitrairement une valeur d'une inconnue puisque le système de deux équations à trois inconnues admet une infinie de solutions.
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=cheville%20%3D%200&mode=inline). On a alors:
+Soit $cheville = 0$. On a alors:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%262%20clou%20%2B%205%20vis%3D150%5C%5C%0A%261%20clou%20%2B%203%20vis%3D80%20%5C%5C%0A%26%5Cimplies%20%5Cbegin%7Bcases%7Dvis%3D10%20%5C%5C%0Aclou%3D50%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+&2 clou + 5 vis=150\\
+&1 clou + 3 vis=80 \\
+&\implies \begin{cases}vis=10 \\
+clou=50
+\end{cases}
+\end{aligned}
+$$
 
 Et donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=clou%2Bvis%2Bcheville%3D50%2B10%2B9%3D60)
+$$
+clou+vis+cheville=50+10+9=60
+$$
 
 > réponse: clou + vis + cheville = 60 g
 
 ## Vendredi 11 Décembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7Ba%5E2%2Bb%5E2%2B1%7D%7Bab%2Ba%2Bb%7D%3D-2%20%5Ciff%20%20a%5E2%2Bb%5E2%2B1%2B2ab%2B2a%2B2b%3D%28a%2Bb%29%5E2%2B1%2B2%28a%2Bb%29%3D0)
+$$
+\frac{a^2+b^2+1}{ab+a+b}=-2 \iff  a^2+b^2+1+2ab+2a+2b=(a+b)^2+1+2(a+b)=0
+$$
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=x%3Da%2Bb&mode=inline). L'équation devient: ![latex](https://render.githubusercontent.com/render/math?math=x%5E2%2B2x%2B1%3D0&mode=inline).
+Soit $x=a+b$. L'équation devient: $x^2+2x+1=0$.
 
-La racine double du polynome du deuxième degré est ![latex](https://render.githubusercontent.com/render/math?math=x%3D-1&mode=inline).
+La racine double du polynome du deuxième degré est $x=-1$.
 
 > réponse: a + b = -1
 
@@ -156,7 +191,7 @@ Karim a p = k et Laura p = l avec k + l = 1 / 2 et k = 2 l. Soit k = 1 / 3 et l 
 
 La probabilité que Jeanne gagne trois manches puis Karim deux puis Laura un est p = j³ × k² × l = 1 / 432
 
-Dans les 6 parties, Jeanne a ![latex](https://render.githubusercontent.com/render/math?math=%7B6%5Cchoose%203%7D&mode=inline) = 20 combinaisons d'en gagner 3. Karim a ![latex](https://render.githubusercontent.com/render/math?math=%7B3%5Cchoose%202%7D%3D3&mode=inline) possibilités pour gagner 2 des 3 restantes.
+Dans les 6 parties, Jeanne a ${6\choose 3}$ = 20 combinaisons d'en gagner 3. Karim a ${3\choose 2}=3$ possibilités pour gagner 2 des 3 restantes.
 
 Donc p = 20 × 3 × 1 / 432 = 5 / 36
 
@@ -212,7 +247,19 @@ p = 13 convient.
 
 p ne peut être multiple de 3 (ni de 2 d'ailleurs). Il s'écrit donc 3k + 1 ou 3k + 2. p-10 et p+10 valent alors:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B1%29-10%20%3D%203k%20-%209%20%3D%203%28k-3%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%20%5C%5C%0Ap%2B10%3D%283k%2B1%29%2B10%0A%5Cend%7Bcases%7D%20%5C%5C%0A%5C%5C%0A%26%5Cbegin%7Bcases%7D%0Ap-10%3D%283k%2B2%29-10%20%5C%5C%0Ap%2B10%3D%283k%2B2%29%2B10%20%3D%203k%20%2B%2012%20%3D%203%28k%2B4%29%20%3A%20%5Ctext%7Ble%20nombre%20est%20multiple%20de%203%20et%20donc%20non%20premier%7D%0A%5Cend%7Bcases%7D%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+&\begin{cases}
+p-10=(3k+1)-10 = 3k - 9 = 3(k-3) : \text{le nombre est multiple de 3 et donc non premier} \\
+p+10=(3k+1)+10
+\end{cases} \\
+\\
+&\begin{cases}
+p-10=(3k+2)-10 \\
+p+10=(3k+2)+10 = 3k + 12 = 3(k+4) : \text{le nombre est multiple de 3 et donc non premier}
+\end{cases}
+\end{aligned}
+$$
 
 Donc la seule solution est p = 13.
 
@@ -220,13 +267,13 @@ Donc la seule solution est p = 13.
 
 ## Mardi 29 Décembre
 
-![latex](https://render.githubusercontent.com/render/math?math=125000027%3D5%5E3%5Ctimes%20100%5E3%2B3%5E3%3D500%5E3%2B3%5E3&mode=inline)
+$125000027=5^3\times 100^3+3^3=500^3+3^3$
 
-Or, ![latex](https://render.githubusercontent.com/render/math?math=a%5E3%2Bb%5E3%3D%28a%2Bb%29%28a%5E2-ab%2Bb%5E2%29&mode=inline).
+Or, $a^3+b^3=(a+b)(a^2-ab+b^2)$.
 
-Donc: ![latex](https://render.githubusercontent.com/render/math?math=125000027%3D%28500%2B3%29%28500%5E2-500%5Ctimes%203%2B3%5E2%29&mode=inline)
+Donc: $125000027=(500+3)(500^2-500\times 3+3^2)$
 
-![latex](https://render.githubusercontent.com/render/math?math=125000027%3D503%5Ctimes%28250000-1500%2B9%29%3D248509&mode=inline)
+$125000027=503\times(250000-1500+9)=248509$
 
 Par ailleurs, on peut vérifier que cela correspond à la décomposition en facteurs premiers.
 

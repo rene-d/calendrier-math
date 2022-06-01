@@ -214,15 +214,21 @@ Les triangles ABC et et BCD sont semblables puisqu'ils ont deux angles égaux (e
 
 Ainsi, les côtés sont proportionnels:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BBD%7D%7BAB%7D%20%3D%20%5Cfrac%7BCD%7D%7BBC%7D%20%3D%20%5Cfrac%7BBC%7D%7BAC%7D)
+$$
+\frac{BD}{AB} = \frac{CD}{BC} = \frac{BC}{AC}
+$$
 
 Comme D est le milieu de AC:
 
-![latexml](https://render.githubusercontent.com/render/math?math=AC%5Ctimes%20CD%3D%5Cfrac%7B1%7D%7B2%7D%7BAC%7D%5E2%3D%7BBC%7D%5E2%5Cimplies%7B%5Cleft%28%5Cfrac%7BBC%7D%7BAC%7D%5Cright%29%7D%5E2%3D%5Cfrac%7B1%7D%7B2%7D%5Cimplies%5Cfrac%7BBC%7D%7BAC%7D%3D%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D)
+$$
+AC\times CD=\frac{1}{2}{AC}^2={BC}^2\implies{\left(\frac{BC}{AC}\right)}^2=\frac{1}{2}\implies\frac{BC}{AC}=\frac{1}{\sqrt{2}}
+$$
 
 D'où:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BBD%7D%7BAB%7D%3D%5Cfrac%7Bx%7D%7B12%7D%3D%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%5Cimplies%20x%3D%5Cfrac%7B12%7D%7B%5Csqrt%7B2%7D%7D)
+$$
+\frac{BD}{AB}=\frac{x}{12}=\frac{1}{\sqrt{2}}\implies x=\frac{12}{\sqrt{2}}
+$$
 
 De ce résultat, nous pouvons établir une construction à la règle et au compas des points C:
 

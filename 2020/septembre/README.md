@@ -125,9 +125,18 @@ print("réponse:", nb)
 
 Factorisons l'expression:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A23%5E5%20-%2023%20%26%3D%2023%20%5Ctimes%20%2823%5E4%20-%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%5E2%20-%201%29%20%5Ctimes%20%2823%5E2%20%2B%201%29%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%20%2823%20-%201%29%20%5Ctimes%20%2823%20%2B%201%29%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%2022%20%5Ctimes%2024%20%5Ctimes%20530%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%2023%20%5Ctimes%202%20%5Ctimes%2011%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%202%20%5Ctimes%203%20%5Ctimes%202%20%5Ctimes%205%20%5Ctimes%2053%20%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%26%3D%202%5E5%20%5Ctimes%203%20%5Ctimes%205%20%5Ctimes%2011%20%5Ctimes%2023%20%5Ctimes%2053%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+23^5 - 23 &= 23 \times (23^4 - 1) \\
+          &= 23 \times (23^2 - 1) \times (23^2 + 1) \\
+          &= 23 \times (23 - 1) \times (23 + 1) \times 530 \\
+          &= 23 \times 22 \times 24 \times 530 \\
+          &= 23 \times 2 \times 11 \times 2 \times 2 \times 2 \times 3 \times 2 \times 5 \times 53 \\
+          &= 2^5 \times 3 \times 5 \times 11 \times 23 \times 53
+\end{aligned}
+$$
 
-Le nombre de diviseurs est ![latex](https://render.githubusercontent.com/render/math?math=%5Csigma_0%28n%29%3D%5Cprod_%7Bp%5Ee%7Cn%7D%28e_p%2B1%29%3D6%5Ctimes2%5Ctimes2%5Ctimes2%5Ctimes2%5Ctimes2%3D192&mode=inline)
+Le nombre de diviseurs est $\sigma_0(n)=\prod_{p^e|n}(e_p+1)=6\times2\times2\times2\times2\times2=192$
 
 > réponse: 192
 
@@ -247,13 +256,18 @@ Algorithme a 4 voyelles, donc 4 façons de choisir une voyelle pour commencer, 6
 
 ## Lundi 21 Septembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28x%20-%204%29%28x%20-%209%29%20%26%3D%20x%5E2%20-%20%284%20%2B%209%29%20%5Ctimes%20%20x%20%2B%204%20%5Ctimes%20%209%20%5C%5C%0A%26%3D%203%20x%5E2%20-%203%20%5Ctimes%20%284%2B9%29%20%5Ctimes%20%20x%20%2B%203%20%5Ctimes%204%5Ctimes%209%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+(x - 4)(x - 9) &= x^2 - (4 + 9) \times  x + 4 \times  9 \\
+&= 3 x^2 - 3 \times (4+9) \times  x + 3 \times 4\times 9
+\end{aligned}
+$$
 
-Il faut donc ![latex](https://render.githubusercontent.com/render/math?math=3%20%5Ctimes%204%5Ctimes%209%3D108%3D66_%7Bbase%7D&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=3%20%5Ctimes%20%284%2B9%29%3D39%3D25_%7Bbase%7D&mode=inline)
+Il faut donc $3 \times 4\times 9=108=66_{base}$ et $3 \times (4+9)=39=25_{base}$
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=2%20%5Ctimes%20base%20%2B%205%3D39&mode=inline). Donc ![latex](https://render.githubusercontent.com/render/math?math=base%3D%2839-5%29%20%5Cdiv%202%3D17&mode=inline).
+Soit $2 \times base + 5=39$. Donc $base=(39-5) \div 2=17$.
 
-On vérifie que ![latex](https://render.githubusercontent.com/render/math?math=6%20%5Ctimes%20base%20%2B%206%20%3D%2017%20%5Ctimes%206%2B6%3D102%2B6%3D108&mode=inline).
+On vérifie que $6 \times base + 6 = 17 \times 6+6=102+6=108$.
 
 On peut aussi chercher automatiquement à l'aide d'un [programme](21.py).
 
@@ -294,11 +308,11 @@ for base in range(11, 37):
 
 ## Mardi 22 Septembre
 
-Pour chaque point ABCDEF, il y a ![latex](https://render.githubusercontent.com/render/math?math=%7B5%20%5Cchoose%202%7D%20%3D%2010&mode=inline) moyens de tracer un triangle non dégénéré, sauf ABC qui est dégénéré à cause de l'alignement ABC.
+Pour chaque point ABCDEF, il y a ${5 \choose 2} = 10$ moyens de tracer un triangle non dégénéré, sauf ABC qui est dégénéré à cause de l'alignement ABC.
 
 Les triangles sont comptés trois fois, il faut donc diviser par 3.
 
-![latex](https://render.githubusercontent.com/render/math?math=6%20%5Ctimes%20%7B10%5Cchoose%202%7D%3D6%5Ctimes%2010%3D60&mode=inline) d'où ![latex](https://render.githubusercontent.com/render/math?math=60%5Cdiv%203-1%3D19&mode=inline)
+$6 \times {10\choose 2}=6\times 10=60$ d'où $60\div 3-1=19$
 
 > réponse: 19
 
@@ -401,13 +415,18 @@ D'où ∑n = 24
 
 Le losange est constitué de quatre triangles rectangles de côtés a et b tels que:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%26a%20%2B%20b%20%3D%2056%20%5C%5C%0A%263%20a%20%3D%204%20b%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+&a + b = 56 \\
+&3 a = 4 b
+\end{aligned}
+$$
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=a%20%3D%2032&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b%20%3D%2024&mode=inline).
+Soit $a = 32$ et $b = 24$.
 
-L'hypoténuse de ces triangles mesure: ![latex](https://render.githubusercontent.com/render/math?math=%5Csqrt%7B%28%5Cfrac%7B32%7D%7B2%7D%29%5E2%2B%28%5Cfrac%7B24%7D%7B2%7D%29%5E2%7D%20%3D%2020&mode=inline)
+L'hypoténuse de ces triangles mesure: $\sqrt{(\frac{32}{2})^2+(\frac{24}{2})^2} = 20$
 
-Le périmètre est donc ![latex](https://render.githubusercontent.com/render/math?math=20%20%5Ctimes%204%20%3D%2080&mode=inline).
+Le périmètre est donc $20 \times 4 = 80$.
 
 > réponse: 80 m
 

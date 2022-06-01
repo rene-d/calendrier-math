@@ -91,13 +91,17 @@ AB² + BC² = AC² = 21 ⇒ AB = √(21 - 12) = 3
 
 ## Vendredi 10 Septembre
 
-Le coefficient ![latex](https://render.githubusercontent.com/render/math?math=r&mode=inline) entre deux termes vaut:
+Le coefficient $r$ entre deux termes vaut:
 
-![latexml](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%7B%5Csqrt%5B3%5D%7B3%7D%7D%7B%5Csqrt%7B3%7D%7D%20%3D%20%5Cfrac%7B3%5E%7B%5Cfrac%7B1%7D%7B3%7D%7D%7D%7B3%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D%7D%20%3D%20%7B3%7D%5E%7B%5Cfrac%7B1%7D%7B3%7D-%5Cfrac%7B1%7D%7B2%7D%7D%20%3D%20%7B3%7D%5E%7B-%5Cfrac%7B1%7D%7B6%7D%7D)
+$$
+r = \frac{\sqrt[3]{3}}{\sqrt{3}} = \frac{3^{\frac{1}{3}}}{3^{\frac{1}{2}}} = {3}^{\frac{1}{3}-\frac{1}{2}} = {3}^{-\frac{1}{6}}
+$$
 
 Le terme suivant est donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Csqrt%5B6%5D%7B3%7D%5Ctimes%7B3%7D%5E%7B-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%20%7B3%7D%5E%7B%5Cfrac%7B1%7D%7B6%7D-%5Cfrac%7B1%7D%7B6%7D%7D%20%3D%203%5E0%20%3D%201)
+$$
+\sqrt[6]{3}\times{3}^{-\frac{1}{6}} = {3}^{\frac{1}{6}-\frac{1}{6}} = 3^0 = 1
+$$
 
 > réponse: 1
 
@@ -133,7 +137,14 @@ Par construction des points B' et C', l'angle ∠C'AB' est le triple de ∠BAC, 
 
 La [loi des cosinus](https://fr.wikipedia.org/wiki/Loi_des_cosinus) permet de calculer B'C':
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%28B%27C%27%29%5E2%26%3D%28AC%27%29%5E2%2B%28AB%27%29%5E2-2%28AC%27%29%28AB%27%29cos%28120%5E%7B%5Ccirc%7D%29%20%5C%5C%0A%26%3D6%5E2%2B10%5E2-2%5Ctimes%2010%5Ctimes%206%5Ctimes%20%5Cleft%28-%5Cdfrac%7B1%7D%7B2%7D%5Cright%29%20%5C%5C%0A%26%3D136%2B60%3D196%20%5C%5C%0A%26%3D%7B14%7D%5E2%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+(B'C')^2&=(AC')^2+(AB')^2-2(AC')(AB')cos(120^{\circ}) \\
+&=6^2+10^2-2\times 10\times 6\times \left(-\dfrac{1}{2}\right) \\
+&=136+60=196 \\
+&={14}^2
+\end{aligned}
+$$
 
 > réponse: 14 cm
 
@@ -169,7 +180,7 @@ Les nombres qui conviennent sont les permutations différentes de 5577.
 
 ## Lundi 20 Septembre
 
-Soit (![latex](https://render.githubusercontent.com/render/math?math=a_i&mode=inline)) la série des 1000 nombres. ![latex](https://render.githubusercontent.com/render/math?math=%28a_i%29%3D0&mode=inline) est une solution triviale. Et dès qu'il y a un nombre égal à 0, son voisin est aussi égal à 0, etc. Donc tous les nombres sont nuls ou aucun ne l'est.
+Soit ($a_i$) la série des 1000 nombres. $(a_i)=0$ est une solution triviale. Et dès qu'il y a un nombre égal à 0, son voisin est aussi égal à 0, etc. Donc tous les nombres sont nuls ou aucun ne l'est.
 
 ```text
 N B N B N B
@@ -180,17 +191,40 @@ N B N B N B
 - Si un blanc = 0, un noir doit être = 0 pour n × n = 0.
 - Si un noir = 0, alors le blanc = 0 parce que = 0 × l'autre voisin
 
-Supposons donc ici que ![latex](https://render.githubusercontent.com/render/math?math=a_i%20%5Cne%200&mode=inline). Dès la deuxième égalité, on va voir que ![latex](https://render.githubusercontent.com/render/math?math=a_1%5Cne1&mode=inline) (sinon ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) serait forcément égal à 0 et tous les nombres seraient aussi égaux à 0 comme vu ci-avant, ce qui provoque une contradiction).
+Supposons donc ici que $a_i \ne 0$. Dès la deuxième égalité, on va voir que $a_1\ne1$ (sinon $a_0$ serait forcément égal à 0 et tous les nombres seraient aussi égaux à 0 comme vu ci-avant, ce qui provoque une contradiction).
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Aa_0%2Ba_2%3Da_1%20%5Cimplies%20%26a_2%3Da_1%20-%20a_0%20%5C%5C%0Aa_1%5Ctimes%20a_3%3Da_2%20%5Cimplies%20%26a_3%3D%28a_1%20-%20a_0%29%20/%20a_1%3D1-a_0/a_1%20%5C%5C%0Aa_2%2Ba_4%3Da_3%20%5Cimplies%20%26a_4%3D%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%20%5C%5C%0Aa_3%5Ctimes%20a_5%3Da_4%20%5Cimplies%20%26a_5%3D%5Cfrac%7B%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%7D%20%7B%28a_1%20-%20a_0%29%20/%20a_1%7D%20%3D%201%20-%20a_1%20%5C%5C%0Aa_4%2Ba_6%3Da_5%20%5Cimplies%20%26a_6%3D%281%20-%20a_1%29%20-%20%5Cleft%5B%20%28a_1%20-%20a_0%29%20/%20a_1%20-%20%28a_1%20-%20a_0%29%20%5Cright%5D%20%3D%20a_0%20%281%20-%20a_1%29/a_1%20%5C%5C%0Aa_5%5Ctimes%20a_7%3Da_6%20%5Cimplies%20%26a_7%3D%5Cfrac%7Ba_0%281%20-%20a_1%29/a_1%7D%7B1%20-%20a_1%7D%20%3D%20a_0%20/%20a_1%20%5C%5C%0Aa_6%2Ba_8%3Da_7%20%5Cimplies%20%26a_8%3D%20%28a_0%20/%20a_1%29%20-%20%5Cleft%5Ba_0%20%281%20-%20a_1%29/a_1%5Cright%5D%20%3D%20a_0%20%5C%5C%0Aa_7%5Ctimes%20a_9%3Da_8%20%5Cimplies%20%26a_9%3D%5Cfrac%7Ba_0%7D%7Ba_0%20/%20a_1%7D%20%3D%20a_1%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+a_0+a_2=a_1 \implies &a_2=a_1 - a_0 \\
+a_1\times a_3=a_2 \implies &a_3=(a_1 - a_0) / a_1=1-a_0/a_1 \\
+a_2+a_4=a_3 \implies &a_4=(a_1 - a_0) / a_1 - (a_1 - a_0) \\
+a_3\times a_5=a_4 \implies &a_5=\frac{(a_1 - a_0) / a_1 - (a_1 - a_0)} {(a_1 - a_0) / a_1} = 1 - a_1 \\
+a_4+a_6=a_5 \implies &a_6=(1 - a_1) - \left[ (a_1 - a_0) / a_1 - (a_1 - a_0) \right] = a_0 (1 - a_1)/a_1 \\
+a_5\times a_7=a_6 \implies &a_7=\frac{a_0(1 - a_1)/a_1}{1 - a_1} = a_0 / a_1 \\
+a_6+a_8=a_7 \implies &a_8= (a_0 / a_1) - \left[a_0 (1 - a_1)/a_1\right] = a_0 \\
+a_7\times a_9=a_8 \implies &a_9=\frac{a_0}{a_0 / a_1} = a_1
+\end{aligned}
+$$
 
-On constate donc que ![latex](https://render.githubusercontent.com/render/math?math=a_%7B0%7D%3Da_%7B8%7D&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=a_%7B1%7D%3Da_%7B9%7D&mode=inline). Par conséquent il y a un cycle de longueur 8 et  ![latex](https://render.githubusercontent.com/render/math?math=a_%7Bi%7D%3Da_%7Bi%2B8%7D&mode=inline). Faisons la somme des ![latex](https://render.githubusercontent.com/render/math?math=a_0&mode=inline) à ![latex](https://render.githubusercontent.com/render/math?math=a_7&mode=inline) :
+On constate donc que $a_{0}=a_{8}$ et $a_{1}=a_{9}$. Par conséquent il y a un cycle de longueur 8 et  $a_{i}=a_{i+8}$. Faisons la somme des $a_0$ à $a_7$ :
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AS%26%3Da_0%0A%2Ba_1%0A%2B%28a_1-a_0%29%0A%2B%281-a_0/a_1%29%0A%2B%5Cleft%5B%28a_1-a_0%29/a_1-%28a_1-a_0%29%5Cright%5D%0A%2B%281-a_1%29%0A%2B%28a_0%20%281-a_1%29/a_1%29%0A%2B%28a_0/a_1%29%20%5C%5C%0A%26%3D3%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+S&=a_0
++a_1
++(a_1-a_0)
++(1-a_0/a_1)
++\left[(a_1-a_0)/a_1-(a_1-a_0)\right]
++(1-a_1)
++(a_0 (1-a_1)/a_1)
++(a_0/a_1) \\
+&=3
+\end{aligned}
+$$
 
 Ainsi, tous les huit nombres, la somme est 3. Comme 1000 est un multiple de 8 et 1000 / 8 = 125, la somme totale est 3 × 125 = 375.
 
-(🙏 Merci à [WolframAlpha](https://www.wolframalpha.com) pour les calculs symboliques et à [Visual Studio Code](https://code.visualstudio.com) et son ⌘2 afin d'écrire l'expression en [![latex](https://render.githubusercontent.com/render/math?math=%5CLaTeX&mode=inline)](https://www.latex-project.org)).
+(🙏 Merci à [WolframAlpha](https://www.wolframalpha.com) pour les calculs symboliques et à [Visual Studio Code](https://code.visualstudio.com) et son ⌘2 afin d'écrire l'expression en [$\LaTeX$](https://www.latex-project.org)).
 
 > réponse: 0 ou 375
 

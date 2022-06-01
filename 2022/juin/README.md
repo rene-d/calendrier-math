@@ -4,17 +4,32 @@
 
 ## Mercredi 1 Juin
 
-Soient ![latex](https://render.githubusercontent.com/render/math?math=x%2Cy&mode=inline) tels que:
+Soient $x,y$ tels que:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%20%7Bx%2B1%7D%2B%5Cfrac%201%20%7By%2B1%7D%3D1)
+$$
+\frac 1 {x+1}+\frac 1 {y+1}=1
+$$
 
-Notons que ![latex](https://render.githubusercontent.com/render/math?math=x%20%5Cne%200&mode=inline) sinon il n'y a pas de solution.
+Notons que $x \ne 0$ sinon il n'y a pas de solution.
 
-![latexml](https://render.githubusercontent.com/render/math?math=y%3D%5Cfrac%20%7B1%7D%20%7B1-%5Cfrac%201%20%7Bx%2B1%7D%7D-1%3D%5Cfrac%7Bx%2B1%7D%7Bx%2B1-1%7D-1%3D%5Cfrac%7B1%7D%7Bx%7D)
+$$
+y=\frac {1} {1-\frac 1 {x+1}}-1=\frac{x+1}{x+1-1}-1=\frac{1}{x}
+$$
 
-Remplaçons ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) par ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%20y&mode=inline) dans l'équation:
+Remplaçons $x$ par $\frac 1 y$ dans l'équation:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0A%5Cfrac%20%7B1%7D%7Bx-1%7D%2B%5Cfrac%20%7B1%7D%7By-1%7D%26%3D%0A%5Cfrac%20%7B1%7D%7B%20%5Cfrac%201%20%7By%7D-1%7D%2B%5Cfrac%20%7B1%7D%7By-1%7D%0A%5C%5C%0A%26%3D%5Cfrac%20%7By%7D%7B1-y%7D%2B%5Cfrac%20%7B1%7D%7By-1%7D%0A%5C%5C%0A%26%3D%5Cfrac%20%7B1-y%7D%7By-1%7D%0A%5C%5C%0A%26%3D-1%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+\frac {1}{x-1}+\frac {1}{y-1}&=
+\frac {1}{ \frac 1 {y}-1}+\frac {1}{y-1}
+\\
+&=\frac {y}{1-y}+\frac {1}{y-1}
+\\
+&=\frac {1-y}{y-1}
+\\
+&=-1
+\end{aligned}
+$$
 
 > réponse: -1
 
@@ -113,11 +128,19 @@ En coloriant les sommets de deux faces opposées, seules ces deux faces auront a
 
 ## Vendredi 17 Juin
 
-![latexml](https://render.githubusercontent.com/render/math?math=a%5E3%2B2b%5E3-ba%5E2-2ab%5E2%3D0%0A%5C%5C%0Aa%5E2%28a-b%29%20%2Ba%5E2%20b%20%2B2b%5E3-ba%5E2-2ab%5E2%3D0%0A%5C%5C%0Aa%5E2%28a-b%29%2B%20%20b%5E2%28%202b-2a%29%3D0%0A%5C%5C%0A%28a-b%29%28a%5E2-%202b%5E2%29%3D0)
+$$
+a^3+2b^3-ba^2-2ab^2=0
+\\
+a^2(a-b) +a^2 b +2b^3-ba^2-2ab^2=0
+\\
+a^2(a-b)+  b^2( 2b-2a)=0
+\\
+(a-b)(a^2- 2b^2)=0
+$$
 
-Les solutions sont soit ![latex](https://render.githubusercontent.com/render/math?math=a%3Db&mode=inline) soit ![latex](https://render.githubusercontent.com/render/math?math=a%5E2%3D2b%5E2&mode=inline).
+Les solutions sont soit $a=b$ soit $a^2=2b^2$.
 
-Seule ![latex](https://render.githubusercontent.com/render/math?math=a%3Db&mode=inline) donne des solutions entières.
+Seule $a=b$ donne des solutions entières.
 
 > réponse: 0
 
@@ -161,13 +184,19 @@ N/72 × 2/5 = 0.05 ⇒ N = 72 × 0.05 × 5/2 = 9
 
 ## Lundi 27 Juin
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7Bx%5E3%2By%5E3%7D%7Bx%2By%7D%3Dx%5E2-xy%2By%5E2%3D%28x%2By%29%5E2-3xy)
+$$
+\frac {x^3+y^3}{x+y}=x^2-xy+y^2=(x+y)^2-3xy
+$$
 
 En remplaçant par les valeurs de l'énoncé:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7B133%7D%7B7%7D%20%3D%207%5E2-3xy)
+$$
+\frac {133}{7} = 7^2-3xy
+$$
 
-![latexml](https://render.githubusercontent.com/render/math?math=xy%3D%5Cfrac%20%7B7%5E3-133%7D%7B3%5Ctimes%207%7D%3D%5Cfrac%20%7B210%7D%7B21%7D%3D10)
+$$
+xy=\frac {7^3-133}{3\times 7}=\frac {210}{21}=10
+$$
 
 > réponse: 10
 

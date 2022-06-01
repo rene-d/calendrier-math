@@ -42,7 +42,21 @@ Complément de solution par rapport à celle du livret: le triangle rectangle co
 
 Après avoir réécrit l'expression sous forme de produit de fractions, on simplifie deux à deux les termes identiques:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AE%26%3D%5Cprod_%7Bk%3D8%7D%5E%7B70%7D%7B%5Cleft%281-%5Cfrac%7B1%7D%7Bk%5E2%7D%5Cright%29%7D%0A%5C%5C%0A%26%3D%5Cprod_%7Bk%3D8%7D%5E%7B70%7D%7B%5Cfrac%7Bk%5E2-1%7D%7Bk%5E2%7D%7D%0A%5C%5C%0A%26%3D%5Cprod_%7Bk%3D8%7D%5E%7B70%7D%7B%5Cfrac%7B%28k-1%29%28k%2B1%29%7D%7Bk%5E2%7D%7D%0A%5C%5C%0A%26%3D%5Cfrac%7B7%5Ctimes%7B%5Ccancel%7B9%7D%7D%7D%7B8%5Ctimes%7B%5Ccancel%7B8%7D%7D%7D%5Ctimes%5Cfrac%7B%7B%5Ccancel%7B8%7D%7D%5Ctimes%7B%5Ccancel%7B1%7D0%7D%7D%7B%7B%5Ccancel%7B9%7D%7D%5Ctimes%7B%5Ccancel%7B9%7D%7D%7D%5Ctimes%5Cfrac%7B%7B%5Ccancel%7B9%7D%7D%5Ctimes%7B%5Ccancel%7B11%7D%7D%7D%7B%7B%5Ccancel%7B10%7D%7D%5Ctimes%7B%5Ccancel%7B10%7D%7D%7D%5Ctimes%5Ccdots%5Ctimes%5Cfrac%7B%7B%5Ccancel%7B69%7D%7D%5Ctimes%7B71%7D%7D%7B%7B%5Ccancel%7B70%7D%7D%5Ctimes%7B70%7D%7D%0A%5C%5C%0A%26%3D%5Cfrac%7B7%7D%7B8%7D%5Ctimes%5Cfrac%7B71%7D%7B70%7D%0A%5C%5C%0A%26%3D%5Cfrac%7B71%7D%7B80%7D%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+E&=\prod_{k=8}^{70}{\left(1-\frac{1}{k^2}\right)}
+\\
+&=\prod_{k=8}^{70}{\frac{k^2-1}{k^2}}
+\\
+&=\prod_{k=8}^{70}{\frac{(k-1)(k+1)}{k^2}}
+\\
+&=\frac{7\times{\cancel{9}}}{8\times{\cancel{8}}}\times\frac{{\cancel{8}}\times{\cancel{1}0}}{{\cancel{9}}\times{\cancel{9}}}\times\frac{{\cancel{9}}\times{\cancel{11}}}{{\cancel{10}}\times{\cancel{10}}}\times\cdots\times\frac{{\cancel{69}}\times{71}}{{\cancel{70}}\times{70}}
+\\
+&=\frac{7}{8}\times\frac{71}{70}
+\\
+&=\frac{71}{80}
+\end{aligned}
+$$
 
 > réponse: 71/80
 
@@ -81,15 +95,22 @@ Dans un carré 4x4, on peut dessiner au maximum 5 rectangles 3x1 ou 1x3. Il faut
 
 ## Vendredi 8 Avril
 
-Déterminons la valeur de ![latex](https://render.githubusercontent.com/render/math?math=xy%2Byz%2Bzx&mode=inline):
+Déterminons la valeur de $xy+yz+zx$:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%20x%20%2B%20%5Cfrac%201%20y%20%2B%20%5Cfrac%201%20z%0A%3D%20%5Cfrac%20%7Bxz%2Byz%20%2B%20xy%7D%20%7Bxyz%7D%0A%3D%20%5Cfrac%203%204)
+$$
+\frac 1 x + \frac 1 y + \frac 1 z
+= \frac {xz+yz + xy} {xyz}
+= \frac 3 4
+$$
 
-D'où: ![latex](https://render.githubusercontent.com/render/math?math=xy%2Byz%2Bzx%3D%5Cfrac%203%204%5Ctimes%2072%3D54&mode=inline)
+D'où: $xy+yz+zx=\frac 3 4\times 72=54$
 
-On peut maintenant calculer ![latex](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%20y%5E2%20%2B%20z%5E2&mode=inline):
+On peut maintenant calculer $x^2 + y^2 + z^2$:
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E2%20%2B%20y%5E2%20%2B%20z%5E2%20%20%3D%20%28x%2By%2Bz%29%5E2%20-%20%5Cleft%28%202xy%20%2B%202yz%20%2B%202zx%5Cright%29%0A%3D%7B13%7D%5E2-%5Cleft%282%5Ctimes%7B54%7D%5Cright%29%3D169-108%3D61)
+$$
+x^2 + y^2 + z^2  = (x+y+z)^2 - \left( 2xy + 2yz + 2zx\right)
+={13}^2-\left(2\times{54}\right)=169-108=61
+$$
 
 > réponse: 61
 
@@ -108,20 +129,29 @@ Donc la mosaïque a pour côté 1616/2 = 808. Il y a en tout 652864 carrés, don
 
 Le [théorème des bissectrices](https://fr.wikipedia.org/wiki/Bissectrice#Bissectrices_d'un_triangle) d'un triangle permet d'écrire:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BAB%7D%20%7BAC%7D%20%3D%20%5Cfrac%20%7BDB%7D%20%7BDC%7D)
+$$
+\frac {AB} {AC} = \frac {DB} {DC}
+$$
 
 ![12](12.png)
 
-On peut calculer la longueur ![latex](https://render.githubusercontent.com/render/math?math=AB%2BBD&mode=inline):
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BAB%7D%20%7BAC%7D%20%3D%20%5Cfrac%20%7BDB%7D%20%7BDC%7D%3D%20%5Cfrac%20%7BAB%2BDB%7D%20%7BAC%2BDC%7D%0A%3D%5Cfrac%7BAB%2BDB%7D%7B12%7D%3D2)
+On peut calculer la longueur $AB+BD$:
+$$
+\frac {AB} {AC} = \frac {DB} {DC}= \frac {AB+DB} {AC+DC}
+=\frac{AB+DB}{12}=2
+$$
 
 car
 
-![latexml](https://render.githubusercontent.com/render/math?math=CD%3D%5Cfrac%201%203%20BC%20%3D%20%5Cfrac%201%203%20%5Cleft%28%20BD%2BCD%20%5Cright%29%20%5Cimplies%20BD%3D2%20CD)
+$$
+CD=\frac 1 3 BC = \frac 1 3 \left( BD+CD \right) \implies BD=2 CD
+$$
 
 Le périmètre du triangle est donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=AB%2BBC%2BCA%3D%20%28AB%2BBD%29%2B%28DC%2BCA%29%3D2%5Ctimes%2012%2B12%3D36)
+$$
+AB+BC+CA= (AB+BD)+(DC+CA)=2\times 12+12=36
+$$
 
 > réponse: 36 cm
 
@@ -148,9 +178,9 @@ x⁴y⁴ est toujours positif, donc le facteur restant yz doit être strictement
 
 _Soit n un nombre entier positif qui est égal au produit de n nombres entiers dont la somme est 0. Est-ce que n doit être pair ou impair ?_
 
-Cela fonctionne avec n pair, avec au moins la solution pour n=4 : ![latex](https://render.githubusercontent.com/render/math?math=%5Cprod%20%3D%20%28-1%29%20%5Ccdot%201%20%5Ccdot%20%28-2%29%20%5Ccdot%202%20%3D%204%5Ctext%7B%2C%20%7D%5Csum%3D1-1%2B2-2%3D0&mode=inline).
+Cela fonctionne avec n pair, avec au moins la solution pour n=4 : $\prod = (-1) \cdot 1 \cdot (-2) \cdot 2 = 4\text{, }\sum=1-1+2-2=0$.
 
-Mais aussi pour n=16: ![latex](https://render.githubusercontent.com/render/math?math=%5Cprod%20%3D%20%7B%28-1%29%7D%5E6%20%5Ccdot%20%7B%28-2%29%7D%5E2%20%5Ccdot%20%201%5E6%20%5Ccdot%20%202%5E2%3D16%5Ctext%7B%2C%20%7D%5Csum%3D0&mode=inline) N+P=0.
+Mais aussi pour n=16: $\prod = {(-1)}^6 \cdot {(-2)}^2 \cdot  1^6 \cdot  2^2=16\text{, }\sum=0$ N+P=0.
 
 Supposons à présent n impair.
 
@@ -172,11 +202,11 @@ Pour M / N soit maximal, il faut M le plus grand possible et N le plus petit pos
 
 ## Mardi 19 Avril
 
-a est un diviseur de ![latex](https://render.githubusercontent.com/render/math?math=100%20%3D%202%5E2%20%5Ctimes%205%5E2&mode=inline).
+a est un diviseur de $100 = 2^2 \times 5^2$.
 
-c est un diviseur de ![latex](https://render.githubusercontent.com/render/math?math=140%20%3D%202%5E2%20%5Ctimes%205%20%5Ctimes%207&mode=inline).
+c est un diviseur de $140 = 2^2 \times 5 \times 7$.
 
-Ainsi, b est un diviseur de ![latex](https://render.githubusercontent.com/render/math?math=2%5E2%20%5Ctimes%205&mode=inline), soit 6 valeurs possibles.
+Ainsi, b est un diviseur de $2^2 \times 5$, soit 6 valeurs possibles.
 
 Programe en [Python](19.py):
 
@@ -258,14 +288,14 @@ while True:
 
 ## Vendredi 22 Avril
 
-Soient ![latex](https://render.githubusercontent.com/render/math?math=a&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b&mode=inline) les chiffres des dizaines et des unités. Ils doivent vérifier l'équation: ![latex](https://render.githubusercontent.com/render/math?math=a%5Ctimes%20b%2B2a%2B2b%3D10a%2Bb&mode=inline) qui se simplifie en: ![latex](https://render.githubusercontent.com/render/math?math=a%5Ctimes%288-b%29%3Db&mode=inline).
+Soient $a$ et $b$ les chiffres des dizaines et des unités. Ils doivent vérifier l'équation: $a\times b+2a+2b=10a+b$ qui se simplifie en: $a\times(8-b)=b$.
 
-- ![latex](https://render.githubusercontent.com/render/math?math=a%3D1%5Cimplies%208-b%3Db%5Cimplies%20b%3D4&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=a%3D2%5Cimplies%2016%3D3b%5Cimplies%20%5Ctext%7Bpas%20de%20solution%20pour%20%7Db&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=a%3D3%5Cimplies%2024%3D4b%5Cimplies%20b%3D6&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=a%3D4%2C5%2C6%5Cimplies%20%5Ctext%7Bpas%20de%20solution%20pour%20%7Db&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=a%3D7%5Cimplies%2056%3D8b%5Cimplies%20b%3D7&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=a%3D8%2C9%5Cimplies%20%5Ctext%7Bpas%20de%20solution%20pour%20%7Db&mode=inline)
+- $a=1\implies 8-b=b\implies b=4$
+- $a=2\implies 16=3b\implies \text{pas de solution pour }b$
+- $a=3\implies 24=4b\implies b=6$
+- $a=4,5,6\implies \text{pas de solution pour }b$
+- $a=7\implies 56=8b\implies b=7$
+- $a=8,9\implies \text{pas de solution pour }b$
 
 Programme en [Rust](22.rs):
 

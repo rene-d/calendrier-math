@@ -112,9 +112,11 @@ Donc la face entre les dés 1 et 2 est 6. Et par conséquant la face cherchée e
 
 ## Mardi 11 Février
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E2%20y%5E3%3D6%5E%7B12%7D%3D2%5E%7B12%7D%5Ctimes%203%5E%7B12%7D)
+$$
+x^2 y^3=6^{12}=2^{12}\times 3^{12}
+$$
 
-Etant entiers, x et y sont donc nécessairement de la forme ![latex](https://render.githubusercontent.com/render/math?math=2%5Ea%5Ctimes%203%5Eb&mode=inline) Il s'agit de résoudre l'équation ![latex](https://render.githubusercontent.com/render/math?math=2a%2B3b%3D12&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=%28a%2Cb%29%5Cin%5CN&mode=inline), a étant l'exposant de x et b celui de y. Les solutions sont: (0, 4) (3, 2) (6, 0). Ces solutions sont valables pour les puissances de 2 et de 3. Ce qui fait donc 3 × 3 = 9 solutions.
+Etant entiers, x et y sont donc nécessairement de la forme $2^a\times 3^b$ Il s'agit de résoudre l'équation $2a+3b=12$ avec $(a,b)\in\N$, a étant l'exposant de x et b celui de y. Les solutions sont: (0, 4) (3, 2) (6, 0). Ces solutions sont valables pour les puissances de 2 et de 3. Ce qui fait donc 3 × 3 = 9 solutions.
 
 Recherche exhaustive en [Python](11.py).
 

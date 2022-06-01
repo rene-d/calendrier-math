@@ -4,33 +4,57 @@
 
 ## Lundi 2 Mai
 
-Le rayon ![latex](https://render.githubusercontent.com/render/math?math=r&mode=inline) du [cercle inscrit](https://fr.wikipedia.org/wiki/Cercles_inscrit_et_exinscrits_d%27un_triangle#Cercle_inscrit) dans un triangle vaut:
+Le rayon $r$ du [cercle inscrit](https://fr.wikipedia.org/wiki/Cercles_inscrit_et_exinscrits_d%27un_triangle#Cercle_inscrit) dans un triangle vaut:
 
-![latexml](https://render.githubusercontent.com/render/math?math=r%3D%5Cfrac%7B2S%7D%7Ba%2Bb%2Bc%7D)
+$$
+r=\frac{2S}{a+b+c}
+$$
 
 où S est la surface du triangle, a, b et c sont les côtés du triangle.
 
-Ici, ![latex](https://render.githubusercontent.com/render/math?math=r%3D6&mode=inline), ![latex](https://render.githubusercontent.com/render/math?math=c%3D39&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=a%5E2%2Bb%5E2%3D%7B39%7D%5E2&mode=inline).
+Ici, $r=6$, $c=39$ et $a^2+b^2={39}^2$.
 
-Comme le triangle est rectangle, ![latex](https://render.githubusercontent.com/render/math?math=S%3D%5Cfrac%201%202%20ab&mode=inline). Ainsi, ![latex](https://render.githubusercontent.com/render/math?math=a%2Bb%2Bc%3D%5Cfrac%20%7Bab%7D%20r&mode=inline).
+Comme le triangle est rectangle, $S=\frac 1 2 ab$. Ainsi, $a+b+c=\frac {ab} r$.
 
-Calculons ![latex](https://render.githubusercontent.com/render/math?math=a%2Bb&mode=inline):
+Calculons $a+b$:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%2A%7D%0A%28a%2Bb%29%5E2%20%26%3D%20a%5E2%2Bb%5E2%20%2B%202ab%0A%5C%5C%0A%26%3Dc%5E2%2B2%5Ctimes%28a%2Bb%2Bc%29%5Ctimes%20r%0A%5C%5C%0A%26%3D39%5E2%2B2%5Ctimes%206%5Ctimes%20%28a%2Bb%29%2B2%5Ctimes%206%20%5Ctimes%2039%0A%5C%5C%0A%26%3D12%28a%2Bb%29%2B1989%0A%5Cend%7Balign%2A%7D)
+$$
+\begin{align*}
+(a+b)^2 &= a^2+b^2 + 2ab
+\\
+&=c^2+2\times(a+b+c)\times r
+\\
+&=39^2+2\times 6\times (a+b)+2\times 6 \times 39
+\\
+&=12(a+b)+1989
+\end{align*}
+$$
 
-![latex](https://render.githubusercontent.com/render/math?math=a%2Bb&mode=inline) est donc solution de l'équation du deuxième degré ![latex](https://render.githubusercontent.com/render/math?math=X%5E2-12X-1989%3D0&mode=inline).
+$a+b$ est donc solution de l'équation du deuxième degré $X^2-12X-1989=0$.
 
-Ce polynome a deux solutions: ![latex](https://render.githubusercontent.com/render/math?math=X%3D-39&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=X%3D51&mode=inline).
+Ce polynome a deux solutions: $X=-39$ et $X=51$.
 
-![latex](https://render.githubusercontent.com/render/math?math=a%2Bb&mode=inline) doit être positif, donc ![latex](https://render.githubusercontent.com/render/math?math=a%2Bb%3D51&mode=inline).
+$a+b$ doit être positif, donc $a+b=51$.
 
-Le périmètre du triangle est donc ![latex](https://render.githubusercontent.com/render/math?math=51%2B39%3D90&mode=inline).
+Le périmètre du triangle est donc $51+39=90$.
 
-Par ailleurs, on a ![latex](https://render.githubusercontent.com/render/math?math=ab%3D90%2A6%3D540&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=a%2Bb%3D51&mode=inline).
+Par ailleurs, on a $ab=90*6=540$ et $a+b=51$.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%2A%7D%0A%26%20x%3D51-540/x%0A%5C%5C%0A%26%20x%5E2-51x%2B540%3D0%0A%5C%5C%0A%26%20x%3D%5Cfrac%20%7B51%20%5Cpm%20%20%5Csqrt%7B%7B51%7D%5E2-4%5Ctimes%20540%7D%7D%20%7B2%7D%0A%5C%5C%0A%26%20x%3D%5Cfrac%20%7B51%20%5Cpm%2021%7D%20%7B2%7D%0A%5C%5C%0A%26%20x%3D15%20%5Ctext%7B%20ou%20%7D%20x%3D36%0A%5Cend%7Balign%2A%7D)
+$$
+\begin{align*}
+& x=51-540/x
+\\
+& x^2-51x+540=0
+\\
+& x=\frac {51 \pm  \sqrt{{51}^2-4\times 540}} {2}
+\\
+& x=\frac {51 \pm 21} {2}
+\\
+& x=15 \text{ ou } x=36
+\end{align*}
+$$
 
-Donc ![latex](https://render.githubusercontent.com/render/math?math=a%3D15&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b%3D36&mode=inline) (ou l'inverse).
+Donc $a=15$ et $b=36$ (ou l'inverse).
 
 ![02](02.png)
 
@@ -51,15 +75,19 @@ Mise en équation:
 
 ## Mercredi 4 Mai
 
-![latex](https://render.githubusercontent.com/render/math?math=756%20%3D%202%5E2%20%5Ctimes%203%5E3%20%5Ctimes%207&mode=inline)
+$756 = 2^2 \times 3^3 \times 7$
 
-Puisque le nombre de cerises distribuées est divisble en quart (et donc par 4, le nombre de parts divise ![latex](https://render.githubusercontent.com/render/math?math=3%5E3%20%5Ctimes%207&mode=inline), et strictement supérieur à 3.
+Puisque le nombre de cerises distribuées est divisble en quart (et donc par 4, le nombre de parts divise $3^3 \times 7$, et strictement supérieur à 3.
 
-Il faut que ![latex](https://render.githubusercontent.com/render/math?math=P%5Ctimes%20%5Cleft%281%2B3%5Ctimes%20%5Cfrac%201%204%5Cright%29%20%3E%20150&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=P%3D%5Cfrac%20%7B756%7D%20%7Bn%7D&mode=inline) la part en cerises.
+Il faut que $P\times \left(1+3\times \frac 1 4\right) > 150$ avec $P=\frac {756} {n}$ la part en cerises.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7B756%7D%20%7Bn%7D%20%5Ctimes%20%5Cleft%281%2B3%5Ctimes%20%5Cfrac%201%204%5Cright%29%20%3E%20150%0A%5Cimplies%0An%20%3C%20%5Cfrac%20%7B756%7D%20%7B150%7D%20%5Ctimes%20%5Cfrac%207%204%20%3D%208.82)
+$$
+\frac {756} {n} \times \left(1+3\times \frac 1 4\right) > 150
+\implies
+n < \frac {756} {150} \times \frac 7 4 = 8.82
+$$
 
-La seule solution possible est ![latex](https://render.githubusercontent.com/render/math?math=n%3D7&mode=inline). 1 et 3 ne conviennent pas et les autres diviseurs de ![latex](https://render.githubusercontent.com/render/math?math=3%5E3%20%5Ctimes%207&mode=inline) sont supérieurs à 9.
+La seule solution possible est $n=7$. 1 et 3 ne conviennent pas et les autres diviseurs de $3^3 \times 7$ sont supérieurs à 9.
 
 Donc Damien a 6 amis, il a distribué 108 cerises et en a mangé 108 * 7 / 4 = 189.
 
@@ -141,22 +169,22 @@ Les cases hors coin ont un côté peint. Il y en a 6 par côté.
 
 ## Mardi 17 Mai
 
-![latex](https://render.githubusercontent.com/render/math?math=27000%20%3D%202%5E3%20%5Ctimes%203%5E3%20%5Ctimes%205%5E3&mode=inline)
+$27000 = 2^3 \times 3^3 \times 5^3$
 
 Pour x et y soient premiers entre eux, il faut mettre tous les puissances de chaque facteur premier ensembles.
 
 Donc:
 
-- ![latex](https://render.githubusercontent.com/render/math?math=x%3D1&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y%3D2%5E3%20%5Ctimes%203%5E3%20%5Ctimes%205%5E3&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=x%3D2%5E3&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y%3D3%5E3%20%5Ctimes%205%5E3&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=x%3D2%5E3%20%5Ctimes%203%5E3&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y%3D5%5E3&mode=inline)
-- ![latex](https://render.githubusercontent.com/render/math?math=x%3D2%5E3%20%5Ctimes%205%5E3&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y%3D3%5E3&mode=inline)
+- $x=1$ et $y=2^3 \times 3^3 \times 5^3$
+- $x=2^3$ et $y=3^3 \times 5^3$
+- $x=2^3 \times 3^3$ et $y=5^3$
+- $x=2^3 \times 5^3$ et $y=3^3$
 
 > réponse: il y a 8 couples (ou 5 paires uniques)
 
 ## Mercredi 18 Mai
 
-![latex](https://render.githubusercontent.com/render/math?math=m%3D%5Cfrac%201%205%20%5Csum%20n_i%20%3D%204.4%20%5Cimplies%20%5Csum%20n_i%20%3D%2022%20%5Cimplies%203%5Csum%20n_i%20%3D%2066&mode=inline)
+$m=\frac 1 5 \sum n_i = 4.4 \implies \sum n_i = 22 \implies 3\sum n_i = 66$
 
 > réponse: 66
 
@@ -166,31 +194,39 @@ Donc:
 
 Si le point P est le milieu de l'hypoténuse, la surface sera 144 cm².
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=x%3DHC&mode=inline).
+Soit $x=HC$.
 
-L'aire du triangle PHC est ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%202%208%20x%3D4x&mode=inline) avec ![latex](https://render.githubusercontent.com/render/math?math=x%20%3E%200&mode=inline).
+L'aire du triangle PHC est $\frac 1 2 8 x=4x$ avec $x > 0$.
 
 Le triangle AGH est semblable à PHC. Donc:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BAG%7D%20%7BGP%7D%3D%5Cfrac%20%7BPH%7D%7BHC%7D%20%5Cimplies%20%5Cfrac%20%7BAG%7D%20%7B9%7D%3D%5Cfrac%20%7B8%7D%7Bx%7D%20%5Cimplies%20AG%3D%5Cfrac%20%7B72%7D%7Bx%7D)
+$$
+\frac {AG} {GP}=\frac {PH}{HC} \implies \frac {AG} {9}=\frac {8}{x} \implies AG=\frac {72}{x}
+$$
 
 Son aire est:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%202%20%5Ctimes%209%20%5Ctimes%20%5Cfrac%20%7B72%7D%7Bx%7D%3D%5Cfrac%20%7B324%7D%20%7Bx%7D)
+$$
+\frac 1 2 \times 9 \times \frac {72}{x}=\frac {324} {x}
+$$
 
 L'aire du triangle ABC est donnée par la fonction:
 
-![latexml](https://render.githubusercontent.com/render/math?math=f%28x%29%20%3D%2072%20%2B%204x%20%2B%5Cfrac%20%7B324%7D%20%7Bx%7D)
+$$
+f(x) = 72 + 4x +\frac {324} {x}
+$$
 
 La dérivée de cette fonction est:
 
-![latexml](https://render.githubusercontent.com/render/math?math=f%20%5Cprime%28x%29%3D4-%5Cfrac%20%7B324%7D%20%7Bx%5E2%7D)
+$$
+f \prime(x)=4-\frac {324} {x^2}
+$$
 
-Entre ]0, +∞[, le signe de la dérivée est - 0 +. Sur cet intervalle, la fonction ![latex](https://render.githubusercontent.com/render/math?math=f%28x%29&mode=inline) est donc minimale lorsque ![latex](https://render.githubusercontent.com/render/math?math=f%20%5Cprime%28x%29%3D0%20%5Cimplies%20x%3D%5Csqrt%7B324%20%5Cdiv%204%7D%3D9&mode=inline)
+Entre ]0, +∞[, le signe de la dérivée est - 0 +. Sur cet intervalle, la fonction $f(x)$ est donc minimale lorsque $f \prime(x)=0 \implies x=\sqrt{324 \div 4}=9$
 
 ![19bis](19bis.png)
 
-Donc l'aire minimale du rectangle ABC est ![latex](https://render.githubusercontent.com/render/math?math=f%289%29%3D144&mode=inline).
+Donc l'aire minimale du rectangle ABC est $f(9)=144$.
 
 > réponse: 144 cm²
 
@@ -222,17 +258,25 @@ A B C D E F              ✅
 
 ## Mardi 24 Mai
 
-![latex](https://render.githubusercontent.com/render/math?math=127%3D2%5E7-1%3D2%5E0%2B2%5E1%2B2%5E2%2B2%5E3%2B2%5E4%2B2%5E5%2B2%5E6&mode=inline)
+$127=2^7-1=2^0+2^1+2^2+2^3+2^4+2^5+2^6$
 
 > réponse: 7
 
 ## Mercredi 25 Mai
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%209%205%20%3D1%2B%20%5Cfrac%20%7B1%7D%20%7B1%2B%5Cfrac%7B1%7D%7Bx%7D%20%7D%0A%5Cimplies%0A%5Cfrac%204%205%3D%5Cfrac%20%7B1%7D%20%7B1%2B%5Cfrac%7B1%7D%7Bx%7D%20%7D)
+$$
+\frac 9 5 =1+ \frac {1} {1+\frac{1}{x} }
+\implies
+\frac 4 5=\frac {1} {1+\frac{1}{x} }
+$$
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%205%204%20%3D%201%2B%5Cfrac%201%20x%0A%5Cimplies%0A%5Cfrac%201%20x%20%3D%20%5Cfrac%201%204)
+$$
+\frac 5 4 = 1+\frac 1 x
+\implies
+\frac 1 x = \frac 1 4
+$$
 
-D'où: ![latex](https://render.githubusercontent.com/render/math?math=x%3D4&mode=inline)
+D'où: $x=4$
 
 > réponse: 4
 
@@ -254,11 +298,25 @@ Soit a, b, c les trois côtés du triangle, c l'hypoténuse.
 
 L'aire coloriée est la somme des deux petits demi-cercles plus l'aire du triangle moins l'aire du demi-cercle porté par l'hypoténuse.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0AA_%7Bc%7D%20%26%3D%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20a%202%5Cright%29%7D%5E2%0A%2B%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20b%202%5Cright%29%7D%5E2%0A%2B%20%5Cfrac%201%202%20ab%0A-%20%5Cfrac%201%202%20%5Cpi%20%7B%5Cleft%28%5Cfrac%20c%202%5Cright%29%7D%5E2%0A%5C%5C%0A%26%3D%20%5Cfrac%20%5Cpi%208%20%5Cleft%28%0Aa%5E2%2Bb%5E2-c%5E2%0A%5Cright%29%0A%2B%5Cfrac%20%7Bab%7D%202%0A%5C%5C%0A%26%3D%5Cfrac%20%7Bab%7D%202%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+A_{c} &= \frac 1 2 \pi {\left(\frac a 2\right)}^2
++ \frac 1 2 \pi {\left(\frac b 2\right)}^2
++ \frac 1 2 ab
+- \frac 1 2 \pi {\left(\frac c 2\right)}^2
+\\
+&= \frac \pi 8 \left(
+a^2+b^2-c^2
+\right)
++\frac {ab} 2
+\\
+&=\frac {ab} 2
+\end{aligned}
+$$
 
 > réponse: les aires sont identiques ⚠️
 
-⚠️ erreur dans la solution du livret: l'aire du demi-disque est ![latex](https://render.githubusercontent.com/render/math?math=S_a%3D%5Cfrac%20%5Cpi%208%20a%5E2&mode=inline) et non ![latex](https://render.githubusercontent.com/render/math?math=S_a%3D%5Cfrac%20%5Cpi%202%20a%5E2&mode=inline) comme indiqué (resp. ![latex](https://render.githubusercontent.com/render/math?math=S_b&mode=inline), ![latex](https://render.githubusercontent.com/render/math?math=S_c&mode=inline)).
+⚠️ erreur dans la solution du livret: l'aire du demi-disque est $S_a=\frac \pi 8 a^2$ et non $S_a=\frac \pi 2 a^2$ comme indiqué (resp. $S_b$, $S_c$).
 
 ## Lundi 30 Mai
 

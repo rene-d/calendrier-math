@@ -22,17 +22,26 @@
 
 ## Mercredi 4 Novembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Baligned%7D%0Ax%5E3%2By%5E3%20%3D%2040%20%5C%5C%0Ax%5E2y%2Bxy%5E2%3D8%0A%5Cend%7Baligned%7D)
+$$
+\begin{aligned}
+x^3+y^3 = 40 \\
+x^2y+xy^2=8
+\end{aligned}
+$$
 
-Développons le polynome ![latex](https://render.githubusercontent.com/render/math?math=%28x%2By%29%5E3&mode=inline):
+Développons le polynome $(x+y)^3$:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%28x%2By%29%5E3%3Dx%5E3%2B3x%5E2y%2B3xy%5E2%2By%5E3%3D40%2B3%5Ctimes8%3D64)
+$$
+(x+y)^3=x^3+3x^2y+3xy^2+y^3=40+3\times8=64
+$$
 
-On peut calculer ![latex](https://render.githubusercontent.com/render/math?math=xy&mode=inline):
+On peut calculer $xy$:
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E2y%2Bxy%5E2%3Dxy%28x%2By%29%3Dxy%5Ctimes%5Csqrt%5B3%5D%7B64%7D%3D4xy%3D8)
+$$
+x^2y+xy^2=xy(x+y)=xy\times\sqrt[3]{64}=4xy=8
+$$
 
-D'où: ![latex](https://render.githubusercontent.com/render/math?math=xy%3D2&mode=inline)
+D'où: $xy=2$
 
 > réponse: 2
 
@@ -101,7 +110,7 @@ D'une manière générale, le [théorème de l'angle au centre](https://fr.wikip
 
 ## Mercredi 11 Novembre
 
-Pierre a quatre visites à faire. Si on fixe la position des visites à André et Bruno, celle des visites de Charles et Denis est déterminée (les deux places libres, puisque l'ordre est imposé). La réponse est donc ![latex](https://render.githubusercontent.com/render/math?math=%7B4%5Cchoose%202%7D%3D6&mode=inline).
+Pierre a quatre visites à faire. Si on fixe la position des visites à André et Bruno, celle des visites de Charles et Denis est déterminée (les deux places libres, puisque l'ordre est imposé). La réponse est donc ${4\choose 2}=6$.
 
 Illustration de la solution en Python:
 
@@ -181,15 +190,17 @@ Donc les produits de chiffres qui font 12 sont:
 
 ## Mercredi 18 Novembre
 
-Soir ![latex](https://render.githubusercontent.com/render/math?math=r%3DCB%3DBC&mode=inline) le rayon du cercle. Comme la droite AD est tangente en D au cercle, CD et AD sont perpendiculaires et Pythagore permet d'écrire:
+Soir $r=CB=BC$ le rayon du cercle. Comme la droite AD est tangente en D au cercle, CD et AD sont perpendiculaires et Pythagore permet d'écrire:
 
-![latex](https://render.githubusercontent.com/render/math?math=AD%5E2%20%2B%20DC%5E2%20%3D%20AC%5E2%20%3D%20%28AB%20%2B%20BC%29%5E2&mode=inline)
+$AD^2 + DC^2 = AC^2 = (AB + BC)^2$
 
-![latex](https://render.githubusercontent.com/render/math?math=10%5E2%20%2B%20r%5E2%20%3D%20%287%20%2B%20r%29%5E2&mode=inline)
+$10^2 + r^2 = (7 + r)^2$
 
-![latex](https://render.githubusercontent.com/render/math?math=100%20%3D%2049%2B14r&mode=inline)
+$100 = 49+14r$
 
-![latexml](https://render.githubusercontent.com/render/math?math=r%20%3D%20%5Cfrac%20%7B51%7D%20%7B14%7D%20cm)
+$$
+r = \frac {51} {14} cm
+$$
 
 > réponse: 51 / 14 cm
 
@@ -237,21 +248,21 @@ Donc l'aire recherchée est 21 + 21 = 42
 
 ## Mardi 24 Novembre
 
-![latex](https://render.githubusercontent.com/render/math?math=%28a%5E2%2Bb%5E2%29%5E2-%28a%5E2-b%5E2%29%5E2%3D144&mode=inline)
+$(a^2+b^2)^2-(a^2-b^2)^2=144$
 
-On peut factoriser en utilisant la formule ![latex](https://render.githubusercontent.com/render/math?math=A%5E2-B%5E2%3D%28A-B%29%28A%2BB%29&mode=inline).
+On peut factoriser en utilisant la formule $A^2-B^2=(A-B)(A+B)$.
 
-![latex](https://render.githubusercontent.com/render/math?math=%5Cleft%28%28a%5E2%2Bb%5E2%29-%28a%5E2-b%5E2%29%5Cright%29%5Cleft%28%28a%5E2%2Bb%5E2%29%2B%28a%5E2-b%5E2%29%5Cright%29%3D144&mode=inline)
+$\left((a^2+b^2)-(a^2-b^2)\right)\left((a^2+b^2)+(a^2-b^2)\right)=144$
 
-![latex](https://render.githubusercontent.com/render/math?math=%5Cleft%282b%5E2%5Cright%29%5Cleft%282a%5E2%5Cright%29%3D144&mode=inline)
+$\left(2b^2\right)\left(2a^2\right)=144$
 
-![latex](https://render.githubusercontent.com/render/math?math=%28ab%29%5E2%3D36&mode=inline)
+$(ab)^2=36$
 
-![latex](https://render.githubusercontent.com/render/math?math=a%5Ctimes%20b%3D6&mode=inline) car a et b sont positifs.
+$a\times b=6$ car a et b sont positifs.
 
 Les possibilités sont (1,6) (2,3).
 
-![latex](https://render.githubusercontent.com/render/math?math=a%5E2%2Bb%5E2&mode=inline) peut donc valoir ![latex](https://render.githubusercontent.com/render/math?math=1%2B6%5E2%3D37&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=2%5E2%2B3%5E3%3D13&mode=inline).
+$a^2+b^2$ peut donc valoir $1+6^2=37$ et $2^2+3^3=13$.
 
 > réponse: 13
 
@@ -271,33 +282,42 @@ x4 ne peut pas être premier. Il reste 19 49 79. Il n'y a que 19 et 79 qui soien
 
 Soit l'équation :
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E3y%2Bx%2By%3Dxy%2B2xy%5E2)
+$$
+x^3y+x+y=xy+2xy^2
+$$
 
 Elle peut s'écrire ainsi:
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%5E3y%2Bx%2By-xy-2xy%5E2%3D0)
+$$
+x^3y+x+y-xy-2xy^2=0
+$$
 
 Ou encore de ces deux manières différentes:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bcases%7D%0A%26x%20%2By%20%28x%5E3%2B1-x-2xy%29%3D0%20%5C%5C%0A%26y%20%2B%20x%20%28x%5E2y%2B1-y-2y%5E2%29%3D0%0A%5Cend%7Bcases%7D)
+$$
+\begin{cases}
+&x +y (x^3+1-x-2xy)=0 \\
+&y + x (x^2y+1-y-2y^2)=0
+\end{cases}
+$$
 
-On en déduit que ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) divise ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) divise ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) si ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) sont non nuls. Or, ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) sont entiers, donc ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%20y&mode=inline). Par ailleurs la solution ![latex](https://render.githubusercontent.com/render/math?math=x%20%3D%20y%20%3D%200&mode=inline) est valide.
+On en déduit que $x$ divise $y$ et $y$ divise $x$ si $x$ et $y$ sont non nuls. Or, $x$ et $y$ sont entiers, donc $x = y$. Par ailleurs la solution $x = y = 0$ est valide.
 
-L'équation devient, pour ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) non nul:
+L'équation devient, pour $x$ non nul:
 
-![latex](https://render.githubusercontent.com/render/math?math=x%5E4%2B2x-x%5E2-2x%5E3%3D0&mode=inline)
+$x^4+2x-x^2-2x^3=0$
 
-![latex](https://render.githubusercontent.com/render/math?math=x%5E3-2x%5E2-x%2B2%3D0&mode=inline)
+$x^3-2x^2-x+2=0$
 
-![latex](https://render.githubusercontent.com/render/math?math=%28x%5E3-2x%5E2%2Bx%29-2x%2B2%3D0&mode=inline)
+$(x^3-2x^2+x)-2x+2=0$
 
-![latex](https://render.githubusercontent.com/render/math?math=x%28x-1%29%5E2%3D2%28x-1%29&mode=inline)
+$x(x-1)^2=2(x-1)$
 
-![latex](https://render.githubusercontent.com/render/math?math=x%3D1&mode=inline) est une solution. Les autres doivent vérifier:
+$x=1$ est une solution. Les autres doivent vérifier:
 
-![latex](https://render.githubusercontent.com/render/math?math=x%28x-1%29%3D2&mode=inline)
+$x(x-1)=2$
 
-Ce polynome a deux solutions, -1 et 2. Donc ![latex](https://render.githubusercontent.com/render/math?math=x%3D2&mode=inline) puisque ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) doit être positif.
+Ce polynome a deux solutions, -1 et 2. Donc $x=2$ puisque $x$ doit être positif.
 
 En conclusion, les seules solutions entières et positives à l'équation sont:
 

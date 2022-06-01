@@ -4,7 +4,7 @@
 
 ## Lundi 1 Août
 
-Dans 60 jours consécutifs, comme ![latex](https://render.githubusercontent.com/render/math?math=60%20%3D%208%20%5Ctimes%207%20%2B%204&mode=inline) il y a 8 semaines et 4 jours. Donc 8 mardis dans une semaine complète et 1 mardi supplémentaire éventuellement.
+Dans 60 jours consécutifs, comme $60 = 8 \times 7 + 4$ il y a 8 semaines et 4 jours. Donc 8 mardis dans une semaine complète et 1 mardi supplémentaire éventuellement.
 
 > réponse: 9
 
@@ -125,15 +125,24 @@ Par aommet, il y a trois triangles possibles. Mais chaque triangle appartient à
 
 ## Mardi 16 Août
 
-Les multiples de 3 sont ![latex](https://render.githubusercontent.com/render/math?math=3k&mode=inline), mais ne doivent pas être pairs, donc ![latex](https://render.githubusercontent.com/render/math?math=k&mode=inline) doit être impair. On en déduit que les multiples de 3 qui ne sont pas multiples de 2 sont de la forme ![latex](https://render.githubusercontent.com/render/math?math=3%282k%2B1%29%3D6k%2B3&mode=inline)
+Les multiples de 3 sont $3k$, mais ne doivent pas être pairs, donc $k$ doit être impair. On en déduit que les multiples de 3 qui ne sont pas multiples de 2 sont de la forme $3(2k+1)=6k+3$
 
-![latexml](https://render.githubusercontent.com/render/math?math=1%20%5Cle%206k%2B3%20%5Cle%20300)
+$$
+1 \le 6k+3 \le 300
+$$
 
-![latexml](https://render.githubusercontent.com/render/math?math=-2%20%5Cdiv%206%20%5Cle%206k%20%5Cle%20%5Clfloor%20297%20%5Cdiv%206%20%5Crfloor%3D49)
+$$
+-2 \div 6 \le 6k \le \lfloor 297 \div 6 \rfloor=49
+$$
 
-La moyenne de ![latex](https://render.githubusercontent.com/render/math?math=6k%2B3&mode=inline) pour ![latex](https://render.githubusercontent.com/render/math?math=k&mode=inline) entre 0 et 49 vaut:
+La moyenne de $6k+3$ pour $k$ entre 0 et 49 vaut:
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%201%20%7B50%7D%20%5Csum_%7Bk%3D0%7D%5E%7B49%7D%20%7B%5Cleft%286k%2B3%5Cright%29%7D%0A%3D%5Cfrac%201%20%7B50%7D%20%5Cleft%28%206%20%5Ctimes%20%5Csum_%7Bk%3D0%7D%5E%7B49%7D%7Bk%7D%20%2B%203%20%5Ctimes%2050%5Cright%29%0A%3D%5Cfrac%201%20%7B50%7D%20%5Cleft%28%206%20%5Ctimes%20%5Cfrac%20%7B49%20%5Ctimes%2050%7D%202%20%2B150%5Cright%29%0A%3D%20%5Cfrac%20%7B7500%7D%20%7B50%7D%3D150)
+$$
+\frac 1 {50} \sum_{k=0}^{49} {\left(6k+3\right)}
+=\frac 1 {50} \left( 6 \times \sum_{k=0}^{49}{k} + 3 \times 50\right)
+=\frac 1 {50} \left( 6 \times \frac {49 \times 50} 2 +150\right)
+= \frac {7500} {50}=150
+$$
 
 Vérification en Python:
 
@@ -170,7 +179,7 @@ print([p for i, p in enumerate(permutations([1, 3, 5, 7, 9]), 1) if i == 100])
 
 ## Jeudi 18 Août
 
-![latex](https://render.githubusercontent.com/render/math?math=n%28n%5E2-1%29%28n%5E2-4%29%3Dn%28n-1%29%28n%2B1%28n-2%29%28n%2B2%29%3D%28n-2%29%28n-1%29n%28n%2B1%29%28n%2B2%29&mode=inline)
+$n(n^2-1)(n^2-4)=n(n-1)(n+1(n-2)(n+2)=(n-2)(n-1)n(n+1)(n+2)$
 
 C'est donc égal au produit de 5 nombres consécutifs. Parmi ces nombres, il y a nécessairement un multiple de 5 et 2 ou 3 multiples de 2. Donc au minimum un multiple de 5×2×2, c'est-à-dire 20.
 

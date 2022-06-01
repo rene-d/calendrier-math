@@ -4,17 +4,17 @@
 
 ## Vendredi 1 Juillet
 
-Soit ![latex](https://render.githubusercontent.com/render/math?math=x%3D10b%2Ba%2Cy%3D10c%2Bb%2Cx%5E2%3Dy%5E3&mode=inline). Que vaut ![latex](https://render.githubusercontent.com/render/math?math=a%2Bb%2Bc&mode=inline) ?
+Soit $x=10b+a,y=10c+b,x^2=y^3$. Que vaut $a+b+c$ ?
 
-Si on ramène les nombres à leur décomposition en facteurs premiers, on voit que ![latex](https://render.githubusercontent.com/render/math?math=x&mode=inline) doit être un cube et ![latex](https://render.githubusercontent.com/render/math?math=y&mode=inline) un carré. Or, les cubes à deux chiffres sont 27 et 64.
+Si on ramène les nombres à leur décomposition en facteurs premiers, on voit que $x$ doit être un cube et $y$ un carré. Or, les cubes à deux chiffres sont 27 et 64.
 
-On a donc pour choix ![latex](https://render.githubusercontent.com/render/math?math=b%3D2%2C%20a%3D7&mode=inline) ou ![latex](https://render.githubusercontent.com/render/math?math=b%3D6%2C%20a%3D4&mode=inline), et donc ![latex](https://render.githubusercontent.com/render/math?math=y%3D%5Csqrt%5B3%5D%7B%7B27%7D%5E2%7D%3D%7B%5Cleft%28%5Csqrt%5B3%5D%7B27%7D%5Cright%29%7D%5E2%3D3%5E2%3D9&mode=inline) ou  ![latex](https://render.githubusercontent.com/render/math?math=y%3D%5Csqrt%5B3%5D%7B%7B64%7D%5E2%7D%3D16&mode=inline).
+On a donc pour choix $b=2, a=7$ ou $b=6, a=4$, et donc $y=\sqrt[3]{{27}^2}={\left(\sqrt[3]{27}\right)}^2=3^2=9$ ou  $y=\sqrt[3]{{64}^2}=16$.
 
-La première solution ne convient pas car ![latex](https://render.githubusercontent.com/render/math?math=b&mode=inline) vaudrait 0 ce qui est contraire à l'énoncé.
+La première solution ne convient pas car $b$ vaudrait 0 ce qui est contraire à l'énoncé.
 
-La deuxième implique ![latex](https://render.githubusercontent.com/render/math?math=a%3D4&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=b%3D6&mode=inline), ce qui est correct. Donc ![latex](https://render.githubusercontent.com/render/math?math=c%3D1&mode=inline).
+La deuxième implique $a=4$ et $b=6$, ce qui est correct. Donc $c=1$.
 
-![latex](https://render.githubusercontent.com/render/math?math=a%2Bb%2Bc%3D4%2B6%2B1%3D11&mode=inline)
+$a+b+c=4+6+1=11$
 
 > réponse: 11
 
@@ -80,9 +80,13 @@ Ce qui donne soit un carré 4×4 soit un rectangle 6×3. Ou bien soit n=16 soit 
 
 ## Vendredi 8 Juillet
 
-On a ![latex](https://render.githubusercontent.com/render/math?math=xy%3D4%28y-x%29&mode=inline).
+On a $xy=4(y-x)$.
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B2y%2B12%28y-x%29-2x%7D%7By-x-8%28y-x%29%7D%0A%3D%5Cfrac%7B%2812%2B2%29%28y-x%29%7D%7B%281-8%29%28y-x%29%7D%0A%3D-%5Cfrac%7B14%7D7%3D-2)
+$$
+\frac{2y+12(y-x)-2x}{y-x-8(y-x)}
+=\frac{(12+2)(y-x)}{(1-8)(y-x)}
+=-\frac{14}7=-2
+$$
 
 > réponse: -2
 
@@ -104,20 +108,24 @@ L'aire du carré jaune est 25 cm² donc son côté 5 cm et sa diagonale 5√2 cm
 
 ## Jeudi 14 Juillet
 
-La condition ![latex](https://render.githubusercontent.com/render/math?math=15a-13b%3D1&mode=inline) peut s'écrire:
+La condition $15a-13b=1$ peut s'écrire:
 
-![latexml](https://render.githubusercontent.com/render/math?math=b%3D%5Cfrac%20%7B15a-1%7D%7B13%7D%20%5Cle%20500%0A%5Cimplies%0Aa%20%5Cle%20%5Cfrac%20%7B500%5Ctimes%2013%2B1%7D%7B15%7D%20%3D%20433.4)
+$$
+b=\frac {15a-1}{13} \le 500
+\implies
+a \le \frac {500\times 13+1}{15} = 433.4
+$$
 
-C'est ![latex](https://render.githubusercontent.com/render/math?math=a&mode=inline) qui limite, car la condition ci-dessus n'impose pas la limite 500 pour ![latex](https://render.githubusercontent.com/render/math?math=b&mode=inline).
+C'est $a$ qui limite, car la condition ci-dessus n'impose pas la limite 500 pour $b$.
 
-Le plus petit ![latex](https://render.githubusercontent.com/render/math?math=a&mode=inline) qui convienne est ![latex](https://render.githubusercontent.com/render/math?math=a%3D7&mode=inline). Donc ![latex](https://render.githubusercontent.com/render/math?math=a%3D7%2B13k&mode=inline).
+Le plus petit $a$ qui convienne est $a=7$. Donc $a=7+13k$.
 
-![latex](https://render.githubusercontent.com/render/math?math=7%2B13k%20%5Cle%20433%20%5Cimplies%20k%3D32%20%5Cimplies%20a%3D423&mode=inline)
+$7+13k \le 433 \implies k=32 \implies a=423$
 
-![latex](https://render.githubusercontent.com/render/math?math=a%3D423&mode=inline) est la plus grande valeur possible pour a.
-Ceci implique _de facto_ ![latex](https://render.githubusercontent.com/render/math?math=b%3D%5Cfrac%7B15%5Ctimes%20423-1%7D%7B13%7D%3D488&mode=inline).
+$a=423$ est la plus grande valeur possible pour a.
+Ceci implique _de facto_ $b=\frac{15\times 423-1}{13}=488$.
 
-Finalement: ![latex](https://render.githubusercontent.com/render/math?math=a%2Bb%3D423%2B488%3D911&mode=inline)
+Finalement: $a+b=423+488=911$
 
 Vérification en Python:
 
@@ -163,13 +171,25 @@ Sur chaque extrêmité il y a 4 cordes : il faut donc 4×10=40 extrêmités de c
 
 ## Vendredi 22 Juillet
 
-Les multiples de 3 qui ont pour chiffre des unités 6 sont ![latex](https://render.githubusercontent.com/render/math?math=6%2B30k&mode=inline) et ceux par 7 ![latex](https://render.githubusercontent.com/render/math?math=27%2B30k&mode=inline).
+Les multiples de 3 qui ont pour chiffre des unités 6 sont $6+30k$ et ceux par 7 $27+30k$.
 
 Multiples qui se terminent par 6:
-![latexml](https://render.githubusercontent.com/render/math?math=1%20%5Cle%206%2B30k%20%5Cle%201000%0A%5C%5C%0A0%20%5Cle%20%20k%20%5Cle%20%5Clfloor%20%5Cfrac%7B1000-6%7D%7B30%7D%20%20%20%5Crfloor%3D%2033%0A%5C%5C%0A%5Cimplies%2034%20%5Ctext%7B%20valeurs%7D)
+$$
+1 \le 6+30k \le 1000
+\\
+0 \le  k \le \lfloor \frac{1000-6}{30}   \rfloor= 33
+\\
+\implies 34 \text{ valeurs}
+$$
 
 Multiples qui se terminent par 7:
-![latexml](https://render.githubusercontent.com/render/math?math=1%20%5Cle%2027%2B30k%20%5Cle%201000%0A%5C%5C%0A0%20%5Cle%20%20k%20%5Cle%20%5Clfloor%20%5Cfrac%7B1000-27%7D%7B30%7D%20%20%20%5Crfloor%3D%2032%0A%5C%5C%0A%5Cimplies%2033%20%5Ctext%7B%20valeurs%7D)
+$$
+1 \le 27+30k \le 1000
+\\
+0 \le  k \le \lfloor \frac{1000-27}{30}   \rfloor= 32
+\\
+\implies 33 \text{ valeurs}
+$$
 
 > réponse: multiples qui finissent par 6
 
@@ -230,11 +250,11 @@ L'angle ∠MDC vaut 180 - 84 = 96°, parce que ABCD est un parallélogramme. Et 
 
 ## Vendredi 29 Juillet
 
-Posons: ![latex](https://render.githubusercontent.com/render/math?math=X%3Dx%5E%7B20%7D&mode=inline) et ![latex](https://render.githubusercontent.com/render/math?math=Y%3Dy%5E%7B20%7D&mode=inline)
+Posons: $X=x^{20}$ et $Y=y^{20}$
 
-L'équation devient: ![latex](https://render.githubusercontent.com/render/math?math=X%5E2-XY%2BY%5E2%3D0&mode=inline)
+L'équation devient: $X^2-XY+Y^2=0$
 
-![latex](https://render.githubusercontent.com/render/math?math=X%3D%5Cfrac%201%202%20%5Cleft%28%20Y%20%5Cpm%20%5Csqrt%20%7BY%5E2-4Y%5E2%7D%20%5Cright%29%3D%5Cfrac%201%202%20Y%20%5Cleft%28%201%20%5Cpm%20%20i%20%5Csqrt%20%7B3%7D%20%5Cright%29&mode=inline)
+$X=\frac 1 2 \left( Y \pm \sqrt {Y^2-4Y^2} \right)=\frac 1 2 Y \left( 1 \pm  i \sqrt {3} \right)$
 
 On voit que la seule solution réelle est Y=0 et X=0.
 

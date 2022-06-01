@@ -8,26 +8,46 @@
 
 ### Construciton géométrique
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BPB%7D%20%7BPC%7D%20%5Ctimes%20%5Cfrac%20%7BPC%7D%20%7BPA%7D%20%3D%20%5Cfrac%201%202%5Ctimes%5Cfrac%202%203%3D%5Cfrac%201%203)
+$$
+\frac {PB} {PC} \times \frac {PC} {PA} = \frac 1 2\times\frac 2 3=\frac 1 3
+$$
 
 autrement dit:
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BBP%7D%20%7BBA%7D%20%3D%20%5Cfrac%201%204)
+$$
+\frac {BP} {BA} = \frac 1 4
+$$
 
 ### Résolution analytique
 
 Considérons le repère orthonormé où les points B, P, A ont pour coordonnées respectives (-2; 0), (-1, 0) et (2; 0).
 
 coordonnées du point C:
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%2A%7D%0Ax_C%20%26%3D%20-%20%5Cfrac%201%202%20%20%20%20%20%20%20%5C%5C%0Ay_C%20%26%3D%20%5Csqrt%20%7B2%5E2%20-%20%7B%5Cleft%28%5Cfrac%201%202%20%5Cright%29%7D%5E2%7D%20%3D%20%5Cfrac%20%7B%5Csqrt%20%7B15%7D%7D%202%0A%5Cend%7Balign%2A%7D)
+$$
+\begin{align*}
+x_C &= - \frac 1 2       \\
+y_C &= \sqrt {2^2 - {\left(\frac 1 2 \right)}^2} = \frac {\sqrt {15}} 2
+\end{align*}
+$$
 
 distance BC:
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%2A%7D%0ABC%20%26%3D%20%5Csqrt%20%7B%7B%5Cleft%28x_C-x_B%5Cright%29%7D%5E2%20%2B%20%7B%5Cleft%28y_C-y_B%5Cright%29%7D%5E2%7D%20%5C%5C%0A%26%3D%20%5Csqrt%20%7B%20%7B%5Cleft%28%20-%20%5Cfrac%201%202%20-%20%28-2%29%20%5Cright%29%7D%5E2%20%2B%20%7B%5Cleft%28%20%5Cfrac%20%7B%5Csqrt%20%7B15%7D%7D%202%20-%200%20%5Cright%29%7D%5E2%7D%20%5C%5C%0A%26%3D%20%5Csqrt%20%7B%5Cfrac%209%204%20%2B%20%5Cfrac%20%7B15%7D%204%7D%20%5C%5C%0A%26%3D%20%5Csqrt%20%7B6%7D%0A%5Cend%7Balign%2A%7D)
+$$
+\begin{align*}
+BC &= \sqrt {{\left(x_C-x_B\right)}^2 + {\left(y_C-y_B\right)}^2} \\
+&= \sqrt { {\left( - \frac 1 2 - (-2) \right)}^2 + {\left( \frac {\sqrt {15}} 2 - 0 \right)}^2} \\
+&= \sqrt {\frac 9 4 + \frac {15} 4} \\
+&= \sqrt {6}
+\end{align*}
+$$
 
 distance CA en utilisant Pythagore:
-![latexml](https://render.githubusercontent.com/render/math?math=CA%3D%5Csqrt%7B%7BAB%7D%5E2-%7BBC%7D%5E2%7D%3D%5Csqrt%7B16-6%7D%3D%5Csqrt%7B10%7D)
+$$
+CA=\sqrt{{AB}^2-{BC}^2}=\sqrt{16-6}=\sqrt{10}
+$$
 
-d'où le rapport ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BCB%7D%20%7BCA%7D&mode=inline):
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%20%7BCB%7D%20%7BCA%7D%20%3D%20%5Cfrac%20%7B%5Csqrt%20%7B6%7D%7D%20%7B%5Csqrt%20%7B10%7D%7D%20%3D%20%5Csqrt%20%5Cfrac%203%205)
+d'où le rapport $\frac {CB} {CA}$:
+$$
+\frac {CB} {CA} = \frac {\sqrt {6}} {\sqrt {10}} = \sqrt \frac 3 5
+$$
 
 > réponse: √(3/5)
 
@@ -58,9 +78,29 @@ Vérification:
 
 ## Jeudi 3 Février
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%2A%7D%0AM%20%26%3D%20%5Cfrac%20%7B%20%5Csum%20%7B%28a_i%20%2B%20a%7D%29%7D%20n%0A%5C%5C%0AN%20%26%3D%20%5Cfrac%20%7B%20%5Csum%20%7B%20a_i%20%7D%7D%20%7Bn-1%7D%0A%5Cend%7Balign%2A%7D)
+$$
+\begin{align*}
+M &= \frac { \sum {(a_i + a})} n
+\\
+N &= \frac { \sum { a_i }} {n-1}
+\end{align*}
+$$
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cbegin%7Balign%2A%7D%0AM%20-%20N%20%26%3D%20%20%5Cfrac%20%7B%20%5Csum%20%7B%28a_i%20%2B%20a%7D%29%7D%20n%20-%20%5Cfrac%20%7B%20%5Csum%20%7B%20a_i%20%7D%7D%20%7Bn-1%7D%0A%5C%5C%0A%26%3D%20%5Cfrac%20%7B%20%5Csum%20%7B%28a_i%20%2B%20a%7D%29%7D%20n%20-%20%5Cfrac%20n%20%7Bn-1%7D%20%5Cleft%28%5Cfrac%20%7B%5Csum%20%7B%20a_i%20%7D%7D%20%20n%20%2B%20%5Cfrac%20a%20n%20-%20%5Cfrac%20a%20n%20%5Cright%29%0A%5C%5C%0A%26%3D%20M%20-%20%5Cfrac%20n%20%7Bn-1%7D%20%5Cleft%28M%20-%20%5Cfrac%20a%20n%20%5Cright%29%0A%5C%5C%0A%26%3D%20M%20%5Cleft%28%201%20-%20%5Cfrac%20n%20%7Bn-1%7D%20%5Cright%29%20%2B%20%5Cfrac%20%7Ba%7D%20%7Bn-1%7D%0A%5C%5C%0A%26%3D%20-%20%5Cfrac%20M%20%7Bn%20-%201%7D%20%2B%20%5Cfrac%20%7Ba%7D%20%7Bn-1%7D%0A%5C%5C%0A%26%3D%20%5Cfrac%20%7Ba-M%7D%20%7Bn%20-%201%7D%0A%5Cend%7Balign%2A%7D)
+$$
+\begin{align*}
+M - N &=  \frac { \sum {(a_i + a})} n - \frac { \sum { a_i }} {n-1}
+\\
+&= \frac { \sum {(a_i + a})} n - \frac n {n-1} \left(\frac {\sum { a_i }}  n + \frac a n - \frac a n \right)
+\\
+&= M - \frac n {n-1} \left(M - \frac a n \right)
+\\
+&= M \left( 1 - \frac n {n-1} \right) + \frac {a} {n-1}
+\\
+&= - \frac M {n - 1} + \frac {a} {n-1}
+\\
+&= \frac {a-M} {n - 1}
+\end{align*}
+$$
 
 > réponse: (a - M) / (n - 1)
 
@@ -190,9 +230,11 @@ fn main() {
 
 ## Mercredi 16 Février
 
-[Pythagore](https://fr.wikipedia.org/wiki/Théorème_de_Pythagore) ![latex](https://render.githubusercontent.com/render/math?math=a%5E2%2Bb%5E2%3Dc%5E2&mode=inline) :
+[Pythagore](https://fr.wikipedia.org/wiki/Théorème_de_Pythagore) $a^2+b^2=c^2$ :
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Csqrt%20%7B%206%5E2-4%5E2%20%7D%20%3D%20%5Csqrt%20%7B20%7D%20%3D%202%20%5Csqrt%205%20%3D%204.472%20%5Ctext%7B%20m%7D)
+$$
+\sqrt { 6^2-4^2 } = \sqrt {20} = 2 \sqrt 5 = 4.472 \text{ m}
+$$
 
 > réponse: 2 √5 m
 
@@ -232,23 +274,35 @@ Il y a donc 4×4=16 sommes possibles. Parmi celles-là, seules ces huit sommes 1
 
 ## Mardi 22 Février
 
-En appliquant la fonction logarithme puis en simplifiant les équations par ![latex](https://render.githubusercontent.com/render/math?math=%5Cln%202&mode=inline) (respectivement ![latex](https://render.githubusercontent.com/render/math?math=%5Cln%203&mode=inline)), on obtient:
+En appliquant la fonction logarithme puis en simplifiant les équations par $\ln 2$ (respectivement $\ln 3$), on obtient:
 
-![latexml](https://render.githubusercontent.com/render/math?math=x%20%5Cln%208%20-%20%28x%2By%29%20%5Cln%202%20%3D%20%5Cln%2064%20%5Cimplies%20x%2By%20%3D%20%5Cfrac%20%7Bx%20%5Cln%202%5E3%20-%20%5Cln%202%5E6%7D%20%7B%5Cln%202%7D%20%3D%20%7B3x-6%7D)
+$$
+x \ln 8 - (x+y) \ln 2 = \ln 64 \implies x+y = \frac {x \ln 2^3 - \ln 2^6} {\ln 2} = {3x-6}
+$$
 
-![latexml](https://render.githubusercontent.com/render/math?math=%28x%2By%29%20%5Cln%209%20-%204y%20%5Cln%203%20%3D%20%5Cln%20243%20%5Cimplies%20x%2By%20%3D%20%5Cfrac%20%7B%5Cln%203%5E5%20%2B%204y%20%5Cln%203%7D%20%7B%5Cln%203%5E2%7D%20%3D%20%5Cfrac%20%7B5%2B4y%7D%7B2%7D)
+$$
+(x+y) \ln 9 - 4y \ln 3 = \ln 243 \implies x+y = \frac {\ln 3^5 + 4y \ln 3} {\ln 3^2} = \frac {5+4y}{2}
+$$
 
 Soit:
 
-![latexml](https://render.githubusercontent.com/render/math?math=2x-y%3D6%0A%5C%5C%0A2x-2y%3D5)
+$$
+2x-y=6
+\\
+2x-2y=5
+$$
 
 On résoud ce système linéaire de deux équations à deux inconnues:
 
-![latexml](https://render.githubusercontent.com/render/math?math=-y-%28-2y%29%3D6-5%20%5Cimplies%20y%3D1%20%5Cimplies%20x%3D%5Cfrac%207%202)
+$$
+-y-(-2y)=6-5 \implies y=1 \implies x=\frac 7 2
+$$
 
 D'où:
 
-![latexml](https://render.githubusercontent.com/render/math?math=2xy%20%3D%207)
+$$
+2xy = 7
+$$
 
 > réponse: 7
 
@@ -256,7 +310,7 @@ D'où:
 
 Il faut placer les chiffres 8 et 9 "entre" les chiffres 1 2 3 4 5 6 7.
 
-Il y a 8 "cases vides" autour de chaque chiffre, donc ![latex](https://render.githubusercontent.com/render/math?math=A_%7Bn%7D%5E%7Bk%7D%20%3D%20A_%7B8%7D%5E%7B2%7D%20%3D%208%20%5Ctimes%207%20%3D%2056&mode=inline) possibilités (ou [arrangements](https://fr.wikipedia.org/wiki/Arrangement)) de placer les 8 et 9 entre les autres.
+Il y a 8 "cases vides" autour de chaque chiffre, donc $A_{n}^{k} = A_{8}^{2} = 8 \times 7 = 56$ possibilités (ou [arrangements](https://fr.wikipedia.org/wiki/Arrangement)) de placer les 8 et 9 entre les autres.
 
 Dans ces 8 cases vides, on peut placer de deux manières différentes les chiffres 8 et 9: 89 ou 98. Ce qui fait 16 possibilités, moins la dernière  car 1 2 3 4 5 6 7 89 est interdit: il en reste 15.
 

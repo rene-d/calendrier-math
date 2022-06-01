@@ -26,7 +26,7 @@ Comme 3² + 4² = 5², le triangle est rectangle, et donc 5 est le diamètre.
 
 ## Mercredi 7 Septembre
 
-_Quel est le chiffre en position 2022 dans le développement décimal de_ ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%204%20%7B101%7D&mode=inline) _?_
+_Quel est le chiffre en position 2022 dans le développement décimal de_ $\frac 4 {101}$ _?_
 
 Les décimales 0396 se répêtent par groupe de 4. Donc la 2022e décimale est aussi la 2è, soit 3.
 
@@ -34,7 +34,7 @@ Les décimales 0396 se répêtent par groupe de 4. Donc la 2022e décimale est a
 
 ## Jeudi 8 Septembre
 
-L'équation équivaut à ![latex](https://render.githubusercontent.com/render/math?math=2%5E%28x%2By%29%3D1&mode=inline), soit ![latex](https://render.githubusercontent.com/render/math?math=x%2By%3D0&mode=inline).
+L'équation équivaut à $2^(x+y)=1$, soit $x+y=0$.
 
 > réponse: 0
 
@@ -46,13 +46,23 @@ L'équation équivaut à ![latex](https://render.githubusercontent.com/render/ma
 
 Le triangle EKO est isocèle rectangle, et on a KO + OJ = KO + EO = 4.
 
-Donc, si a est le côté, son hypoténuse est ![latex](https://render.githubusercontent.com/render/math?math=a%5Csqrt%7B2%7D&mode=inline) et:
+Donc, si a est le côté, son hypoténuse est $a\sqrt{2}$ et:
 
-![latexml](https://render.githubusercontent.com/render/math?math=a%20%2B%20%5Csqrt%7Ba%5E2%20%2B%20a%5E2%7D%20%3D%204%0A%5Cimplies%0Aa%20%3D%20%5Cfrac%204%20%7B1%2B%5Csqrt%7B2%7D%7D)
+$$
+a + \sqrt{a^2 + a^2} = 4
+\implies
+a = \frac 4 {1+\sqrt{2}}
+$$
 
-Le rayon du cercle est donc ![latex](https://render.githubusercontent.com/render/math?math=a%5Csqrt%7B2%7D&mode=inline) :
+Le rayon du cercle est donc $a\sqrt{2}$ :
 
-![latexml](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B4%20%5Csqrt%7B2%7D%7D%7B1%2B%5Csqrt%7B2%7D%7D%0A%3D%0A4%5Csqrt%7B2%7D%20%28%5Csqrt%202%20-%201%29%0A%3D%0A4%282-%5Csqrt2%29)
+$$
+\frac{4 \sqrt{2}}{1+\sqrt{2}}
+=
+4\sqrt{2} (\sqrt 2 - 1)
+=
+4(2-\sqrt2)
+$$
 
 > réponse: 4(2-√2) cm
 
@@ -94,9 +104,15 @@ Il faut le plus de facteurs 2 et 5.
 
 ## Vendredi 16 Septembre
 
-![latexml](https://render.githubusercontent.com/render/math?math=%7B%5Cleft%28%20%5Cfrac%201%204%20%5Cright%29%7D%5E%7B%5Cfrac%201%204%7D%0A%3D%0A%7B%5Cleft%28%20%5Cfrac%201%20%7B%5Csqrt%204%7D%20%5Cright%29%7D%5E%7B%5Cfrac%201%202%7D%0A%3D%0A%7B%5Cleft%28%20%5Cfrac%201%202%20%5Cright%29%7D%5E%7B%5Cfrac%201%202%7D)
+$$
+{\left( \frac 1 4 \right)}^{\frac 1 4}
+=
+{\left( \frac 1 {\sqrt 4} \right)}^{\frac 1 2}
+=
+{\left( \frac 1 2 \right)}^{\frac 1 2}
+$$
 
-Les deux nombres sont égaux, et valent ![latex](https://render.githubusercontent.com/render/math?math=%5Cfrac%7B%5Csqrt%202%7D%202&mode=inline).
+Les deux nombres sont égaux, et valent $\frac{\sqrt 2} 2$.
 
 > réponse: nombres égaux
 

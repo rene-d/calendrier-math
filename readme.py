@@ -358,7 +358,7 @@ def generate_calendar(root_dir, year):
 
     # prépare les README.md mensuels
     patch_readme(inline_python_on)
-    patch_readme(render_latex_on)
+    patch_readme(render_latex_off)
     readme2tex()
 
     if year == CURRENT_YEAR:
@@ -480,6 +480,7 @@ def main():
     parse.add_argument("-P", "--python-off", action="store_true", help="Python off")
     parse.add_argument("-f", "--file", help="Fichier à traiter")
     args = parse.parse_args()
+
 
     if args.file:
 
