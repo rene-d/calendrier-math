@@ -8,7 +8,7 @@ Soit $x=10b+a,y=10c+b,x^2=y^3$. Que vaut $a+b+c$ ?
 
 Si on ramène les nombres à leur décomposition en facteurs premiers, on voit que $x$ doit être un cube et $y$ un carré. Or, les cubes à deux chiffres sont 27 et 64.
 
-On a donc pour choix $b=2, a=7$ ou $b=6, a=4$, et donc $y=\sqrt[3]{{27}^2}={\left(\sqrt[3]{27}\right)}^2=3^2=9$ ou  $y=\sqrt[3]{{64}^2}=16$.
+On a donc pour choix $b=2, a=7$ ou $b=6, a=4$, et donc $y=\sqrt[3]{ {27}^2}={\left(\sqrt[3]{27}\right)}^2=3^2=9$ ou  $y=\sqrt[3]{ {64}^2}=16$.
 
 La première solution ne convient pas car $b$ vaudrait 0 ce qui est contraire à l'énoncé.
 

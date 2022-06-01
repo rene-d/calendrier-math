@@ -50,7 +50,7 @@ E&=\prod_{k=8}^{70}{\left(1-\frac{1}{k^2}\right)}
 \\
 &=\prod_{k=8}^{70}{\frac{(k-1)(k+1)}{k^2}}
 \\
-&=\frac{7\times{\cancel{9}}}{8\times{\cancel{8}}}\times\frac{{\cancel{8}}\times{\cancel{1}0}}{{\cancel{9}}\times{\cancel{9}}}\times\frac{{\cancel{9}}\times{\cancel{11}}}{{\cancel{10}}\times{\cancel{10}}}\times\cdots\times\frac{{\cancel{69}}\times{71}}{{\cancel{70}}\times{70}}
+&=\frac{7\times{\cancel{9}}}{8\times{\cancel{8}}}\times\frac{ {\cancel{8}}\times{\cancel{1}0}}{ {\cancel{9}}\times{\cancel{9}}}\times\frac{ {\cancel{9}}\times{\cancel{11}}}{ {\cancel{10}}\times{\cancel{10}}}\times\cdots\times\frac{ {\cancel{69}}\times{71}}{ {\cancel{70}}\times{70}}
 \\
 &=\frac{7}{8}\times\frac{71}{70}
 \\
