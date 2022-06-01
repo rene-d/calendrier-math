@@ -32,7 +32,7 @@ $$
 distance BC:
 $$
 \begin{align*}
-BC &= \sqrt {{\left(x_C-x_B\right)}^2 + {\left(y_C-y_B\right)}^2} \\
+BC &= \sqrt { {\left(x_C - x_B\right)}^2 + {\left(y_C-y_B\right)}^2} \\
 &= \sqrt { {\left( - \frac 1 2 - (-2) \right)}^2 + {\left( \frac {\sqrt {15}} 2 - 0 \right)}^2} \\
 &= \sqrt {\frac 9 4 + \frac {15} 4} \\
 &= \sqrt {6}
@@ -41,7 +41,7 @@ $$
 
 distance CA en utilisant Pythagore:
 $$
-CA=\sqrt{{AB}^2-{BC}^2}=\sqrt{16-6}=\sqrt{10}
+CA=\sqrt{ {AB}^2-{BC}^2}=\sqrt{16-6}=\sqrt{10}
 $$
 
 d'où le rapport $\frac {CB} {CA}$:
